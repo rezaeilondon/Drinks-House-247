@@ -1,6 +1,6 @@
 import json, re, html
 
-SITE = "https://www.drinkshouse247.co.uk"
+SITE = "https://drinkshouse247.co.uk"
 QA = []          # (section, question, answer_html)
 BLOCKS = []      # ordered page body pieces
 

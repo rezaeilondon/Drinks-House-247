@@ -32,7 +32,7 @@ paragraph and a styled product grid. Adding more links would have been busywork.
 The real bug is the *form* of the links. Many were written as absolute URLs:
 
 ```html
-<a href="https://www.drinkshouse247.co.uk/collections/vodka">vodka</a>   <!-- breaks locale -->
+<a href="https://drinkshouse247.co.uk/collections/vodka">vodka</a>   <!-- breaks locale -->
 <a href="/collections/vodka">vodka</a>                                    <!-- keeps locale -->
 ```
 

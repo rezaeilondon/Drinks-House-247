@@ -10,7 +10,8 @@ starts from a **fresh session with no memory**, so everything it needs is writte
 | Fact | Value |
 |---|---|
 | Business | Drinks House 247 |
-| Site | https://www.drinkshouse247.co.uk |
+| Site | https://drinkshouse247.co.uk |
+| **Canonical host** | **Apex, no `www`.** This is the property in Google Search Console and the primary domain in Shopify. Never write `www.` into a link, a canonical, or JSON-LD. |
 | Blog | handle `posts`, ID `gid://shopify/Blog/27034058814` |
 | London delivery | 24/7/365, typically **30–45 minutes**, inside the M25 |
 | UK delivery | Next day, UK mainland |

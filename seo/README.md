@@ -13,7 +13,7 @@
 
 ## Live assets
 
-- **Answers hub page:** https://www.drinkshouse247.co.uk/pages/alcohol-delivery-london-questions-answered
+- **Answers hub page:** https://drinkshouse247.co.uk/pages/alcohol-delivery-london-questions-answered
   (Shopify Page ID `gid://shopify/Page/704641597815`) — 16 Q&As, two data tables,
   `LocalBusiness` + `WebPage` + `FAQPage` JSON-LD.
 - **Blog:** handle `posts`, ID `gid://shopify/Blog/27034058814`.

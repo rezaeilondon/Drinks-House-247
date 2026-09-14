@@ -6,7 +6,8 @@
     "defects_found": [
       "absolute internal URLs (break locale for /ar /ru /zh readers)",
       "target=_blank on internal links (ejects readers into new tabs)"
-    ]
+    ],
+    "canonical_host": "Apex: https://drinkshouse247.co.uk (confirmed by the owner as the Google Search Console property and Shopify primary domain). 17 www references were corrected across the answers hub and all 7 scheduled articles on 2026-09-14; verified 0 remaining and all JSON-LD still parsing."
   },
   "completed": [
     {
