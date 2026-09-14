@@ -18,35 +18,37 @@
   `LocalBusiness` + `WebPage` + `FAQPage` JSON-LD.
 - **Blog:** handle `posts`, ID `gid://shopify/Blog/27034058814`.
 
-## ⚠️ Daily automation — one manual step outstanding
+## Daily posting — how it actually works
 
-A Routine was created that fires daily at **08:00 UTC**:
+Articles are written ahead of time and queued using Shopify's own `publishDate`.
+Shopify publishes each one on its date with no external automation involved.
 
-- Name: *Drinks House 247 — daily SEO blog post*
-- Trigger ID: `trig_01PcHWoCiTDi11UkRkVSji3E`
+**This replaced the Routine approach, which does not work on this account.**
+Attaching a connector to a Routine was rejected twice with
+`the connectors parameter is not available for this organization`, and a live test run
+confirmed it: the fired session had no Shopify tools, stood down after 49 seconds, and
+published nothing. The Routine (`trig_01PcHWoCiTDi11UkRkVSji3E`) is now **disabled** so it
+does not fire pointlessly. Do not re-enable it unless connector support is confirmed —
+verify by checking that `mcp_connections` on the trigger is non-empty, not by what any
+settings screen displays.
 
-**It currently has no Shopify connector attached** (`mcp_connections: []`), because this
-organisation does not allow connectors to be attached to a Routine via the API. Until that
-is fixed the daily session will start, read this repo, and then be unable to publish.
+### Queueing the next batch
 
-**To fix (one-time, ~1 minute):** open the Routine at
-<https://claude.ai/settings/routines>, edit *Drinks House 247 — daily SEO blog post*, and
-enable the **Shopify** connector for it. The prompt itself is already correct — do not
-change it.
+1. Pick the next `"status": "pending"` entries from `backlog.json`, spreading clusters so
+   several similar posts do not run back to back.
+2. Write each article to the AEO template in `daily-post-playbook.md`.
+3. Create it with `articleCreate` on blog `gid://shopify/Blog/27034058814`, setting
+   **`publishDate` to the target date and omitting `isPublished` entirely**.
+   Setting `isPublished: true` alongside a future `publishDate` is rejected with
+   `INVALID_PUBLISH_DATE`.
+4. Confirm the response shows `isPublished: false` with the future `publishedAt` — that is
+   what a correctly scheduled article looks like.
+5. Mark the backlog entry `"scheduled"`, fill `published_at` and `article_handle`, add a row
+   to `published-log.md`, then commit and push.
 
-Alternatively, delete that Routine and recreate it from the same screen, pasting the prompt
-stored on the trigger, with the Shopify connector switched on.
+### Current queue
 
-### Verifying it works
-After the first run, check that `published-log.md` has a new row and that the article
-appears at `/blogs/posts`. If the log is empty the morning after, the connector step above
-has not taken effect.
+Seven articles are scheduled for 15–21 September 2026, one per day at 08:00 UTC.
+70 topics remain pending. See `published-log.md` for the live list.
 
-## Regenerating the answers hub
-
-```bash
-python3 seo/landing-pages/build-answers-hub.py   # writes /tmp/landing_body.html
-```
-Then push the body to the live page with `pageUpdate` on page ID `704641597815`.
-The script derives the JSON-LD FAQ text from the visible answers, so the two can never
-drift apart — always edit the script, never the published HTML directly.
+Top the queue up before it runs dry — there is no automation to do it for you now.
