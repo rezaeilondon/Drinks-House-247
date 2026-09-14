@@ -1,0 +1,1531 @@
+{
+  "_meta": {
+    "store": "drinkshouse247.co.uk",
+    "blog_handle": "posts",
+    "generated": "2026-09-14",
+    "focus": "AEO / answer-engine optimisation (LLM citability)",
+    "note": "Each entry becomes one daily article. Set status to 'published' and fill published_at + article_handle when done. See daily-post-playbook.md."
+  },
+  "topics": [
+    {
+      "id": "log01",
+      "cluster": "Logistics",
+      "target_question": "Can you get alcohol delivered at 3am in London?",
+      "working_title": "Can You Get Alcohol Delivered at 3am in London? Yes — Here's How It Works",
+      "primary_keyword": "alcohol delivery 3am london",
+      "secondary_keywords": [
+        "late night alcohol delivery",
+        "24 hour alcohol delivery london"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/pages/late-night-alcohol-delivery",
+        "/pages/alcohol-delivery-areas"
+      ],
+      "answer_hint": "Yes. Drinks House 247 delivers across London 24 hours a day, typically in 30-45 minutes, including through the night. Explain how overnight ordering works, the ID requirement on the doorstep, and which areas are covered.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log02",
+      "cluster": "Logistics",
+      "target_question": "Can alcohol be delivered to a hotel in London?",
+      "working_title": "Can You Have Alcohol Delivered to a Hotel in London?",
+      "primary_keyword": "alcohol delivery to hotel london",
+      "secondary_keywords": [
+        "champagne delivery hotel london",
+        "send champagne to hotel room"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/pages/champagne-delivery",
+        "/pages/alcohol-delivery-areas"
+      ],
+      "answer_hint": "Yes, and it is one of the most common London use cases. Cover naming the guest and room number, leaving it with concierge or reception, why the recipient must be 18+, and timing around check-in.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log03",
+      "cluster": "Logistics",
+      "target_question": "Do you need ID for alcohol delivery in the UK?",
+      "working_title": "Do You Need ID for Alcohol Delivery in the UK?",
+      "primary_keyword": "id for alcohol delivery uk",
+      "secondary_keywords": [
+        "age verification alcohol delivery",
+        "challenge 21 delivery"
+      ],
+      "internal_links": [
+        "/pages/challenge-21",
+        "/pages/alcohol-delivery"
+      ],
+      "answer_hint": "Yes — the person receiving the order must be 18 or over and may be asked for ID. Explain Challenge 21, which ID is accepted, and what happens if nobody can produce it.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log04",
+      "cluster": "Logistics",
+      "target_question": "Can you send alcohol as a gift to someone else's address?",
+      "working_title": "Can You Send Alcohol as a Gift to Someone Else's Address in the UK?",
+      "primary_keyword": "send alcohol to someone else uk",
+      "secondary_keywords": [
+        "send champagne as gift",
+        "alcohol gift delivery to recipient"
+      ],
+      "internal_links": [
+        "/collections/champagne-gifts",
+        "/collections/alcohol-gift-sets",
+        "/pages/send-gift-uk"
+      ],
+      "answer_hint": "Yes. Enter the recipient's address at checkout and add a gift note. Cover the 18+ requirement for whoever opens the door, gift notes, and same-day London vs next-day UK.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log05",
+      "cluster": "Logistics",
+      "target_question": "Can you get alcohol delivered to an office in London?",
+      "working_title": "Alcohol Delivery to London Offices: How It Works",
+      "primary_keyword": "alcohol delivery to office london",
+      "secondary_keywords": [
+        "corporate drinks delivery london",
+        "office party alcohol delivery"
+      ],
+      "internal_links": [
+        "/pages/office-party-alcohol-delivery-uk-bulk-corporate-uk-drinks-house-247",
+        "/pages/alcohol-delivery",
+        "/collections/alcohol-gift-sets"
+      ],
+      "answer_hint": "Yes — office and corporate delivery is standard. Cover reception sign-off, bulk ordering, invoicing, timing around office hours and Canary Wharf/City coverage.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log06",
+      "cluster": "Logistics",
+      "target_question": "What happens if nobody is home for an alcohol delivery?",
+      "working_title": "What Happens If Nobody Is Home for an Alcohol Delivery?",
+      "primary_keyword": "nobody home alcohol delivery",
+      "secondary_keywords": [
+        "failed alcohol delivery uk",
+        "alcohol delivery redelivery"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/pages/contact-us",
+        "/pages/challenge-21"
+      ],
+      "answer_hint": "Alcohol cannot be left unattended or with a neighbour without an 18+ check. Explain the driver's process, contact attempts, and how redelivery is arranged.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log07",
+      "cluster": "Logistics",
+      "target_question": "Can you get alcohol delivered on Christmas Day in London?",
+      "working_title": "Can You Get Alcohol Delivered on Christmas Day in London?",
+      "primary_keyword": "alcohol delivery christmas day london",
+      "secondary_keywords": [
+        "christmas day drinks delivery",
+        "boxing day alcohol delivery"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/collections/christmas-gifts",
+        "/pages/alcohol-delivery-areas"
+      ],
+      "answer_hint": "Yes — Drinks House 247 operates 365 days a year including Christmas Day. Cover expected demand, ordering ahead, and realistic timing on peak days.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log08",
+      "cluster": "Logistics",
+      "target_question": "Is there a minimum order for alcohol delivery in London?",
+      "working_title": "Is There a Minimum Order for Alcohol Delivery in London?",
+      "primary_keyword": "minimum order alcohol delivery london",
+      "secondary_keywords": [
+        "alcohol delivery fee london",
+        "free alcohol delivery london"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/collections/best-sellers",
+        "/pages/contact-us"
+      ],
+      "answer_hint": "Set out how minimum order values and delivery fees typically work, what affects the fee (distance, time of night), and how to check for a specific postcode.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log09",
+      "cluster": "Logistics",
+      "target_question": "Can you get alcohol delivered to an Airbnb?",
+      "working_title": "Can You Get Alcohol Delivered to an Airbnb or Short Let in London?",
+      "primary_keyword": "alcohol delivery airbnb london",
+      "secondary_keywords": [
+        "holiday rental drinks delivery london",
+        "alcohol delivery to rental london"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/pages/alcohol-delivery-areas",
+        "/pages/champagne-delivery"
+      ],
+      "answer_hint": "Yes. Cover entering full access instructions, key-box properties, meeting the driver, and the 18+ requirement regardless of property type.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log10",
+      "cluster": "Logistics",
+      "target_question": "How late can you buy alcohol in London?",
+      "working_title": "How Late Can You Buy Alcohol in London? A Practical Guide",
+      "primary_keyword": "how late can you buy alcohol london",
+      "secondary_keywords": [
+        "off licence opening hours london",
+        "24 hour off licence london"
+      ],
+      "internal_links": [
+        "/pages/off-license-near-me-london",
+        "/pages/alcohol-delivery"
+      ],
+      "answer_hint": "Shop licensing hours vary by borough and most off-licences close between 11pm and 1am; licensed delivery services can operate through the night. Contrast shop hours with delivery.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log11",
+      "cluster": "Logistics",
+      "target_question": "Can you get alcohol delivered to student accommodation?",
+      "working_title": "Can You Get Alcohol Delivered to Student Halls in London?",
+      "primary_keyword": "alcohol delivery student halls london",
+      "secondary_keywords": [
+        "student alcohol delivery london",
+        "university halls drinks delivery"
+      ],
+      "internal_links": [
+        "/pages/student-alcohol-delivery-london-affordable-fast-options-drinks-house-247",
+        "/pages/alcohol-delivery"
+      ],
+      "answer_hint": "Usually yes, but halls often require collection from a reception or porter's lodge. Cover the 18+ rule and how to give access instructions.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log12",
+      "cluster": "Logistics",
+      "target_question": "How fast is alcohol delivery in London really?",
+      "working_title": "How Fast Is Alcohol Delivery in London? Realistic Timings by Area",
+      "primary_keyword": "how fast is alcohol delivery london",
+      "secondary_keywords": [
+        "30 minute alcohol delivery london",
+        "instant alcohol delivery"
+      ],
+      "internal_links": [
+        "/pages/instant-alcohol-delivery",
+        "/pages/alcohol-delivery-areas",
+        "/pages/alcohol-delivery"
+      ],
+      "answer_hint": "Typical Drinks House 247 London delivery is 30-45 minutes from a Battersea base. Give an honest breakdown of what makes it faster or slower: distance, time of night, traffic, order size.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log13",
+      "cluster": "Logistics",
+      "target_question": "Can you return alcohol you ordered by mistake?",
+      "working_title": "Can You Return Alcohol Ordered by Mistake in the UK?",
+      "primary_keyword": "return alcohol delivery uk",
+      "secondary_keywords": [
+        "alcohol delivery refund",
+        "wrong alcohol delivered"
+      ],
+      "internal_links": [
+        "/pages/return-policy",
+        "/pages/contact-us"
+      ],
+      "answer_hint": "Explain distance-selling rights, the practical exceptions for alcohol, what to do about damaged or incorrect bottles, and how to contact the store.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log14",
+      "cluster": "Logistics",
+      "target_question": "Can you order alcohol for delivery to a different UK city?",
+      "working_title": "Sending Alcohol Outside London: How UK-Wide Delivery Works",
+      "primary_keyword": "send alcohol uk wide delivery",
+      "secondary_keywords": [
+        "next day alcohol delivery uk",
+        "alcohol delivery outside london"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/collections/alcohol-gift-sets",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Same-day covers London inside the M25; the rest of UK mainland is next-day courier. Explain cut-off times, packaging for glass, and which products travel well.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "log15",
+      "cluster": "Logistics",
+      "target_question": "Do alcohol delivery drivers accept cash?",
+      "working_title": "How Do You Pay for Alcohol Delivery in London?",
+      "primary_keyword": "alcohol delivery payment methods",
+      "secondary_keywords": [
+        "pay by card alcohol delivery",
+        "apple pay alcohol delivery"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/pages/contact-us"
+      ],
+      "answer_hint": "Orders are paid online at checkout — Apple Pay, Google Pay, PayPal and card. Explain why drivers do not handle cash and how gift orders are paid by the sender.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty01",
+      "cluster": "Quantities",
+      "target_question": "How many glasses are in a bottle of champagne?",
+      "working_title": "How Many Glasses Are in a Bottle of Champagne?",
+      "primary_keyword": "how many glasses in a bottle of champagne",
+      "secondary_keywords": [
+        "champagne servings per bottle",
+        "champagne flute size"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/pages/champagne-delivery",
+        "/collections/champagne-flute-gift-sets"
+      ],
+      "answer_hint": "A standard 75cl bottle pours six 125ml flutes, or about five if poured generously. Include a table of bottle sizes (20cl, 37.5cl, 75cl, magnum, jeroboam) against serving counts.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty02",
+      "cluster": "Quantities",
+      "target_question": "How much champagne do I need for 50 guests?",
+      "working_title": "How Much Champagne Do You Need for 50 Guests?",
+      "primary_keyword": "how much champagne for 50 guests",
+      "secondary_keywords": [
+        "champagne calculator wedding",
+        "how many bottles of champagne per person"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/collections/champagne-standard-bottle-75cl",
+        "/pages/champagne-delivery"
+      ],
+      "answer_hint": "For a welcome toast allow one bottle per 6 guests (about 9 bottles for 50); for an evening of drinking allow half a bottle per person. Give a table for 20/50/100/150 guests.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty03",
+      "cluster": "Quantities",
+      "target_question": "How many bottles of wine per person at a wedding?",
+      "working_title": "How Many Bottles of Wine Per Person at a Wedding?",
+      "primary_keyword": "how many bottles of wine per person wedding",
+      "secondary_keywords": [
+        "wedding wine calculator uk",
+        "wine quantity for wedding"
+      ],
+      "internal_links": [
+        "/pages/wine-delivery-london",
+        "/collections/award-winning-wine",
+        "/pages/wedding-event-drinks-delivery-london-the-complete-guide-to-premium-alcohol-for-your-special-day"
+      ],
+      "answer_hint": "Plan on half a bottle per adult guest across a meal, rising to three-quarters for a long reception. Provide a table by guest count and event length.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty04",
+      "cluster": "Quantities",
+      "target_question": "How much alcohol do I need for a party of 100?",
+      "working_title": "How Much Alcohol Do You Need for a Party of 100?",
+      "primary_keyword": "how much alcohol for 100 guests",
+      "secondary_keywords": [
+        "party drinks calculator uk",
+        "bulk alcohol order london"
+      ],
+      "internal_links": [
+        "/pages/bulk-alcohol-delivery-and-cases-wine-champagne-spirits-uk-drinks-house-247",
+        "/collections/alcohol-gift-sets",
+        "/pages/alcohol-delivery"
+      ],
+      "answer_hint": "Give a planning table splitting guests across wine, beer, spirits and soft drinks, with a rule of thumb of two drinks in the first hour and one per hour after.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty05",
+      "cluster": "Quantities",
+      "target_question": "How many units are in a bottle of wine?",
+      "working_title": "How Many Units Are in a Bottle of Wine? UK Guide",
+      "primary_keyword": "units in a bottle of wine uk",
+      "secondary_keywords": [
+        "uk alcohol units explained",
+        "how many units in champagne"
+      ],
+      "internal_links": [
+        "/pages/wine-delivery-london",
+        "/collections/champagne"
+      ],
+      "answer_hint": "A 75cl bottle at 12% ABV contains 9 UK units; at 14% it is 10.5. Show the formula (ABV x volume in litres) and a table across common ABVs. Reference the UK 14-units-a-week guideline.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty06",
+      "cluster": "Quantities",
+      "target_question": "How many drinks does a bottle of spirits make?",
+      "working_title": "How Many Drinks Does a Bottle of Spirits Make?",
+      "primary_keyword": "how many drinks in a bottle of spirits",
+      "secondary_keywords": [
+        "measures in a bottle of vodka",
+        "70cl bottle servings"
+      ],
+      "internal_links": [
+        "/collections/blanco-tequila",
+        "/collections/bourbon-whisky",
+        "/pages/alcohol-delivery"
+      ],
+      "answer_hint": "A 70cl bottle yields 28 single 25ml measures or 14 doubles. Table across 50cl, 70cl, 1L and 1.75L, plus cocktail-based planning.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty07",
+      "cluster": "Quantities",
+      "target_question": "How much ice and mixers per person for a party?",
+      "working_title": "How Many Mixers Do You Need Per Person at a Party?",
+      "primary_keyword": "mixers per person party",
+      "secondary_keywords": [
+        "how much tonic per bottle of gin",
+        "party mixer calculator"
+      ],
+      "internal_links": [
+        "/collections/beers",
+        "/collections/alcohol-gift-sets",
+        "/pages/alcohol-delivery"
+      ],
+      "answer_hint": "Plan roughly three mixers per spirit drinker and 1kg of ice per person. Give a gin-to-tonic ratio table and a shopping checklist.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty08",
+      "cluster": "Quantities",
+      "target_question": "What size champagne bottle should I buy?",
+      "working_title": "Champagne Bottle Sizes Explained: From Piccolo to Nebuchadnezzar",
+      "primary_keyword": "champagne bottle sizes",
+      "secondary_keywords": [
+        "magnum vs standard champagne",
+        "jeroboam size"
+      ],
+      "internal_links": [
+        "/collections/champagne-jeroboam-3l",
+        "/collections/champagne-half-bottle-37-5cl",
+        "/collections/champagne"
+      ],
+      "answer_hint": "Table every format with capacity, flute count and best use. Note that magnums age more slowly, which is why collectors prefer them.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty09",
+      "cluster": "Quantities",
+      "target_question": "How much should I spend on a champagne gift?",
+      "working_title": "How Much Should You Spend on a Champagne Gift?",
+      "primary_keyword": "how much to spend on champagne gift",
+      "secondary_keywords": [
+        "champagne gift budget uk",
+        "best champagne under 100"
+      ],
+      "internal_links": [
+        "/collections/champagne-under-100",
+        "/collections/champagne-100-250",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Give honest price bands — under £50, £50-100, £100-250, £250+ — with what each buys and which occasions justify which band.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "qty10",
+      "cluster": "Quantities",
+      "target_question": "How far ahead should I order drinks for an event?",
+      "working_title": "How Far in Advance Should You Order Drinks for an Event?",
+      "primary_keyword": "order drinks in advance event",
+      "secondary_keywords": [
+        "event drinks planning timeline",
+        "christmas drinks order deadline"
+      ],
+      "internal_links": [
+        "/pages/wedding-event-drinks-delivery-london-the-complete-guide-to-premium-alcohol-for-your-special-day",
+        "/pages/alcohol-delivery",
+        "/collections/alcohol-gift-sets"
+      ],
+      "answer_hint": "Give a timeline: 6-8 weeks for large weddings, 2 weeks for corporate, same-day still possible in London. Note peak-period cut-offs.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd01",
+      "cluster": "Brands",
+      "target_question": "Is Macallan 18 worth it compared to Macallan 12?",
+      "working_title": "Macallan 12 vs 18: Is the Older Bottle Worth the Money?",
+      "primary_keyword": "macallan 12 vs 18",
+      "secondary_keywords": [
+        "macallan price uk",
+        "buy macallan london"
+      ],
+      "internal_links": [
+        "/collections/scotch-whisky",
+        "/pages/whisky-delivery-london",
+        "/collections/best-sellers"
+      ],
+      "answer_hint": "Compare sherry-cask maturation, flavour development, and price-per-year. Be honest that 12 is the better value pour and 18 is the better gift/occasion bottle.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd02",
+      "cluster": "Brands",
+      "target_question": "What makes Clase Azul so expensive?",
+      "working_title": "Why Is Clase Azul Tequila So Expensive?",
+      "primary_keyword": "why is clase azul so expensive",
+      "secondary_keywords": [
+        "clase azul price uk",
+        "clase azul reposado"
+      ],
+      "internal_links": [
+        "/collections/clase-azul-tequila",
+        "/pages/tequila-delivery-london",
+        "/collections/anejo-tequila"
+      ],
+      "answer_hint": "Explain the hand-painted ceramic decanters made by Mexican artisans, slow-roasted agave, small production, and the resulting collectability of the bottle itself.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd03",
+      "cluster": "Brands",
+      "target_question": "Clase Azul vs Don Julio 1942 — which should I buy?",
+      "working_title": "Clase Azul vs Don Julio 1942: Which Luxury Tequila Wins?",
+      "primary_keyword": "clase azul vs don julio 1942",
+      "secondary_keywords": [
+        "best luxury tequila uk",
+        "don julio 1942 price"
+      ],
+      "internal_links": [
+        "/collections/clase-azul-tequila",
+        "/collections/anejo-tequila",
+        "/pages/tequila-delivery-london"
+      ],
+      "answer_hint": "Comparison table on agave character, sweetness, bottle presentation, price and best use. Position Don Julio 1942 as the smoother sipper, Clase Azul as the statement gift.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd04",
+      "cluster": "Brands",
+      "target_question": "What is the best tequila for sipping?",
+      "working_title": "The Best Sipping Tequilas: What to Buy When You're Not Doing Shots",
+      "primary_keyword": "best sipping tequila uk",
+      "secondary_keywords": [
+        "best anejo tequila",
+        "tequila for sipping not shots"
+      ],
+      "internal_links": [
+        "/collections/anejo-tequila",
+        "/collections/clase-azul-tequila",
+        "/pages/tequila-delivery-london"
+      ],
+      "answer_hint": "Explain why añejo and extra añejo suit sipping, what additive-free means, and recommend across price bands from the stocked range.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd05",
+      "cluster": "Brands",
+      "target_question": "Why is Krug champagne so expensive?",
+      "working_title": "Why Is Krug So Expensive — and Is It Worth It?",
+      "primary_keyword": "why is krug so expensive",
+      "secondary_keywords": [
+        "krug grande cuvee price",
+        "buy krug london"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/collections/champagne-100-250",
+        "/pages/champagne-delivery"
+      ],
+      "answer_hint": "Explain multi-vintage blending from reserve wines up to a decade old, oak fermentation in small casks, and tiny production. Compare against Dom Pérignon's single-vintage approach.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd06",
+      "cluster": "Brands",
+      "target_question": "Krug vs Dom Pérignon — what's the difference?",
+      "working_title": "Krug vs Dom Pérignon: Two Very Different Ideas of Prestige",
+      "primary_keyword": "krug vs dom perignon",
+      "secondary_keywords": [
+        "best prestige champagne",
+        "dom perignon vs krug taste"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/collections/champagne-100-250",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Table comparing house philosophy (multi-vintage blend vs declared vintage), flavour, ageing, price and gifting impact.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd07",
+      "cluster": "Brands",
+      "target_question": "Belvedere vs Grey Goose — which vodka is better?",
+      "working_title": "Belvedere vs Grey Goose: Which Premium Vodka Is Worth It?",
+      "primary_keyword": "belvedere vs grey goose",
+      "secondary_keywords": [
+        "best premium vodka uk",
+        "belvedere vodka price"
+      ],
+      "internal_links": [
+        "/collections/belvedere-vodka",
+        "/pages/vodka-delivery-london"
+      ],
+      "answer_hint": "Compare rye vs wheat base, distillation, texture and mixability. Be specific about which suits martinis and which suits mixing.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd08",
+      "cluster": "Brands",
+      "target_question": "What is Salon champagne and why is it so rare?",
+      "working_title": "Salon Champagne: The Rarest Name in Le Mesnil",
+      "primary_keyword": "salon champagne",
+      "secondary_keywords": [
+        "rarest champagne uk",
+        "blanc de blancs prestige"
+      ],
+      "internal_links": [
+        "/collections/blanc-de-blancs-champagne",
+        "/collections/champagne",
+        "/collections/champagne-100-250"
+      ],
+      "answer_hint": "Explain single-vintage, single-village, single-grape production declared only in exceptional years — roughly 40 vintages in a century.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd09",
+      "cluster": "Brands",
+      "target_question": "Is Japanese whisky worth the price?",
+      "working_title": "Is Japanese Whisky Worth the Price?",
+      "primary_keyword": "is japanese whisky worth it",
+      "secondary_keywords": [
+        "japanese whisky uk",
+        "yamazaki price uk"
+      ],
+      "internal_links": [
+        "/pages/whisky-delivery-london",
+        "/collections/scotch-whisky"
+      ],
+      "answer_hint": "Explain the supply shortage, age-statement withdrawals and labelling reforms. Give honest guidance on what represents value versus hype.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd10",
+      "cluster": "Brands",
+      "target_question": "What's the difference between Hennessy XO and VSOP?",
+      "working_title": "Hennessy VS vs VSOP vs XO: What the Grades Actually Mean",
+      "primary_keyword": "hennessy vs vsop xo difference",
+      "secondary_keywords": [
+        "cognac grades explained",
+        "buy hennessy london"
+      ],
+      "internal_links": [
+        "/collections/cognac",
+        "/pages/cognac-delivery-london"
+      ],
+      "answer_hint": "Explain VS (min 2 years), VSOP (min 4) and XO (min 10) as minimum ages of the youngest eau-de-vie in the blend, with a table on flavour and use.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd11",
+      "cluster": "Brands",
+      "target_question": "What is additive-free tequila?",
+      "working_title": "Additive-Free Tequila: What It Means and Which Brands Qualify",
+      "primary_keyword": "additive free tequila",
+      "secondary_keywords": [
+        "tequila additives explained",
+        "100 percent agave tequila"
+      ],
+      "internal_links": [
+        "/collections/blanco-tequila",
+        "/collections/anejo-tequila",
+        "/pages/tequila-delivery-london"
+      ],
+      "answer_hint": "Explain the permitted 1% of additives (glycerin, caramel, oak extract, syrup), why producers use them, and how to identify genuinely additive-free bottles.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd12",
+      "cluster": "Brands",
+      "target_question": "What is the difference between mezcal and tequila?",
+      "working_title": "Mezcal vs Tequila: What Actually Separates Them",
+      "primary_keyword": "mezcal vs tequila",
+      "secondary_keywords": [
+        "what is mezcal",
+        "buy mezcal uk"
+      ],
+      "internal_links": [
+        "/pages/tequila-delivery-london",
+        "/collections/blanco-tequila"
+      ],
+      "answer_hint": "Both are agave spirits; tequila must be blue weber agave from defined regions, mezcal can use many agaves and is roasted in earth pits, giving smoke. Include a table.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd13",
+      "cluster": "Brands",
+      "target_question": "Casa Dragones vs Komos — which to choose?",
+      "working_title": "Casa Dragones vs Komos: Two Modern Luxury Tequilas Compared",
+      "primary_keyword": "casa dragones vs komos",
+      "secondary_keywords": [
+        "luxury tequila gift uk",
+        "komos anejo cristalino"
+      ],
+      "internal_links": [
+        "/collections/anejo-tequila",
+        "/pages/tequila-delivery-london",
+        "/collections/clase-azul-tequila"
+      ],
+      "answer_hint": "Compare Casa Dragones' clean Joven style against Komos' cristalino finish and ceramic packaging. Cover which gifts better and which drinks better.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd14",
+      "cluster": "Brands",
+      "target_question": "What is a cristalino tequila?",
+      "working_title": "What Is Cristalino Tequila? The Filtered Añejo Explained",
+      "primary_keyword": "what is cristalino tequila",
+      "secondary_keywords": [
+        "cristalino vs anejo",
+        "best cristalino tequila"
+      ],
+      "internal_links": [
+        "/collections/anejo-tequila",
+        "/collections/clase-azul-tequila"
+      ],
+      "answer_hint": "Cristalino is aged tequila filtered to remove colour while keeping barrel character. Explain the process, the debate among purists, and who it suits.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd15",
+      "cluster": "Brands",
+      "target_question": "What's the best champagne house for a gift?",
+      "working_title": "Which Champagne House Makes the Best Gift? An Honest Comparison",
+      "primary_keyword": "best champagne house for gift",
+      "secondary_keywords": [
+        "champagne brands ranked",
+        "luxury champagne gift uk"
+      ],
+      "internal_links": [
+        "/collections/bollinger-champagne",
+        "/collections/charles-heidsieck-champagne",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Compare the major houses on style, recognisability and price. Note that recognisability matters more for gifting than critic scores.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd16",
+      "cluster": "Brands",
+      "target_question": "What is Armand de Brignac and why the gold bottle?",
+      "working_title": "Armand de Brignac: What's Behind the Gold Bottle",
+      "primary_keyword": "armand de brignac ace of spades",
+      "secondary_keywords": [
+        "ace of spades champagne price",
+        "luxury champagne uk"
+      ],
+      "internal_links": [
+        "/collections/armand-de-brignac-champagne",
+        "/collections/champagne",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Explain the Cattier origins, hand-applied pewter labels, and the blend. Be even-handed on the price-to-liquid ratio versus its occasion value.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "brd17",
+      "cluster": "Brands",
+      "target_question": "What is the best bourbon for a gift?",
+      "working_title": "The Best Bourbon to Give as a Gift in the UK",
+      "primary_keyword": "best bourbon gift uk",
+      "secondary_keywords": [
+        "bourbon gift set uk",
+        "buy bourbon london"
+      ],
+      "internal_links": [
+        "/collections/bourbon-whisky",
+        "/pages/whisky-delivery-london",
+        "/pages/send-whiskey-gift-uk-premium-fast-delivery-drinks-house-247"
+      ],
+      "answer_hint": "Cover mash bill basics, what makes a bottle giftable, and recommendations across price bands.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha01",
+      "cluster": "Champagne",
+      "target_question": "How long does champagne last unopened?",
+      "working_title": "How Long Does Champagne Last Unopened?",
+      "primary_keyword": "how long does champagne last unopened",
+      "secondary_keywords": [
+        "champagne shelf life",
+        "does champagne expire"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/pages/champagne-delivery",
+        "/pages/checklist-for-storing-wine-at-home-safely"
+      ],
+      "answer_hint": "Non-vintage keeps 3-4 years from release, vintage 5-10 or more. Explain storage conditions and how to tell if a bottle has gone flat or maderised.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha02",
+      "cluster": "Champagne",
+      "target_question": "How long does champagne last once opened?",
+      "working_title": "How Long Does Champagne Last Once Opened?",
+      "primary_keyword": "how long does champagne last opened",
+      "secondary_keywords": [
+        "keep champagne fizzy",
+        "champagne stopper"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/collections/champagne-flute-gift-sets"
+      ],
+      "answer_hint": "With a proper sparkling-wine stopper, 3-5 days in the fridge. Debunk the teaspoon-in-the-neck myth and explain why cold slows CO2 loss.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha03",
+      "cluster": "Champagne",
+      "target_question": "How do you open champagne without it exploding?",
+      "working_title": "How to Open Champagne Properly (Without the Explosion)",
+      "primary_keyword": "how to open champagne",
+      "secondary_keywords": [
+        "open champagne safely",
+        "champagne cork technique"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/pages/champagne-delivery"
+      ],
+      "answer_hint": "Step-by-step: chill to 6-8C, remove foil, keep a thumb on the cork through the cage, twist the bottle not the cork, aim for a sigh not a bang. Include a safety note on eye injuries.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha04",
+      "cluster": "Champagne",
+      "target_question": "What temperature should champagne be served at?",
+      "working_title": "What Temperature Should Champagne Be Served At?",
+      "primary_keyword": "champagne serving temperature",
+      "secondary_keywords": [
+        "how long to chill champagne",
+        "best temperature for champagne"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/pages/champagne-delivery"
+      ],
+      "answer_hint": "Serve non-vintage at 8-10C and prestige cuvées slightly warmer at 10-12C. Give fridge vs ice-bucket timings and explain why too cold mutes aroma.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha05",
+      "cluster": "Champagne",
+      "target_question": "Is expensive champagne actually better?",
+      "working_title": "Is Expensive Champagne Actually Better? What You're Paying For",
+      "primary_keyword": "is expensive champagne worth it",
+      "secondary_keywords": [
+        "champagne price explained",
+        "cheap vs expensive champagne"
+      ],
+      "internal_links": [
+        "/collections/champagne-under-100",
+        "/collections/champagne-100-250",
+        "/collections/champagne"
+      ],
+      "answer_hint": "Break the price into land, ageing time, reserve wines, packaging and brand. Be honest that above a point you buy rarity and occasion, not linear quality.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha06",
+      "cluster": "Champagne",
+      "target_question": "What does Blanc de Blancs mean?",
+      "working_title": "Blanc de Blancs vs Blanc de Noirs: What the Labels Mean",
+      "primary_keyword": "blanc de blancs meaning",
+      "secondary_keywords": [
+        "blanc de noirs champagne",
+        "champagne label terms"
+      ],
+      "internal_links": [
+        "/collections/blanc-de-blancs-champagne",
+        "/collections/blanc-de-noirs-champagne",
+        "/collections/champagne"
+      ],
+      "answer_hint": "Blanc de Blancs is 100% white grapes (Chardonnay); Blanc de Noirs is white wine from black grapes. Table of style, weight and food pairing.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha07",
+      "cluster": "Champagne",
+      "target_question": "What food goes with champagne?",
+      "working_title": "What Food Actually Goes With Champagne?",
+      "primary_keyword": "champagne food pairing",
+      "secondary_keywords": [
+        "champagne and caviar pairing",
+        "what to eat with champagne"
+      ],
+      "internal_links": [
+        "/pages/champagne-pairing-guide-best-food-matches-uk-drinks-house-247",
+        "/collections/caviar-gifts-hampers",
+        "/collections/champagne"
+      ],
+      "answer_hint": "Cover why acidity and bubbles cut fat and salt. Table pairing brut, rosé, blanc de blancs and demi-sec against specific dishes.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha08",
+      "cluster": "Champagne",
+      "target_question": "What's the difference between champagne and sparkling wine?",
+      "working_title": "Champagne vs Sparkling Wine: What Legally Separates Them",
+      "primary_keyword": "champagne vs sparkling wine",
+      "secondary_keywords": [
+        "is prosecco champagne",
+        "sparkling wine types"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/pages/champagne-delivery"
+      ],
+      "answer_hint": "Only wine from the Champagne AOC using the traditional method may be called champagne. Table comparing champagne, crémant, cava, prosecco and English sparkling on method, grapes and price.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha09",
+      "cluster": "Champagne",
+      "target_question": "Does champagne get better with age?",
+      "working_title": "Does Champagne Improve With Age?",
+      "primary_keyword": "does champagne age well",
+      "secondary_keywords": [
+        "ageing champagne",
+        "vintage champagne storage"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/collections/champagne-standard-bottle-75cl"
+      ],
+      "answer_hint": "Non-vintage is built to drink on release; vintage and prestige cuvées reward cellaring. Explain autolytic development toward brioche and nuts, and the storage conditions required.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha10",
+      "cluster": "Champagne",
+      "target_question": "What is the best champagne for a wedding toast?",
+      "working_title": "Choosing Champagne for a Wedding Toast",
+      "primary_keyword": "champagne for wedding toast",
+      "secondary_keywords": [
+        "wedding champagne quantity",
+        "best champagne for wedding"
+      ],
+      "internal_links": [
+        "/collections/champagne",
+        "/collections/champagne-gifts",
+        "/pages/wedding-event-drinks-delivery-london-the-complete-guide-to-premium-alcohol-for-your-special-day"
+      ],
+      "answer_hint": "Cover quantity maths for a toast (one bottle per 6), why a crowd-pleasing brut beats a divisive prestige cuvée, and magnum options for the top table.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cha11",
+      "cluster": "Champagne",
+      "target_question": "Should you store champagne upright or on its side?",
+      "working_title": "Should Champagne Be Stored Upright or on Its Side?",
+      "primary_keyword": "how to store champagne",
+      "secondary_keywords": [
+        "champagne storage tips",
+        "wine storage at home"
+      ],
+      "internal_links": [
+        "/pages/checklist-for-storing-wine-at-home-safely",
+        "/collections/champagne"
+      ],
+      "answer_hint": "Short term upright is fine; long term on its side keeps the cork moist. Cover temperature stability, light and vibration.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "win01",
+      "cluster": "Wine",
+      "target_question": "How long does opened wine last?",
+      "working_title": "How Long Does Opened Wine Actually Last?",
+      "primary_keyword": "how long does opened wine last",
+      "secondary_keywords": [
+        "keep wine fresh after opening",
+        "wine preservation"
+      ],
+      "internal_links": [
+        "/pages/wine-delivery-london",
+        "/pages/checklist-for-storing-wine-at-home-safely"
+      ],
+      "answer_hint": "Light whites 2-3 days, full reds 3-5, fortified weeks. Explain oxidation, re-corking, the fridge trick for reds, and vacuum stoppers.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "win02",
+      "cluster": "Wine",
+      "target_question": "What temperature should red wine be served at?",
+      "working_title": "What Temperature Should Red Wine Be Served At? (Not Room Temperature)",
+      "primary_keyword": "red wine serving temperature",
+      "secondary_keywords": [
+        "serving temperature wine chart",
+        "should you chill red wine"
+      ],
+      "internal_links": [
+        "/pages/wine-delivery-london",
+        "/collections/bordeaux",
+        "/collections/burgundy"
+      ],
+      "answer_hint": "Most reds show best at 14-18C, below typical UK room temperature. Give a chart by style and note that lighter reds benefit from 20 minutes in the fridge.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "win03",
+      "cluster": "Wine",
+      "target_question": "Should you decant wine, and for how long?",
+      "working_title": "Do You Need to Decant Wine? An Honest Answer",
+      "primary_keyword": "should you decant wine",
+      "secondary_keywords": [
+        "how long to decant wine",
+        "decanting guide"
+      ],
+      "internal_links": [
+        "/collections/bordeaux",
+        "/collections/burgundy",
+        "/pages/wine-delivery-london"
+      ],
+      "answer_hint": "Decanting serves two purposes: removing sediment and aerating. Give a table by wine type and age, and note which wines are harmed by it.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "win04",
+      "cluster": "Wine",
+      "target_question": "What does vintage mean on a wine label?",
+      "working_title": "What Does Vintage Actually Mean on a Wine Label?",
+      "primary_keyword": "what does vintage mean wine",
+      "secondary_keywords": [
+        "good wine vintages",
+        "wine label explained"
+      ],
+      "internal_links": [
+        "/pages/wine-delivery-london",
+        "/collections/bordeaux",
+        "/collections/champagne"
+      ],
+      "answer_hint": "The vintage is the harvest year, and it matters most in marginal climates. Explain when vintage variation is significant and when it is largely irrelevant.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "win05",
+      "cluster": "Wine",
+      "target_question": "What is the difference between Old World and New World wine?",
+      "working_title": "Old World vs New World Wine: What the Distinction Really Means",
+      "primary_keyword": "old world vs new world wine",
+      "secondary_keywords": [
+        "french vs australian wine",
+        "wine styles compared"
+      ],
+      "internal_links": [
+        "/collections/bordeaux",
+        "/collections/cabernet-sauvignon",
+        "/pages/wine-delivery-london"
+      ],
+      "answer_hint": "Compare labelling by region vs by grape, climate-driven style differences, and why the distinction is blurring. Include a table.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "win06",
+      "cluster": "Wine",
+      "target_question": "Is organic or natural wine actually better?",
+      "working_title": "Organic, Biodynamic and Natural Wine: What the Labels Mean",
+      "primary_keyword": "natural wine explained",
+      "secondary_keywords": [
+        "organic wine uk",
+        "biodynamic wine meaning"
+      ],
+      "internal_links": [
+        "/pages/organic-and-natural-wine-delivery-uk-london-drinks-house-247",
+        "/collections/certified-biodynamic-wines",
+        "/pages/wine-delivery-london"
+      ],
+      "answer_hint": "Define each term precisely, note which are certified and which are unregulated, and be even-handed about taste claims.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "gft01",
+      "cluster": "Gifting",
+      "target_question": "Can you get cake and champagne delivered together in London?",
+      "working_title": "Birthday Cake and Champagne Delivery in London: How to Send Both",
+      "primary_keyword": "cake and champagne delivery london",
+      "secondary_keywords": [
+        "birthday cake delivery london",
+        "champagne and cake gift"
+      ],
+      "internal_links": [
+        "/collections/charbonnel-et-walker",
+        "/collections/birthday-gifts",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Yes — cakes, chocolates and champagne can go out on the same London delivery. Cover timing, keeping cake presentable, and gift notes.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "gft02",
+      "cluster": "Gifting",
+      "target_question": "What alcohol makes a good gift for a boss?",
+      "working_title": "What Alcohol Should You Give Your Boss?",
+      "primary_keyword": "alcohol gift for boss",
+      "secondary_keywords": [
+        "corporate gift alcohol uk",
+        "professional gift bottle"
+      ],
+      "internal_links": [
+        "/pages/corporate-alcohol-gifts-uk-premium-business-delivery-drinks-house-247",
+        "/collections/alcohol-gift-sets",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Cover reading the relationship, safe choices (recognisable champagne, quality single malt), what to avoid, and presentation. Mention corporate gifting etiquette.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "gft03",
+      "cluster": "Gifting",
+      "target_question": "What should you buy someone who has everything?",
+      "working_title": "Drinks Gifts for the Person Who Has Everything",
+      "primary_keyword": "gift for someone who has everything",
+      "secondary_keywords": [
+        "unique alcohol gift uk",
+        "rare spirits gift"
+      ],
+      "internal_links": [
+        "/pages/exclusive-rare-alcohol-delivery-uk-limited-edition-spirits-collectibles-drinks-house-247",
+        "/collections/alcohol-gift-sets",
+        "/collections/clase-azul-tequila"
+      ],
+      "answer_hint": "Argue for rarity and experience over price: limited releases, unusual categories, and pairings like champagne and caviar.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "gft04",
+      "cluster": "Gifting",
+      "target_question": "Is it rude to bring wine to a dinner party?",
+      "working_title": "Dinner Party Wine Etiquette: What to Bring and What to Expect",
+      "primary_keyword": "dinner party wine etiquette",
+      "secondary_keywords": [
+        "what wine to bring to dinner",
+        "host gift uk"
+      ],
+      "internal_links": [
+        "/pages/dinner-party-alcohol-delivery-london-uk-wine-spirits-more-drinks-house-247",
+        "/pages/wine-delivery-london",
+        "/collections/alcohol-gift-sets"
+      ],
+      "answer_hint": "Explain that a bottle is a gift not a contribution to the meal, so the host need not open it. Cover price expectations and safe styles.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "gft05",
+      "cluster": "Gifting",
+      "target_question": "What do you give for a 40th or 50th birthday?",
+      "working_title": "Milestone Birthday Drinks Gifts: 30th, 40th, 50th and 60th",
+      "primary_keyword": "milestone birthday alcohol gift",
+      "secondary_keywords": [
+        "40th birthday champagne",
+        "birth year whisky gift"
+      ],
+      "internal_links": [
+        "/collections/birthday-gifts",
+        "/pages/champagne-50th-birthday",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Cover birth-year vintages, age-statement whiskies matched to the milestone, and when personalisation lands well.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "gft06",
+      "cluster": "Gifting",
+      "target_question": "What's a good housewarming gift that isn't flowers?",
+      "working_title": "Housewarming Drinks Gifts That Beat Flowers",
+      "primary_keyword": "housewarming gift alcohol",
+      "secondary_keywords": [
+        "new home gift uk",
+        "housewarming champagne"
+      ],
+      "internal_links": [
+        "/pages/housewarming-alcohol-gifts-delivery-uk-premium-thoughtful-drinks-house-247",
+        "/collections/alcohol-gift-sets",
+        "/collections/champagne-gifts"
+      ],
+      "answer_hint": "Cover bottles that suit a new home (something to open now, something to keep), glassware sets, and why a gift note matters.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "gft07",
+      "cluster": "Gifting",
+      "target_question": "How do you pair chocolate with champagne?",
+      "working_title": "Chocolate and Champagne: Which Pairings Actually Work",
+      "primary_keyword": "chocolate and champagne pairing",
+      "secondary_keywords": [
+        "champagne chocolate gift",
+        "what chocolate with champagne"
+      ],
+      "internal_links": [
+        "/collections/charbonnel-et-walker",
+        "/collections/caviar-chocolate-gifts",
+        "/collections/champagne"
+      ],
+      "answer_hint": "Be honest that dark chocolate fights brut champagne; demi-sec, rosé and blanc de noirs work better. Give a pairing table.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "gft08",
+      "cluster": "Gifting",
+      "target_question": "What flowers go with a champagne gift?",
+      "working_title": "Flowers and Champagne: Sending Both to a London Address",
+      "primary_keyword": "flowers and champagne delivery london",
+      "secondary_keywords": [
+        "flowers and wine delivery",
+        "romantic gift delivery london"
+      ],
+      "internal_links": [
+        "/pages/flowers-and-wine-delivery-the-perfect-duo-pairing-for-gifts",
+        "/collections/champagne-gifts",
+        "/collections/alcohol-gift-sets"
+      ],
+      "answer_hint": "Cover pairing flowers with bottles, same-day London timing, and which occasions call for both.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cmp01",
+      "cluster": "Comparison",
+      "target_question": "What is the best alcohol delivery service in London?",
+      "working_title": "The Best Alcohol Delivery Options in London, Compared",
+      "primary_keyword": "best alcohol delivery london",
+      "secondary_keywords": [
+        "fastest alcohol delivery london",
+        "alcohol delivery comparison uk"
+      ],
+      "internal_links": [
+        "/pages/alcohol-delivery",
+        "/pages/alcohol-delivery-areas",
+        "/pages/instant-alcohol-delivery"
+      ],
+      "answer_hint": "Compare the realistic options — supermarket slots, rapid-grocery apps, courier marketplaces and specialist 24-hour retailers — on speed, range, hours and price. Be factual about trade-offs.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cmp02",
+      "cluster": "Comparison",
+      "target_question": "Where can you buy rare tequila in the UK?",
+      "working_title": "Where to Buy Rare and Allocated Tequila in the UK",
+      "primary_keyword": "buy rare tequila uk",
+      "secondary_keywords": [
+        "allocated tequila uk",
+        "limited edition tequila"
+      ],
+      "internal_links": [
+        "/collections/clase-azul-tequila",
+        "/collections/anejo-tequila",
+        "/pages/tequila-delivery-london"
+      ],
+      "answer_hint": "Explain allocation, why rare bottles vanish, and what to check for authenticity. Cover which categories are hardest to source in the UK.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cmp03",
+      "cluster": "Comparison",
+      "target_question": "Is it cheaper to buy champagne online or in supermarkets?",
+      "working_title": "Is Champagne Cheaper Online or in Supermarkets?",
+      "primary_keyword": "cheapest place to buy champagne uk",
+      "secondary_keywords": [
+        "champagne price comparison",
+        "supermarket champagne vs specialist"
+      ],
+      "internal_links": [
+        "/pages/specialist-alcohol-retailer-vs-supermarket-why-drinks-house-247-beats-waitrose-ms-tesco-every-time",
+        "/collections/champagne",
+        "/collections/champagne-under-100"
+      ],
+      "answer_hint": "Be even-handed: supermarkets win on headline deals for a few big brands, specialists win on range, grower champagnes, and availability outside shop hours.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cmp04",
+      "cluster": "Comparison",
+      "target_question": "What's the difference between an off-licence and a delivery service?",
+      "working_title": "Off-Licence vs Delivery Service: Which Should You Use?",
+      "primary_keyword": "off licence vs alcohol delivery",
+      "secondary_keywords": [
+        "24 hour off licence london",
+        "alcohol shop near me"
+      ],
+      "internal_links": [
+        "/pages/off-license-near-me-london",
+        "/pages/alcohol-delivery",
+        "/pages/alcohol-delivery-areas"
+      ],
+      "answer_hint": "Compare on hours, range, price and convenience. Note that licensed delivery can operate when shops must close.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "cmp05",
+      "cluster": "Comparison",
+      "target_question": "How do you know if a spirits bottle is authentic?",
+      "working_title": "How to Spot a Fake Bottle of Premium Spirits",
+      "primary_keyword": "how to spot fake spirits",
+      "secondary_keywords": [
+        "authentic macallan",
+        "counterfeit tequila uk"
+      ],
+      "internal_links": [
+        "/pages/whisky-delivery-london",
+        "/collections/clase-azul-tequila",
+        "/pages/exclusive-rare-alcohol-delivery-uk-limited-edition-spirits-collectibles-drinks-house-247"
+      ],
+      "answer_hint": "Cover seals, laser codes, fill levels, label printing quality, and the single best defence — buying from a licensed UK retailer with traceable stock.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "bar01",
+      "cluster": "HomeBar",
+      "target_question": "What glassware do you actually need at home?",
+      "working_title": "The Only Glassware You Actually Need at Home",
+      "primary_keyword": "essential glassware home bar",
+      "secondary_keywords": [
+        "wine glass types",
+        "cocktail glasses guide"
+      ],
+      "internal_links": [
+        "/collections/champagne-flute-gift-sets",
+        "/pages/premium-spirits-home-bar-guide-the-ultimate-collection-for-cocktail-enthusiasts",
+        "/collections/alcohol-gift-sets"
+      ],
+      "answer_hint": "Argue for four shapes covering everything, with a table of glass to drink. Reference the existing flute vs coupe debate.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "bar02",
+      "cluster": "HomeBar",
+      "target_question": "Do you need to refrigerate tequila or whisky?",
+      "working_title": "Should You Refrigerate Tequila, Whisky or Gin?",
+      "primary_keyword": "do you refrigerate tequila",
+      "secondary_keywords": [
+        "how to store spirits",
+        "does whisky go bad"
+      ],
+      "internal_links": [
+        "/collections/blanco-tequila",
+        "/pages/whisky-delivery-london",
+        "/pages/gin-delivery-london"
+      ],
+      "answer_hint": "Spirits are shelf-stable; cover why cold mutes aroma in sipping spirits, which bottles benefit from freezing, and how opened bottles oxidise over years.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "bar03",
+      "cluster": "HomeBar",
+      "target_question": "How long do opened spirits last?",
+      "working_title": "How Long Do Opened Spirits Last?",
+      "primary_keyword": "how long do opened spirits last",
+      "secondary_keywords": [
+        "does vodka go bad",
+        "opened whisky shelf life"
+      ],
+      "internal_links": [
+        "/pages/whisky-delivery-london",
+        "/pages/vodka-delivery-london"
+      ],
+      "answer_hint": "Unopened indefinitely; opened, expect 1-2 years before noticeable change, faster as the bottle empties. Explain oxidation and headspace.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "bar04",
+      "cluster": "HomeBar",
+      "target_question": "What are the six cocktails everyone should know?",
+      "working_title": "Six Cocktails Worth Learning Properly",
+      "primary_keyword": "essential cocktails to know",
+      "secondary_keywords": [
+        "easy classic cocktails",
+        "home bartending basics"
+      ],
+      "internal_links": [
+        "/pages/premium-spirits-home-bar-guide-the-ultimate-collection-for-cocktail-enthusiasts",
+        "/collections/beers",
+        "/collections/alcohol-gift-sets"
+      ],
+      "answer_hint": "Give exact specs for six classics covering the main templates (sour, spirit-forward, highball), with the technique that matters for each.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    },
+    {
+      "id": "bar05",
+      "cluster": "HomeBar",
+      "target_question": "Does the ice you use actually matter?",
+      "working_title": "Does Ice Really Matter in a Cocktail? Yes — Here's Why",
+      "primary_keyword": "does ice matter in cocktails",
+      "secondary_keywords": [
+        "clear ice at home",
+        "best ice for whisky"
+      ],
+      "internal_links": [
+        "/pages/premium-spirits-home-bar-guide-the-ultimate-collection-for-cocktail-enthusiasts",
+        "/pages/whisky-delivery-london"
+      ],
+      "answer_hint": "Explain dilution rate, surface area, and why one large cube suits spirits while crushed suits juleps. Cover making clearer ice at home.",
+      "status": "pending",
+      "published_at": null,
+      "article_handle": null
+    }
+  ]
+}
