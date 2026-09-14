@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "method": "See README.md. Absolute internal URLs -> relative, preserving locale.",
+    "updated": "2026-09-14"
+  },
+  "completed": [
+    {
+      "handle": "top-10-alcoholic-drinks-with-the-least-calories",
+      "id": "557678297244",
+      "sessions": 1454,
+      "locales": [
+        "ar",
+        "en",
+        "zh"
+      ],
+      "absolute_links_fixed": 10,
+      "hub_link_added": true
+    },
+    {
+      "handle": "top-12-easy-drinking-games",
+      "id": "557623017628",
+      "sessions": 650,
+      "locales": [
+        "en",
+        "zh"
+      ],
+      "absolute_links_fixed": 3,
+      "hub_link_added": true
+    },
+    {
+      "handle": "know-the-difference-between-vodka-and-gin",
+      "id": "31744294974",
+      "sessions": 527,
+      "locales": [
+        "ar",
+        "en",
+        "zh"
+      ],
+      "absolute_links_fixed": 7,
+      "hub_link_added": true
+    }
+  ],
+  "sessions_covered": 2631
+}
