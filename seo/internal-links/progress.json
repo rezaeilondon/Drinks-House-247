@@ -7,7 +7,16 @@
       "absolute internal URLs (break locale for /ar /ru /zh readers)",
       "target=_blank on internal links (ejects readers into new tabs)"
     ],
-    "canonical_host": "Apex: https://drinkshouse247.co.uk (confirmed by the owner as the Google Search Console property and Shopify primary domain). 17 www references were corrected across the answers hub and all 7 scheduled articles on 2026-09-14; verified 0 remaining and all JSON-LD still parsing."
+    "canonical_host": "Apex: https://drinkshouse247.co.uk (confirmed by the owner as the Google Search Console property and Shopify primary domain). 17 www references were corrected across the answers hub and all 7 scheduled articles on 2026-09-14; verified 0 remaining and all JSON-LD still parsing.",
+    "full_scan": {
+      "scanned": "272 articles, 2026-09-14",
+      "articles_with_defects": 210,
+      "absolute_internal_links": 957,
+      "www_in_jsonld": 466,
+      "target_blank_on_internal_links": 235,
+      "myshopify_links": "0 remaining (1 found and fixed in the Bombay Sapphire article)",
+      "http_links": "0 remaining (1 found and fixed in the Bombay Sapphire article)"
+    }
   },
   "completed": [
     {
@@ -55,7 +64,47 @@
       "absolute_links_fixed": 7,
       "target_blank_stripped": 7,
       "hub_link_added": true
+    },
+    {
+      "handle": "wine-everything-you-need-to-know",
+      "id": "389870289033",
+      "sessions": 406,
+      "absolute_links_fixed": 7,
+      "target_blank_stripped": 0,
+      "hub_link_added": true
+    },
+    {
+      "handle": "24-7-alcohol-delivery-your-round-the-clock-beverage-partner",
+      "id": "93859643548",
+      "sessions": 262,
+      "absolute_links_fixed": 25,
+      "target_blank_stripped": 0,
+      "hub_link_added": true
+    },
+    {
+      "handle": "9-most-asked-questions-tequila",
+      "id": "382356881545",
+      "sessions": 228,
+      "absolute_links_fixed": 6,
+      "target_blank_stripped": 3,
+      "hub_link_added": true
+    },
+    {
+      "handle": "your-search-for-alcohol-shop-near-me-ends-here",
+      "id": "89159893148",
+      "sessions": 207,
+      "absolute_links_fixed": 30,
+      "target_blank_stripped": 0,
+      "hub_link_added": true
+    },
+    {
+      "handle": "the-perfect-introduction-to-bombay-sapphire-dry-gin",
+      "id": "559350153372",
+      "sessions": 202,
+      "absolute_links_fixed": 2,
+      "target_blank_stripped": 0,
+      "hub_link_added": true
     }
   ],
-  "sessions_covered": 3278
+  "sessions_covered": 4583
 }
