@@ -1,7 +1,12 @@
 {
   "_meta": {
     "method": "See README.md. Absolute internal URLs -> relative, preserving locale.",
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "bulk_path_blocked": "stagedUploadsCreate + upload works (HTTP 201), but bulkOperationRunMutation is blocked by the MCP safety policy, so each article must be updated individually. Measured cost: ~20-25k tokens for a 26KB article, ~6-10k for a small one.",
+    "defects_found": [
+      "absolute internal URLs (break locale for /ar /ru /zh readers)",
+      "target=_blank on internal links (ejects readers into new tabs)"
+    ]
   },
   "completed": [
     {
@@ -38,7 +43,18 @@
       ],
       "absolute_links_fixed": 7,
       "hub_link_added": true
+    },
+    {
+      "handle": "send-flowers-and-champagne-the-ultimate-gift-guide-2026",
+      "id": "1023043666295",
+      "sessions": 647,
+      "locales": [
+        "ru"
+      ],
+      "absolute_links_fixed": 7,
+      "target_blank_stripped": 7,
+      "hub_link_added": true
     }
   ],
-  "sessions_covered": 2631
+  "sessions_covered": 3278
 }
