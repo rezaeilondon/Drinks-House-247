@@ -26,8 +26,12 @@
       "champagne-everything-you-need-to-know: flute maths was self-contradictory (claimed a 180-300ml flute yields 6-8 glasses from 750ml; 750/180=4.2). Clarified brim capacity vs 125ml standard pour.",
       "champagne-everything-you-need-to-know: recommended the teaspoon-in-the-neck trick, which testing has debunked and which directly contradicted the new answers hub. Replaced with the stopper/cold advice.",
       "should-you-avoid-taking-lime...: removed a 27-hashtag block from the article body.",
-      "how-to-drink-responsibly: repaired a malformed img alt attribute (stray backslash, there/their typo)."
-    ]
+      "how-to-drink-responsibly: repaired a malformed img alt attribute (stray backslash, there/their typo).",
+      "what-is-whiskey-made-from: trailing-slash URL normalised; 'American whiskeys' retargeted from a Jack Daniels product to the bourbon collection.",
+      "baileys-drink-recipes / everything-you-need-to-know-about-beer: homepage filler anchors retargeted to relevant collections.",
+      "best-champagne-for-birthdays: Moet & Chandon (the #1 recommendation) had no link at all - added."
+    ],
+    "verified_not_broken": "All 10 champagne/wine/tequila collection handles referenced in these articles confirmed to exist via collectionByIdentifier before publishing."
   },
   "completed": [
     {
@@ -160,7 +164,27 @@
       "handle": "champagne-everything-you-need-to-know",
       "id": "388852777097",
       "sessions": 161
+    },
+    {
+      "handle": "baileys-drink-recipes",
+      "id": "557600800924",
+      "sessions": 125
+    },
+    {
+      "handle": "what-is-whiskey-made-from",
+      "id": "391674888348",
+      "sessions": 90
+    },
+    {
+      "handle": "best-wines-for-dinner-parties",
+      "id": "1023839830391",
+      "sessions": 62
+    },
+    {
+      "handle": "best-champagne-for-birthdays",
+      "id": "1023806833015",
+      "sessions": 77
     }
   ],
-  "sessions_covered": 5602
+  "sessions_covered": 5956
 }
