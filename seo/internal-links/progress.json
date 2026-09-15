@@ -9,13 +9,18 @@
     ],
     "canonical_host": "Apex: https://drinkshouse247.co.uk (confirmed by the owner as the Google Search Console property and Shopify primary domain). 17 www references were corrected across the answers hub and all 7 scheduled articles on 2026-09-14; verified 0 remaining and all JSON-LD still parsing.",
     "full_scan": {
-      "scanned": "272 articles, 2026-09-14",
-      "articles_with_defects": 210,
+      "scanned": "272 articles",
+      "articles_with_defects": 212,
       "absolute_internal_links": 957,
-      "www_in_jsonld": 466,
-      "target_blank_on_internal_links": 235,
-      "myshopify_links": "0 remaining (1 found and fixed in the Bombay Sapphire article)",
-      "http_links": "0 remaining (1 found and fixed in the Bombay Sapphire article)"
+      "jsonld_www_hosts": 87,
+      "target_blank_anchors": 358,
+      "target_new_anchors": 55,
+      "CORRECTION": "An earlier note in this file said '466 www in JSON-LD'. That was wrong - it counted www inside href attributes too, which the absolute->relative fix already handles. The true JSON-LD-only figure is 87.",
+      "also_found": [
+        "target=_new as well as target=_blank (55 instances) - missed on first pass",
+        "HowTo schema citing 4 step URLs that do not exist (how-to-pick-a-good-wine-for-dinner)",
+        "homepage links used as filler anchors for 'ales'/'stouts' instead of relevant collections"
+      ]
     }
   },
   "completed": [
@@ -104,7 +109,37 @@
       "absolute_links_fixed": 2,
       "target_blank_stripped": 0,
       "hub_link_added": true
+    },
+    {
+      "handle": "negroni",
+      "id": "559186444444",
+      "sessions": 85
+    },
+    {
+      "handle": "how-to-taste-wine",
+      "id": "389871108233",
+      "sessions": 48
+    },
+    {
+      "handle": "how-to-drink-responsibly",
+      "id": "557688520860",
+      "sessions": 150
+    },
+    {
+      "handle": "should-you-avoid-taking-lime-with-every-tequila-shot-here-s-why",
+      "id": "997739561335",
+      "sessions": 67
+    },
+    {
+      "handle": "everything-you-need-to-know-about-beer",
+      "id": "390663143580",
+      "sessions": 59
+    },
+    {
+      "handle": "how-to-pick-a-good-wine-for-dinner",
+      "id": "555859247260",
+      "sessions": 43
     }
   ],
-  "sessions_covered": 4583
+  "sessions_covered": 5035
 }
