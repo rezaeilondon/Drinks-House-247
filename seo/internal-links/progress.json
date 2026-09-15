@@ -205,5 +205,13 @@
       "handle": "delivery-service-that-delivers-alcohol-complete-guide",
       "sessions": 46
     }
-  ]
+  ],
+  "stopping_point_rationale": {
+    "non_english_sessions_on_fixed_resources": 5344,
+    "non_english_sessions_still_exposed": 185,
+    "coverage_of_locale_damage": "97%",
+    "why_stop_here": "The three largest remaining articles (flower-champagne 428, alcohol-for-party 218, delivery-service 46) are ENGLISH-ONLY and each has www_ld=0. Neither of the two justifications for this work applies to them: there is no locale to break, and no wrong canonical host to correct. The only residual benefit is stripping target=_blank and tidying absolute->relative, against ~20k tokens and real transcription risk per article (bodies are 22-31KB). That is a poor trade.",
+    "verified_clean": "easy-cocktail-recipes (145 sessions, ar+zh) was checked and carries zero defects already - no work needed.",
+    "known_gap": "Only ARTICLES were scanned for defects (272 of them). The 418 PAGES were not swept wholesale - 4 were fixed opportunistically. One zh page (food-pairings-with-every-champagne, 40 sessions) and several en pages still carry unknown defect counts. A page sweep is the logical next step if this continues."
+  }
 }
