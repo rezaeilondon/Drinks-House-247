@@ -184,7 +184,26 @@
       "handle": "best-champagne-for-birthdays",
       "id": "1023806833015",
       "sessions": 77
+    },
+    {
+      "handle": "best-alcohol-gifts-for-men",
+      "id": "1023817187703",
+      "sessions": 130
     }
   ],
-  "sessions_covered": 5956
+  "sessions_covered": 6086,
+  "remaining_traffic_bearing": [
+    {
+      "handle": "flower-champagne-delivery-guide-the-ultimate-2026-experience",
+      "sessions": 428
+    },
+    {
+      "handle": "alcohol-for-party-a-complete-guide-to-selection-serving",
+      "sessions": 218
+    },
+    {
+      "handle": "delivery-service-that-delivers-alcohol-complete-guide",
+      "sessions": 46
+    }
+  ]
 }
