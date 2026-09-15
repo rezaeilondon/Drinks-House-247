@@ -21,7 +21,13 @@
         "HowTo schema citing 4 step URLs that do not exist (how-to-pick-a-good-wine-for-dinner)",
         "homepage links used as filler anchors for 'ales'/'stouts' instead of relevant collections"
       ]
-    }
+    },
+    "content_corrections": [
+      "champagne-everything-you-need-to-know: flute maths was self-contradictory (claimed a 180-300ml flute yields 6-8 glasses from 750ml; 750/180=4.2). Clarified brim capacity vs 125ml standard pour.",
+      "champagne-everything-you-need-to-know: recommended the teaspoon-in-the-neck trick, which testing has debunked and which directly contradicted the new answers hub. Replaced with the stopper/cold advice.",
+      "should-you-avoid-taking-lime...: removed a 27-hashtag block from the article body.",
+      "how-to-drink-responsibly: repaired a malformed img alt attribute (stray backslash, there/their typo)."
+    ]
   },
   "completed": [
     {
@@ -139,7 +145,22 @@
       "handle": "how-to-pick-a-good-wine-for-dinner",
       "id": "555859247260",
       "sessions": 43
+    },
+    {
+      "handle": "can-black-tea-cure-your-hangover",
+      "id": "558496645276",
+      "sessions": 276
+    },
+    {
+      "handle": "wine-preference-personality",
+      "id": "559323480220",
+      "sessions": 130
+    },
+    {
+      "handle": "champagne-everything-you-need-to-know",
+      "id": "388852777097",
+      "sessions": 161
     }
   ],
-  "sessions_covered": 5035
+  "sessions_covered": 5602
 }
