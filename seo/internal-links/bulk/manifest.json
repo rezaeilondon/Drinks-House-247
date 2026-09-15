@@ -1,0 +1,20 @@
+{
+ "pages": {
+  "resources_to_update": 366,
+  "abs_to_rel": 5467,
+  "blank_stripped": 146,
+  "host_canonicalised": 514
+ },
+ "products": {
+  "resources_to_update": 211,
+  "abs_to_rel": 1857,
+  "blank_stripped": 81,
+  "host_canonicalised": 0
+ },
+ "articles": {
+  "resources_to_update": 196,
+  "abs_to_rel": 886,
+  "blank_stripped": 272,
+  "host_canonicalised": 83
+ }
+}

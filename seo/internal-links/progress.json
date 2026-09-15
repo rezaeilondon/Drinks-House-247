@@ -1,217 +1,432 @@
 {
-  "_meta": {
-    "method": "See README.md. Absolute internal URLs -> relative, preserving locale.",
-    "updated": "2026-09-14",
-    "bulk_path_blocked": "stagedUploadsCreate + upload works (HTTP 201), but bulkOperationRunMutation is blocked by the MCP safety policy, so each article must be updated individually. Measured cost: ~20-25k tokens for a 26KB article, ~6-10k for a small one.",
-    "defects_found": [
-      "absolute internal URLs (break locale for /ar /ru /zh readers)",
-      "target=_blank on internal links (ejects readers into new tabs)"
-    ],
-    "canonical_host": "Apex: https://drinkshouse247.co.uk (confirmed by the owner as the Google Search Console property and Shopify primary domain). 17 www references were corrected across the answers hub and all 7 scheduled articles on 2026-09-14; verified 0 remaining and all JSON-LD still parsing.",
-    "full_scan": {
-      "scanned": "272 articles",
-      "articles_with_defects": 212,
-      "absolute_internal_links": 957,
-      "jsonld_www_hosts": 87,
-      "target_blank_anchors": 358,
-      "target_new_anchors": 55,
-      "CORRECTION": "An earlier note in this file said '466 www in JSON-LD'. That was wrong - it counted www inside href attributes too, which the absolute->relative fix already handles. The true JSON-LD-only figure is 87.",
-      "also_found": [
-        "target=_new as well as target=_blank (55 instances) - missed on first pass",
-        "HowTo schema citing 4 step URLs that do not exist (how-to-pick-a-good-wine-for-dinner)",
-        "homepage links used as filler anchors for 'ales'/'stouts' instead of relevant collections"
-      ]
-    },
-    "content_corrections": [
-      "champagne-everything-you-need-to-know: flute maths was self-contradictory (claimed a 180-300ml flute yields 6-8 glasses from 750ml; 750/180=4.2). Clarified brim capacity vs 125ml standard pour.",
-      "champagne-everything-you-need-to-know: recommended the teaspoon-in-the-neck trick, which testing has debunked and which directly contradicted the new answers hub. Replaced with the stopper/cold advice.",
-      "should-you-avoid-taking-lime...: removed a 27-hashtag block from the article body.",
-      "how-to-drink-responsibly: repaired a malformed img alt attribute (stray backslash, there/their typo).",
-      "what-is-whiskey-made-from: trailing-slash URL normalised; 'American whiskeys' retargeted from a Jack Daniels product to the bourbon collection.",
-      "baileys-drink-recipes / everything-you-need-to-know-about-beer: homepage filler anchors retargeted to relevant collections.",
-      "best-champagne-for-birthdays: Moet & Chandon (the #1 recommendation) had no link at all - added."
-    ],
-    "verified_not_broken": "All 10 champagne/wine/tequila collection handles referenced in these articles confirmed to exist via collectionByIdentifier before publishing."
+ "_meta": {
+  "method": "See README.md. Absolute internal URLs -> relative, preserving locale.",
+  "updated": "2026-09-15",
+  "bulk_path_blocked": "stagedUploadsCreate + upload works (HTTP 201), but bulkOperationRunMutation is blocked by the MCP safety policy, so each article must be updated individually. Measured cost: ~20-25k tokens for a 26KB article, ~6-10k for a small one.",
+  "defects_found": [
+   "absolute internal URLs (break locale for /ar /ru /zh readers)",
+   "target=_blank on internal links (ejects readers into new tabs)"
+  ],
+  "canonical_host": "Apex: https://drinkshouse247.co.uk (confirmed by the owner as the Google Search Console property and Shopify primary domain). 17 www references were corrected across the answers hub and all 7 scheduled articles on 2026-09-14; verified 0 remaining and all JSON-LD still parsing.",
+  "full_scan": {
+   "scanned": "272 articles",
+   "articles_with_defects": 212,
+   "absolute_internal_links": 957,
+   "jsonld_www_hosts": 87,
+   "target_blank_anchors": 358,
+   "target_new_anchors": 55,
+   "CORRECTION": "An earlier note in this file said '466 www in JSON-LD'. That was wrong - it counted www inside href attributes too, which the absolute->relative fix already handles. The true JSON-LD-only figure is 87.",
+   "also_found": [
+    "target=_new as well as target=_blank (55 instances) - missed on first pass",
+    "HowTo schema citing 4 step URLs that do not exist (how-to-pick-a-good-wine-for-dinner)",
+    "homepage links used as filler anchors for 'ales'/'stouts' instead of relevant collections"
+   ]
   },
-  "completed": [
-    {
-      "handle": "top-10-alcoholic-drinks-with-the-least-calories",
-      "id": "557678297244",
-      "sessions": 1454,
-      "locales": [
-        "ar",
-        "en",
-        "zh"
-      ],
-      "absolute_links_fixed": 10,
-      "hub_link_added": true
-    },
-    {
-      "handle": "top-12-easy-drinking-games",
-      "id": "557623017628",
-      "sessions": 650,
-      "locales": [
-        "en",
-        "zh"
-      ],
-      "absolute_links_fixed": 3,
-      "hub_link_added": true
-    },
-    {
-      "handle": "know-the-difference-between-vodka-and-gin",
-      "id": "31744294974",
-      "sessions": 527,
-      "locales": [
-        "ar",
-        "en",
-        "zh"
-      ],
-      "absolute_links_fixed": 7,
-      "hub_link_added": true
-    },
-    {
-      "handle": "send-flowers-and-champagne-the-ultimate-gift-guide-2026",
-      "id": "1023043666295",
-      "sessions": 647,
-      "locales": [
-        "ru"
-      ],
-      "absolute_links_fixed": 7,
-      "target_blank_stripped": 7,
-      "hub_link_added": true
-    },
-    {
-      "handle": "wine-everything-you-need-to-know",
-      "id": "389870289033",
-      "sessions": 406,
-      "absolute_links_fixed": 7,
-      "target_blank_stripped": 0,
-      "hub_link_added": true
-    },
-    {
-      "handle": "24-7-alcohol-delivery-your-round-the-clock-beverage-partner",
-      "id": "93859643548",
-      "sessions": 262,
-      "absolute_links_fixed": 25,
-      "target_blank_stripped": 0,
-      "hub_link_added": true
-    },
-    {
-      "handle": "9-most-asked-questions-tequila",
-      "id": "382356881545",
-      "sessions": 228,
-      "absolute_links_fixed": 6,
-      "target_blank_stripped": 3,
-      "hub_link_added": true
-    },
-    {
-      "handle": "your-search-for-alcohol-shop-near-me-ends-here",
-      "id": "89159893148",
-      "sessions": 207,
-      "absolute_links_fixed": 30,
-      "target_blank_stripped": 0,
-      "hub_link_added": true
-    },
-    {
-      "handle": "the-perfect-introduction-to-bombay-sapphire-dry-gin",
-      "id": "559350153372",
-      "sessions": 202,
-      "absolute_links_fixed": 2,
-      "target_blank_stripped": 0,
-      "hub_link_added": true
-    },
-    {
-      "handle": "negroni",
-      "id": "559186444444",
-      "sessions": 85
-    },
-    {
-      "handle": "how-to-taste-wine",
-      "id": "389871108233",
-      "sessions": 48
-    },
-    {
-      "handle": "how-to-drink-responsibly",
-      "id": "557688520860",
-      "sessions": 150
-    },
-    {
-      "handle": "should-you-avoid-taking-lime-with-every-tequila-shot-here-s-why",
-      "id": "997739561335",
-      "sessions": 67
-    },
-    {
-      "handle": "everything-you-need-to-know-about-beer",
-      "id": "390663143580",
-      "sessions": 59
-    },
-    {
-      "handle": "how-to-pick-a-good-wine-for-dinner",
-      "id": "555859247260",
-      "sessions": 43
-    },
-    {
-      "handle": "can-black-tea-cure-your-hangover",
-      "id": "558496645276",
-      "sessions": 276
-    },
-    {
-      "handle": "wine-preference-personality",
-      "id": "559323480220",
-      "sessions": 130
-    },
-    {
-      "handle": "champagne-everything-you-need-to-know",
-      "id": "388852777097",
-      "sessions": 161
-    },
-    {
-      "handle": "baileys-drink-recipes",
-      "id": "557600800924",
-      "sessions": 125
-    },
-    {
-      "handle": "what-is-whiskey-made-from",
-      "id": "391674888348",
-      "sessions": 90
-    },
-    {
-      "handle": "best-wines-for-dinner-parties",
-      "id": "1023839830391",
-      "sessions": 62
-    },
-    {
-      "handle": "best-champagne-for-birthdays",
-      "id": "1023806833015",
-      "sessions": 77
-    },
-    {
-      "handle": "best-alcohol-gifts-for-men",
-      "id": "1023817187703",
-      "sessions": 130
-    }
+  "content_corrections": [
+   "champagne-everything-you-need-to-know: flute maths was self-contradictory (claimed a 180-300ml flute yields 6-8 glasses from 750ml; 750/180=4.2). Clarified brim capacity vs 125ml standard pour.",
+   "champagne-everything-you-need-to-know: recommended the teaspoon-in-the-neck trick, which testing has debunked and which directly contradicted the new answers hub. Replaced with the stopper/cold advice.",
+   "should-you-avoid-taking-lime...: removed a 27-hashtag block from the article body.",
+   "how-to-drink-responsibly: repaired a malformed img alt attribute (stray backslash, there/their typo).",
+   "what-is-whiskey-made-from: trailing-slash URL normalised; 'American whiskeys' retargeted from a Jack Daniels product to the bourbon collection.",
+   "baileys-drink-recipes / everything-you-need-to-know-about-beer: homepage filler anchors retargeted to relevant collections.",
+   "best-champagne-for-birthdays: Moet & Chandon (the #1 recommendation) had no link at all - added."
   ],
-  "sessions_covered": 6086,
-  "remaining_traffic_bearing": [
-    {
-      "handle": "flower-champagne-delivery-guide-the-ultimate-2026-experience",
-      "sessions": 428
-    },
-    {
-      "handle": "alcohol-for-party-a-complete-guide-to-selection-serving",
-      "sessions": 218
-    },
-    {
-      "handle": "delivery-service-that-delivers-alcohol-complete-guide",
-      "sessions": 46
-    }
-  ],
-  "stopping_point_rationale": {
-    "non_english_sessions_on_fixed_resources": 5344,
-    "non_english_sessions_still_exposed": 185,
-    "coverage_of_locale_damage": "97%",
-    "why_stop_here": "The three largest remaining articles (flower-champagne 428, alcohol-for-party 218, delivery-service 46) are ENGLISH-ONLY and each has www_ld=0. Neither of the two justifications for this work applies to them: there is no locale to break, and no wrong canonical host to correct. The only residual benefit is stripping target=_blank and tidying absolute->relative, against ~20k tokens and real transcription risk per article (bodies are 22-31KB). That is a poor trade.",
-    "verified_clean": "easy-cocktail-recipes (145 sessions, ar+zh) was checked and carries zero defects already - no work needed.",
-    "known_gap": "Only ARTICLES were scanned for defects (272 of them). The 418 PAGES were not swept wholesale - 4 were fixed opportunistically. One zh page (food-pairings-with-every-champagne, 40 sessions) and several en pages still carry unknown defect counts. A page sweep is the logical next step if this continues."
+  "verified_not_broken": "All 10 champagne/wine/tequila collection handles referenced in these articles confirmed to exist via collectionByIdentifier before publishing.",
+  "site_wide_scan_2026_09_15": {
+   "scope": "Every article (272), product (1,449) and page (419) in the store was pulled and scanned. Previously only articles had been checked.",
+   "headline": "The absolute-URL defect is site-wide, and pages are by far the worst affected: 5,467 absolute internal links across 366 pages, vs 1,857 across products and 886 across articles.",
+   "resources_needing_the_link_fix": {
+    "pages": 366,
+    "products": 211,
+    "articles": 196,
+    "total": 773
+   },
+   "absolute_internal_links": {
+    "pages": 5467,
+    "products": 1857,
+    "articles": 886,
+    "total": 8210
+   },
+   "target_blank_or_new_on_internal_links": {
+    "pages": 146,
+    "products": 81,
+    "articles": 294,
+    "total": 521
+   },
+   "www_to_apex": {
+    "pages": 514,
+    "products": 0,
+    "articles": 87,
+    "total": 601
+   },
+   "CORRECTION": "An earlier count in this file said 326 products were defective. 115 of those only carried target=_blank on EXTERNAL links (Google review, Trustpilot, Drinkaware), which is correct behaviour and is left alone. The real product remediation set is 211.",
+   "bulk_path": "bulkOperationRunMutation is still blocked by the MCP safety policy (re-tested 2026-09-15). Every resource must be written individually, so the full set is shipped as CSVs under seo/internal-links/bulk/ for a bulk-import app or a script with Admin API access.",
+   "template_evidence": "408 distinct internal targets across the 419 pages, but the same handful dominate: /collections/alcohol-gift-sets appears as an absolute link on 229 pages, /collections/champagne on 220, /collections/wines on 152. This is bulk-generated content, which is why a bulk edit is the right remediation."
+  },
+  "jsonld_price_audit_2026_09_15": {
+   "finding": "186 products hard-code a price inside their own Product JSON-LD. 27 of those disagree with the live variant price.",
+   "risk": "Google can read the wrong price into rich results. 11 of the 27 advertise a price LOWER than the store actually charges, which is the riskier direction.",
+   "fixed_live": [
+    "corona-extra-beer-1",
+    "whisky-double-black",
+    "whiskey-jack-daniels",
+    "heineken-beer",
+    "chivas-regal-18-year-old-blended-scotch-whisky",
+    "whiskey-black-lable",
+    "absolut",
+    "hendricks-gin",
+    "chivas-regal-whisky"
+   ],
+   "still_wrong": 18,
+   "detail_file": "seo/internal-links/jsonld-price-mismatches.json",
+   "root_cause": "The price is written into the description HTML by hand, so it goes stale whenever the variant price changes. Correcting the 27 values is a patch, not a fix - the durable fix is to drop the offers block from the hand-written JSON-LD and let the theme emit Product schema from the live price. That could not be verified from here because storefront requests are blocked, so it is left as a recommendation."
   }
+ },
+ "completed": [
+  {
+   "handle": "top-10-alcoholic-drinks-with-the-least-calories",
+   "id": "557678297244",
+   "sessions": 1454,
+   "locales": [
+    "ar",
+    "en",
+    "zh"
+   ],
+   "absolute_links_fixed": 10,
+   "hub_link_added": true
+  },
+  {
+   "handle": "top-12-easy-drinking-games",
+   "id": "557623017628",
+   "sessions": 650,
+   "locales": [
+    "en",
+    "zh"
+   ],
+   "absolute_links_fixed": 3,
+   "hub_link_added": true
+  },
+  {
+   "handle": "know-the-difference-between-vodka-and-gin",
+   "id": "31744294974",
+   "sessions": 527,
+   "locales": [
+    "ar",
+    "en",
+    "zh"
+   ],
+   "absolute_links_fixed": 7,
+   "hub_link_added": true
+  },
+  {
+   "handle": "send-flowers-and-champagne-the-ultimate-gift-guide-2026",
+   "id": "1023043666295",
+   "sessions": 647,
+   "locales": [
+    "ru"
+   ],
+   "absolute_links_fixed": 7,
+   "target_blank_stripped": 7,
+   "hub_link_added": true
+  },
+  {
+   "handle": "wine-everything-you-need-to-know",
+   "id": "389870289033",
+   "sessions": 406,
+   "absolute_links_fixed": 7,
+   "target_blank_stripped": 0,
+   "hub_link_added": true
+  },
+  {
+   "handle": "24-7-alcohol-delivery-your-round-the-clock-beverage-partner",
+   "id": "93859643548",
+   "sessions": 262,
+   "absolute_links_fixed": 25,
+   "target_blank_stripped": 0,
+   "hub_link_added": true
+  },
+  {
+   "handle": "9-most-asked-questions-tequila",
+   "id": "382356881545",
+   "sessions": 228,
+   "absolute_links_fixed": 6,
+   "target_blank_stripped": 3,
+   "hub_link_added": true
+  },
+  {
+   "handle": "your-search-for-alcohol-shop-near-me-ends-here",
+   "id": "89159893148",
+   "sessions": 207,
+   "absolute_links_fixed": 30,
+   "target_blank_stripped": 0,
+   "hub_link_added": true
+  },
+  {
+   "handle": "the-perfect-introduction-to-bombay-sapphire-dry-gin",
+   "id": "559350153372",
+   "sessions": 202,
+   "absolute_links_fixed": 2,
+   "target_blank_stripped": 0,
+   "hub_link_added": true
+  },
+  {
+   "handle": "negroni",
+   "id": "559186444444",
+   "sessions": 85
+  },
+  {
+   "handle": "how-to-taste-wine",
+   "id": "389871108233",
+   "sessions": 48
+  },
+  {
+   "handle": "how-to-drink-responsibly",
+   "id": "557688520860",
+   "sessions": 150
+  },
+  {
+   "handle": "should-you-avoid-taking-lime-with-every-tequila-shot-here-s-why",
+   "id": "997739561335",
+   "sessions": 67
+  },
+  {
+   "handle": "everything-you-need-to-know-about-beer",
+   "id": "390663143580",
+   "sessions": 59
+  },
+  {
+   "handle": "how-to-pick-a-good-wine-for-dinner",
+   "id": "555859247260",
+   "sessions": 43
+  },
+  {
+   "handle": "can-black-tea-cure-your-hangover",
+   "id": "558496645276",
+   "sessions": 276
+  },
+  {
+   "handle": "wine-preference-personality",
+   "id": "559323480220",
+   "sessions": 130
+  },
+  {
+   "handle": "champagne-everything-you-need-to-know",
+   "id": "388852777097",
+   "sessions": 161
+  },
+  {
+   "handle": "baileys-drink-recipes",
+   "id": "557600800924",
+   "sessions": 125
+  },
+  {
+   "handle": "what-is-whiskey-made-from",
+   "id": "391674888348",
+   "sessions": 90
+  },
+  {
+   "handle": "best-wines-for-dinner-parties",
+   "id": "1023839830391",
+   "sessions": 62
+  },
+  {
+   "handle": "best-champagne-for-birthdays",
+   "id": "1023806833015",
+   "sessions": 77
+  },
+  {
+   "handle": "best-alcohol-gifts-for-men",
+   "id": "1023817187703",
+   "sessions": 130
+  },
+  {
+   "handle": "food-pairings-with-every-champagne",
+   "kind": "page",
+   "id": "93494247580",
+   "sessions": 40,
+   "locales": [
+    "zh"
+   ],
+   "absolute_links_fixed": 12,
+   "www_to_apex": 3
+  },
+  {
+   "handle": "tasting-notes-for-don-julio",
+   "kind": "page",
+   "id": "93478551708",
+   "sessions": 63,
+   "locales": [
+    "en"
+   ],
+   "absolute_links_fixed": 15,
+   "www_to_apex": 3
+  },
+  {
+   "handle": "food-pairings-don-julio",
+   "kind": "page",
+   "id": "93478650012",
+   "sessions": 59,
+   "locales": [
+    "en"
+   ],
+   "absolute_links_fixed": 11,
+   "www_to_apex": 3
+  },
+  {
+   "handle": "send-alcohol-gifts-to-uk-from-usa-fast-reliable-drinks-house-247",
+   "kind": "page",
+   "id": "701746479479",
+   "sessions": 49,
+   "locales": [
+    "en"
+   ],
+   "absolute_links_fixed": 2
+  },
+  {
+   "handle": "grey-goose",
+   "kind": "product",
+   "id": "1334802808936",
+   "sessions": 260,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "absolute_links_fixed": 9
+  },
+  {
+   "handle": "jameson-irish-whiskey-1l",
+   "kind": "product",
+   "id": "7664194683036",
+   "sessions": 201,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "absolute_links_fixed": 1
+  },
+  {
+   "handle": "absolut",
+   "kind": "product",
+   "id": "1334807036008",
+   "sessions": 158,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "absolute_links_fixed": 2,
+   "jsonld_price_corrected": "36.00 -> 28.00"
+  },
+  {
+   "handle": "hendricks-gin",
+   "kind": "product",
+   "id": "2004162445374",
+   "sessions": 106,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "absolute_links_fixed": 2,
+   "jsonld_price_corrected": "49.50 -> 40.50"
+  },
+  {
+   "handle": "corona-extra-beer-1",
+   "kind": "product",
+   "id": "1334836101224",
+   "sessions": 294,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "jsonld_price_corrected": "9.50 -> 7.95"
+  },
+  {
+   "handle": "whisky-double-black",
+   "kind": "product",
+   "id": "1967369977918",
+   "sessions": 195,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "jsonld_price_corrected": "66.00 -> 51.50"
+  },
+  {
+   "handle": "whiskey-jack-daniels",
+   "kind": "product",
+   "id": "1334816178280",
+   "sessions": 191,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "jsonld_price_corrected": "42.00 -> 33.00"
+  },
+  {
+   "handle": "heineken-beer",
+   "kind": "product",
+   "id": "1334844358760",
+   "sessions": 184,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "jsonld_price_corrected": "9.50 -> 8.75"
+  },
+  {
+   "handle": "chivas-regal-18-year-old-blended-scotch-whisky",
+   "kind": "product",
+   "id": "7473506615452",
+   "sessions": 183,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "jsonld_price_corrected": "98.00 -> 81.00"
+  },
+  {
+   "handle": "whiskey-black-lable",
+   "kind": "product",
+   "id": "1334816374888",
+   "sessions": 179,
+   "locales": [
+    "ar",
+    "en"
+   ],
+   "jsonld_price_corrected": "44.00 -> 35.00"
+  },
+  {
+   "handle": "chivas-regal-whisky",
+   "kind": "product",
+   "id": "1967357722686",
+   "sessions": 102,
+   "locales": [
+    "en"
+   ],
+   "jsonld_price_corrected": "46.00 -> 37.95"
+  }
+ ],
+ "sessions_covered": 8350,
+ "remaining_traffic_bearing": [
+  {
+   "handle": "flower-champagne-delivery-guide-the-ultimate-2026-experience",
+   "sessions": 428
+  },
+  {
+   "handle": "alcohol-for-party-a-complete-guide-to-selection-serving",
+   "sessions": 218
+  },
+  {
+   "handle": "delivery-service-that-delivers-alcohol-complete-guide",
+   "sessions": 46
+  }
+ ],
+ "stopping_point_rationale": {
+  "non_english_sessions_on_fixed_resources": 5344,
+  "non_english_sessions_still_exposed": 185,
+  "coverage_of_locale_damage": "97%",
+  "why_stop_here": "The three largest remaining articles (flower-champagne 428, alcohol-for-party 218, delivery-service 46) are ENGLISH-ONLY and each has www_ld=0. Neither of the two justifications for this work applies to them: there is no locale to break, and no wrong canonical host to correct. The only residual benefit is stripping target=_blank and tidying absolute->relative, against ~20k tokens and real transcription risk per article (bodies are 22-31KB). That is a poor trade.",
+  "verified_clean": "easy-cocktail-recipes (145 sessions, ar+zh) was checked and carries zero defects already - no work needed.",
+  "known_gap": "Only ARTICLES were scanned for defects (272 of them). The 418 PAGES were not swept wholesale - 4 were fixed opportunistically. One zh page (food-pairings-with-every-champagne, 40 sessions) and several en pages still carry unknown defect counts. A page sweep is the logical next step if this continues."
+ },
+ "verified": "All 15 resources re-queried after writing on 2026-09-15: 0 absolute internal links, 0 www hosts, 0 residual defects, and every JSON-LD price now equals the live variant price."
 }

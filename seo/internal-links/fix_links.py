@@ -7,7 +7,7 @@ Four deterministic, content-preserving fixes:
   3. target="_blank" / target="_new" (and the companion rel) stripped from
      INTERNAL links only. External links keep both. Both variants occur in this
      store's content - _new was missed on the first pass.
-  4. Any remaining www host -> apex. These are JSON-LD values (author.url,
+  4. Any remaining www host -> apex, including a scheme-less mention in prose. These are JSON-LD values (author.url,
      publisher.url, mainEntityOfPage.@id) which must stay ABSOLUTE, so they are
      rewritten to the canonical apex rather than made relative.
 
@@ -46,5 +46,11 @@ def fix(body: str) -> tuple[str, dict]:
     out = ANCHOR.sub(fix_anchor, body)
     stats["host_canonicalised"] = len(re.findall(r'https?://www\.drinkshouse247\.co\.uk', out))
     out = re.sub(r'https?://www\.drinkshouse247\.co\.uk', APEX, out)
+    # A scheme-less "www.drinkshouse247.co.uk" in prose points at the same
+    # redirecting host, so drop the www there too.
+    bare = len(re.findall(r'(?<!//)\bwww\.drinkshouse247\.co\.uk', out))
+    if bare:
+        stats["host_canonicalised"] += bare
+        out = re.sub(r'(?<!//)\bwww\.drinkshouse247\.co\.uk', 'drinkshouse247.co.uk', out)
     assert 'www.drinkshouse247' not in out
     return out, stats
