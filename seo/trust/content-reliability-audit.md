@@ -177,3 +177,105 @@ Five of six fixed, all repointed to pages that exist. Still outstanding: one lin
    invented case study, an invented statistic and five invented products all turned up in
    the handful of pages examined closely. That rate suggests more across the remaining
    2,100 resources.
+
+---
+
+# Fuller fabrication sweep — 2026-09-16
+
+Scope: all 418 pages and 272 articles, pulled fresh, scanned for six defect classes —
+attributed testimonials, quoted named experts, "case study" markers, self-performance
+statistics, invented price lists, and dead internal links. Results below are what
+survived manual verification; the raw regex hits were mostly noise (357 "precise
+statistic" hits were ABV percentages, for instance).
+
+## What was fixed, and where
+
+### `unique-craft-beer-gift-baskets-for-every-occasion` (Page/703925911927)
+- Dead `<a href="/order">` repointed to `/collections/beers`.
+- "What Our Clients Say About Our Craft Beer Gift Hampers" — two paragraphs summarising
+  reviews nobody can check ("Testimonials often mention…", "Many customers praise…")
+  replaced with a link to `/pages/reviews`.
+- **"curated craft beer gift baskets for thousands of satisfied UK customers"** removed.
+  The store has taken 173 orders. Replaced with what is actually true: every basket is
+  hand-packed to order.
+- Two `www.` hosts in the LocalBusiness JSON-LD canonicalised to the apex domain.
+- The I. Cabras (2017) micro-brewing citation was checked and **kept** — it is a real
+  academic source, correctly attributed, and on-topic.
+
+### `the-ultimate-guide-to-luxury-champagne-delivery-and-alcohol-gift-sets` (Page/704233406839)
+- Three invented testimonials removed (2,558 bytes), attributed to "James R., Head of
+  Operations, Financial Services Firm, Canary Wharf", "Charlotte B., Wedding Planner,
+  Chelsea" and "Sophie M." — all unverifiable, and the kind of thing that fails a Google
+  quality review outright.
+- "Case Study: Large-Scale Corporate Gifting in The City" — an unnamed client, 50 bespoke
+  orders, "zero substitutions", "has since exclusively partnered with us" — removed.
+- Replaced with a short section pointing at `/pages/reviews`.
+- Two `www.` JSON-LD hosts canonicalised.
+
+### `personalised-moet-champagne-2026-gift-guide` (Page/702788501879)
+- Invented anecdote removed ("One standout case involved a wedding party using bespoke
+  Moët bottles as table centrepieces…").
+- Unsourced statistic removed ("Survey data in the UK shows that over 70 percent of
+  people recall receiving a customised gift long after the event").
+- Two further unsourced survey appeals and one invented "average turnaround for
+  personalised moet champagne is five days" removed.
+- Invented corporate case study removed ("A case study from a London-based firm showed
+  that custom-branded Moët bottles led to increased client retention").
+- **Competitor promotion removed** (2,187 bytes): a four-row comparison table sending
+  readers to Selfridges, John Lewis, Harrods and Farrar & Tanner, plus the paragraph
+  calling them "trusted for quality and authenticity". Replaced with a buyer's checklist
+  (who holds the licence, where stock is sourced, personalisation lead time, age
+  verification at the door) that points back to `/pages/authenticity-and-sourcing`.
+  The Moët official / Pharrell Williams Forbes link was kept — it is a real citation.
+- A malformed heading — raw markdown link syntax leaked into the HTML as
+  `<h2>[Drinks House 247: …] (https://drinkshouse247.co.uk)</h2>` — repaired.
+- **`Article written using RankPill` credit removed**, along with its dofollow outbound
+  link. Publishing a generator credit on a commercial page is a direct signal of
+  unreviewed auto-generated content.
+- Four `https://drinkshouse247.co.uk/ru/...` links — absolute, and pointing at the
+  **Russian locale** of this UK site — made relative, and their `target="_blank"` stripped.
+
+### `rare-vintage-champagne-delivery-london-fast-service` (Article/1023787270519)
+- A verbatim academic thesis abstract on "strategic reengineering of e-commerce processes
+  in the fashion-luxury industry" removed. It was dropped into a champagne delivery
+  article with no connection to the subject.
+- A second academic excerpt removed — a methodology note on last-mile delivery keyword
+  layers (L. Cai, 2023), equally irrelevant.
+- "Drinks House 247 Ltd offers tasting experiences and educational resources" removed. No
+  such service exists. Replaced with the Challenge 25 age-verification policy, which does.
+
+### `best-champagne-for-birthdays` (Article/1023806833015)
+- `/pages/happy-birthday-champagne` repointed to
+  `/pages/celebrate-with-our-happy-birthday-champagne`. This was the last live-broken
+  internal link on the site.
+
+## Checked and deliberately left alone
+
+- **"Luc Mobihan, Chef, Restaurant Saint Placide, Saint-Malo"** on the Billecart-Salmon
+  Blanc de Blancs product — verified as genuine producer marketing copy, not an invented
+  endorsement.
+- **The Lily Bollinger quote** — a real, widely documented quotation.
+- **The I. Cabras (2017) craft brewing citation** — real and on-topic.
+- **The twelve author-bio credential claims** ("certified sommelier", "WSET", "over a
+  decade of experience") — the owner confirmed these are true, so they stay. They are an
+  E-E-A-T asset; they would be stronger still with a certificate number or awarding body.
+
+## Dead-link position after this sweep
+
+18 internal links pointed at 15 distinct targets that returned nothing. Thirteen of those
+targets were already resolved by existing redirects. The two genuinely broken ones —
+`/pages/happy-birthday-champagne` and `/order` — are both fixed above. **Zero live-broken
+internal links remain.**
+
+## What this leaves outstanding
+
+1. **The comparative page** `specialist-alcohol-retailer-vs-supermarket-why-drinks-house-247-beats-waitrose-ms-tesco-every-time`
+   still needs a retitle, a handle change and a redirect. Under the Business Protection
+   from Misleading Marketing Regulations 2008, comparative advertising has to be
+   objectively verifiable; "beats … every time" is not.
+2. **The bulk internal-link CSVs** (773 resources) still need importing.
+3. **Eight inert redirects** — their source pages are still published, so Shopify never
+   reaches the redirect. They need unpublishing first.
+4. **Search Console impressions** before retiring any delivery page.
+5. **Restoration confirmation** before any company number, VAT number or licence number
+   is published.
