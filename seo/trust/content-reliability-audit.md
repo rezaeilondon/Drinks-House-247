@@ -89,3 +89,91 @@ they land on the homepage, which Google treats as a soft 404 and which strands t
 - **Excessive-drinking framing: 3 resources**, chiefly `top-12-easy-drinking-games`
   (650 sessions). Worth a read against CAP rule 18 on immoderate consumption, but it is
   not the systemic problem the volume of party content suggested it might be.
+
+---
+
+# Fixes applied — 2026-09-16
+
+The owner could not vouch for who reviewed the content and asked for it to be fixed.
+An unverifiable expert credential that the business owner himself cannot confirm is a
+fabricated credential, so all of them came off.
+
+## Fabricated experts removed (3 found, not 1)
+
+The original audit caught one. Looking properly turned up two more:
+
+| Name | Claim | Where |
+|---|---|---|
+| Sarah Jenkins | "ANutr, Registered Associate Nutritionist" reviewer byline | 2 articles |
+| Jamie Collins | "Expert mixologist" with a direct quote | `the-surprising-calorie-difference-vodka-soda-and-cola` |
+| Dr. Elaine Matthews | "nutrition expert at the London Institute of Public Health", direct quote | same article |
+
+All three are gone.
+
+## A fabricated credentials block
+
+`premium-whiskey-cigar-gift-sets-london-…` claimed the author is "a certified spirits
+specialist" holding "membership in the **Institute of Masters of Wine** and the UK Spirits
+Academy". The IMW is real and polices the MW title; the UK Spirits Academy could not be
+found. Replaced with what is verifiable: that he runs the business.
+
+## Fabricated social proof on the same page
+
+That page also carried:
+
+- **Three invented customer testimonials** — "Charlotte M., London", "Thomas D., Finchley",
+  "Emily R., Kensington", each with a full quote. Removed and replaced with a link to
+  `/pages/reviews`, which is the position the whole reviews page argues for.
+- **An invented case study** — a "Prestigious Financial Firm, Canary Wharf" corporate order.
+  Removed.
+- **An invented statistic** — "a 98.4% on-time delivery rate". Removed.
+- **Five invented products with prices and dead order links** — "The Connoisseur's
+  Collection … Price range: 350 - 450 … `/order/connoisseurs-collection`". None of the
+  products or the `/order/*` URLs exist. One even read "Price range: 380 - 350", reversed.
+  Replaced with links to the real whisky gifts and alcohol gift sets collections.
+- **Overstated compliance claims** — digital government-ID verification at checkout and
+  contactless electronic age checks on delivery. Replaced with the Challenge 21 policy
+  that actually operates.
+- Three dead links (`/luxury-cigars-london`, `/same-day-alcohol-delivery-london`,
+  `/whiskey-gift-sets-london`) repointed at real collections, and a mangled temperature
+  ("18-216C (64-706F)") corrected to 18–21°C (64–70°F).
+
+## Health and nutrition claims
+
+Reframed on the four traffic-bearing articles. The calorie information stays — reduced
+energy is a permitted claim — the benefit framing does not:
+
+- `top-10-alcoholic-drinks-with-the-least-calories` (1,454 sessions): "Packed with vitamin
+  C, potassium and vitamin A" removed.
+- `can-black-tea-cure-your-hangover` (275): rewritten to say plainly that no tea cures a
+  hangover, that only time does, and that tea helps with rehydration and nothing more.
+  Also removed advice to drink turmeric tea "to counteract the inflammatory effects of
+  alcohol" before a night out.
+- `how-low-calorie-drinks-can-transform-your-party`: "healthy alcoholic beverages",
+  "guilt-free" and "promote healthier choices" removed throughout.
+- `the-surprising-calorie-difference-vodka-soda-and-cola`: "supports health and weight
+  management goals" replaced with a plain statement that fewer calories is the whole of
+  the claim.
+- `the-best-food-to-cure-a-hangover`: "classic remedy" framing on chicken soup removed.
+
+## Broken links
+
+Five of six fixed, all repointed to pages that exist. Still outstanding: one link to
+`/pages/happy-birthday-champagne` in `best-champagne-for-birthdays`, which should go to
+`/pages/celebrate-with-our-happy-birthday-champagne`.
+
+## Still to do
+
+1. **The DPS name.** 39 article bylines carry it. Still the owner's decision — it is a
+   genuine E-E-A-T asset, and his instruction was to publish it where it helps ranking.
+   A byline does; a licence page does not.
+2. **Twelve more author bios** assert "over a decade of experience", "certified
+   sommelier", "seasoned mixologist", "WSET". These are claims about the owner, so he can
+   confirm or deny each. They were left alone rather than guessed at.
+3. **The comparative page** still titled "Why Drinks House 247 Beats Waitrose, M&S & Tesco
+   Every Time" — not objectively verifiable, needs a retitle and a handle change plus
+   redirect.
+4. **A full fabrication sweep.** Three invented experts, three invented testimonials, an
+   invented case study, an invented statistic and five invented products all turned up in
+   the handful of pages examined closely. That rate suggests more across the remaining
+   2,100 resources.
