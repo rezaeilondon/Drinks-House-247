@@ -1,0 +1,361 @@
+{
+ "generated": "2026-09-16",
+ "method": "Shopify sessions, last 90 days. Keeper = most sessions, then a clean handle over a keyword-stuffed one, then the shorter handle, then more content. The borough cluster folds into the existing alcohol-delivery-areas hub.",
+ "BLOCKING_CAVEAT": "Shopify reports SESSIONS, not impressions. A page can hold rankings and earn impressions while drawing no clicks. Check Google Search Console impressions for every URL below before retiring it. Do not execute this plan on session data alone.",
+ "redirects_proposed": 40,
+ "content_merges_required": 14,
+ "clusters": [
+  {
+   "cluster": "London borough pages",
+   "keep": "alcohol-delivery-areas",
+   "keep_sessions_90d": 10,
+   "keep_words": 356,
+   "retire": [
+    {
+     "handle": "alcohol-delivery-battersea",
+     "sessions_90d": 0,
+     "words": 437,
+     "merge_content_first": true
+    },
+    {
+     "handle": "alcohol-delivery-camden",
+     "sessions_90d": 0,
+     "words": 413,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-canary-wharf",
+     "sessions_90d": 0,
+     "words": 486,
+     "merge_content_first": true
+    },
+    {
+     "handle": "alcohol-delivery-chelsea",
+     "sessions_90d": 0,
+     "words": 504,
+     "merge_content_first": true
+    },
+    {
+     "handle": "alcohol-delivery-clapham",
+     "sessions_90d": 0,
+     "words": 364,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-croydon",
+     "sessions_90d": 0,
+     "words": 412,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-ealing",
+     "sessions_90d": 0,
+     "words": 446,
+     "merge_content_first": true
+    },
+    {
+     "handle": "alcohol-delivery-greenwich",
+     "sessions_90d": 0,
+     "words": 351,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-in-hammersmith",
+     "sessions_90d": 0,
+     "words": 422,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-kensington",
+     "sessions_90d": 0,
+     "words": 425,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-mayfair",
+     "sessions_90d": 0,
+     "words": 376,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-richmond",
+     "sessions_90d": 0,
+     "words": 474,
+     "merge_content_first": true
+    },
+    {
+     "handle": "alcohol-delivery-soho",
+     "sessions_90d": 0,
+     "words": 426,
+     "merge_content_first": false
+    }
+   ]
+  },
+  {
+   "cluster": "Caviar delivery by area",
+   "keep": "caviar-delivery-uk",
+   "keep_sessions_90d": 0,
+   "keep_words": 348,
+   "retire": [
+    {
+     "handle": "caviar-delivery-canary-wharf",
+     "sessions_90d": 0,
+     "words": 265,
+     "merge_content_first": false
+    },
+    {
+     "handle": "caviar-delivery-chelsea",
+     "sessions_90d": 0,
+     "words": 237,
+     "merge_content_first": false
+    },
+    {
+     "handle": "caviar-delivery-knightsbridge",
+     "sessions_90d": 0,
+     "words": 205,
+     "merge_content_first": false
+    },
+    {
+     "handle": "caviar-delivery-mayfair",
+     "sessions_90d": 0,
+     "words": 353,
+     "merge_content_first": false
+    },
+    {
+     "handle": "champagne-and-caviar-delivery-london",
+     "sessions_90d": 0,
+     "words": 421,
+     "merge_content_first": true
+    },
+    {
+     "handle": "late-night-caviar-delivery-london",
+     "sessions_90d": 0,
+     "words": 404,
+     "merge_content_first": false
+    },
+    {
+     "handle": "same-day-caviar-delivery-london",
+     "sessions_90d": 0,
+     "words": 534,
+     "merge_content_first": true
+    }
+   ]
+  },
+  {
+   "cluster": "Generic 'alcohol delivery'",
+   "keep": "alcohol-delivery-service",
+   "keep_sessions_90d": 27,
+   "keep_words": 547,
+   "retire": [
+    {
+     "handle": "alcohol-delivery",
+     "sessions_90d": 11,
+     "words": 319,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-24-hours",
+     "sessions_90d": 0,
+     "words": 630,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-delivery-24-hours-1",
+     "sessions_90d": 0,
+     "words": 589,
+     "merge_content_first": false
+    }
+   ]
+  },
+  {
+   "cluster": "24-hour alcohol delivery",
+   "keep": "alcohol-24-hour-near-me",
+   "keep_sessions_90d": 14,
+   "keep_words": 522,
+   "retire": [
+    {
+     "handle": "24-hour-alcohol-delivery-service",
+     "sessions_90d": 0,
+     "words": 646,
+     "merge_content_first": true
+    },
+    {
+     "handle": "24-hour-shop-near-me",
+     "sessions_90d": 0,
+     "words": 402,
+     "merge_content_first": false
+    },
+    {
+     "handle": "alcohol-24-hour-delivery",
+     "sessions_90d": 0,
+     "words": 547,
+     "merge_content_first": false
+    }
+   ]
+  },
+  {
+   "cluster": "Wine delivery London",
+   "keep": "wine-london-delivery",
+   "keep_sessions_90d": 0,
+   "keep_words": 439,
+   "retire": [
+    {
+     "handle": "wine-delivery-london",
+     "sessions_90d": 0,
+     "words": 349,
+     "merge_content_first": false
+    },
+    {
+     "handle": "wine-delivery-service-london",
+     "sessions_90d": 0,
+     "words": 527,
+     "merge_content_first": true
+    }
+   ]
+  },
+  {
+   "cluster": "Same-day wine delivery London",
+   "keep": "wine-delivery-london-same-day",
+   "keep_sessions_90d": 8,
+   "keep_words": 596,
+   "retire": [
+    {
+     "handle": "london-wine-delivery-same-day",
+     "sessions_90d": 0,
+     "words": 1000,
+     "merge_content_first": true
+    }
+   ]
+  },
+  {
+   "cluster": "Next-day wine delivery",
+   "keep": "next-day-wine-delivery",
+   "keep_sessions_90d": 0,
+   "keep_words": 364,
+   "retire": [
+    {
+     "handle": "buy-wine-next-day-delivery",
+     "sessions_90d": 0,
+     "words": 503,
+     "merge_content_first": true
+    }
+   ]
+  },
+  {
+   "cluster": "Champagne delivery",
+   "keep": "champagne-delivery",
+   "keep_sessions_90d": 34,
+   "keep_words": 498,
+   "retire": [
+    {
+     "handle": "uk-champagne-delivery",
+     "sessions_90d": 8,
+     "words": 634,
+     "merge_content_first": true
+    }
+   ]
+  },
+  {
+   "cluster": "Same-day champagne delivery",
+   "keep": "champagne-same-day",
+   "keep_sessions_90d": 15,
+   "keep_words": 561,
+   "retire": [
+    {
+     "handle": "champagne-delivery-to-me-same-day",
+     "sessions_90d": 0,
+     "words": 500,
+     "merge_content_first": false
+    },
+    {
+     "handle": "same-day-champagne-delivery-london",
+     "sessions_90d": 0,
+     "words": 454,
+     "merge_content_first": false
+    }
+   ]
+  },
+  {
+   "cluster": "Red wine delivery",
+   "keep": "red-wine-delivery",
+   "keep_sessions_90d": 0,
+   "keep_words": 662,
+   "retire": [
+    {
+     "handle": "red-wine-delivery-uk-premium-fast-delivery-drinks-house-247",
+     "sessions_90d": 0,
+     "words": 752,
+     "merge_content_first": false
+    }
+   ]
+  },
+  {
+   "cluster": "White wine delivery",
+   "keep": "white-wine-delivery",
+   "keep_sessions_90d": 0,
+   "keep_words": 561,
+   "retire": [
+    {
+     "handle": "white-wine-delivery-services-uk-premium-fast-drinks-house-247",
+     "sessions_90d": 0,
+     "words": 762,
+     "merge_content_first": true
+    }
+   ]
+  },
+  {
+   "cluster": "Beer delivery near me",
+   "keep": "delivery-of-beer-near-me",
+   "keep_sessions_90d": 0,
+   "keep_words": 461,
+   "retire": [
+    {
+     "handle": "beer-delivery-service-near-me",
+     "sessions_90d": 0,
+     "words": 549,
+     "merge_content_first": false
+    },
+    {
+     "handle": "best-beer-delivery-london",
+     "sessions_90d": 0,
+     "words": 539,
+     "merge_content_first": false
+    },
+    {
+     "handle": "online-beer-delivery-near-me",
+     "sessions_90d": 0,
+     "words": 544,
+     "merge_content_first": false
+    }
+   ]
+  },
+  {
+   "cluster": "Tequila gift delivery",
+   "keep": "send-tequila-gift-uk-premium-fast-delivery-drinks-house-247",
+   "keep_sessions_90d": 0,
+   "keep_words": 303,
+   "retire": [
+    {
+     "handle": "send-tequila-as-a-gift-uk-premium-fast-delivery-drinks-house-247",
+     "sessions_90d": 0,
+     "words": 311,
+     "merge_content_first": false
+    }
+   ]
+  },
+  {
+   "cluster": "Dom Perignon gift delivery",
+   "keep": "timely-dom-perignon-champagne-gift-delivery-for-any-event",
+   "keep_sessions_90d": 0,
+   "keep_words": 561,
+   "retire": [
+    {
+     "handle": "timely-dom-perignon-champagne-gift-delivery-in-uk-for-any-event",
+     "sessions_90d": 0,
+     "words": 727,
+     "merge_content_first": true
+    }
+   ]
+  }
+ ]
+}
