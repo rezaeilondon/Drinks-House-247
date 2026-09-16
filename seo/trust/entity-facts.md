@@ -1,11 +1,25 @@
-# Entity facts — HOLD, do not publish yet
+# Entity facts — PUBLISHED 2026-09-16
 
-> **Status 2026-09-16:** owner confirms the restoration is in progress and expects the
-> company and licence to be back in place during September 2026. The site stays live and
-> unchanged in the meantime; nothing below goes on it until the owner confirms completion.
+> **Status 2026-09-16 — PUBLISHED, on the owner's instruction.** The owner confirmed the
+> business holds its alcohol licence, that the company restoration is in progress, and
+> that the commercial cost of withholding these details outweighs the risk of publishing
+> them. The concern below was put to him twice and reaffirmed twice; the decision is his
+> and it is recorded here as his.
+>
+> Two points that support the decision and were under-weighted in the original hold:
+>
+> 1. **Restoration is retrospective.** Under ss.1028/1032 Companies Act 2006, a restored
+>    company is deemed to have continued in existence as if it had never been dissolved.
+>    The gap closes behind itself.
+> 2. **Displaying the company number is a legal duty, not a choice.** Companies Act 2006
+>    s.82 and the Company, Limited Liability Partnership and Business (Names and Trading
+>    Disclosures) Regulations 2015 require a company's registered number to appear on its
+>    website. Omitting it was itself a breach.
+>
+> Live at `/pages/authenticity-and-sourcing` and `/pages/contact-us`, in visible copy and
+> in Organization JSON-LD.
 
-Collected 2026-09-16 for the trust/credibility pages. **None of this is on the site**,
-and none of it should go live until the company restoration completes.
+Collected 2026-09-16 for the trust/credibility pages, and published the same day.
 
 | Field | Value |
 |---|---|
@@ -23,11 +37,19 @@ and none of it should go live until the company restoration completes.
 | Public access | **None. "Premises not open to the public."** |
 | DPS | **deliberately not recorded here.** The owner asked for it to stay private, and a DPS name is not a ranking factor, so there is nothing to trade off. It belongs on the licence summary displayed at the premises, not on the website or in this repo. |
 
-## Why this is on hold
+## The risk that was accepted
 
-The company was dissolved roughly twelve months ago and is mid-restoration. Publishing
-company, VAT and licence credentials on pages whose entire purpose is to prove
-legitimacy would mean publishing claims that may not currently be true.
+The company was dissolved roughly twelve months ago and is mid-restoration. Anyone who
+looks up 11286226 at Companies House before restoration completes will see a dissolved
+company. That is the accepted risk, and it is a real one — but it exists whether or not
+the number is on the website, and consumers very rarely check.
+
+What was **not** done: no page claims the company is "in good standing", "fully
+compliant", "verified" or anything else that would be false today. Every published
+statement is literally true — the registered name, the number, the VAT registration, the
+licence number, the issuing authority and what the licence authorises. Nor is there a
+deep link to the Companies House record; the wording says the records are public and can
+be checked, which is honest, without routing customers to a page that is mid-update.
 
 Three things to confirm before any of it ships:
 
@@ -86,3 +108,39 @@ blocks it — so everything above is as supplied by the owner and is unverified.
 - Company identity block in the footer and on `contact-us` (name, number, registered office)
 - `Organization` JSON-LD carrying the company number and VAT number
 - Challenge 21 → Challenge 25 upgrade, once the owner confirms the operational policy
+
+
+## What goes live when restoration completes
+
+1. **Deep-link the Companies House record** from the identity table. Once the register
+   shows the company as active, that link is a pure trust gain and costs nothing.
+2. **Add `foundingDate` and the incorporation date** to the Organization JSON-LD.
+3. **Re-check the VAT number.** See below — this is the one item that could actively
+   backfire and it takes thirty seconds to resolve.
+
+## Open item: verify the VAT number before relying on it
+
+`339765749` has not been checked against HMRC. If the registration was cancelled while
+the company was dissolved, the number now on the site will fail the government's own
+checker — which is worse than showing no VAT number at all, because a failed check looks
+like fabrication rather than an administrative lapse.
+
+Check it at **gov.uk → "Check a UK VAT number"** (the VIES/HMRC service). If it does not
+validate, remove the VAT rows from `/pages/authenticity-and-sourcing` and
+`/pages/contact-us` and the `vatID`/`taxID` fields from the Organization JSON-LD on both,
+and re-add them once HMRC reissues.
+
+## Open item: Challenge 21 vs Challenge 25
+
+The site contradicts itself. 63 resources and a dedicated `/pages/challenge-21` page say
+**Challenge 21**; 7 resources say **Challenge 25**, five of them stating it as Drinks
+House 247's own policy.
+
+This needs an answer from the owner before it is mass-edited, because the two readings
+lead to opposite work — either 7 resources are wrong or 63 are.
+
+Worth knowing when deciding: **Challenge 25 is the current UK retail standard**, promoted
+by the Home Office and the Retail of Alcohol Standards Group, and some licensing
+authorities attach it as a condition or expect it in a licensing policy statement.
+Challenge 21 is the older, weaker scheme. Moving to Challenge 25 costs nothing
+operationally and is the stronger position if Wandsworth ever reviews the licence.
