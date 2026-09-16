@@ -1,5 +1,9 @@
 # Entity facts — HOLD, do not publish yet
 
+> **Status 2026-09-16:** owner confirms the restoration is in progress and expects the
+> company and licence to be back in place during September 2026. The site stays live and
+> unchanged in the meantime; nothing below goes on it until the owner confirms completion.
+
 Collected 2026-09-16 for the trust/credibility pages. **None of this is on the site**,
 and none of it should go live until the company restoration completes.
 
