@@ -12,7 +12,8 @@ and none of it should go live until the company restoration completes.
 | Phone (already public) | 0203 488 3266 |
 | Premises licence | **2022/320845** — holder: Drinks House 247 Ltd (11286226) |
 | Licensed address | Unit 95a, Battersea Business Centre, 99–109 Lavender Hill, London SW11 5QL |
-| Licence phone | 0203 393 8809 — **differs from the site's published number** |
+| Phone (canonical, confirmed by owner 2026-09-16) | **0203 488 3266** |
+| Licence phone | 0203 393 8809 — stale; the business does not use this number |
 | Authorised activity | Sale by retail of alcohol, **off supplies only** |
 | Authorised hours | 00.00–00.00, all seven days (i.e. 24/7) |
 | Public access | **None. "Premises not open to the public."** |
@@ -40,10 +41,11 @@ Three things to confirm before any of it ships:
 
 ## Three discrepancies to resolve before publishing
 
-- **Phone.** The licence records 0203 393 8809. The website publishes 0203 488 3266 on
-  every page and inside the LocalBusiness JSON-LD. Name/address/phone consistency is a
-  local-search ranking input, and a licensing officer cross-checking the two would find a
-  mismatch. Decide which is canonical and make both match.
+- **Phone — RESOLVED 2026-09-16.** 0203 488 3266 is canonical. Scanned all 2,140 pages,
+  products and articles: it appears on 92 of them and **no other phone number appears
+  anywhere on the site**. The website needs no change. The stale number is on the licence
+  record itself, so ask Wandsworth to update the contact detail while the licence matter
+  is being dealt with.
 - **Address.** The licence says *Unit 95a, Battersea Business Centre*, 99–109 Lavender
   Hill. The site's schema says only 99–109 Lavender Hill. Adding the unit brings the site
   into line with the licence.
