@@ -26,18 +26,30 @@ reconstructed from the storefront.
   number, no VAT number. Challenge 21 is named because that is the existing published
   policy; it becomes Challenge 25 only when the owner confirms the operational change.
 
-## Claims the owner can add to the authenticity page once confirmed
+## Sourcing claim — added 2026-09-16
 
-These would strengthen it considerably, but only if true. Each needs a yes before it goes
-on the page:
+The owner confirmed stock is bought from UK wholesalers holding AWRS (Alcohol Wholesaler
+Registration Scheme) approval, naming Costco, DWG and Amathus among them. A
+`Where our stock comes from` section now states the AWRS point, with a matching FAQ entry
+in the visible copy and in the FAQPage schema.
 
-1. Where stock is bought — for example "we buy only from HMRC-registered UK wholesalers
-   and authorised distributors".
-2. Whether deliveries are checked before dispatch, and by whom.
-3. Whether any brand-authorised retailer status applies to specific ranges.
+**The named wholesalers were deliberately left off the page.** Naming your suppliers tells
+competitors where you buy, names third parties publicly without their agreement, and adds
+nothing the AWRS statement does not already carry. The load-bearing fact is the approval,
+not the company names. Easy to add if the owner disagrees.
 
-## Known gap: both pages are orphans
+Two claims are still unconfirmed and still absent: whether orders are checked before
+dispatch and by whom, and whether any brand-authorised retailer status applies.
 
-Nothing on the site links to either page yet. A page with no internal links pointing at
-it is unlikely to be crawled or to rank. The fix is a footer menu entry for each, which
-needs the owner's go-ahead since it changes site navigation.
+## Footer links — added 2026-09-16
+
+Both pages are in the `footer` menu (Menu/197081606), placed in the trust cluster:
+
+    Home · All Products · Delivery Areas · About us · Reviews ·
+    Authenticity & Sourcing · Challenge 21 · Job Opportunity ·
+    Contact us · Blog · Sitemap · Your Privacy Choices
+
+The **COVID-19 Delivery** item was removed in the same edit. It pointed at
+`https://www.drinkshouse247.co.uk/pages/our-covid-19-delivery-policy` — a page unpublished
+on 15 September, through the wrong host — so it was a broken link in the footer of every
+page on the site.
