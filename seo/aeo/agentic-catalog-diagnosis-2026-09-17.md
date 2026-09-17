@@ -1,80 +1,81 @@
-# "1.21K → 121 products synced" — diagnosis
+# "1.21K → 121 products synced" in the Agentic section — diagnosis
 
-## First: the catalog is intact
+## The section is the Microsoft Copilot channel
 
-Nothing was mass-unpublished. Counts pulled live on 2026-09-17:
-
-| Measure | Count |
+| | |
 |---|---|
-| Products, all statuses | 1,449 |
-| Active | 1,257 |
-| Active **and** published | 1,242 |
-| Active, published **and** in stock | 1,169 |
-| Included in Online Store publication | 1,357 |
-| Facebook & Instagram / Google & YouTube / Pinterest | 1,311 each |
-| Inbox | 1,333 |
+| Channel | `gid://shopify/Channel/330936353143` |
+| Name | Microsoft Copilot |
+| Handle | `copilot` |
+| App | `microsoft-1` |
 
-**No channel is anywhere near 121.** Every publication holds 1,311–1,357 products. The
-old "1.21K" matches the 1,242 active-and-published figure. So whatever is showing 121 is
-applying its own filter — it is not reading a shrunken catalog.
+**Correcting an earlier note in this repo:** a previous pass listed five sales channels and
+said no agentic channel existed. That was wrong. It was drawn from `publications`, which
+returns five. `channels` returns **six** — Copilot appears there and not in `publications`.
+The earlier guess that the figure came from the Perplexity or Claude MCP app, or from
+Marketplace Connect, was also wrong.
 
-## Which surface is it?
+## Shopify's side is completely fine
 
-Not determinable from the Admin API, because the agentic connectors keep their sync state
-internally. They do not appear as publications or catalogs. The installed apps that could
-plausibly show a "products synced" figure are:
+```
+published_status:330936353143-published  →  1,257
+published_status:microsoft-1-published   →  1,257
+```
 
-- **Shopify Perplexity MCP App** (`shopify-perplexity-mcp-app`)
-- **Shopify Claude Connector App** (`shopify-claude-mcp-app`)
-- **Marketplace Connect** (`shopify-marketplace-connect`)
+**Every active product is published to the Copilot channel.** `productPublicationsV3`
+shows them all `isPublished: true` with `publishDate` of **2026-08-07T23:56:31Z** onward,
+timestamps one second apart — a single automated bulk publish when the channel connected.
 
-Also installed and worth knowing about: two apps titled **"javad"** with `null` handles —
-custom or unlisted apps with no public identity.
+Nothing has been unpublished, hidden, or removed since. The publication record is intact
+and unchanged.
 
-## Two structural defects that would fail almost any agentic eligibility check
+## Therefore the drop is on Microsoft's side, not yours
 
-These are store-wide and they are the strongest candidates if the surface tightened its
-requirements.
+Shopify is offering 1,257 products. Microsoft is accepting 121. The ~1,136 difference is
+**Microsoft rejecting products at ingestion**, which is not visible through the Shopify
+Admin API — the rejection reasons live in Microsoft's own merchant systems.
 
-### 1. No product carries a GTIN. Zero.
+## What is most likely driving it
 
-310 active, published products sampled across two different slices of the catalog.
-**Every single one has `barcode: null`.**
+Stated as likelihood, not fact. Only Microsoft's own rejection list can confirm.
 
-GTIN — the EAN/UPC on the back of the bottle — is the primary key shopping and agentic
-systems use to match a listing to a known product. Every bottle Drinks House 247 sells is
-a branded, mass-manufactured item that already has one printed on it.
+1. **Alcohol is a restricted category for Microsoft.** This catalog is overwhelmingly
+   alcohol — a 250-product sample returned champagne, whisky, vodka, gin, tequila, rum,
+   cognac, wine, beer, liqueur, cider and aperitif. Microsoft Advertising restricts
+   alcohol by market and generally excludes it from Shopping surfaces without specific
+   approval. A policy tightening after launch would produce exactly this shape of drop.
 
-### 2. The brand field says "Drinks House 247" on 1,253 of 1,257 active products
+2. **No product carries a GTIN.** 310 active published products sampled across two slices
+   of the catalog: `barcode` is `null` on every one. Microsoft's feed spec expects a GTIN
+   for branded manufactured goods, or an explicit declaration that none exists. Every
+   bottle sold already has an EAN printed on it.
 
-Shopify's `vendor` maps to `brand` in every feed. It is set to the *retailer* almost
-everywhere, not the producer. Only four products name a real brand: Rhum J.M, Clase Azul,
-Aberfeldy, R. López de Heredia Viña Tondonia.
+3. **The brand field is wrong on effectively the whole catalog.** `vendor` reads
+   "Drinks House 247" on **1,253 of 1,257** active products. Shopify maps `vendor` to
+   `brand`. Only four name a real producer: Rhum J.M, Clase Azul, Aberfeldy,
+   R. López de Heredia Viña Tondonia.
 
-Taken together, these two mean an agent cannot establish that this store's "Glenfiddich 12
-Year Old" is the same object as anyone else's. There is no GTIN to match on and the brand
-reads as a shop, not a distillery. For a price-comparison or personal-shopper agent, an
-unmatchable product is an unrecommendable one.
+Note what 121 is *not*: it is not the non-alcoholic subset. Mixers total 13, titles
+containing "alcohol free"/"0.0" total 5, snacks 0. So this is not a clean
+alcohol-rejected / everything-else-accepted split, and any explanation claiming so would
+be wrong.
 
-## Three smaller findings
+## What to do, in order
 
-- **`autoPublish` is `false` on all five channels.** Every newly created product must be
-  published to each channel by hand, or it silently reaches none of them.
-- **26 products are published to no channel at all** (`published_status:unavailable`).
-- **73 active, published products are out of stock.** Most agentic and shopping surfaces
-  drop out-of-stock items, so these would not sync regardless.
+1. **Open the Copilot channel in Shopify admin and find its rejected or ineligible list.**
+   Channels of this type report per-product reasons. That is the only authoritative answer
+   and it beats anything inferable from outside.
+2. **If the reason is alcohol policy**, this is not a data problem and no amount of feed
+   work will fix it. The question becomes whether Microsoft will approve an alcohol
+   retailer in the UK market at all.
+3. **If the reason is feed quality**, fix GTIN and brand. Both are worth doing regardless,
+   because they unlock matching on every agentic and shopping surface at once, not just
+   this one. The vendor fix is largely mechanical: the producer is already the first words
+   of most product titles.
 
-## What to do
+## Unrelated findings worth knowing
 
-1. **Say which app shows the 121** — Perplexity, Claude Connector, or Marketplace Connect.
-   The fix depends entirely on which, and each reports its own eligibility errors.
-2. **Check that app for a rejected/ineligible list.** A drop this sharp usually comes with
-   per-product reasons, which beats inferring from the outside.
-3. **Populate barcodes.** The highest-value catalog fix available, and it unlocks
-   matching across every agentic and shopping surface at once, not just this one.
-4. **Set `vendor` to the actual producer.** Mechanical for most of the catalog since the
-   brand is already the first words of the product title.
-5. **Turn on `autoPublish`** for the channels that should carry everything.
-
-Items 3 and 4 are worth doing whichever app is at fault. Item 1 should come first, because
-a partial sync in progress would explain 121 with nothing wrong at all.
+- `autoPublish` is **false** on all six channels. Every new product must be published to
+  each channel by hand or it reaches none of them.
+- 26 products are published to no channel at all.
+- 73 active, published products are out of stock, and most agentic surfaces drop those.
