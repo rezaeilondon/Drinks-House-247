@@ -114,3 +114,77 @@ Completing it needs one of:
   places at once and should be sourced from a review app rather than hard-coded.
 - **1,449 products, 1,546 variants, zero GTINs.** Unchanged, and still the single
   biggest constraint on shopping and agentic surfaces.
+
+---
+
+## Draft theme: `SEO fix - remove duplicate product schema (review 1st)`
+
+Theme id `193644724599`, duplicated from the live theme on 2026-09-17. **Unpublished.**
+Publishing is blocked by the same safety policy, so it is a manual step in Shopify admin.
+
+### Correction to the API note above
+
+The earlier claim that "theme writes are blocked" was too broad, and so was the
+correction to it. The precise rule, from the connector itself: **theme file writes are
+allowed on unpublished themes only; writes targeting the live/MAIN theme are blocked.**
+`themeFilesDelete` and `themePublish` are blocked outright. That is why the work lands on
+a draft and why publishing is yours.
+
+### What changed
+
+| File | Change |
+|---|---|
+| `snippets/dh247-clean-description.liquid` | New. Sets `dh_clean_description` = `product.description` with hand-written Product JSON-LD removed. |
+| `sections/product-template.liquid` | 5 lines. Includes the snippet, and points the 4 description outputs at `dh_clean_description`. |
+| `snippets/dh247-legal.liquid` | New. Companies Act 2006 s.82 trading disclosure. |
+| `sections/footer.liquid` | 5 lines. Includes the legal snippet after the copyright line. |
+
+Both edited files were diffed against the live originals after writing: the diffs contain
+the intended changes and nothing else.
+
+### Why a snippet rather than an edit per product
+
+`productUpdate` replaces `descriptionHtml` wholesale and `bulkOperationRunMutation` is
+blocked, so 1,246 individual rewrites were not viable. Stripping at render time fixes
+every product page in one change. `include` is used rather than `render` because `render`
+runs in an isolated scope and the assign would not reach the caller.
+
+The strip was verified against all 1,246 affected descriptions before deployment:
+output identical to the reference Python strip, zero Product schema surviving, zero
+content loss on a 400-product sample.
+
+**This is a render-time fix.** The stale blocks remain in the product records, so a CSV
+export or another app could still surface them. The permanent fix is still the bulk strip.
+
+### Also corrected: the CSS extraction idea was wrong
+
+An earlier suggestion to extract the inline `<style>` blocks into a stylesheet was
+dropped after measuring it. There are 49 distinct blocks and 4.10 MB of inline CSS across
+the catalogue, but **no visitor downloads that** — it is **3.3 KB per product page**,
+about 1.7% of page weight. Moving it to an external stylesheet would add a render-blocking
+request on first visit, which is worse for exactly the first-time organic visitor that
+SEO cares about. Inlining critical CSS is the recommended practice. Not an SEO lever.
+
+### Content quality, measured
+
+Worth recording because it changes what is worth doing next: **91% of the visible text on
+product pages is unique to that product**, only 8% is boilerplate, and exactly **1**
+product has under 400 characters of unique text. Content depth is not the problem.
+1,247 of 1,257 products already carry a rich template.
+
+### Still yours to do
+
+1. **Preview the draft, then publish it.** Check a product page with a big description
+   (Pallini Limoncello, any hamper) and one without (`Untitled Jun7_17:13:07`).
+2. **Verify VAT `GB 339765749`** at gov.uk "Check a UK VAT number" before publishing.
+   If it fails, delete the VAT sentence from `snippets/dh247-legal.liquid`.
+3. **Shop name is `"Drinks House 247 "`** — trailing space. There is no `shopUpdate`
+   mutation in the Admin API, so this is admin-only.
+4. **`billingAddress.city` is `"Battersea, london"`** — malformed. Admin-only, same reason.
+   Fix it, then turn on `EnableStoreAddress` and `EnableStructuredDataForRealStore`
+   in Smart SEO to emit LocalBusiness data.
+5. **Delete `assets/dh247-write-probe.css`** from the unpublished theme "Copy of Copy of
+   Copy of Copy of New - RE | GSC...". It is 34 bytes, unreferenced, and inert;
+   `themeFilesDelete` is blocked so it could not be removed here.
+6. **The Prestige Pearl gift set** shows **£390** on 47 other product pages but sells for
+   **£380**. Decide which is right — that is a pricing call, not a fix.
