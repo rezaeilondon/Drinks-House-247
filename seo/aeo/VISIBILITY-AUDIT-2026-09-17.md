@@ -385,3 +385,48 @@ This is the case for validating prefixes rather than checksums alone: the checks
 
 **Count so far: 2 of a target 30.** Candidate list with variant IDs is in
 `bulk/gtin-test-batch.csv`.
+
+---
+
+## Collections: content written for 8 pages, 2026-09-17
+
+Collections had not been audited before this. They turned out to be in far better shape
+than products: **no empty collections, none with fewer than 4 products**, 91% carry a body
+description, 92% an SEO title. There is no shop-wide Smart SEO template for collections,
+so the native fields are what render.
+
+The exception was a cluster of pages that were completely blank — no SEO title, no meta
+description, and no body content at all — despite holding hundreds of products between
+them:
+
+| Collection | Products | Was |
+|---|---|---|
+| `wines-that-pair-with-salmon` | 186 | nothing |
+| `wines-that-pair-with-chicken` | 184 | nothing |
+| `wines-that-pair-with-risotto` | 167 | nothing |
+| `wines-that-pair-with-oyster` | 65 | nothing |
+| `wines-that-pair-with-shellfish` | 65 | nothing |
+| `wines-that-pair-with-pasta` | 56 | nothing |
+| `shop-by-case` | 25 | nothing |
+| `tennessee-whisky` | 4 | nothing |
+
+These are informational-intent pages — "what wine goes with salmon" is a question people
+actually type — attached to real inventory. Blank, they could match nothing.
+
+All eight now have an SEO title under 60 characters, a meta description under 160, and a
+body of genuine pairing guidance organised by preparation or sauce rather than by grape,
+because that is how someone actually arrives at the question. Each ends with internal
+links into the relevant product collections; all eleven link targets were verified to
+resolve before publishing.
+
+The content is standard oenological guidance — Chablis with oysters rests on the
+Kimmeridgian limestone the vines grow on, the Lincoln County Process is what legally
+separates Tennessee whiskey from bourbon. Nothing is claimed about stock levels, awards or
+customer numbers.
+
+### Remaining collection work
+
+- **30 of 100 collection SEO titles exceed 60 characters** and will truncate in results.
+- **9 meta descriptions exceed 160 characters.**
+- **84 of 100 collections have no image**, which costs nothing in ranking but affects how
+  the page looks when shared.
