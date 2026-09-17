@@ -34,10 +34,21 @@ Appellations and varietals are explicitly excluded. "Bourgogne Chardonnay" and
 A `CANON` table forces one spelling per producer, because feeds match exact strings:
 `Moet`, `Moët` and `Moet & Chandon` all resolve to **Moët & Chandon**.
 
-**Result: 725 of 1,257 identified (57%), 652 needing a change, 225 distinct brands.**
-The remaining 532 are left untouched and listed in `products-brand-unmatched.csv` —
-mostly generic lines ("Orange Juice", "Mixed Red", "Service Fee") and wines whose
-producer is not in the curated list.
+**Result: 721 products written, across 209 distinct brands.** All 721 are listed in
+`products-brand-vendor.csv`. The remaining products are left untouched and listed in
+`products-brand-unmatched.csv` — mostly generic lines ("Orange Juice", "Mixed Red",
+"Service Fee") and wines whose producer is not in the curated list.
+
+Store-wide state after the run, read back from the Admin API rather than inferred
+from the write responses:
+
+| | Products |
+|---|---|
+| Total in catalogue | 1,449 |
+| Carrying a real brand | 827 (279 distinct) |
+| — written by this run | 721 |
+| — already branded beforehand | 106 |
+| Still `Drinks House 247` | 622 (444 of them active) |
 
 ### Three bugs found and fixed while building it
 
@@ -95,3 +106,42 @@ written to `variant.barcode` in bulk.
 If Microsoft is rejecting these products on **alcohol policy** rather than feed quality,
 GTINs will not change the outcome. The Copilot channel's own rejection list will say
 which. That check costs minutes; sourcing 1,257 barcodes does not.
+
+### Verification, and what a read-back caught
+
+The writes went out in batches of 60 aliased `productUpdate` mutations. Shopify times
+out partway through larger batches while still applying the earlier mutations and
+returning a generic `upstream_error`, so batch size is a correctness constraint, not a
+performance one. Every batch returned `userErrors: []` for all 60.
+
+Those responses were not treated as proof. Afterwards all 827 branded products were
+read back from the Admin API and diffed against the intended mapping: **721 of 721
+writes landed, none lost.** The only two differences were deliberate in-flight
+corrections, where the live value was the correct one and the mapping file was stale.
+
+A pass over the derived values before and during the push caught eleven that were
+wrong in ways no regex would flag, because each is a real-world naming fact:
+
+| Title | Derived | Corrected to | Why |
+|---|---|---|---|
+| Pallini Limoncello 70cl | Limoncello | **Pallini** | Limoncello is the category, not the producer |
+| Seventy One Gin Signature **Martini** Gift Set | Martini | **Seventy One Gin** | The cocktail, not Martini & Rossi |
+| Brewdog Punk IPA | Brewdog | **BrewDog** | House capitalisation |
+| Passoã Passion Fruit Liqueur | Passoa | **Passoã** | The brand's own spelling |
+| G.H.Mumm Rose NV Brut | Mumm | **G.H. Mumm** | Truncated at the full stop |
+| Au Green Watermelon Vodka (×2) | Au | **AU Vodka** | Truncated; AU Vodka is the full mark |
+| Croe Imperial Beluga Caviar | Beluga | **Croe** | Beluga is the sturgeon, not the vodka |
+| Cut Caviar Royal Beluga | Beluga | **Cut Caviar** | As above |
+| Caviar House Finest Beluga Caviar (×2) | Beluga | **Caviar House** | As above |
+| Domaine Evremond Classic Cuvee | Domaine Evremond Classic Cuvee | **Domaine Evremond** | "Classic Cuvée" is the wine |
+| Chateau Latour Les Forts de Latour 2000 | Château Latour Les Forts | **Château Latour** | Les Forts is Latour's second wine |
+| Château Cos d'Estournel | Château Cos | **Château Cos d'Estournel** | Stopped at the lowercase `d'` |
+
+The Beluga cases are the instructive ones: the same token is a vodka brand on five
+products and a species of sturgeon on four others in the same catalogue. Both readings
+are defensible from the title alone, so the product descriptions decided it. "The Beluga
+Hamper" kept **Beluga**, because its description says it is built around Beluga Gold
+Line vodka.
+
+Earlier estate-matcher corrections are recorded above; together with these, 36 of the
+721 values were set or corrected by hand rather than derived.
