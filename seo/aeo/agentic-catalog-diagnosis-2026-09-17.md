@@ -79,3 +79,67 @@ be wrong.
   each channel by hand or it reaches none of them.
 - 26 products are published to no channel at all.
 - 73 active, published products are out of stock, and most agentic surfaces drop those.
+
+---
+
+# Follow-up: hypotheses tested and ruled out (2026-09-17)
+
+A set of plausible causes was proposed — a Liquid collection filter, a tag or metafield
+condition, `published_scope`, or a hard-coded `first: 121` in a product query. All were
+tested. **None holds**, and the first, second and fourth cannot hold in principle.
+
+## Theme Liquid is not in the path at all
+
+Microsoft Copilot is a **first-party Shopify sales channel**. It ingests product data
+through Shopify's publication and channel APIs. It never renders the theme. Theme Liquid
+drives the online storefront only.
+
+So a collection filter in Liquid, a `collection.products` loop, or a hard-coded page size
+in a template cannot affect what this channel receives. There is no template involved.
+(The live theme was last updated 2026-09-15, after the channel's 2026-08-07 bulk publish,
+which is why the idea was worth checking — but the mechanism does not exist.)
+
+## "121 matches a collection size" — tested, false
+
+All 214 collections were pulled and counted. **No collection contains 121 products.** The
+nearest are 115 (`cabernet-sauvignon`), 114 (`wines-that-pair-with-lamb`),
+112 (`chardonnay`) and 111 (`burgundy`). The sync is not scoped to a collection.
+
+## `published_scope` — ruled out, and now properly validated
+
+The earlier claim that all 1,257 active products are published to Copilot was previously
+asserted from a single query. It has now been verified with a control:
+
+| Channel | published | hidden | sum |
+|---|---|---|---|
+| Microsoft Copilot (330936353143) | **1,257** | 192 | 1,449 |
+| Pinterest (118245163164) | 1,177 | 272 | 1,449 |
+| Google & YouTube (58755481756) | 1,177 | 272 | 1,449 |
+| Bogus channel ID (999999999999) | 0 | — | — |
+
+Every real channel's published + hidden sums exactly to the 1,449 total, and an invented
+channel ID returns zero. The filter is genuinely channel-aware, so the 1,257 is real.
+
+**One red herring worth recording:** `resourcePublicationsV2` on individual products lists
+only five publications and omits Copilot, which looks like a contradiction. It is not.
+The session's access token cannot see Copilot's *publication* object — which is also why
+`publications` returns five while `channels` returns six — but the channel-level data is
+accessible and correct.
+
+## Shopify holds no rejection feedback from this channel
+
+Every per-product channel approval state returns zero:
+
+```
+294412484609-approved / rejected / needs_action / awaiting_review
+              / published / demoted / provisionally_published   -> 0
+error_feedback:*                                                -> 0
+```
+
+The Copilot channel does not write per-product status back to Shopify. **The reason for
+the rejections exists only inside Microsoft's systems.** No amount of Admin API work will
+surface it, which is why the channel's own admin page is the necessary next step rather
+than a convenience.
+
+(12 products sit in `intended` — added to the channel but not yet published. A rounding
+detail, not the cause.)
