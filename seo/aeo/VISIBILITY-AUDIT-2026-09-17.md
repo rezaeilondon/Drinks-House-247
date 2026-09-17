@@ -273,3 +273,74 @@ The metadata wrapper around it is what is not.
 2. Fill the 108 empty meta descriptions.
 3. Fix the 7 `untitled-*` handles with 301 redirects.
 4. Title-case the 22 shouting titles; add alt text to 56 images.
+
+---
+
+## Fixes applied live, 2026-09-17
+
+All pushed to the live store and read back afterwards.
+
+### 1. The bulk SEO title template — ~365 pages
+
+`shop.metafields['product-bulk']['seo-template']` changed from
+`${title} | 30 Min | Alcohol Delivery London` to `${title} | Drinks House 247`.
+
+The old suffix was 34 characters, which left **668 of 882** bulk-driven titles over
+Google's ~60-character display limit. The new one is 19, leaving 303. Measured before
+choosing:
+
+| Suffix | Titles still over 60 |
+|---|---|
+| `\| 30 Min \| Alcohol Delivery London` (old) | 668 of 882 (76%) |
+| `\| Drinks House 247` (chosen) | 303 (34%) |
+| none at all | 72 (8%) |
+
+Dropping the suffix entirely would fix more, but every result loses the brand name, so
+the conventional option was taken. Reversible with one metafield write.
+
+**The timestamp was deliberately left unchanged** at `15905089034551011`. Smart SEO
+resolves competing templates by highest timestamp, so raising it would have made the bulk
+template override the 376 per-product templates from 2021. Keeping it identical changes
+only the wording.
+
+### 2. ALL-CAPS titles — 47, not 22
+
+The first scan used `len(title) > 8 and title == title.upper()`, which missed `GUINNESS`
+(exactly 8 characters), `HARIBO`, and anything with a lowercase unit like
+`LUC BELAIRE LUXE RARE 75cl`. A word-level scan found 25 more. Fixed in two passes:
+Gosset ×7, Ayala ×3, Van Wees ×5, Bonpland ×2, Procera ×2, Cotswolds ×2, Diplomático ×2,
+Luc Belaire ×3, and singles including Guinness, Haribo, Nurofen, Rampur, Michel Couvreur,
+Bernard-Massard, Tarlant, Amour de Deutz, Dom Pérignon Basquiat, Compass Box Brûlée Royale.
+
+Deliberately **not** changed, because the capitals are the real brand styling:
+`LOUIS XIII`, `NEFT`, and the abbreviations `V.S`, `X.O`, `L.B.V`, `D.O.M.`, `NV`, `VORS`.
+
+### 3. Image alt text — 55 products
+
+Set from each product's own title, which is accurate and descriptive rather than invented.
+The 56th, "Service Fee", has no image at all.
+
+### 4. The seven `untitled-*` URLs
+
+Renamed, each with a 301 redirect from the old path so nothing 404s:
+
+| Was | Now |
+|---|---|
+| `/products/untitled-feb8_03-31` | `/products/amie-rose-75cl` |
+| `/products/untitled-may29_15-51` | `/products/laphroaig-10-year-old-cask-strength-70cl` |
+| `/products/untitled-may29_16-53` | `/products/laphroaig-oak-select-70cl` |
+| `/products/untitled-jun7_02-52-44` | `/products/the-celebration-hamper` |
+| `/products/untitled-jun11_15-11-04` | `/products/jack-daniels-family-miniature-gift-set-3x5cl` |
+| `/products/untitled-jun13_02-01-56` | `/products/seventy-one-gin-trudon-candle-luxury-gift-set` |
+| `/products/untitled-jun13_03-01-29` | `/products/seventy-one-gin-signature-martini-gift-set` |
+
+Verified: `productsCount(query: "status:active AND handle:untitled*")` now returns **0**,
+with a nonsense-prefix control also returning 0, so the filter is real.
+
+### Still open
+
+- **108 products render no meta description.** Writing these needs product knowledge per
+  item; they are listed in `bulk/product-page-seo-defects.csv`.
+- **303 titles still over 60 characters**, because the product titles themselves are long
+  (longest: 112 characters). No template can fix that — it needs editing the titles.
+- **393 meta descriptions over 160 characters.** Smart SEO already caps them at 300.
