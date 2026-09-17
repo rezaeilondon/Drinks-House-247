@@ -188,3 +188,88 @@ product has under 400 characters of unique text. Content depth is not the proble
    `themeFilesDelete` is blocked so it could not be removed here.
 6. **The Prestige Pearl gift set** shows **£390** on 47 other product pages but sells for
    **£380**. Decide which is right — that is a pricing call, not a fix.
+
+---
+
+## Are product pages at their optimum? No. Measured 2026-09-17.
+
+### First, a methodology correction
+
+An initial pass audited Shopify's native `seo.title` / `seo.description` fields and
+reported 573 over-long meta descriptions and 372 over-long titles. **Those numbers were
+measuring the wrong fields.** `snippets/smartseo.product.metatags.liquid` overrides both
+at render time whenever a Smart SEO template is active, and one always is:
+
+- A **shop-wide bulk template** exists in `shop.metafields['product-bulk']['seo-template']`,
+  set 2020-05-26: `${title} | 30 Min | Alcohol Delivery London` for the title and
+  `${default-meta-description}` for the description.
+- **376 active products** additionally carry their own
+  `product.metafields['product_seo']['seo_tags']`. The snippet picks whichever template
+  has the highest timestamp, and per-product ones (2021) beat the bulk one (2020).
+
+So the native fields are only reached through `${default-meta-*}` substitution. The
+figures below are what the page actually renders, applying Smart SEO's own precedence and
+its 300-character description truncation.
+
+(`metafields.product_seo.seo_tags:*` is another filter Shopify accepts and ignores —
+it returns all 1,449, as does a nonsense key. The metafield had to be fetched per product.)
+
+### What renders today
+
+| | Active products |
+|---|---|
+| Using a per-product Smart SEO template | 376 |
+| Falling back to the shop-wide bulk template | 882 |
+| **Rendered `<title>` longer than 60 chars** | **671 (53%)** |
+| **Rendered meta description longer than 160** | **393 (31%)** |
+| **Rendered meta description empty** | **108 (9%)** |
+| At least one rendered defect | **794 of 1,258 (63%)** |
+
+Rendered title: median 62 characters, longest 147. Meta description: median 149, capped
+at 300 by the app.
+
+### The single biggest cause is one setting
+
+The bulk template appends ` | 30 Min | Alcohol Delivery London` — 34 characters — to every
+product title it touches. Product titles here average around 40 characters, so the result
+lands near 74 and Google truncates it. **Editing that one template fixes most of the 671.**
+It is also the same boilerplate on 882 titles, which wastes the most weighted text on the
+page repeating a phrase the site already ranks for.
+
+### Honest weighting
+
+Title and description length are **not ranking penalties**. An over-long title is
+truncated in the result, and meta description is not a ranking factor at all — both cost
+click-through, not position. They are worth fixing because they are cheap, not because
+they are severe.
+
+These are more concrete:
+
+| Defect | Count | Why it matters |
+|---|---|---|
+| Handle still `untitled-*` on a real product | 7 | The URL is a permanent, visible ranking and trust signal |
+| Title in ALL CAPS | 22 | e.g. `LAPHROAIG OAK SELECT 70cl`, `AMIE ROSÉ 75CL` |
+| Featured image with no alt text | 56 | Image search, and accessibility |
+| Active but not on the online store | 15 | No public URL at all |
+
+The seven junk URLs are real products: Laphroaig 10 Cask Strength, Laphroaig Oak Select,
+The Celebration Hamper, Jack Daniel's Family Miniature Gift Set, two Seventy One Gin sets,
+and Amié Rosé. Changing a handle needs a 301 from the old one, so it is a deliberate job,
+not a bulk edit.
+
+Eight further products are literally titled `Untitled Jan21_21:54` and similar. All eight
+are **DRAFT**, so they are not indexed — clutter rather than a live defect.
+
+### What is already right
+
+Worth stating so effort goes to the right place: duplicate metadata is nearly absent
+(2 repeated titles, 4 repeated descriptions across 1,258 products), every active product
+has a product type, and 91% of on-page text is unique per product. The content is good.
+The metadata wrapper around it is what is not.
+
+### Order of work, by value per unit of effort
+
+1. Rewrite the bulk SEO template so titles fit — one edit, ~671 titles.
+2. Fill the 108 empty meta descriptions.
+3. Fix the 7 `untitled-*` handles with 301 redirects.
+4. Title-case the 22 shouting titles; add alt text to 56 images.
