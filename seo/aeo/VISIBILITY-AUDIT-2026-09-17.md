@@ -344,3 +344,44 @@ with a nonsense-prefix control also returning 0, so the filter is real.
 - **303 titles still over 60 characters**, because the product titles themselves are long
   (longest: 112 characters). No template can fix that — it needs editing the titles.
 - **393 meta descriptions over 160 characters.** Smart SEO already caps them at 300.
+
+---
+
+## GTIN experiment — running log
+
+Testing whether a GTIN is what gates acceptance into the Microsoft Copilot channel.
+Shopify stores no per-product feedback, so a controlled before/after count is the only
+way to find out.
+
+**Baseline: 124 synced, 2026-09-17.** Background churn is roughly ±3 — the count moved
+121 → 124 with no GTIN change at all, so a handful of products cannot be distinguished
+from noise. The batch needs to be nearer 30 before a result means anything.
+
+### Validation rule for every barcode
+
+Two checks before anything goes live, because a wrong GTIN binds the product to another
+company's catalogue entry and is worse than an empty field:
+
+1. **Mod-10 check digit** must pass (GS1 standard, alternating 3/1 weighting from the
+   right).
+2. **GS1 country prefix must be consistent with the producer.** This is the check that
+   actually catches bad data — a made-up number can still pass its checksum.
+
+### Log
+
+| Product | Barcode | Checksum | Prefix | Outcome |
+|---|---|---|---|---|
+| Dom Pérignon P2 2003 75cl | `3185370699058` | pass | 318 → France | live |
+| Cazcanes No.7 Añejo 75cl | `7500462805432` | pass | 750 → Mexico | live |
+| Clase Azul Reposado 70cl | `1230000130011` | pass | **123 → USA/Canada** | **cleared** |
+
+The Clase Azul code passed its check digit but its prefix is a US/Canada range, while
+Clase Azul is distilled in Jesús María, Mexico — its EAN should begin `750`, as the
+Cazcanes one does. The digit pattern (`123-0000-13001-1`) also has the shape of an
+internal or placeholder code rather than a GS1-issued one. Cleared to null on the owner's
+instruction, pending a reading from the physical bottle.
+
+This is the case for validating prefixes rather than checksums alone: the checksum passed.
+
+**Count so far: 2 of a target 30.** Candidate list with variant IDs is in
+`bulk/gtin-test-batch.csv`.

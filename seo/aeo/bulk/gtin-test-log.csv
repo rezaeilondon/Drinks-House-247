@@ -1,0 +1,4 @@
+date_added,product_id,variant_id,title,vendor,barcode,checksum,gs1_prefix,status
+2026-09-17,15354784842103,56633809863031,Dom Perignon Plenitude 2 P2 Vintage 2003 Gift Box 75cl,Dom Pérignon,3185370699058,PASS,France & Monaco (matches producer),live
+2026-09-17,14971435549047,55179843928439,Cazcanes No.7 Añejo Tequila 75cl,Cazcanes,7500462805432,PASS,Mexico (matches producer),live
+2026-09-17,7369343991964,41838473379996,Clase Azul Reposado Tequila 70cl,Clase Azul,,,"prefix 123 = USA/Canada, but producer is Mexican",CLEARED - awaiting barcode from the bottle
