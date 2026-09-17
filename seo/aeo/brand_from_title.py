@@ -40,6 +40,15 @@ STOP = {
     'barbaresco','toscana','veneto','piemonte','languedoc','roussillon','alsace',
     'loire','douro','rueda','ribera','duero','mendoza','marlborough','stellenbosch',
     'pomerol','sauternes','cotes','côtes','coteaux','cru','grand','premier',
+    'montagny','emilion','émilion','montagne','givry','mercurey','rully','pouilly',
+    'fuisse','fuissé','macon','mâcon','nuits','vosne','gevrey','morey','volnay',
+    'pommard','savigny','aloxe','corton','vougeot','romanee','romanée','fume','fumé',
+    'michelle','ste','st','sud','haut','bas','clos','vieux','vieilles','vignes',
+    'pessac','leognan','léognan','listrac','moulis','fronsac','castillon','lalande',
+    'barsac','graves','entre','mers','blaye','bourg','fleurie','morgon','brouilly',
+    'mireille','tondonia','crozes','hermitage','cornas','condrieu','gigondas',
+    'jeroboam','methuselah','balthazar','nebuchadnezzar','salmanazar','piccolo',
+    'magnum','double','litre','litres','bottle','bottles',
     # descriptors
     'reserva','reserve','riserva','gran','vintage','brut','rose','rosé','sec','demi',
     'extra','old','year','years','single','malt','blended','scotch','whisky','whiskey',
@@ -201,13 +210,22 @@ def brand_for(title):
             if not bare:
                 break
             fb = _fold(bare)
-            if fb in STOP:
+            # A hyphenated token is an appellation if ANY part is: "Chassagne-Montrachet",
+            # "Montagne-Saint-Emilion". Checked part-by-part or these slip through whole.
+            parts = [x for x in re.split(r'[-\u2013\u2014]', fb) if x]
+            if fb in STOP or any(x in STOP for x in parts):
                 break
             if fb in ARTICLES and out:
                 out.append(bare); continue
             if fb in ARTICLES and not out:
                 break
-            if not (bare[0].isupper() or bare[0].isdigit()):
+            # A vintage year or a bottle size is never part of a producer's name:
+            # "Château Latour 2008 75cl" -> "Château Latour".
+            if re.fullmatch(r'\d{4}', bare) or re.fullmatch(r'\d+(cl|l|ml|L)', bare, re.I):
+                break
+            if bare[0].isdigit():
+                break
+            if not bare[0].isupper():
                 break
             out.append(bare)
             if len(out) == 3:
