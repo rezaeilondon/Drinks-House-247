@@ -524,3 +524,69 @@ biodynamic or Doux.
 
 These are thin-content pages. They should be unpublished from the Online Store until
 stocked, then republished. Not done unilaterally — hiding live pages is the owner's call.
+
+---
+
+## 2026-09-18 — Site-wide broken internal link & redirect audit
+
+First full crawl-graph check of the store. Built the complete live URL inventory
+(214 collections, 1,449 products, 421 pages, 272 articles) and resolved **every
+internal link** in every collection description, article body, page body and
+product description against it.
+
+**11,228 internal links checked → 358 pointed at URLs that do not exist**
+(64 distinct targets), concentrated in a few repeated mistakes:
+
+| Broken target | Links | Cause |
+|---|---|---|
+| `/collections/champagne/products/dom-perignon-champagne` | 65 | product renamed to `-2013` |
+| `/pages/delivery-info` | 32 | page removed |
+| `/products/charbonnel-et-walker-union-jack-...-truffle-205g` | 30 | handle missing the word `selection` |
+| `/collections/champagne/products/veuve-clicquot-vintage-champagne-2012` | 25 | product renamed to `-2015` |
+| `/pages/champagne-gift-delivered` | 19 | page consolidated |
+
+### The larger finding: 49 redirects that dead-ended
+
+A cluster of ~49 redirects pointed at **bare root paths** — `/champagne-delivery-london`,
+`/24-hour-alcohol-delivery-london`, `/top-off-licenses-near-you-that-deliver` and seven
+others. Every one of those is a blog article living at `/blogs/posts/<handle>`. Shopify
+does not route bare root paths, so all 49 redirects sent visitors and crawlers to a 404.
+
+Alongside that, three further defect classes:
+
+- **Soft 404s** — 7 redirects whose target was `/`. Google treats redirect-to-homepage
+  as a soft 404 and discards the link equity entirely.
+- **Lost product intent** — 20 redirects for discontinued vintages pointed at a *collection*
+  when the replacement product exists (16 of them for Caymus 2020, whose 2022 is in stock).
+- **Redirect chains** — 24 two- and three-hop chains, e.g.
+  `/products/hennessy-fine-de-cognac` → `/whisky-cognac` → `/collections/whisky-cognac` → `/collections/whisky`.
+
+### Applied live (92 operations, all re-queried and verified)
+
+| Action | Count |
+|---|---|
+| Redirects created for hard 404s | 17 |
+| Dead-end root-path redirects repointed to `/blogs/posts/…` | 49 |
+| Soft 404s (`→ /`) repointed to the right product | 7 |
+| Collection-dump redirects repointed to the live product | 20 |
+| Redirect chains flattened to a single hop | 24 |
+
+All 358 broken internal links now resolve in one hop. Verified by re-querying the
+live store, not by trusting `userErrors: []`.
+
+### Method note — two filters that lie
+
+- `urlRedirects(query:"path:*term*")` returns **zero** for everything; the `*wildcard*`
+  syntax is silently unsupported. Bare terms work and match **both** `path` and `target`.
+  Confirmed genuine with a nonsense control (`zzqqxx-not-a-real-path` → 0).
+- Redirect paths are **case-insensitive**. `/collections/Champagne` and the capital-B
+  `Bollinger` link were flagged by the case-sensitive scanner but were never actually
+  broken — two false positives out of 64.
+
+### Deferred: `seo/aeo/bulk/internal-link-rewrites.csv`
+
+358 rows / 214 resources, each giving `current_href` → `should_be`. The redirects above
+already make every one of these resolve, so this is now an **optimisation, not a fix** —
+rewriting the hrefs removes the redirect hop and the crawl-budget cost. Not applied in
+session: it needs ~2.8 MB of HTML bodies pushed through the API, which is better done as
+a bulk import than interactively.
