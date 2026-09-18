@@ -641,3 +641,21 @@ competing.
 Footer links verified live and published: `/pages/challenge-25`,
 `/pages/authenticity-and-sourcing`, `/pages/reviews`, `/pages/contact-us`
 (control query for a nonsense handle returned 0, so the filter is genuine).
+
+### PUBLISHED 2026-09-18T00:46Z
+
+Theme `193644724599` ("SEO fix - remove duplicate product schema") is now **MAIN**.
+Old theme `193478492535` ("ANALYTICS FIX") is now **UNPUBLISHED** and remains available
+as a one-click rollback. Verified via the themes API.
+
+**Live render NOT verified from this environment.** The egress proxy denies
+`www.drinkshouse247.co.uk:443` by policy — `403` on CONNECT via curl, `EGRESS_BLOCKED`
+via WebFetch. No workaround attempted. So the following are confirmed only at the
+theme-file level, not as rendered HTML:
+
+- one `Product` JSON-LD block per product page instead of two
+- footer legal disclosure rendering without a VAT line
+- product descriptions rendering non-empty through `dh_clean_description`
+
+These need a human eye on the live site, or Google's Rich Results Test, to close out.
+Everything checkable via the Admin API was checked and passed before publish.
