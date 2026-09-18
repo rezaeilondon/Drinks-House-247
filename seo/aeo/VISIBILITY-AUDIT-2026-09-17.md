@@ -845,3 +845,55 @@ ones (`italian-wine-gifts` at 326, `montrachet-wine-gifts` at 318), which lost w
 sentences.
 
 Manifest: `seo/aeo/bulk/collection-seo-fixes.csv` — all 207 collections with current values.
+
+---
+
+## 2026-09-18 — Collection images: 186 → 2
+
+Filled from product photography already in the store. **205 of 207** collections with
+products now carry an image, up from 21.
+
+### Selection was not "first product"
+
+A naive first-product pick produced only **117 distinct images across 183 collections**
+(the same bottle repeated wherever collections share a first product), and gave the
+flagship `red-wine` collection a generic house product called *"Mixed Red"*.
+
+Reworked to score candidates from each collection's first ten products, preferring a
+product with a real brand (`vendor` not empty and not `Drinks House 247`) and penalising
+generic titles, then assigning greedily so each collection takes an image nothing else has
+used, largest collections choosing first. Result: **205 distinct images, zero reuse**, and
+167 of the picks are branded bottles.
+
+| Collection | Before | After |
+|---|---|---|
+| `red-wine` | *Mixed Red* (house generic) | Château les Eyquem Margaux 2021 |
+| `cognac` | — | Hennessy |
+| `gin` | — | Gordon's Dry Gin |
+| `rye-whisky` | — | WhistlePig 10 Year Old |
+
+Alt text is the collection title, not the product name — the image stands for the
+collection.
+
+### Two collections still have none, and the reason is a bigger problem
+
+`lanson-champagne` and `wines-from-germany` each hold exactly one product, and **that
+product has no photograph at all**:
+
+- *Lanson Le Black Création 257 Brut NV Champagne 75cl*
+- *J.J. Prüm Wehlener Sonnenuhr Riesling Kabinett 2023, 75cl*
+
+A product with no image is a worse problem than a collection with no image: it will not
+convert, and it cannot appear in Google Shopping or any agentic surface. Worth photographing.
+
+### Operational note — `upstream_error` here does not mean failure
+
+Setting `image.src` makes Shopify **fetch and re-host** the file server-side, so batches
+time out at the response layer while the work completes. Four of the eight batches returned
+`upstream_error`; verification showed every one had applied in full. Any retry would have
+silently duplicated 20 image assets per batch.
+
+**The rule: on `upstream_error` from an image-bearing mutation, re-query state before
+retrying.** Batch 1 of 46 was the only genuine partial — 25 of 46 landed.
+
+Manifest: `seo/aeo/bulk/collection-images.csv`.
