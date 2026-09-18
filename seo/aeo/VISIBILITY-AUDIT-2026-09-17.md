@@ -659,3 +659,73 @@ theme-file level, not as rendered HTML:
 
 These need a human eye on the live site, or Google's Rich Results Test, to close out.
 Everything checkable via the Admin API was checked and passed before publish.
+
+---
+
+## 2026-09-18 — 108 products with no rendered meta description: fixed
+
+### Where the fix had to go
+
+Read `snippets/smartseo.product.metatags.liquid` rather than guessing. Smart SEO picks one
+template by **highest timestamp** across per-product → vendor → collection → tag → bulk, then
+substitutes variables and splits on `:||:` to get title and description.
+
+The shop's bulk template is:
+
+```
+${title} | Drinks House 247:||:${default-meta-description}:||:=||=15905089034551011
+```
+
+`${default-meta-description}` resolves to `page_description` — i.e. the product's **native**
+Shopify SEO description. Timestamps measured live: per-product templates are ~`1.624e16`, the
+bulk template `1.5905e16`, so **per-product wins where it exists** (376 products) and the other
+882 fall to bulk.
+
+All 108 failing products had **no per-product template**, so they fell to bulk, whose description
+slot is the native field — which was empty. Diagnosis: `108 of 108`, not a mix of causes.
+
+**So the fix is the native `seo.description` field**, not a metafield hack. It also survives
+Smart SEO ever being uninstalled. One collection-level template exists (a cigarette collection)
+but its description slot is also `${default-meta-description}`, so the same fix covers it.
+
+Note: 94 of the 108 also have an empty native `seo.title`. That does **not** matter — the bulk
+template's title slot is `${title}`, which is `product.title`, not the SEO field. Titles render.
+
+### The canary that saved 14 SEO titles
+
+Before batching, one product was updated with `seo:{description: …}` alone. Read-back showed
+`seo.title` had gone from `"Patron XO Cafe Tequila - 24 Hour Alcohol Delivery London"` to
+**`null`**. A partial `seo` input on `productUpdate` **clobbers the omitted field**. Batching
+all 108 blind would have destroyed the 14 existing SEO titles. Restored, then every mutation
+passed `title` *and* `description`. Post-run check: 14 of 14 preserved.
+
+### The copy
+
+Descriptions were generated from each product's own body copy, which follows a
+`<specs · line> <Name> — <selling sentence>` pattern, so the selling sentence was extracted and
+composed as `<Product name> — <sentence>. Same-day London delivery.`
+
+Three rounds of defect-hunting on the generated output, because meta descriptions are what
+shoppers actually read in Google:
+
+| Defect | Count | Action |
+|---|---|---|
+| Product name missing entirely | many | always lead with the name (Google bolds matched terms) |
+| Spec-line fragment bleeding in (`James · First Served 1932 Very large…`) | 5 | hand-written |
+| Clause trailing off mid-thought (`tastes, improbably, of pure.`) | ~10 | hand-written |
+| Orphaned conjunction after the dash (`— and the single best thing`) | 10 | hand-written |
+| Duplicate across two products | 1 | resolved by leading with the name |
+
+A lowercasing heuristic was tried and **reverted** — it broke proper nouns (`suze is made from`,
+`glera from the Veneto`, `italian heritage`). 27 of the 108 were ultimately hand-written from
+source facts; the rest extracted cleanly.
+
+Final: 108 descriptions, **84–158 characters** (median 139), zero duplicates, zero over 158,
+every one naming the product.
+
+### Verified live
+
+Re-queried all 1,258 active products and re-ran the full Smart SEO resolution:
+**0 render no meta description**, down from 108. Not inferred from `userErrors: []`.
+
+Full manifest: `seo/aeo/bulk/product-meta-descriptions.csv`
