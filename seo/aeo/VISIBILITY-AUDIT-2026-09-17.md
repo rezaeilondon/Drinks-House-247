@@ -430,3 +430,97 @@ customer numbers.
 - **9 meta descriptions exceed 160 characters.**
 - **84 of 100 collections have no image**, which costs nothing in ranking but affects how
   the page looks when shared.
+
+---
+
+## Internal linking and blog audit, 2026-09-18
+
+### The premise needed correcting first
+
+The brief was to make sure every collection has internal inbound links from articles,
+pages or products. Measured across **214 collections, 272 articles, 421 pages and 1,257
+products**, that foundation already existed:
+
+| | Before |
+|---|---|
+| Internal links pointing at collections | **6,092** |
+| Collections with zero inbound links | 8 |
+| Collections with 1–2 | 77 |
+| Collections with 3+ | 129 |
+| Published articles linking to a collection | **257 of 259** |
+
+Articles were not the weak point either: median body length **8,328 characters**, only 2
+under 600, and only 3 with no internal link at all.
+
+**Six of the eight orphans have no products.** Linking to an empty collection page is
+worse than leaving it orphaned, so the fix there is not a link.
+
+### What was actually done
+
+Built two topic clusters, where each page links to its siblings:
+
+| Cluster | Pages | Inbound links each, before → after |
+|---|---|---|
+| Wine pairing guides | 12 | 2 → **13** |
+| Gift price bands | 6 | 2 → **7** |
+
+Re-measured from the live store afterwards:
+
+| | Before | After |
+|---|---|---|
+| Links into collections | 6,092 | **6,223** (+131) |
+| Weak (1–2 inbound) | 77 | **59** |
+| Healthy (3+ inbound) | 129 | **147** |
+
+Also written from scratch: a body for `wines-that-pair-with-seafood-1`, which had none.
+All 28 distinct link targets were verified to resolve before publishing; zero broken.
+
+The three articles with no internal links now have contextual collection links:
+corporate gifting → corporate gifts and budget bands, wine racks → reds, whites and
+cases, London celebrations → champagne, spirits and hampers.
+
+### The more serious finding: unmarked sponsored links
+
+While reading the articles, a scan of all outbound links found **185 external links, 72
+of them dofollow**. Most are legitimate citation (NHS, Drinkaware, NCBI, trade press) and
+should stay that way. But a blog literally named **"Sponsored"** was passing dofollow
+links to its advertisers.
+
+Google's link spam policy requires paid or sponsored links to carry `rel="sponsored"` (or
+`nofollow`). Passing ranking signal to advertisers without it is a link scheme, and it
+risks a manual action against the site.
+
+Fixed immediately — four advertiser links now carry `rel="sponsored nofollow"`:
+
+| Article | Link |
+|---|---|
+| Beautiful Wine Rack Ideas | `winecellarhq.com` ×3 |
+| A Traveler's Guide to Celebrating in London | `radicalstorage.com` |
+
+Academic citations in those same articles were left dofollow, because they are genuine
+references rather than paid placements.
+
+### Still to review — `bulk/external-dofollow-review.csv`
+
+These are dofollow links to commercial domains that need a human judgement on whether
+they were paid, exchanged, or genuinely editorial. Two stand out:
+
+- **`luxuryspirits.com` and `corporategiftshampers.co.uk`** — these look like direct
+  competitors receiving ranking signal from a gift-hamper article.
+- **`rankpill.com` ×2** — an SEO content generator credit, on two articles.
+- **`drinks-house.co.uk` ×4** — a separate domain linked from one article.
+- Unrelated commercial domains in a drinks blog: `builderdepot.co.uk`, `diy.com`,
+  `discountcream.co.uk`, `li.me`, `winedom.co.uk` (in the privacy policy).
+
+The restaurant links on `/pages/red-wine-delivery` were left alone — a London drinks
+retailer citing London restaurants reads as editorial.
+
+### Empty collections — recommend hiding, not linking
+
+Seven collections show zero products. Their rules are correct; there is simply no stock.
+Verified with a control query that the title filter works: the catalogue contains no
+Viognier, no Torrontés, and nothing tagged Sardinia, sparkling red, carbon neutral,
+biodynamic or Doux.
+
+These are thin-content pages. They should be unpublished from the Online Store until
+stocked, then republished. Not done unilaterally — hiding live pages is the owner's call.
