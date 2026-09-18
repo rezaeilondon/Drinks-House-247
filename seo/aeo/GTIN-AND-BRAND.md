@@ -218,3 +218,55 @@ evidence:
 The 289 are mostly single-occurrence wine producers where the appellation/climat boundary is
 genuinely ambiguous without a reference list. They are worth a pass by someone who knows the
 range; the CSV is ordered so that can be done quickly.
+
+---
+
+## 2026-09-18 — Agentic count 124 → 130, but it is NOT the GTINs
+
+User reported Shopify's agentic section moved from 124 synced products to 130.
+
+### The store still has exactly 2 barcodes
+
+Enumerated **all 1,546 variants** directly (the `barcode:` filter is one of the silently-
+ignored ones, so it cannot be used). Result:
+
+| | |
+|---|---|
+| Variants checked | 1,546 of 1,546 |
+| Variants with a barcode | **2** |
+| Distinct products with a barcode | **2** |
+
+Both are the originals from 17 Sept:
+
+- `7500462805432` — Cazcanes No.7 Añejo Tequila 75cl
+- `3185370699058` — Dom Pérignon Plenitude 2 P2 Vintage 2003 Gift Box 75cl
+
+**Nothing has been added since.** So the +6 cannot be attributed to GTINs, and the
+experiment has not actually run. Something is wrong with how the codes are being entered —
+they are not reaching the variant `barcode` field. They are not landing in `sku` either
+(SKUs across the catalogue are internal codes such as `KINOBI-KYOTODRY-70CL`).
+
+### What the +6 probably is — and why I am not claiming it
+
+Several things shipped between the two readings, any of which could plausibly move a feed
+parser:
+
+- the draft theme was published, removing **duplicate conflicting `Product` JSON-LD from
+  1,246 product pages**, including 18 carrying a price that no longer matched
+- 108 products went from no meta description to having one
+- 225 more products got a real brand (house vendor 622 → 397)
+- 42 collection titles, 28 collection descriptions, 185 collection images
+
+The duplicate-schema fix is the most plausible single cause, since conflicting Product
+markup with wrong prices is exactly what a product parser rejects. But **this is a guess.**
+Several variables changed at once, so the honest position is that the cause is
+unattributable from here.
+
+Worth recording alongside it: on 17 Sept I predicted the 721-product brand backfill would
+lift this count substantially and it moved 121 → 124. That prediction was wrong, which is
+a reason to be cautious about confident attribution now.
+
+### What this actually means
+
+The GTIN hypothesis is **still untested after two days**, because the codes are not
+reaching the store. That needs resolving before any more daily entry effort is spent.
