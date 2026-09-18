@@ -792,3 +792,56 @@ egress proxy blocks this environment from loading a rendered page to confirm it.
 takes about thirty seconds in a browser for someone who can open the site.
 
 Manifest: `seo/aeo/bulk/product-seo-titles.csv` (49 applied, 24 left as-is).
+
+---
+
+## 2026-09-18 — Collection SEO metadata: complete
+
+### Where the fix goes (different from products)
+
+Read `snippets/smartseo.collection.metatags.liquid` rather than assuming the product
+behaviour carried over. It doesn't. That file was corrected on 2026-08-06 and now ends:
+
+```liquid
+{%- assign meta_title = page_title | default: collection.title -%}
+{%- assign meta_description = page_description | default: collection.description -%}
+```
+
+So collections render the **native Shopify SEO fields directly**, with the Smart SEO template
+path computed and then discarded. Editing the native fields works — no metafield needed.
+(The in-file comment records why: the 2022-era per-collection metafields were lower quality
+than the SEO titles since written in admin, e.g. `/collections/champagne` metafield said
+*"Buy Best Champagne Delivery in london."*)
+
+### Applied — 62 collections, verified live
+
+| | Before | After |
+|---|---|---|
+| SEO titles over 60 chars | 42 | **0** |
+| Meta descriptions over 160 | 25 | **0** |
+| No meta description at all | 3 | **0** |
+| Duplicate titles / descriptions | — | **0 / 0** |
+
+Every update passed **both** `title` and `description`, because `collectionUpdate` has the
+same partial-input clobber behaviour proven on `productUpdate` earlier today — sending one
+field nulls the other.
+
+### Written by hand, not generated
+
+Automated compression was tried and produced empty pipe segments
+(`Laurent-Perrier Champagne Delivery London |  | Drinks House 247`) and left 10 still over
+60, so all 42 titles were written by hand on a consistent pattern:
+`<Category> Delivery London | Same Day 24/7 | Drinks House 247`. The boilerplate
+`Same Day 30-45 Mins 24/7 | Drinks House 247` was eating 43 of the 60 characters; dropping
+`30-45 Mins` recovered most of it without losing the speed promise.
+
+Three further fixes caught in review before applying: two collections would have been given
+an **empty** title (they had none, and "preserve current" resolved to `""`), and
+`REPOSADO TEQUILA` was ALL CAPS.
+
+Honest note on value: 13 of the 25 over-long descriptions were only 161–179 characters,
+where Google truncates a couple of words at most. The real wins were the 210–326 character
+ones (`italian-wine-gifts` at 326, `montrachet-wine-gifts` at 318), which lost whole
+sentences.
+
+Manifest: `seo/aeo/bulk/collection-seo-fixes.csv` — all 207 collections with current values.
