@@ -590,3 +590,54 @@ already make every one of these resolve, so this is now an **optimisation, not a
 rewriting the hrefs removes the redirect hop and the crawl-budget cost. Not applied in
 session: it needs ~2.8 MB of HTML bodies pushed through the API, which is better done as
 a bulk import than interactively.
+
+---
+
+## 2026-09-18 — Pre-publish gate on draft theme 193644724599
+
+**VAT number removed.** `GB 339765749` was never verified, so it is no longer rendered.
+Companies Act 2006 s.82 does not require a VAT number, and one that fails a public
+gov.uk lookup casts doubt on the entire disclosure — so omitting it is strictly safer
+than shipping it unverified. Applied to `snippets/dh247-legal.liquid` on the draft and
+mirrored in `seo/trust/footer-legal-snippet.html`. Both carry the exact line to append
+once it validates. Company number `11286226`, registered office and premises licence
+`2022/320845` all remain — those are the s.82 requirements.
+
+### Drift check — nothing on the live theme would be reverted
+
+MAIN `193478492535` last updated **2026-09-15**; the draft was snapshotted **2026-09-17**.
+Confirmed by checksum rather than timestamp alone:
+
+| File | Live | Draft |
+|---|---|---|
+| `config/settings_data.json` | `fa53b34…` | identical |
+| `layout/theme.liquid` | `eac087f…` | identical |
+| `snippets/smartseo.product.jsonld.liquid` | `e7a0164…` | identical |
+| `sections/product-template.liquid` | 28,590 b | 28,839 b |
+| `sections/footer.liquid` | 13,023 b | 13,269 b |
+
+`settings_data.json` is what apps and the theme editor rewrite constantly; byte-identical
+means no drift. `layout/theme.liquid` identical means the analytics fix the live theme was
+published for survives.
+
+### Liquid verified by reading the template, not from memory
+
+- `{% include 'dh247-clean-description' %}` sits at the **top of the file**, before every
+  use — so `dh_clean_description` can never render empty.
+- All **three** live description outputs go through `dh_clean_description`. The remaining
+  `product.description` references are `!= blank` guards (correct — they test the raw
+  source) plus one output inside a `{%comment%}` block that never renders.
+- `include` not `render`, deliberately: `render` would not leak the assign into caller scope.
+
+### Incidental finding — orphaned microdata
+
+`sections/product-template.liquid` carries `itemprop` attributes (`name`, `brand`, `sku`,
+`price`, `availability`, `description`) but the enclosing `itemscope` was previously
+commented out, so they have **no parent item**. Google ignores orphaned `itemprop`, so this
+is dead weight rather than a defect — and it usefully confirms that after publishing,
+Smart SEO's block will be the *only* Product structured data on the page. No third source
+competing.
+
+Footer links verified live and published: `/pages/challenge-25`,
+`/pages/authenticity-and-sourcing`, `/pages/reviews`, `/pages/contact-us`
+(control query for a nonsense handle returned 0, so the filter is genuine).
