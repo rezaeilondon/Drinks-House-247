@@ -729,3 +729,66 @@ Re-queried all 1,258 active products and re-ran the full Smart SEO resolution:
 **0 render no meta description**, down from 108. Not inferred from `userErrors: []`.
 
 Full manifest: `seo/aeo/bulk/product-meta-descriptions.csv`
+
+---
+
+## 2026-09-18 — Over-long product titles
+
+### The brief was 303. The real number is 73, and the fix is not what it sounds like
+
+Measured what actually renders in `<title>`, not the raw product title:
+
+| | Count |
+|---|---|
+| Rendered `<title>` over 60 chars | **306** of 1,258 active |
+| …of those, **product title is fine**; the ` \| Drinks House 247` suffix (19 chars) pushes it over | **233** |
+| …of those, the **product title itself** is too long | **73** |
+
+**The 233 were deliberately left alone.** Google cuts only the brand suffix on those — the
+product name stays fully visible. "Fixing" them would mean deleting real search terms
+(`70cl`, `Magnum`, vintages) to save characters that cost nothing:
+
+> `Billecart-Salmon Elisabeth Salmon Rosé Champagne 2008 Magnum | Drinks House 247`
+> → SERP shows `Billecart-Salmon Elisabeth Salmon Rosé Champagne 2008 Magnum…`
+
+### Product titles were NOT changed
+
+Product titles are customer-facing and informative on the page. Instead, a per-product
+Smart SEO template (`product_seo/seo_tags`, timestamp above the bulk template) sets a short
+**SEO title only**. 49 applied, all ≤60 chars, product titles untouched. The remaining 24
+land at 61–68 chars, where compression would cost more identity than the extra characters
+are worth, so they were left as-is.
+
+The description slot of each template was populated with that product's **existing** meta
+description, so the 108 descriptions fixed earlier today are preserved rather than blanked.
+
+### Three iterations, because the first two produced bad copy
+
+1. Hard word-boundary truncation: produced `…Dark, Milk and Pink Himalayan Salted` (loses
+   "Caramel Truffles") and `…Chassagne-Montrachet 1er Cru Les` (ends on an article). Discarded —
+   no better than letting Google truncate.
+2. Token-priority compression, but the dash normaliser broke hyphenated names:
+   `Chassagne-Montrachet` → `Chassagne - Montrachet`, `Billecart-Salmon` → `Billecart - Salmon`.
+   Fixed by normalising only dashes that already carry whitespace.
+3. Final pass caught two products compressing to the **same** title (the 15-piece and
+   25-piece Les Cœurs boxes) — differentiated by piece count.
+
+### The more valuable finding: hand-written SEO titles are being discarded
+
+The bulk template's title slot is `${title}` — the **product title** — not
+`${default-meta-title}`. So every `seo.title` written by hand in Shopify admin is ignored on
+the 882 products the bulk template drives. Example: `moet-chandon-collection-imperiale`
+already had a clean 50-character `seo.title`; the store was rendering the 62-character
+product title instead.
+
+Changing one field — the bulk template's title slot to `${default-meta-title}` — would make
+every hand-written SEO title take effect store-wide, and turn "fix a title" into an ordinary
+admin edit rather than a metafield operation.
+
+**Not applied.** It rests on Shopify's `page_title` falling back to `product.title` when
+`seo.title` is blank. That is documented behaviour and the variable is literally named
+*default* meta title, but the blast radius is the `<title>` of every product page and the
+egress proxy blocks this environment from loading a rendered page to confirm it. That check
+takes about thirty seconds in a browser for someone who can open the site.
+
+Manifest: `seo/aeo/bulk/product-seo-titles.csv` (49 applied, 24 left as-is).
