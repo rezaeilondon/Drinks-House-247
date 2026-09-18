@@ -145,3 +145,76 @@ Line vodka.
 
 Earlier estate-matcher corrections are recorded above; together with these, 36 of the
 721 values were set or corrected by hand rather than derived.
+
+---
+
+## 2026-09-18 — Brand backfill round 2
+
+Store-wide vendor state before: **622 of 1,449** products still carried `Drinks House 247`
+as the vendor (445 active, 177 draft/archived). Filter validated with a nonsense control
+(`vendor:'Zzqq Not A Real Vendor'` → 0).
+
+### Result
+
+**225 products given a real brand. 622 → 397 remaining**, verified by re-query.
+
+### Why only 225 and not 622
+
+Two honest limits, both discovered by inspecting output rather than trusting the extractor:
+
+**1. A large share legitimately has no brand.** 102 products are house or generic items —
+Cranberry Juice, Tonic Water, Pack of Ice Cubes, Service Fee, Cheese Platter, the Pre-Mixed
+Cases, celebration cakes, hampers. For these `Drinks House 247` is the *correct* vendor.
+Inventing a brand would be worse than leaving them.
+
+**2. Title-prefix extraction is unsafe for fine wine.** Burgundy and Bordeaux name bottles
+`<Appellation> <Producer> <Vintage>`, so a naive prefix grabs the appellation:
+
+| Title | Naive prefix | Actual brand |
+|---|---|---|
+| Chassagne Montrachet Bachelet Monnot 2021 | "Chassagne Montrachet Bachelet Monnot" | Bachelet-Monnot |
+| Bourgogne Chardonnay Thierry Pillot 2021 | "Bourgogne Chardonnay Thierry Pillot" | Thierry Pillot |
+| Chambertin Clos de Beze Armand Rousseau 1993 | "Chambertin Clos de Beze" | Armand Rousseau |
+| Chablis Montee de Tonnerre Samuel Billaud | "Montee de Tonnerre Samuel" | Samuel Billaud |
+
+The tell that the first pass was wrong: **389 of 622 derived brands appeared exactly once.**
+Real brands repeat.
+
+### Method that was actually used
+
+1. Strip leading appellation/grape using a ~180-entry vocabulary (Burgundy villages, Bordeaux
+   communes, Rhône, Italy, Spain, New World, plus grape names).
+2. Match against the **274 brands already live in the store** — highest confidence.
+3. Explicit estate prefixes (`Château`/`Domaine`/`Bodega`/`Quinta`/`Clos`/`Mas`/`Viña`), with a
+   token-taker that carries articles through (an earlier version truncated
+   "Château Le Crock" → "Château Le" and "Domaine de Montille" → "Domaine de").
+4. Bordeaux shorthand: a 40-estate list mapping `Canon Magnum 2019` → `Château Canon`.
+5. **Corroboration gate** — push only if the candidate matches a live brand, is an explicit
+   estate, is known Bordeaux shorthand, or appears on ≥2 products.
+6. **Ambiguity gate** — reject a bare fragment shared by 2+ real brands. `Heidsieck` alone
+   was rejected because Charles Heidsieck, Piper-Heidsieck and Heidsieck & Co. Monopole are
+   three different houses.
+7. Final validation rejected candidates ending on an article (`Chateau de`), generic
+   descriptors (`Mixed Fruit` from "Mixed Fruit Cider"), and anything under 3 characters.
+
+Nine further errors were caught by eye in the generated batches and hand-corrected before
+pushing (Burgundy *climats* read as producers, `Ten Minutes` → `Ten Minutes by Tractor`,
+`LOUIS XIII` casing inconsistent across four products, `Château Haut-Brion Bordeaux-Blend`,
+`Château de Fargues Lur Saluces Semillon-Sauvignon`, `Domaines Ott's Cuvée` → `Domaines Ott`).
+Two products naming the Saint-Aubin climat *Murgers des Dents de Chien* were deferred rather
+than guessed.
+
+### Remaining
+
+`seo/aeo/bulk/brand-backfill-round2.csv` — all 622 rows with proposed vendor, confidence and
+evidence:
+
+| Bucket | Count | Action |
+|---|---|---|
+| Pushed | 225 | done |
+| Needs review | 289 | a proposed brand is given, but unverified |
+| Leave as Drinks House 247 | 102 | house/generic — correct as-is |
+
+The 289 are mostly single-occurrence wine producers where the appellation/climat boundary is
+genuinely ambiguous without a reference list. They are worth a pass by someone who knows the
+range; the CSV is ordered so that can be done quickly.
