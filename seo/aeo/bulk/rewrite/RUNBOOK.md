@@ -41,21 +41,23 @@ is the gate.
 
 ```bash
 cd seo/aeo/bulk/rewrite
-python3 next.py 11000          # emits one GraphQL document, ~2 products
+python3 next.py 26000          # emits one GraphQL document, ~4 products
 # -> send that document VERBATIM to the Shopify Admin API (graphql_mutation)
 # -> confirm every userErrors array came back empty
-python3 commit.py              # only now does done.json advance
+python3 commit.py 4            # pass the number of products the API returned
 cp done.json ../description-fix-progress.json
 cd ../../.. && git add -A seo/aeo/bulk/ && git commit -q -m "Description rewrite progress: N/1248" && git push origin claude/shopify-store-connection-i6syn7
 ```
 
 Repeat until `next.py` prints `ALL DONE`.
 
-### Why the batch is small
+### Why the batch is capped
 
 The mutation text has to pass through the model's output, and batches over
-~30 KB get truncated by the harness rather than shown. 11,000 bytes ≈ 2 products
-is the tested working size. Raising it risks a silently truncated mutation.
+~30 KB get truncated by the harness rather than shown -- a 58 KB batch was cut
+mid-document. 26,000 bytes (≈ 4 products, ~22 KB emitted) is the largest size
+tested clean. Do not raise it without re-testing; a truncated mutation is the
+one way this job can go wrong.
 
 ### Why `commit.py` is separate
 
