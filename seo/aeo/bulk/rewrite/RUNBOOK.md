@@ -55,10 +55,12 @@ Repeat until `next.py` prints `ALL DONE`.
 
 The mutation text has to pass through the model's output, and batches over
 ~30 KB get truncated by the harness rather than shown -- a 58 KB batch was cut
-mid-document. 33,000 bytes (≈ 5 products, ~29 KB emitted) is the largest size
-tested clean, and it sits right on the edge -- do not raise it without
-re-testing. A truncated mutation is the one way this job can go wrong, which is
-what the count argument to commit.py guards against.
+mid-document. `next.py` now enforces this itself: after packing a batch it drops
+trailing products until the emitted document is under 29,000 bytes, so the
+byte budget you pass is only an upper bound. A 32,377-byte batch was persisted
+rather than displayed, which is unusable -- a document that cannot be read
+cannot be transcribed. Batch size therefore varies with how heavy each
+product's CSS is, from about 3 to 5 products. Do not raise the 29,000 ceiling.
 
 ### Why `commit.py` is separate
 

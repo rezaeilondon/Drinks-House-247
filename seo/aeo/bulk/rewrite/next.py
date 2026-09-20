@@ -44,6 +44,23 @@ for i, pid in enumerate(batch):
 out.append("}")
 m = "\n".join(out)
 
+# The harness persists rather than displays any tool result over ~30 KB, and a
+# document we cannot see is one we cannot transcribe. Drop trailing products
+# until the emitted mutation is comfortably under that ceiling.
+CEILING = 29000
+while len(m) > CEILING and len(batch) > 1:
+    batch.pop()
+    out = ["mutation {"]
+    for i, pid in enumerate(batch):
+        v = plan[pid]
+        out.append(
+            f'  p{i}: productUpdate(product: {{id: "{pid}", '
+            f'descriptionHtml: {json.dumps(v["new"], ensure_ascii=True)}}}) '
+            f'{{ product {{ id }} userErrors {{ field message }} }}'
+        )
+    out.append("}")
+    m = "\n".join(out)
+
 json.dump(batch, open(os.path.join(D, "pending.json"), "w"))
 sys.stderr.write(
     f"[BATCH] {len(batch)} products, {len(m):,} chars | done {len(done)}/{len(order)} "
