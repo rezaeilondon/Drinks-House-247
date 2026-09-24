@@ -24,7 +24,7 @@
         "/pages/alcohol-delivery-areas"
       ],
       "answer_hint": "Yes. Drinks House 247 delivers across London 24 hours a day, typically in 30-45 minutes, including through the night. Explain how overnight ordering works, the ID requirement on the doorstep, and which areas are covered.",
-      "status": "scheduled",
+      "status": "published",
       "published_at": "2026-09-15",
       "article_handle": "alcohol-delivery-3am-london"
     },
@@ -44,9 +44,9 @@
         "/pages/alcohol-delivery-areas"
       ],
       "answer_hint": "Yes, and it is one of the most common London use cases. Cover naming the guest and room number, leaving it with concierge or reception, why the recipient must be 18+, and timing around check-in.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "published",
+      "published_at": "2026-09-24",
+      "article_handle": "alcohol-delivery-to-hotel-london"
     },
     {
       "id": "log03",
@@ -103,7 +103,7 @@
         "/collections/alcohol-gift-sets"
       ],
       "answer_hint": "Yes — office and corporate delivery is standard. Cover reception sign-off, bulk ordering, invoicing, timing around office hours and Canary Wharf/City coverage.",
-      "status": "scheduled",
+      "status": "published",
       "published_at": "2026-09-19",
       "article_handle": "alcohol-delivery-to-office-london"
     },
@@ -319,9 +319,9 @@
         "/collections/champagne-flute-gift-sets"
       ],
       "answer_hint": "A standard 75cl bottle pours six 125ml flutes, or about five if poured generously. Include a table of bottle sizes (20cl, 37.5cl, 75cl, magnum, jeroboam) against serving counts.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-09-26",
+      "article_handle": "how-many-glasses-in-a-bottle-of-champagne"
     },
     {
       "id": "qty02",
@@ -339,7 +339,7 @@
         "/pages/champagne-delivery"
       ],
       "answer_hint": "For a welcome toast allow one bottle per 6 guests (about 9 bottles for 50); for an evening of drinking allow half a bottle per person. Give a table for 20/50/100/150 guests.",
-      "status": "scheduled",
+      "status": "published",
       "published_at": "2026-09-17",
       "article_handle": "how-much-champagne-for-50-guests"
     },
@@ -518,7 +518,7 @@
         "/collections/best-sellers"
       ],
       "answer_hint": "Compare sherry-cask maturation, flavour development, and price-per-year. Be honest that 12 is the better value pour and 18 is the better gift/occasion bottle.",
-      "status": "scheduled",
+      "status": "published",
       "published_at": "2026-09-16",
       "article_handle": "macallan-12-vs-18"
     },
@@ -538,7 +538,7 @@
         "/collections/anejo-tequila"
       ],
       "answer_hint": "Explain the hand-painted ceramic decanters made by Mexican artisans, slow-roasted agave, small production, and the resulting collectability of the bottle itself.",
-      "status": "scheduled",
+      "status": "published",
       "published_at": "2026-09-20",
       "article_handle": "why-is-clase-azul-so-expensive"
     },
@@ -695,9 +695,9 @@
         "/pages/cognac-delivery-london"
       ],
       "answer_hint": "Explain VS (min 2 years), VSOP (min 4) and XO (min 10) as minimum ages of the youngest eau-de-vie in the blend, with a table on flavour and use.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-09-27",
+      "article_handle": "hennessy-vs-vsop-xo-difference"
     },
     {
       "id": "brd11",
@@ -853,9 +853,9 @@
         "/pages/checklist-for-storing-wine-at-home-safely"
       ],
       "answer_hint": "Non-vintage keeps 3-4 years from release, vintage 5-10 or more. Explain storage conditions and how to tell if a bottle has gone flat or maderised.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-09-25",
+      "article_handle": "how-long-does-champagne-last-unopened"
     },
     {
       "id": "cha02",
@@ -950,7 +950,7 @@
         "/collections/champagne"
       ],
       "answer_hint": "Blanc de Blancs is 100% white grapes (Chardonnay); Blanc de Noirs is white wine from black grapes. Table of style, weight and food pairing.",
-      "status": "scheduled",
+      "status": "published",
       "published_at": "2026-09-18",
       "article_handle": "blanc-de-blancs-vs-blanc-de-noirs"
     },
@@ -1066,9 +1066,9 @@
         "/pages/checklist-for-storing-wine-at-home-safely"
       ],
       "answer_hint": "Light whites 2-3 days, full reds 3-5, fortified weeks. Explain oxidation, re-corking, the fridge trick for reds, and vacuum stoppers.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-09-28",
+      "article_handle": "how-long-does-opened-wine-last"
     },
     {
       "id": "win02",
@@ -1086,7 +1086,7 @@
         "/collections/burgundy"
       ],
       "answer_hint": "Most reds show best at 14-18C, below typical UK room temperature. Give a chart by style and note that lighter reds benefit from 20 minutes in the fridge.",
-      "status": "scheduled",
+      "status": "published",
       "published_at": "2026-09-21",
       "article_handle": "red-wine-serving-temperature"
     },
@@ -1286,9 +1286,9 @@
         "/collections/champagne-gifts"
       ],
       "answer_hint": "Cover bottles that suit a new home (something to open now, something to keep), glassware sets, and why a gift note matters.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-09-29",
+      "article_handle": "housewarming-drinks-gifts"
     },
     {
       "id": "gft07",
@@ -1466,9 +1466,9 @@
         "/pages/gin-delivery-london"
       ],
       "answer_hint": "Spirits are shelf-stable; cover why cold mutes aroma in sipping spirits, which bottles benefit from freezing, and how opened bottles oxidise over years.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-09-30",
+      "article_handle": "should-you-refrigerate-tequila-whisky-gin"
     },
     {
       "id": "bar03",
