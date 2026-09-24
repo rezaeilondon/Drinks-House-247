@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7360904331420",
+    "title": "Moet & Chandon Nectar Imperial Champagne 75cl",
+    "old": "Moet's Boldest, Most Unexpected Champagne",
+    "new": "Moët's Boldest, Most Unexpected Champagne",
+    "note": "Deliberate wording change applied live after the rewrite. plan.json.gz still holds the pre-fix text (verify.py compares prose before/after the rewrite, so it is left as-is); do not re-apply this product from plan.json.gz without this fix."
+  }
+]

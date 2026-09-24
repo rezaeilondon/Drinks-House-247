@@ -87,3 +87,7 @@ import gzip, json
 orig = json.load(gzip.open("originals.json.gz", "rt", encoding="utf-8"))
 # orig[product_gid] is the exact descriptionHtml before the rewrite
 ```
+
+## Copy fixes applied outside the rewrite
+
+The rewrite never changes wording. When a wording fix is requested, it is applied live on its own and logged in `copy-fixes.json`. If you ever re-apply a product from `plan.json.gz`, check that file first so the fix is not undone.
