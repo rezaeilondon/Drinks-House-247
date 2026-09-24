@@ -6,5 +6,85 @@
     "old": "Moet's Boldest, Most Unexpected Champagne",
     "new": "Moët's Boldest, Most Unexpected Champagne",
     "note": "Deliberate wording change applied live after the rewrite. plan.json.gz still holds the pre-fix text (verify.py compares prose before/after the rewrite, so it is left as-is); do not re-apply this product from plan.json.gz without this fix."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7900660400284",
+    "title": "Nuits St Georges Henri Gouges 2021",
+    "old": "Cote de Nuits",
+    "new": "Côte de Nuits",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7900708208796",
+    "title": "Monthelie Le Clou des Chenes Chateau de Monthelie Eric de Suremain 2020",
+    "old": "Cote de Beaune",
+    "new": "Côte de Beaune",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7900738257052",
+    "title": "Meursault Narvaux Jadot 2020",
+    "old": "Cote de Beaune",
+    "new": "Côte de Beaune",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7901376872604",
+    "title": "Meursault Michelot 2020",
+    "old": "Cote de Beaune",
+    "new": "Côte de Beaune",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7901384933532",
+    "title": "Meursault Les Chevalieres Joseph Voillot 2020",
+    "old": "Cote de Beaune",
+    "new": "Côte de Beaune",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7927432282268",
+    "title": "Beaune Les Epenots Louis Boillot 2012",
+    "old": "Cote de Beaune",
+    "new": "Côte de Beaune",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7951429664924",
+    "title": "Chambolle Musigny Hudelot Baillet 2021",
+    "old": "Cote de Nuits",
+    "new": "Côte de Nuits",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7951725592732",
+    "title": "Gevrey Chambertin Odoul Coquard 2021",
+    "old": "Cote de Nuits",
+    "new": "Côte de Nuits",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7951893954716",
+    "title": "Maranges La Fussiere Rouge Bachelet Monnot 2020",
+    "old": "Cote de Beaune",
+    "new": "Côte de Beaune",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+  },
+  {
+    "date": "2026-09-24",
+    "product": "gid://shopify/Product/7951898378396",
+    "title": "Marsannay Cuvee Marie Ragonneau Charles Audoin 2012",
+    "old": "Cote de Nuits",
+    "new": "Côte de Nuits",
+    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
   }
 ]
