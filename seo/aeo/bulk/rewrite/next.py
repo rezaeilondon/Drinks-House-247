@@ -12,6 +12,7 @@ here -- run commit.py only AFTER the mutation returns with empty userErrors.
 Usage: python3 next.py [byte_budget]      (default 11000)
 """
 import gzip, json, os, sys
+import fixes
 
 D = os.path.dirname(os.path.abspath(__file__))
 plan = json.load(gzip.open(os.path.join(D, "plan.json.gz"), "rt", encoding="utf-8"))
@@ -20,14 +21,18 @@ SF = os.path.join(D, "done.json")
 done = set(json.load(open(SF))) if os.path.exists(SF) else set()
 
 BUDGET = int(sys.argv[1]) if len(sys.argv) > 1 else 11000
-rem = [p for p in order if p not in done]
+# fixups.json: products already rewritten that must be re-sent because a fix in
+# fixes.py changed them. They go first.
+FF = os.path.join(D, "fixups.json")
+fixups = json.load(open(FF)) if os.path.exists(FF) else []
+rem = fixups + [p for p in order if p not in done]
 if not rem:
     sys.stderr.write("ALL DONE\n")
     sys.exit(0)
 
 batch, tot = [], 0
 for p in rem:
-    n = len(plan[p]["new"]) + len(p) + 140
+    n = len(fixes.apply(p, plan[p]["new"])) + len(p) + 140
     if batch and tot + n > BUDGET:
         break
     batch.append(p)
@@ -38,7 +43,7 @@ for i, pid in enumerate(batch):
     v = plan[pid]
     out.append(
         f'  p{i}: productUpdate(product: {{id: "{pid}", '
-        f'descriptionHtml: {json.dumps(v["new"], ensure_ascii=True)}}}) '
+        f'descriptionHtml: {json.dumps(fixes.apply(pid, v["new"]), ensure_ascii=True)}}}) '
         f'{{ product {{ id }} userErrors {{ field message }} }}'
     )
 out.append("}")
@@ -55,7 +60,7 @@ while len(m) > CEILING and len(batch) > 1:
         v = plan[pid]
         out.append(
             f'  p{i}: productUpdate(product: {{id: "{pid}", '
-            f'descriptionHtml: {json.dumps(v["new"], ensure_ascii=True)}}}) '
+            f'descriptionHtml: {json.dumps(fixes.apply(pid, v["new"]), ensure_ascii=True)}}}) '
             f'{{ product {{ id }} userErrors {{ field message }} }}'
         )
     out.append("}")
@@ -64,6 +69,6 @@ while len(m) > CEILING and len(batch) > 1:
 json.dump(batch, open(os.path.join(D, "pending.json"), "w"))
 sys.stderr.write(
     f"[BATCH] {len(batch)} products, {len(m):,} chars | done {len(done)}/{len(order)} "
-    f"| remaining after this: {len(rem) - len(batch)}\n"
+    f"| fixups queued {len(fixups)} | remaining after this: {len(rem) - len(batch)}\n"
 )
 print(m)

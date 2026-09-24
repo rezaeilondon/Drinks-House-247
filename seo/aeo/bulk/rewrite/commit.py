@@ -38,4 +38,7 @@ order = json.load(open(os.path.join(D, "order.json")))
 done = set(json.load(open(SF))) if os.path.exists(SF) else set()
 done |= set(pending)
 json.dump(sorted(done), open(SF, "w"))
+FF = os.path.join(D, "fixups.json")
+if os.path.exists(FF):
+    json.dump([p for p in json.load(open(FF)) if p not in pending], open(FF, "w"), indent=0)
 print(f"recorded. done={len(done)}/{len(order)}  remaining={len(order) - len(done)}")
