@@ -63,9 +63,10 @@
         "/pages/alcohol-delivery"
       ],
       "answer_hint": "Yes — the person receiving the order must be 18 or over and may be asked for ID. Explain Challenge 21, which ID is accepted, and what happens if nobody can produce it.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
-      "article_handle": null
+      "article_handle": null,
+      "duplicate_of": "delivery-safety-age-verification-drinks-house-247"
     },
     {
       "id": "log04",
@@ -183,9 +184,9 @@
         "/pages/champagne-delivery"
       ],
       "answer_hint": "Yes. Cover entering full access instructions, key-box properties, meeting the driver, and the 18+ requirement regardless of property type.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-05",
+      "article_handle": "alcohol-delivery-to-airbnb-london"
     },
     {
       "id": "log10",
@@ -202,9 +203,10 @@
         "/pages/alcohol-delivery"
       ],
       "answer_hint": "Shop licensing hours vary by borough and most off-licences close between 11pm and 1am; licensed delivery services can operate through the night. Contrast shop hours with delivery.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
-      "article_handle": null
+      "article_handle": null,
+      "duplicate_of": "after-hours-liquor-understanding-late-night-alcohol-access"
     },
     {
       "id": "log11",
@@ -359,9 +361,9 @@
         "/pages/wedding-event-drinks-delivery-london-the-complete-guide-to-premium-alcohol-for-your-special-day"
       ],
       "answer_hint": "Plan on half a bottle per adult guest across a meal, rising to three-quarters for a long reception. Provide a table by guest count and event length.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-02",
+      "article_handle": "how-many-bottles-of-wine-per-person-wedding"
     },
     {
       "id": "qty04",
@@ -398,9 +400,9 @@
         "/collections/champagne"
       ],
       "answer_hint": "A 75cl bottle at 12% ABV contains 9 UK units; at 14% it is 10.5. Show the formula (ABV x volume in litres) and a table across common ABVs. Reference the UK 14-units-a-week guideline.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-13",
+      "article_handle": "how-many-units-in-a-bottle-of-wine"
     },
     {
       "id": "qty06",
@@ -418,9 +420,9 @@
         "/pages/alcohol-delivery"
       ],
       "answer_hint": "A 70cl bottle yields 28 single 25ml measures or 14 doubles. Table across 50cl, 70cl, 1L and 1.75L, plus cocktail-based planning.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-09",
+      "article_handle": "how-many-drinks-in-a-bottle-of-spirits"
     },
     {
       "id": "qty07",
@@ -458,9 +460,10 @@
         "/collections/champagne"
       ],
       "answer_hint": "Table every format with capacity, flute count and best use. Note that magnums age more slowly, which is why collectors prefer them.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
-      "article_handle": null
+      "article_handle": null,
+      "duplicate_of": "how-many-glasses-in-a-bottle-of-champagne (size chart) / champagne bottle sizes guide"
     },
     {
       "id": "qty09",
@@ -598,9 +601,9 @@
         "/pages/champagne-delivery"
       ],
       "answer_hint": "Explain multi-vintage blending from reserve wines up to a decade old, oak fermentation in small casks, and tiny production. Compare against Dom Pérignon's single-vintage approach.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-14",
+      "article_handle": "why-is-krug-so-expensive"
     },
     {
       "id": "brd06",
@@ -676,9 +679,9 @@
         "/collections/scotch-whisky"
       ],
       "answer_hint": "Explain the supply shortage, age-statement withdrawals and labelling reforms. Give honest guidance on what represents value versus hype.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-10",
+      "article_handle": "is-japanese-whisky-worth-it"
     },
     {
       "id": "brd10",
@@ -734,9 +737,9 @@
         "/collections/blanco-tequila"
       ],
       "answer_hint": "Both are agave spirits; tequila must be blue weber agave from defined regions, mezcal can use many agaves and is roasted in earth pits, giving smoke. Include a table.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-03",
+      "article_handle": "mezcal-vs-tequila-difference"
     },
     {
       "id": "brd13",
@@ -773,9 +776,9 @@
         "/collections/clase-azul-tequila"
       ],
       "answer_hint": "Cristalino is aged tequila filtered to remove colour while keeping barrel character. Explain the process, the debate among purists, and who it suits.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-12",
+      "article_handle": "what-is-cristalino-tequila"
     },
     {
       "id": "brd15",
@@ -891,9 +894,9 @@
         "/pages/champagne-delivery"
       ],
       "answer_hint": "Step-by-step: chill to 6-8C, remove foil, keep a thumb on the cork through the cage, twist the bottle not the cork, aim for a sigh not a bang. Include a safety note on eye injuries.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-01",
+      "article_handle": "how-to-open-champagne"
     },
     {
       "id": "cha04",
@@ -910,9 +913,10 @@
         "/pages/champagne-delivery"
       ],
       "answer_hint": "Serve non-vintage at 8-10C and prestige cuvées slightly warmer at 10-12C. Give fridge vs ice-bucket timings and explain why too cold mutes aroma.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
-      "article_handle": null
+      "article_handle": null,
+      "duplicate_of": "how-long-to-chill-champagne"
     },
     {
       "id": "cha05",
@@ -970,9 +974,10 @@
         "/collections/champagne"
       ],
       "answer_hint": "Cover why acidity and bubbles cut fat and salt. Table pairing brut, rosé, blanc de blancs and demi-sec against specific dishes.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
-      "article_handle": null
+      "article_handle": null,
+      "duplicate_of": "/pages/champagne-pairing-guide-best-food-matches-uk-drinks-house-247"
     },
     {
       "id": "cha08",
@@ -989,9 +994,10 @@
         "/pages/champagne-delivery"
       ],
       "answer_hint": "Only wine from the Champagne AOC using the traditional method may be called champagne. Table comparing champagne, crémant, cava, prosecco and English sparkling on method, grapes and price.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
-      "article_handle": null
+      "article_handle": null,
+      "duplicate_of": "prosecco-vs-champagne-vs-cava-which-should-you-buy"
     },
     {
       "id": "cha09",
@@ -1106,9 +1112,9 @@
         "/pages/wine-delivery-london"
       ],
       "answer_hint": "Decanting serves two purposes: removing sediment and aerating. Give a table by wine type and age, and note which wines are harmed by it.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-04",
+      "article_handle": "should-you-decant-wine"
     },
     {
       "id": "win04",
@@ -1146,9 +1152,9 @@
         "/pages/wine-delivery-london"
       ],
       "answer_hint": "Compare labelling by region vs by grape, climate-driven style differences, and why the distinction is blurring. Include a table.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-11",
+      "article_handle": "old-world-vs-new-world-wine"
     },
     {
       "id": "win06",
@@ -1246,9 +1252,9 @@
         "/collections/alcohol-gift-sets"
       ],
       "answer_hint": "Explain that a bottle is a gift not a contribution to the meal, so the host need not open it. Cover price expectations and safe styles.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-06",
+      "article_handle": "dinner-party-wine-etiquette"
     },
     {
       "id": "gft05",
@@ -1426,9 +1432,9 @@
         "/pages/exclusive-rare-alcohol-delivery-uk-limited-edition-spirits-collectibles-drinks-house-247"
       ],
       "answer_hint": "Cover seals, laser codes, fill levels, label printing quality, and the single best defence — buying from a licensed UK retailer with traceable stock.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-07",
+      "article_handle": "how-to-spot-fake-spirits"
     },
     {
       "id": "bar01",
@@ -1524,9 +1530,9 @@
         "/pages/whisky-delivery-london"
       ],
       "answer_hint": "Explain dilution rate, surface area, and why one large cube suits spirits while crushed suits juleps. Cover making clearer ice at home.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-08",
+      "article_handle": "does-ice-matter-in-cocktails"
     }
   ]
 }

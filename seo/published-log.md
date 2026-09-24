@@ -19,3 +19,17 @@ Articles are queued via Shopify's `publishDate`; Shopify publishes each on its d
 | 2026-09-28 | How Long Does Opened Wine Actually Last? | How long does opened wine last? | https://drinkshouse247.co.uk/blogs/posts/how-long-does-opened-wine-last |
 | 2026-09-29 | Housewarming Drinks Gifts That Beat Flowers | What's a good housewarming gift that isn't flowers? | https://drinkshouse247.co.uk/blogs/posts/housewarming-drinks-gifts |
 | 2026-09-30 | Should You Refrigerate Tequila, Whisky or Gin? | Do you need to refrigerate tequila or whisky? | https://drinkshouse247.co.uk/blogs/posts/should-you-refrigerate-tequila-whisky-gin |
+| 2026-10-01 | How to Open Champagne Properly (Without the Explosion) | How do you open champagne without it exploding? | https://drinkshouse247.co.uk/blogs/posts/how-to-open-champagne |
+| 2026-10-02 | How Many Bottles of Wine Per Person at a Wedding? | How many bottles of wine per person at a wedding? | https://drinkshouse247.co.uk/blogs/posts/how-many-bottles-of-wine-per-person-wedding |
+| 2026-10-03 | Mezcal vs Tequila: What Actually Separates Them | What is the difference between mezcal and tequila? | https://drinkshouse247.co.uk/blogs/posts/mezcal-vs-tequila-difference |
+| 2026-10-04 | Do You Need to Decant Wine? An Honest Answer | Should you decant wine, and for how long? | https://drinkshouse247.co.uk/blogs/posts/should-you-decant-wine |
+| 2026-10-05 | Can You Get Alcohol Delivered to an Airbnb or Short Let in London? | Can you get alcohol delivered to an Airbnb? | https://drinkshouse247.co.uk/blogs/posts/alcohol-delivery-to-airbnb-london |
+| 2026-10-06 | Dinner Party Wine Etiquette: What to Bring and What to Expect | Is it rude to bring wine to a dinner party? | https://drinkshouse247.co.uk/blogs/posts/dinner-party-wine-etiquette |
+| 2026-10-07 | How to Spot a Fake Bottle of Premium Spirits | How do you know if a spirits bottle is authentic? | https://drinkshouse247.co.uk/blogs/posts/how-to-spot-fake-spirits |
+| 2026-10-08 | Does Ice Really Matter in a Cocktail? Yes, and Here Is Why | Does the ice you use actually matter? | https://drinkshouse247.co.uk/blogs/posts/does-ice-matter-in-cocktails |
+| 2026-10-09 | How Many Drinks Does a Bottle of Spirits Make? | How many drinks does a bottle of spirits make? | https://drinkshouse247.co.uk/blogs/posts/how-many-drinks-in-a-bottle-of-spirits |
+| 2026-10-10 | Is Japanese Whisky Worth the Price? | Is Japanese whisky worth the price? | https://drinkshouse247.co.uk/blogs/posts/is-japanese-whisky-worth-it |
+| 2026-10-11 | Old World vs New World Wine: What the Distinction Really Means | What is the difference between Old World and New World wine? | https://drinkshouse247.co.uk/blogs/posts/old-world-vs-new-world-wine |
+| 2026-10-12 | What Is Cristalino Tequila? The Filtered Añejo Explained | What is a cristalino tequila? | https://drinkshouse247.co.uk/blogs/posts/what-is-cristalino-tequila |
+| 2026-10-13 | How Many Units Are in a Bottle of Wine? UK Guide | How many units are in a bottle of wine? | https://drinkshouse247.co.uk/blogs/posts/how-many-units-in-a-bottle-of-wine |
+| 2026-10-14 | Why Is Krug So Expensive, and Is It Worth It? | Why is Krug champagne so expensive? | https://drinkshouse247.co.uk/blogs/posts/why-is-krug-so-expensive |
