@@ -518,5 +518,21 @@
   "old": "Its finish in rosé-wine barrels adds",
   "new": "Its finish in Ruby Port casks adds",
   "note": "Don Julio Rosado is finished in Ruby Port casks, not rosé-wine barrels. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7618324070556",
+  "title": "Deutz Brut rosé champagne 75cl",
+  "old": "an elegant grower-house rosé Champagne, ideal",
+  "new": "an elegant rosé Champagne from a historic Aÿ house, ideal",
+  "note": "Deutz is a historic Aÿ house, not a grower. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15356390900087",
+  "title": "AsomBroso Gran Reserva Extra Anejo tequila 75cl",
+  "old": "Master distiller Carlos Camarena upholds traditional methods to create this additive-free, sophisticated tequila.",
+  "new": "Traditional methods create this additive-free, sophisticated tequila.",
+  "note": "Carlos Camarena attribution unverified for AsomBroso; name removed. Approved by the owner 2026-09-25."
  }
 ]
