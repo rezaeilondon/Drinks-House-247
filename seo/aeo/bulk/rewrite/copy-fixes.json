@@ -1,90 +1,162 @@
 [
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7360904331420",
-    "title": "Moet & Chandon Nectar Imperial Champagne 75cl",
-    "old": "Moet's Boldest, Most Unexpected Champagne",
-    "new": "Moët's Boldest, Most Unexpected Champagne",
-    "note": "Deliberate wording change applied live after the rewrite. plan.json.gz still holds the pre-fix text (verify.py compares prose before/after the rewrite, so it is left as-is); do not re-apply this product from plan.json.gz without this fix."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7900660400284",
-    "title": "Nuits St Georges Henri Gouges 2021",
-    "old": "Cote de Nuits",
-    "new": "Côte de Nuits",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7900708208796",
-    "title": "Monthelie Le Clou des Chenes Chateau de Monthelie Eric de Suremain 2020",
-    "old": "Cote de Beaune",
-    "new": "Côte de Beaune",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7900738257052",
-    "title": "Meursault Narvaux Jadot 2020",
-    "old": "Cote de Beaune",
-    "new": "Côte de Beaune",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7901376872604",
-    "title": "Meursault Michelot 2020",
-    "old": "Cote de Beaune",
-    "new": "Côte de Beaune",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7901384933532",
-    "title": "Meursault Les Chevalieres Joseph Voillot 2020",
-    "old": "Cote de Beaune",
-    "new": "Côte de Beaune",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7927432282268",
-    "title": "Beaune Les Epenots Louis Boillot 2012",
-    "old": "Cote de Beaune",
-    "new": "Côte de Beaune",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7951429664924",
-    "title": "Chambolle Musigny Hudelot Baillet 2021",
-    "old": "Cote de Nuits",
-    "new": "Côte de Nuits",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7951725592732",
-    "title": "Gevrey Chambertin Odoul Coquard 2021",
-    "old": "Cote de Nuits",
-    "new": "Côte de Nuits",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7951893954716",
-    "title": "Maranges La Fussiere Rouge Bachelet Monnot 2020",
-    "old": "Cote de Beaune",
-    "new": "Côte de Beaune",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  },
-  {
-    "date": "2026-09-24",
-    "product": "gid://shopify/Product/7951898378396",
-    "title": "Marsannay Cuvee Marie Ragonneau Charles Audoin 2012",
-    "old": "Cote de Nuits",
-    "new": "Côte de Nuits",
-    "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
-  }
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7360904331420",
+  "title": "Moet & Chandon Nectar Imperial Champagne 75cl",
+  "old": "Moet's Boldest, Most Unexpected Champagne",
+  "new": "Moët's Boldest, Most Unexpected Champagne",
+  "note": "Deliberate wording change applied live after the rewrite. plan.json.gz still holds the pre-fix text (verify.py compares prose before/after the rewrite, so it is left as-is); do not re-apply this product from plan.json.gz without this fix."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7900660400284",
+  "title": "Nuits St Georges Henri Gouges 2021",
+  "old": "Cote de Nuits",
+  "new": "Côte de Nuits",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7900708208796",
+  "title": "Monthelie Le Clou des Chenes Chateau de Monthelie Eric de Suremain 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7900738257052",
+  "title": "Meursault Narvaux Jadot 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7901376872604",
+  "title": "Meursault Michelot 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7901384933532",
+  "title": "Meursault Les Chevalieres Joseph Voillot 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7927432282268",
+  "title": "Beaune Les Epenots Louis Boillot 2012",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7951429664924",
+  "title": "Chambolle Musigny Hudelot Baillet 2021",
+  "old": "Cote de Nuits",
+  "new": "Côte de Nuits",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7951725592732",
+  "title": "Gevrey Chambertin Odoul Coquard 2021",
+  "old": "Cote de Nuits",
+  "new": "Côte de Nuits",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7951893954716",
+  "title": "Maranges La Fussiere Rouge Bachelet Monnot 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7951898378396",
+  "title": "Marsannay Cuvee Marie Ragonneau Charles Audoin 2012",
+  "old": "Cote de Nuits",
+  "new": "Côte de Nuits",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7840321732764",
+  "title": "Château Palmer 2005",
+  "old": "<span>Cabernet Sauvignon-led blend</span>",
+  "new": "<span>Merlot &amp; Cabernet Sauvignon blend</span>",
+  "note": "Palmer is Merlot-heavy; badge said Cabernet-led. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7840321732764",
+  "title": "Château Palmer 2005",
+  "old": "<td>Cabernet Sauvignon, Merlot, Petit Verdot</td>",
+  "new": "<td>Merlot, Cabernet Sauvignon, Petit Verdot</td>",
+  "note": "Grapes row reordered to match badge. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957152399516",
+  "title": "Billecart-Salmon Brut Nature",
+  "old": "made with minimal dosage",
+  "new": "made with no added dosage",
+  "note": "Story contradicted FAQ ('no added dosage'). Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7707805155484",
+  "title": "Nyetimber Tillington Single Vineyard 2014",
+  "old": "<span>Chardonnay</span><span>West Sussex, England</span>",
+  "new": "<span>Pinot Noir &amp; Chardonnay</span><span>West Sussex, England</span>",
+  "note": "Tillington is a Pinot Noir-led blend; page listed Chardonnay only. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7707805155484",
+  "title": "Nyetimber Tillington Single Vineyard 2014",
+  "old": "<td>Grape</td>\n<td>Chardonnay</td>",
+  "new": "<td>Grapes</td>\n<td>Pinot Noir, Chardonnay</td>",
+  "note": "As above, specs row. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15489399619959",
+  "title": "BrewDog Punk IPA 12 x 440ml",
+  "old": "Brewed in Fraserburgh, Scotland since 2007",
+  "new": "Brewed in Scotland since 2007",
+  "note": "BrewDog's brewery is no longer in Fraserburgh. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15489399619959",
+  "title": "BrewDog Punk IPA 12 x 440ml",
+  "old": "<td>BrewDog, Fraserburgh, Scotland</td>",
+  "new": "<td>BrewDog, Scotland</td>",
+  "note": "As above, specs row. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7716567187612",
+  "title": "Château Mouton Rothschild 2008",
+  "old": "prized for its exceptional ripeness and concentration",
+  "new": "prized for its freshness and concentration",
+  "note": "2008 was a cool, late-ripening vintage. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7953041850524",
+  "title": "Balfour Brut Rosé 2008",
+  "old": "this is Balfour's inaugural release",
+  "new": "this is an early Balfour release",
+  "note": "Earlier Balfour rosé vintages exist. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ }
 ]
