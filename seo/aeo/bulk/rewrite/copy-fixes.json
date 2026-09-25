@@ -534,5 +534,21 @@
   "old": "Master distiller Carlos Camarena upholds traditional methods to create this additive-free, sophisticated tequila.",
   "new": "Traditional methods create this additive-free, sophisticated tequila.",
   "note": "Carlos Camarena attribution unverified for AsomBroso; name removed. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7664881172636",
+  "title": "The Kurayoshi 12 Year Whisky 70cl",
+  "old": "<td>Type</td>\n<td>Japanese Whisky</td>",
+  "new": "<td>Type</td>\n<td>Whisky (bottled in Japan)</td>",
+  "note": "Kurayoshi reportedly contains imported whisky; avoid 'Japanese whisky' category claim. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7664881172636",
+  "title": "The Kurayoshi 12 Year Whisky 70cl",
+  "old": "it embodies the finesse of Japanese whisky.",
+  "new": "it showcases the finesse of Japanese blending.",
+  "note": "Kurayoshi reportedly contains imported whisky; avoid 'Japanese whisky' category claim. Approved by the owner 2026-09-25."
  }
 ]
