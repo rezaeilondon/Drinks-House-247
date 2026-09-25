@@ -158,5 +158,21 @@
   "old": "this is Balfour's inaugural release",
   "new": "this is an early Balfour release",
   "note": "Earlier Balfour rosé vintages exist. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7969896857756",
+  "title": "Château d'Angludet 2021",
+  "old": "held by the Sichel family since 1875",
+  "new": "owned by the Sichel family since 1961",
+  "note": "The Sichel family acquired Angludet in 1961. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7863927636124",
+  "title": "Tignanello Magnum 2020",
+  "old": "<td>Sangiovese 85%, Cabernet Sauvignon, Cabernet Franc</td>",
+  "new": "<td>Sangiovese, Cabernet Sauvignon, Cabernet Franc</td>",
+  "note": "Blend percentage unverified for 2020 (typically ~80% Sangiovese); percentage removed. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
  }
 ]
