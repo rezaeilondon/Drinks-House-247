@@ -598,5 +598,37 @@
   "old": "The signature cuvée of Charles Heidsieck — once the Champagne of Queen Victoria and King Edward VII — Brut Réserve is renowned",
   "new": "The signature cuvée of Charles Heidsieck, Brut Réserve is renowned",
   "note": "Unverified royal-favourite claim removed. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15479005544823",
+  "title": "Hibiki 30 Year Old 70cl",
+  "old": "to mark Suntory's 60th anniversary",
+  "new": "to mark Suntory's 90th anniversary",
+  "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15479005544823",
+  "title": "Hibiki 30 Year Old 70cl",
+  "old": "a masterful blend of carefully selected Yamazaki single malts and mild grain whiskies, each aged",
+  "new": "a masterful blend of carefully selected Yamazaki and Hakushu malts and Chita grain whiskies, each aged",
+  "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15479005544823",
+  "title": "Hibiki 30 Year Old 70cl",
+  "old": "<span>Yamazaki malt + grain</span>",
+  "new": "<span>Yamazaki &amp; Hakushu malt + Chita grain</span>",
+  "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15479005544823",
+  "title": "Hibiki 30 Year Old 70cl",
+  "old": "<td>Yamazaki single malt &amp; mild grain whiskies</td>",
+  "new": "<td>Yamazaki &amp; Hakushu malts, Chita grain</td>",
+  "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
  }
 ]
