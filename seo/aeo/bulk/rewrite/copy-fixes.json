@@ -174,5 +174,53 @@
   "old": "<td>Sangiovese 85%, Cabernet Sauvignon, Cabernet Franc</td>",
   "new": "<td>Sangiovese, Cabernet Sauvignon, Cabernet Franc</td>",
   "note": "Blend percentage unverified for 2020 (typically ~80% Sangiovese); percentage removed. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "Japanese Single Malt · 18 Years · Sherry Casks",
+  "new": "Japanese Single Malt · 18 Years",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "a highly acclaimed, sherry-matured benchmark",
+  "new": "a highly acclaimed benchmark",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "has been matured primarily in sherry casks",
+  "new": "has been matured in a combination of casks, including sherry",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "<span>Sherry casks</span>",
+  "new": "<span>Sherry, American &amp; Mizunara oak</span>",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "<td>Primarily sherry</td>",
+  "new": "<td>Sherry, American &amp; Mizunara oak</td>",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7827900891292",
+  "title": "Chandon Garden Spritz 75cl",
+  "old": "<td>California, United States</td>",
+  "new": "<td>Mendoza, Argentina</td>",
+  "note": "Chandon Garden Spritz is made by Chandon in Mendoza, Argentina. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
  }
 ]
