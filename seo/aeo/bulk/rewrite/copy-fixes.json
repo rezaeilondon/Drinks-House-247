@@ -358,5 +358,117 @@
   "old": "Five years in sherry oak and an ornate",
   "new": "Five years in oak, including sherry casks, and an ornate",
   "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "Indian Single Malt · Shiraz Cask Finish",
+  "new": "Indian Single Malt · Wine Cask Finish",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "single malt finished in Australian Shiraz wine casks.",
+  "new": "single malt finished in wine casks.",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "before being finished in Australian Shiraz wine casks,",
+  "new": "before being finished in wine casks,",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "The Shiraz influence adds",
+  "new": "The wine-cask influence adds",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "<span>Ex-bourbon + Shiraz finish</span>",
+  "new": "<span>Ex-bourbon + wine cask finish</span>",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "with the Shiraz cask lending fruit",
+  "new": "with the wine cask lending fruit",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "<td>Ex-bourbon, finished in Australian Shiraz wine casks</td>",
+  "new": "<td>Ex-bourbon, finished in wine casks</td>",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "<summary>What does the Shiraz finish add?</summary>",
+  "new": "<summary>What does the wine cask finish add?</summary>",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "Champagne · Extra Dry · NV",
+  "new": "Champagne · Extra Brut · NV",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "Unusually approachable for an extra-dry style,",
+  "new": "Unusually approachable for a zero-dosage style,",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "<span>Extra Dry / Pure</span>",
+  "new": "<span>Extra Brut / Zero dosage</span>",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "<td>Champagne · Extra Dry (Pure)</td>",
+  "new": "<td>Champagne · Extra Brut, zero dosage (Pure)</td>",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "Bone-dry — an extra-dry style with very little dosage,",
+  "new": "Bone-dry — an Extra Brut with zero dosage,",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15495258210679",
+  "title": "Nikka Coffey Malt Japanese Malt Whisky 70cl",
+  "old": "Rich, complex and unlike anything produced outside Japan.",
+  "new": "Rich, complex and distinctive.",
+  "note": "Coffey-still malt is also made outside Japan; exclusivity claim removed. Approved by the owner 2026-09-25."
  }
 ]
