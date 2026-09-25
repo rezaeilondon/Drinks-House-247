@@ -638,5 +638,21 @@
   "old": "From Devaux, founded in 1845, the Ultra D",
   "new": "From Devaux, founded in 1846, the Ultra D",
   "note": "Devaux founding year aligned to 1846 (house branding; matches Collector's Magnum page). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7897727074460",
+  "title": "Rare Champagne, Millésime 2002",
+  "old": "From Rare Champagne — the prestige house founded in 1825 by Charles Heidsieck — this 2002 vintage",
+  "new": "From Rare Champagne — the prestige cuvée that began life at Piper-Heidsieck and is now a house in its own right — this 2002 vintage",
+  "note": "Rare Champagne began as Piper-Heidsieck's prestige cuvée; not founded 1825 by Charles Heidsieck. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15427644916087",
+  "title": "The Glenlivet Founder's Reserve 70cl",
+  "old": "at Scotland's first legal distillery.",
+  "new": "at the first licensed distillery in the parish of Glenlivet.",
+  "note": "Glenlivet was the first licensed distillery in the parish of Glenlivet, not Scotland's first legal distillery. Approved by the owner 2026-09-25."
  }
 ]
