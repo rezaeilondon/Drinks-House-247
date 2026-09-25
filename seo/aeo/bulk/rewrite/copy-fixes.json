@@ -630,5 +630,13 @@
   "old": "<td>Yamazaki single malt &amp; mild grain whiskies</td>",
   "new": "<td>Yamazaki &amp; Hakushu malts, Chita grain</td>",
   "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7895072800924",
+  "title": "Devaux, Ultra D, Aged 5 Years",
+  "old": "From Devaux, founded in 1845, the Ultra D",
+  "new": "From Devaux, founded in 1846, the Ultra D",
+  "note": "Devaux founding year aligned to 1846 (house branding; matches Collector's Magnum page). Approved by the owner 2026-09-25."
  }
 ]
