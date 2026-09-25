@@ -550,5 +550,53 @@
   "old": "it embodies the finesse of Japanese whisky.",
   "new": "it showcases the finesse of Japanese blending.",
   "note": "Kurayoshi reportedly contains imported whisky; avoid 'Japanese whisky' category claim. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "a sublime vintage cuvée honouring a founder of the house.",
+  "new": "a sublime vintage cuvée honouring Louis Salmon.",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "Cuvée Louis Salmon pays homage to a founding member.",
+  "new": "Cuvée Louis Salmon pays homage to Louis Salmon, brother of co-founder Elisabeth Salmon.",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "<span>Pinot Noir &amp; Chardonnay</span>",
+  "new": "<span>100% Chardonnay</span>",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "<td>Grapes</td>\n<td>Pinot Noir &amp; Chardonnay</td>",
+  "new": "<td>Grapes</td>\n<td>100% Chardonnay</td>",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "<p>A founding member of the house — this prestige cuvée is named in his honour.</p>",
+  "new": "<p>The brother of co-founder Elisabeth Salmon — this prestige cuvée is named in his honour.</p>",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7609172590748",
+  "title": "Charles Heidsieck Brut Reserve NV Champagne 75cl",
+  "old": "The signature cuvée of Charles Heidsieck — once the Champagne of Queen Victoria and King Edward VII — Brut Réserve is renowned",
+  "new": "The signature cuvée of Charles Heidsieck, Brut Réserve is renowned",
+  "note": "Unverified royal-favourite claim removed. Approved by the owner 2026-09-25."
  }
 ]
