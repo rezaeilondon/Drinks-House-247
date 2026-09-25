@@ -222,5 +222,141 @@
   "old": "<td>California, United States</td>",
   "new": "<td>Mendoza, Argentina</td>",
   "note": "Chandon Garden Spritz is made by Chandon in Mendoza, Argentina. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "Extra Añejo Tequila · Clase Azul · 25th Aniversario",
+  "new": "Tequila · Clase Azul · 25th Aniversario",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "This extra añejo is aged in rare casks",
+  "new": "This tequila is aged in rare casks",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "<span>Extra Añejo · 25th Aniversario</span>",
+  "new": "<span>25th Aniversario</span>",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "a collector's extra añejo befitting",
+  "new": "a collector's tequila befitting",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "<td>Extra Añejo Tequila</td>",
+  "new": "<td>Aged Tequila (limited edition)</td>",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7972048175260",
+  "title": "La Croix de Beaucaillou 2019",
+  "old": "<td>Aged in French oak barrels for 18 months</td>",
+  "new": "<td>Aged in French oak barrels</td>",
+  "note": "18-month oak ageing for the second wine could not be confirmed (12-14 months is more typical); duration removed. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15354901954935",
+  "title": "Dom Perignon Plenitude 2 P2 Vintage 2000 Gift Box 75cl",
+  "old": "Aged for over 15 years on the lees",
+  "new": "Aged for an extended period on the lees",
+  "note": "'Over 15 years' on the lees may overstate the P2 2000 by about a year; made non-numeric. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15354901954935",
+  "title": "Dom Perignon Plenitude 2 P2 Vintage 2000 Gift Box 75cl",
+  "old": "<span>15+ years on lees</span>",
+  "new": "<span>Extended lees ageing</span>",
+  "note": "'Over 15 years' on the lees may overstate the P2 2000 by about a year; made non-numeric. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15354901954935",
+  "title": "Dom Perignon Plenitude 2 P2 Vintage 2000 Gift Box 75cl",
+  "old": "<td>Over 15 years on the lees (late-disgorged)</td>",
+  "new": "<td>Extended ageing on the lees (late-disgorged)</td>",
+  "note": "'Over 15 years' on the lees may overstate the P2 2000 by about a year; made non-numeric. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15354901954935",
+  "title": "Dom Perignon Plenitude 2 P2 Vintage 2000 Gift Box 75cl",
+  "old": "aged over 15 years on the lees to reveal",
+  "new": "aged far longer on the lees to reveal",
+  "note": "'Over 15 years' on the lees may overstate the P2 2000 by about a year; made non-numeric. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "the pinnacle of luxury tequila, five years in sherry oak.",
+  "new": "the pinnacle of luxury tequila, five years in oak including sherry casks.",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "Aged for five years in sherry oak casks,",
+  "new": "Aged for five years in oak, including sherry casks,",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "<span>5 years sherry oak</span>",
+  "new": "<span>5 years in oak</span>",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "Five years in sherry oak build",
+  "new": "Five years in oak, including sherry casks, build",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "<td>5 years, sherry oak casks</td>",
+  "new": "<td>5 years, oak incl. sherry casks</td>",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "Sip neat to savour five years of sherry-oak maturation.",
+  "new": "Sip neat to savour five years of oak maturation.",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "Five years in sherry oak and an ornate",
+  "new": "Five years in oak, including sherry casks, and an ornate",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
  }
 ]
