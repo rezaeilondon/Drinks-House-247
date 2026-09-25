@@ -854,5 +854,13 @@
   "old": "The fifth celebrated release in the award-winning Ghost &amp; Rare series",
   "new": "A celebrated release in the award-winning Ghost &amp; Rare series",
   "note": "Port Dundas was not the fifth Ghost & Rare release; drop the ordinal. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7895268753564",
+  "title": "Devaux, `Coeur de Nature` Organic",
+  "old": "From Devaux, established in 1845 in the Côte des Bar,",
+  "new": "From Devaux, established in 1846 in the Côte des Bar,",
+  "note": "Devaux was founded in 1846 (consistent with the approved Ultra D fix). Approved by the owner 2026-09-25."
  }
 ]
