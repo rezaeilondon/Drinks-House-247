@@ -1198,5 +1198,37 @@
   "old": "A first of its kind from Moët &amp; Chandon, Ice",
   "new": "From Moët &amp; Chandon, Ice",
   "note": "Ice Impérial (white) came first; rosé is not 'a first of its kind'. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7953340399772",
+  "title": "Bollinger Vieilles Vignes Francaises 2012",
+  "old": "rooted in the prestigious crus of Aÿ, Verzy and Tours-sur-Marne.",
+  "new": "rooted in the Grand Cru village of Aÿ.",
+  "note": "VVF comes from ungrafted plots in Aÿ only; Verzy and Tours-sur-Marne removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7953340399772",
+  "title": "Bollinger Vieilles Vignes Francaises 2012",
+  "old": "<span>Aÿ, Verzy, Tours-sur-Marne</span>",
+  "new": "<span>Aÿ Grand Cru</span>",
+  "note": "VVF comes from ungrafted plots in Aÿ only; Verzy and Tours-sur-Marne removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7953340399772",
+  "title": "Bollinger Vieilles Vignes Francaises 2012",
+  "old": "<td>Aÿ, Verzy &amp; Tours-sur-Marne</td>",
+  "new": "<td>Aÿ</td>",
+  "note": "VVF comes from ungrafted plots in Aÿ only; Verzy and Tours-sur-Marne removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7618317942940",
+  "title": "Pommery Brut Apanage champagne 75cl",
+  "old": "Founded in 1836 by Madame Louise Pommery, the house is celebrated for",
+  "new": "Shaped by Madame Louise Pommery from 1858, the house is celebrated for",
+  "note": "Pommery dates to 1836; Madame Pommery took over in 1858. Approved by the owner 2026-09-26."
  }
 ]
