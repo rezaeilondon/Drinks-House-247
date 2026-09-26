@@ -1014,5 +1014,53 @@
   "old": "in its own right — this 2008 vintage — one of the decade's most acclaimed — blends",
   "new": "in its own right. This 2008 vintage, one of the decade's most acclaimed, blends",
   "note": "Tidied punctuation after the Rare fix. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7898031489180",
+  "title": "Rare Champagne, Rosé Millésime 2014",
+  "old": "From Rare Champagne, established in 1985, this rosé was harvested",
+  "new": "From Rare Champagne — the prestige cuvée that began life at Piper-Heidsieck and is now a house in its own right — this rosé was harvested",
+  "note": "Rare was not established in 1985; same Piper-Heidsieck wording as other Rare pages. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7954995511452",
+  "title": "Bollinger La Grande Annee Rose 2014",
+  "old": "renowned for powerful Pinot Noir-based Champagnes and rarely producing rosé. La Grande",
+  "new": "renowned for powerful Pinot Noir-based Champagnes. La Grande",
+  "note": "Bollinger makes a non-vintage Rosé every year; removed 'rarely makes rosé'. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7954995511452",
+  "title": "Bollinger La Grande Annee Rose 2014",
+  "old": "Bollinger rarely makes rosé — La Grande Année Rosé is crafted only in exceptional vintages.",
+  "new": "La Grande Année Rosé is crafted only in exceptional vintages.",
+  "note": "Bollinger makes a non-vintage Rosé every year; removed 'rarely makes rosé'. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15346267390327",
+  "title": "Ayala A/18 Le Blanc de Blancs Champagne Gift Box 75cl",
+  "old": "Grower-quality Champagne, delivered across London",
+  "new": "Fine Champagne, delivered across London",
+  "note": "Ayala is a house, not a grower; crus sentence listed four of six. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15346267390327",
+  "title": "Ayala A/18 Le Blanc de Blancs Champagne Gift Box 75cl",
+  "old": "a vintage grower-style cuvée in a smart gift box",
+  "new": "a vintage Blanc de Blancs in a smart gift box",
+  "note": "Ayala is a house, not a grower; crus sentence listed four of six. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15346267390327",
+  "title": "Ayala A/18 Le Blanc de Blancs Champagne Gift Box 75cl",
+  "old": "grown in six leading crus of the Côte des Blancs — Chouilly, Cramant, Oger, Le Mesnil-sur-Oger — and the Montagne de Reims.",
+  "new": "grown in six leading crus of the Côte des Blancs and Montagne de Reims, including Chouilly, Cramant, Oger and Le Mesnil-sur-Oger.",
+  "note": "Ayala is a house, not a grower; crus sentence listed four of six. Approved by the owner 2026-09-26."
  }
 ]
