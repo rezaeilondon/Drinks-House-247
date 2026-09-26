@@ -1070,5 +1070,85 @@
   "old": "<td>Pinot Noir–led, with Chardonnay &amp; Pinot Meunier</td>",
   "new": "<td>Pinot Noir–led, with Chardonnay</td>",
   "note": "Les Folies de la Marquetterie is Pinot Noir and Chardonnay only; no Meunier. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "this non-vintage cuvée is a meticulous blend of 40% Pinot Noir, 40% Chardonnay and 20% Pinot Meunier. Bottled with no dosage, it lets the pure essence of the grapes shine — a perfect balance",
+  "new": "this non-vintage cuvée is a meticulous blend of Pinot Noir, Chardonnay and Pinot Meunier — a perfect balance",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "<span>40% Pinot Noir / 40% Chardonnay / 20% Pinot Meunier</span><span>No Dosage</span>",
+  "new": "<span>Pinot Noir, Chardonnay &amp; Pinot Meunier</span>",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "The absence of dosage keeps it pure and precise, unfolding",
+  "new": "It is pure and precise, unfolding",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "<td>40% Pinot Noir, 40% Chardonnay, 20% Pinot Meunier</td>",
+  "new": "<td>Pinot Noir, Chardonnay, Pinot Meunier</td>",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "<tr>\n<td>Dosage</td>\n<td>No dosage</td>\n</tr>\n",
+  "new": "",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "<details><summary>What does “no dosage” mean?</summary><p>No sugar is added after disgorgement, letting the pure character of the grapes shine.</p></details>",
+  "new": "",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15359025545591",
+  "title": "Dom Perignon Luminous Label Vintage 2013 - 75cl",
+  "old": "an elegant Brut with a label that glows in the dark.",
+  "new": "an elegant Brut with a label that lights up.",
+  "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15359025545591",
+  "title": "Dom Perignon Luminous Label Vintage 2013 - 75cl",
+  "old": "the special luminous label glows in the dark for a striking presentation.",
+  "new": "the special luminous label lights up for a striking presentation.",
+  "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15359025545591",
+  "title": "Dom Perignon Luminous Label Vintage 2013 - 75cl",
+  "old": "<td>Luminous (glow-in-the-dark) label</td>",
+  "new": "<td>Luminous (light-up) label</td>",
+  "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15359025545591",
+  "title": "Dom Perignon Luminous Label Vintage 2013 - 75cl",
+  "old": "<summary>Does the label really glow?</summary><p>Yes — the special luminous label glows in the dark, making a striking centrepiece.</p>",
+  "new": "<summary>Does the label really light up?</summary><p>Yes — the special luminous label lights up, making a striking centrepiece.</p>",
+  "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
  }
 ]
