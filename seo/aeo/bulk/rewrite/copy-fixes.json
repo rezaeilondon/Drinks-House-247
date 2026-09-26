@@ -862,5 +862,77 @@
   "old": "From Devaux, established in 1845 in the Côte des Bar,",
   "new": "From Devaux, established in 1846 in the Côte des Bar,",
   "note": "Devaux was founded in 1846 (consistent with the approved Ultra D fix). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7897677234332",
+  "title": "Rare Champagne, Millésime 2013",
+  "old": "From Rare Champagne, founded in 1825 by Charles Heidsieck, this 2013 vintage",
+  "new": "From Rare Champagne — the prestige cuvée that began life at Piper-Heidsieck and is now a house in its own right — this 2013 vintage",
+  "note": "Rare Champagne began as Piper-Heidsieck's prestige cuvée; not founded 1825 by Charles Heidsieck (same fix as Rare 2002). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15421952622967",
+  "title": "Johnnie Walker Green Label Blended Malt Scotch Whisky, 70cl",
+  "old": "a malt-only blend celebrating the four core whisky regions of Scotland.",
+  "new": "a malt-only blend of four iconic single malts from Speyside, the Islands and Islay.",
+  "note": "Green Label's four malts come from Speyside, the Islands and Islay; none is Lowland. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15421952622967",
+  "title": "Johnnie Walker Green Label Blended Malt Scotch Whisky, 70cl",
+  "old": "celebrating the signature styles of Scotland's four core whisky regions: Speyside, Highlands, Lowlands and Islay.",
+  "new": "celebrating the signature styles of Speyside, the Islands and Islay.",
+  "note": "Green Label's four malts come from Speyside, the Islands and Islay; none is Lowland. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15421952622967",
+  "title": "Johnnie Walker Green Label Blended Malt Scotch Whisky, 70cl",
+  "old": "<span>Four regions</span>",
+  "new": "<span>Four malts</span>",
+  "note": "Green Label's four malts come from Speyside, the Islands and Islay; none is Lowland. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15280037658999",
+  "title": "Dom Pérignon Takashi Murakami Edition 2015 - 75cl",
+  "old": "this 2015 vintage — 55% Pinot Noir, 45% Chardonnay from Grand Cru vineyards — is encased",
+  "new": "this 2015 vintage — a blend of Pinot Noir and Chardonnay — is encased",
+  "note": "Blend percentages conflicted with the DP 2015 page (51/49, Grand Cru + Hautvillers Premier Cru); removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15280037658999",
+  "title": "Dom Pérignon Takashi Murakami Edition 2015 - 75cl",
+  "old": "<span>Grand Cru</span>",
+  "new": "<span>Pinot Noir &amp; Chardonnay</span>",
+  "note": "Blend percentages conflicted with the DP 2015 page (51/49, Grand Cru + Hautvillers Premier Cru); removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15280037658999",
+  "title": "Dom Pérignon Takashi Murakami Edition 2015 - 75cl",
+  "old": "<td>55% Pinot Noir, 45% Chardonnay (Grand Cru)</td>",
+  "new": "<td>Pinot Noir &amp; Chardonnay</td>",
+  "note": "Blend percentages conflicted with the DP 2015 page (51/49, Grand Cru + Hautvillers Premier Cru); removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/14982825935223",
+  "title": "Dom Pérignon Rosé 2009 – 75cl",
+  "old": "<b>Same-day</b> up to 3 hrs",
+  "new": "<b>Same-day</b> up to 6 hrs",
+  "note": "Same-day window aligned with every other page (6 hrs). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15478992929143",
+  "title": "Hibiki Blossom Harmony 70cl",
+  "old": "the ancient art of Yobitsugi — repairing pottery with gold — symbolising",
+  "new": "the ancient art of Yobitsugi — a form of kintsugi, repairing pottery with gold — symbolising",
+  "note": "Gold repair is kintsugi; yobitsugi is a form of it. Approved by the owner 2026-09-26."
  }
 ]
