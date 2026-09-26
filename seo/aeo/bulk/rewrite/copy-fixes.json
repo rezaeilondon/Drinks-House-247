@@ -1230,5 +1230,37 @@
   "old": "Founded in 1836 by Madame Louise Pommery, the house is celebrated for",
   "new": "Shaped by Madame Louise Pommery from 1858, the house is celebrated for",
   "note": "Pommery dates to 1836; Madame Pommery took over in 1858. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15440133652855",
+  "title": "Midleton Very Rare Vintage Release 70cl",
+  "old": "celebrates four decades of excellence, at natural cask strength.",
+  "new": "celebrates four decades of excellence.",
+  "note": "Midleton Very Rare is not cask strength; cask-strength claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15440133652855",
+  "title": "Midleton Very Rare Vintage Release 70cl",
+  "old": "<span>Cask strength</span>",
+  "new": "",
+  "note": "Midleton Very Rare is not cask strength; cask-strength claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15440133652855",
+  "title": "Midleton Very Rare Vintage Release 70cl",
+  "old": "<tr>\n<td>Strength</td>\n<td>Natural cask strength</td>\n</tr>\n",
+  "new": "",
+  "note": "Midleton Very Rare is not cask strength; cask-strength claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15422114103671",
+  "title": "Patrón® El Cielo Tequila 70cl",
+  "old": "Patrón El Cielo — the world’s first four-times distilled luxury blanco,",
+  "new": "Patrón El Cielo — Patrón’s first four-times distilled blanco,",
+  "note": "'World's first' claim unverified; now Patrón's first. Approved by the owner 2026-09-26."
  }
 ]
