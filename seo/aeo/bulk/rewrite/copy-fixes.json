@@ -1150,5 +1150,53 @@
   "old": "<summary>Does the label really glow?</summary><p>Yes — the special luminous label glows in the dark, making a striking centrepiece.</p>",
   "new": "<summary>Does the label really light up?</summary><p>Yes — the special luminous label lights up, making a striking centrepiece.</p>",
   "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7604303757468",
+  "title": "Bollinger B13 Vintage Champagne 75cl",
+  "old": "Bollinger B13 — a Pinot-led 2013 vintage",
+  "new": "Bollinger B13 — a 2013 Blanc de Noirs",
+  "note": "Bollinger B13 is a Blanc de Noirs, 100% Pinot Noir; 60/40 blend removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7604303757468",
+  "title": "Bollinger B13 Vintage Champagne 75cl",
+  "old": "Predominantly Pinot Noir with Chardonnay, aged",
+  "new": "Made entirely from Pinot Noir, aged",
+  "note": "Bollinger B13 is a Blanc de Noirs, 100% Pinot Noir; 60/40 blend removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7604303757468",
+  "title": "Bollinger B13 Vintage Champagne 75cl",
+  "old": "<span>60% Pinot Noir · 40% Chardonnay</span>",
+  "new": "<span>100% Pinot Noir · Blanc de Noirs</span>",
+  "note": "Bollinger B13 is a Blanc de Noirs, 100% Pinot Noir; 60/40 blend removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7604303757468",
+  "title": "Bollinger B13 Vintage Champagne 75cl",
+  "old": "<td>60% Pinot Noir, 40% Chardonnay</td>",
+  "new": "<td>100% Pinot Noir (Blanc de Noirs)</td>",
+  "note": "Bollinger B13 is a Blanc de Noirs, 100% Pinot Noir; 60/40 blend removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15328556679543",
+  "title": "Penderyn Madeira Finish-Single Malt Welsh Whisky 70cl",
+  "old": "<td>Penderyn (est. 2004)</td>",
+  "new": "<td>Penderyn (est. 2000)</td>",
+  "note": "Penderyn distillery opened in 2000; 2004 was the first release. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7616838828188",
+  "title": "Moët & Chandon Ice Impérial NV Rosé champagne 75cl",
+  "old": "A first of its kind from Moët &amp; Chandon, Ice",
+  "new": "From Moët &amp; Chandon, Ice",
+  "note": "Ice Impérial (white) came first; rosé is not 'a first of its kind'. Approved by the owner 2026-09-26."
  }
 ]
