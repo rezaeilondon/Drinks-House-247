@@ -934,5 +934,29 @@
   "old": "the ancient art of Yobitsugi — repairing pottery with gold — symbolising",
   "new": "the ancient art of Yobitsugi — a form of kintsugi, repairing pottery with gold — symbolising",
   "note": "Gold repair is kintsugi; yobitsugi is a form of it. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7897703153820",
+  "title": "Rare Champagne, Millésime 2008",
+  "old": "From Rare Champagne, founded in 1825 by Charles Heidsieck, this 2008 vintage",
+  "new": "From Rare Champagne — the prestige cuvée that began life at Piper-Heidsieck and is now a house in its own right — this 2008 vintage",
+  "note": "Rare Champagne began as Piper-Heidsieck's prestige cuvée; not founded 1825 by Charles Heidsieck (same fix as Rare 2002/2013). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7895166025884",
+  "title": "Devaux, Sténopé 2012",
+  "old": "the Devaux house, founded in 1845,",
+  "new": "the Devaux house, founded in 1846,",
+  "note": "Devaux was founded in 1846 (consistent with Ultra D and Coeur de Nature). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15356395520375",
+  "title": "AsomBroso 10 Year Old Especial de Rouge Extra Anejo Tequila 75cl",
+  "old": "An ultra-rare, limited-edition masterpiece from master distiller Carlos Camarena, crafted from",
+  "new": "An ultra-rare, limited-edition masterpiece from AsomBroso, crafted from",
+  "note": "Removed Carlos Camarena attribution (same fix as the other AsomBroso page). Approved by the owner 2026-09-26."
  }
 ]
