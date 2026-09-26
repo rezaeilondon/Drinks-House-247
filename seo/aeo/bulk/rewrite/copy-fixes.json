@@ -1262,5 +1262,37 @@
   "old": "Patrón El Cielo — the world’s first four-times distilled luxury blanco,",
   "new": "Patrón El Cielo — Patrón’s first four-times distilled blanco,",
   "note": "'World's first' claim unverified; now Patrón's first. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7903125504156",
+  "title": "Champagne Pierre Péters, `Réserve Oubliée` Blancs de Blancs",
+  "old": " and aged a minimum of fifteen years on the lees, showcasing",
+  "new": ", showcasing",
+  "note": "Réserve Oubliée is a perpetual-reserve blend; unverified 15-years-on-lees claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7903125504156",
+  "title": "Champagne Pierre Péters, `Réserve Oubliée` Blancs de Blancs",
+  "old": "<span>15+ years on lees</span>",
+  "new": "<span>Perpetual reserve</span>",
+  "note": "Réserve Oubliée is a perpetual-reserve blend; unverified 15-years-on-lees claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7903125504156",
+  "title": "Champagne Pierre Péters, `Réserve Oubliée` Blancs de Blancs",
+  "old": "<td>Minimum 15 years on the lees</td>",
+  "new": "<td>Perpetual reserve</td>",
+  "note": "Réserve Oubliée is a perpetual-reserve blend; unverified 15-years-on-lees claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7903125504156",
+  "title": "Champagne Pierre Péters, `Réserve Oubliée` Blancs de Blancs",
+  "old": "<summary>Why such long ageing?</summary><p>Over fifteen years on the lees builds exceptional toasty, honeyed complexity",
+  "new": "<summary>What is a perpetual reserve?</summary><p>A reserve of older wines refreshed with each new harvest, which builds toasty, honeyed complexity",
+  "note": "Réserve Oubliée is a perpetual-reserve blend; unverified 15-years-on-lees claims removed. Approved by the owner 2026-09-26."
  }
 ]
