@@ -958,5 +958,61 @@
   "old": "An ultra-rare, limited-edition masterpiece from master distiller Carlos Camarena, crafted from",
   "new": "An ultra-rare, limited-edition masterpiece from AsomBroso, crafted from",
   "note": "Removed Carlos Camarena attribution (same fix as the other AsomBroso page). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15310030307703",
+  "title": "Case of 6 x Cazcanes No.7 Añejo Tequila 75cl",
+  "old": "<div class=\"lux-eyebrow\">Añejo Tequila · Highland Jalisco · Case of 6</div>",
+  "new": "<div class=\"lux-eyebrow\">Añejo Tequila · Valle, Jalisco · Case of 6</div>",
+  "note": "Cazcanes is from the Valle (lowland) region, consistent with the Cazcanes Blanco page. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15310030307703",
+  "title": "Case of 6 x Cazcanes No.7 Añejo Tequila 75cl",
+  "old": "From the highlands of Jalisco, this añejo",
+  "new": "From the Valle region of Jalisco, this añejo",
+  "note": "Cazcanes is from the Valle (lowland) region, consistent with the Cazcanes Blanco page. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15310030307703",
+  "title": "Case of 6 x Cazcanes No.7 Añejo Tequila 75cl",
+  "old": "<td>Highland Jalisco, Mexico</td>",
+  "new": "<td>Valle, Jalisco, Mexico</td>",
+  "note": "Cazcanes is from the Valle (lowland) region, consistent with the Cazcanes Blanco page. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/14982868762999",
+  "title": "Krug Grande Cuvée Edition 171 – 75cl",
+  "old": "over 130 wines from a dozen years.",
+  "new": "over 130 wines from more than a dozen years.",
+  "note": "Krug 171 year count softened (Krug cites 13 years). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/14982868762999",
+  "title": "Krug Grande Cuvée Edition 171 – 75cl",
+  "old": "over 130 wines from 12 different years",
+  "new": "over 130 wines from more than a dozen different years",
+  "note": "Krug 171 year count softened (Krug cites 13 years). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/14982868762999",
+  "title": "Krug Grande Cuvée Edition 171 – 75cl",
+  "old": "<td>130+ wines from 12 years (2000–2015)</td>",
+  "new": "<td>130+ wines from more than a dozen years (2000–2015)</td>",
+  "note": "Krug 171 year count softened (Krug cites 13 years). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7897703153820",
+  "title": "Rare Champagne, Millésime 2008",
+  "old": "in its own right — this 2008 vintage — one of the decade's most acclaimed — blends",
+  "new": "in its own right. This 2008 vintage, one of the decade's most acclaimed, blends",
+  "note": "Tidied punctuation after the Rare fix. Approved by the owner 2026-09-26."
  }
 ]
