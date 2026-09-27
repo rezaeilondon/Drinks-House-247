@@ -1382,5 +1382,45 @@
   "old": "LOUIS XIII’s first unveiling at the Paris World Fair in 1900.",
   "new": "LOUIS XIII’s showcase at the Paris World Fair in 1900.",
   "note": "'First unveiled' in 1900 conflicts with 1874 creation; softened to 'showcased'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15489417642359",
+  "title": "Freixenet Cordon Negro Cava 6 x 75cl",
+  "old": "<span>Parellada</span>",
+  "new": "<span>Macabeo · Xarel·lo · Parellada</span>",
+  "note": "Cordon Negro is a Macabeo, Xarel·lo and Parellada blend, not Parellada alone. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15489417642359",
+  "title": "Freixenet Cordon Negro Cava 6 x 75cl",
+  "old": "The Parellada grape gives it its character:",
+  "new": "The blend of Macabeo, Xarel·lo and Parellada gives it its character:",
+  "note": "Cordon Negro is a Macabeo, Xarel·lo and Parellada blend, not Parellada alone. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15489417642359",
+  "title": "Freixenet Cordon Negro Cava 6 x 75cl",
+  "old": "<td>Grape</td>\n<td>Parellada</td>",
+  "new": "<td>Grapes</td>\n<td>Macabeo, Xarel·lo, Parellada</td>",
+  "note": "Cordon Negro is a Macabeo, Xarel·lo and Parellada blend, not Parellada alone. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493801509239",
+  "title": "Beluga Gold Line Vodka 150cl",
+  "old": "mastery — and it is a limited edition rather than a standing line.",
+  "new": "mastery.",
+  "note": "Gold Line is a permanent Beluga expression; 'limited edition' claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493801509239",
+  "title": "Beluga Gold Line Vodka 150cl",
+  "old": "<td>Gold Line, limited edition</td>",
+  "new": "<td>Gold Line</td>",
+  "note": "Gold Line is a permanent Beluga expression; 'limited edition' claims removed. Approved by the owner 2026-09-27."
  }
 ]
