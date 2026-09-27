@@ -1326,5 +1326,61 @@
   "old": "<td>Gin &amp; vermouth infused chocolate truffles</td>",
   "new": "<td>Gin &amp; Marc de Champagne infused chocolate truffles</td>",
   "note": "Listed alcohols are gin 5% and Marc de Champagne 2%; unlisted vermouth claims replaced. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "a velvety dark-chocolate shell around",
+  "new": "a velvety chocolate shell around",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "<span>Royal Warrant chocolatier</span>",
+  "new": "",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "enrobed in dark chocolate and dusted",
+  "new": "enrobed in chocolate and dusted",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "<span>Dark chocolate</span><span>Champagne</span><span>Silky ganache</span>",
+  "new": "<span>Chocolate</span><span>Champagne</span><span>Silky ganache</span>",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "<td>Champagne-infused dark chocolate truffles</td>",
+  "new": "<td>Champagne-infused chocolate truffles</td>",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8007757955228",
+  "title": "Louis XIII Tribute to City of Lights Cognac",
+  "old": "the cognac was first unveiled at the Paris World Fair in 1900",
+  "new": "the cognac was showcased at the Paris World Fair in 1900",
+  "note": "'First unveiled' in 1900 conflicts with 1874 creation; softened to 'showcased'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8007757955228",
+  "title": "Louis XIII Tribute to City of Lights Cognac",
+  "old": "LOUIS XIII’s first unveiling at the Paris World Fair in 1900.",
+  "new": "LOUIS XIII’s showcase at the Paris World Fair in 1900.",
+  "note": "'First unveiled' in 1900 conflicts with 1874 creation; softened to 'showcased'. Approved by the owner 2026-09-27."
  }
 ]
