@@ -1454,5 +1454,61 @@
   "old": "now at ten years’ maturity.",
   "new": "now more than a decade on.",
   "note": "2014 vintage is now over a decade old, not ten years. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7987721339036",
+  "title": "Poesia 2014",
+  "old": "A decade on, it shows",
+  "new": "More than a decade on, it shows",
+  "note": "2014 vintage is now over a decade old. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7987691126940",
+  "title": "Les Oiseaux de Chantegrive Le Panache 2018",
+  "old": "The blend features Sauvignon Blanc (45%) for vibrant acidity and grassy lift, with a touch of Sauvignon Gris (5%) bringing",
+  "new": "The blend features Sauvignon Blanc for vibrant acidity and grassy lift, with a touch of Sauvignon Gris bringing",
+  "note": "Percentages left half the blend unnamed; percentages removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7987691126940",
+  "title": "Les Oiseaux de Chantegrive Le Panache 2018",
+  "old": "<td>Sauvignon Blanc (45%), Sauvignon Gris (5%), with estate blend</td>",
+  "new": "<td>Sauvignon Blanc, with a touch of Sauvignon Gris</td>",
+  "note": "Percentages left half the blend unnamed; percentages removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15491375563127",
+  "title": "Procera Blue Dot Gin",
+  "old": "a juniper found only in the highlands of Kenya and Ethiopia.",
+  "new": "a juniper native to the highlands of East Africa.",
+  "note": "Juniperus procera's range is wider than Kenya and Ethiopia; 'only' claims softened to East African highlands. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15491375563127",
+  "title": "Procera Blue Dot Gin",
+  "old": "a rare juniper species that grows only in the highlands of Kenya and Ethiopia, and the botanical",
+  "new": "an African juniper species native to the East African highlands, and the botanical",
+  "note": "Juniperus procera's range is wider than Kenya and Ethiopia; 'only' claims softened to East African highlands. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15491375563127",
+  "title": "Procera Blue Dot Gin",
+  "old": "<td>Highlands of Kenya and Ethiopia only</td>",
+  "new": "<td>Native to the East African highlands</td>",
+  "note": "Juniperus procera's range is wider than Kenya and Ethiopia; 'only' claims softened to East African highlands. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15491375563127",
+  "title": "Procera Blue Dot Gin",
+  "old": "An African juniper species growing only in the highlands of Kenya and Ethiopia.",
+  "new": "An African juniper species native to the East African highlands.",
+  "note": "Juniperus procera's range is wider than Kenya and Ethiopia; 'only' claims softened to East African highlands. Approved by the owner 2026-09-27."
  }
 ]
