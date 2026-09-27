@@ -1518,5 +1518,53 @@
   "old": "and it has spent two decades earning its place",
   "new": "and it has spent three decades earning its place",
   "note": "First Seña vintage was 1995, so over three decades, not two. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493799281015",
+  "title": "Beluga Noble Vodka 70cl",
+  "old": "Beluga Noble arrived in 2009 and changed what people expected",
+  "new": "Beluga Noble changed what people expected",
+  "note": "Beluga launch year unverified (brand dates from 2002, not 2009); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493799281015",
+  "title": "Beluga Noble Vodka 70cl",
+  "old": "<span>Barley Malt Spirit</span><span>Since 2009</span>",
+  "new": "<span>Barley Malt Spirit</span>",
+  "note": "Beluga launch year unverified (brand dates from 2002, not 2009); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493799281015",
+  "title": "Beluga Noble Vodka 70cl",
+  "old": "<tr>\n<td>Introduced</td>\n<td>2009</td>\n</tr>\n",
+  "new": "",
+  "note": "Beluga launch year unverified (brand dates from 2002, not 2009); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15496118305143",
+  "title": "Seventy One Gin Signature Martini Gift Set - Culture, Craft & Beauty",
+  "old": "created by fashion photographer Mert Alas with master distiller Steve Wilson, and its",
+  "new": "created by fashion photographer Mert Alas, and its",
+  "note": "Co-creator name unverified; kept Mert Alas only. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15496118305143",
+  "title": "Seventy One Gin Signature Martini Gift Set - Culture, Craft & Beauty",
+  "old": "<td>Mert Alas with master distiller Steve Wilson</td>",
+  "new": "<td>Mert Alas</td>",
+  "note": "Co-creator name unverified; kept Mert Alas only. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7985292017820",
+  "title": "Certan de May Half 2019",
+  "old": "a historic estate with roots in the eighteenth century, on a plateau",
+  "new": "a historic estate with centuries of history, on a plateau",
+  "note": "Estate history likely predates the 18th century; softened. Approved by the owner 2026-09-27."
  }
 ]
