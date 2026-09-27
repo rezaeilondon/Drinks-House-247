@@ -1566,5 +1566,37 @@
   "old": "a historic estate with roots in the eighteenth century, on a plateau",
   "new": "a historic estate with centuries of history, on a plateau",
   "note": "Estate history likely predates the 18th century; softened. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401270706551",
+  "title": "Cambridge Truffle Gin 70cl",
+  "old": "<span>Truffle Botanical</span><span>Copper Pot Still</span>",
+  "new": "<span>Truffle Botanical</span>",
+  "note": "Cambridge Distillery is known for vacuum distillation; copper pot still claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401270706551",
+  "title": "Cambridge Truffle Gin 70cl",
+  "old": "a small-batch artisanal gin from Cambridge, distilled in small copper pot stills, that takes",
+  "new": "a small-batch artisanal gin from Cambridge that takes",
+  "note": "Cambridge Distillery is known for vacuum distillation; copper pot still claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401270706551",
+  "title": "Cambridge Truffle Gin 70cl",
+  "old": "<td>Small copper pot stills, small batch</td>",
+  "new": "<td>Small batch</td>",
+  "note": "Cambridge Distillery is known for vacuum distillation; copper pot still claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8016714334364",
+  "title": "Penfolds Grange 2018 Magnum",
+  "old": "<td>Shiraz</td>",
+  "new": "<td>Shiraz-dominant blend</td>",
+  "note": "Table said Shiraz while text said Shiraz-dominant blend; table aligned. Approved by the owner 2026-09-27."
  }
 ]
