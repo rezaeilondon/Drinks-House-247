@@ -1422,5 +1422,37 @@
   "old": "<td>Gold Line, limited edition</td>",
   "new": "<td>Gold Line</td>",
   "note": "Gold Line is a permanent Beluga expression; 'limited edition' claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7986060001436",
+  "title": "La Garde Half 2019",
+  "old": "The 2019 is Merlot-led (52%) with Cabernet Sauvignon (48%) and a hint of Petit Verdot, aged in oak barrels.",
+  "new": "The 2019 is Merlot-led, with Cabernet Sauvignon and a hint of Petit Verdot, aged in oak barrels.",
+  "note": "Blend percentages summed past 100% with Petit Verdot; percentages removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7986060001436",
+  "title": "La Garde Half 2019",
+  "old": "<td>Merlot (52%), Cabernet Sauvignon (48%), Petit Verdot</td>",
+  "new": "<td>Merlot, Cabernet Sauvignon, Petit Verdot</td>",
+  "note": "Blend percentages summed past 100% with Petit Verdot; percentages removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15370059317623",
+  "title": "Amie X Organic Rosé 75cl",
+  "old": ", and was crowned Good Housekeeping’s best rosé — a WSET-accredited panel named it the winner among 33 rosés, calling it “dangerously drinkable”.",
+  "new": ".",
+  "note": "Unverified Good Housekeeping award claim removed; press mentions kept. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7987678970012",
+  "title": "Haut Roc Blanquant 2014",
+  "old": "now at ten years’ maturity.",
+  "new": "now more than a decade on.",
+  "note": "2014 vintage is now over a decade old, not ten years. Approved by the owner 2026-09-27."
  }
 ]
