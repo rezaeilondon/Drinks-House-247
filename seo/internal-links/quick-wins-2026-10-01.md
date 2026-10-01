@@ -57,3 +57,15 @@ For each page, decide: keep it and delete the redirect, or unpublish it so the r
 - Every collection has a meta description.
 - Every published article has internal links.
 - The top-traffic articles (least-calories, flowers-and-champagne, drinking-games) have 8–23 relative links each.
+
+## Applied 2026-10-01 — menus (Priority 1)
+- Main menu: "Rosé Champagne" now links to the collection (works in every language); "Gin Gifts" → /collections/gin-gifts; "Wine Gifts" → /pages/wine-gifts; "50th Birthday Champagne" (it pointed to generic champagne gifts) replaced with "Thank You Gifts" → /collections/thank-you-gifts; Beer now has a dropdown: All Beer, Soft Drinks & Mixers, Beer Delivery London.
+- Footer + Quick Links: "Challenge 21" renamed "Challenge 25".
+- Footer-2: "50th Birthday Champagne" renamed "Champagne Gifts London" (same target).
+- Footer-3: "Beer Delivery SW1" → "Beer Delivery London" (/collections/beers); "Drinks Delivery SW11" → "Drinks Delivery Chelsea" (/pages/alcohol-delivery-chelsea); "Drinks Delivery Service" → /pages/alcohol-delivery-service; "Late Night Booze Delivery" → /pages/late-night-alcohol-delivery.
+- Footer-4: Camden, Kensington, Clapham, Battersea now go to their own area pages; added Alcohol Delivery Mayfair and Alcohol Delivery Soho.
+- Delivery menu: "Alcohol Delivery Near Me" → /pages/alcohol-delivery.
+- Not changed: "Spirits Gifts" and "Tequila Gifts" (no dedicated gift collection exists).
+
+## Prepared, not yet applied — content link fixes (Priorities 2–4)
+`link-rewrite-map-2026-10-01.csv` lists every href change (446 distinct pairs). Scope: 82 products (188 links, plus removing 70 Exotic Fruits basket cards), 136 pages (317 links), 50 articles (64 links), 14 collections (19 links).
