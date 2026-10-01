@@ -69,3 +69,12 @@ For each page, decide: keep it and delete the redirect, or unpublish it so the r
 
 ## Prepared, not yet applied — content link fixes (Priorities 2–4)
 `link-rewrite-map-2026-10-01.csv` lists every href change (446 distinct pairs). Scope: 82 products (188 links, plus removing 70 Exotic Fruits basket cards), 136 pages (317 links), 50 articles (64 links), 14 collections (19 links).
+
+## Applied 2026-10-01 — collections
+All 14 collection descriptions updated (19 links) and verified against live: links match exactly; three non-breaking spaces in brut-champagne and blanc-de-blancs-champagne became plain spaces (no visible change).
+
+## Blocked — bulk updates
+The Shopify connector refuses `bulkOperationRunMutation` ("Bulk mutation operations are blocked"). Products (82), pages (136) and articles (50) remain to apply one by one.
+
+## Folded into the rewrite plan
+`plan.json.gz` `new` descriptions for the 79 not-yet-rewritten affected products now carry the same link fixes and have the 70 Exotic Fruits basket cards removed (they previously would have re-published them).
