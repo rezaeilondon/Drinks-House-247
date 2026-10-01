@@ -1598,5 +1598,29 @@
   "old": "<td>Shiraz</td>",
   "new": "<td>Shiraz-dominant blend</td>",
   "note": "Table said Shiraz while text said Shiraz-dominant blend; table aligned. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8054750707868",
+  "title": "Bond St. Eden Cabernet Sauvignon 2018",
+  "old": "The 2018 is pure Cabernet Sauvignon, aged",
+  "new": "The 2018 is Cabernet Sauvignon-led, aged",
+  "note": "Bond wines are typically Cabernet-led blends; 'pure' softened. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8206271676572",
+  "title": "Vinedo Chadwick 2015 (75cl)",
+  "old": "Founded in 1994 by the Chadwick family, Viñedo Chadwick sits",
+  "new": "Created by the Chadwick family, Viñedo Chadwick sits",
+  "note": "Founding year 1994 doubtful (planted 1992, first vintage 1999); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8206271676572",
+  "title": "Vinedo Chadwick 2015 (75cl)",
+  "old": "<tr>\n<td>Estate Founded</td>\n<td>1994</td>\n</tr>\n",
+  "new": "",
+  "note": "Founding year 1994 doubtful (planted 1992, first vintage 1999); year removed. Approved by the owner 2026-09-27."
  }
 ]
