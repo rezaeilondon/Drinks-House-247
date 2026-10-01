@@ -1622,5 +1622,93 @@
   "old": "<tr>\n<td>Estate Founded</td>\n<td>1994</td>\n</tr>\n",
   "new": "",
   "note": "Founding year 1994 doubtful (planted 1992, first vintage 1999); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": "twelve botanicals, copper pot still, classic dry juniper.",
+  "new": "twelve botanicals, classic dry juniper.",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": "<span>12 Botanicals</span><span>Copper Pot Still</span>",
+  "new": "<span>12 Botanicals</span>",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": " Distillation is in traditional copper pot stills with precise vapour infusion, which keeps the delicate aromatics intact. At 42% ABV",
+  "new": " At 42% ABV",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": "<td>Small batch, copper pot still with vapour infusion</td>",
+  "new": "<td>Small batch</td>",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": "<details><summary>What does vapour infusion do?</summary><p>The botanicals sit above the spirit rather than in it, so the alcohol vapour passes through them. It gives a cleaner, more delicate extraction than boiling them directly.</p></details>\n",
+  "new": "",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15419823653239",
+  "title": "Chateau Palmer Margaux 2021",
+  "old": "Château Palmer’s 55 hectares sit on sandy-gravelly soils",
+  "new": "Château Palmer’s vineyards sit on sandy-gravelly soils",
+  "note": "Palmer vineyard area likely ~66ha, not 55; figure removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15419823653239",
+  "title": "Chateau Palmer Margaux 2021",
+  "old": "<td>55 hectares, sandy-gravelly soils; some vines over 70 years old</td>",
+  "new": "<td>Sandy-gravelly soils; some vines over 70 years old</td>",
+  "note": "Palmer vineyard area likely ~66ha, not 55; figure removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15422090576247",
+  "title": "Belvedere 10 Magnum Vodka 175cl",
+  "old": "Poland · Magnum · Single-Estate Rye",
+  "new": "Poland · Large Format · Single-Estate Rye",
+  "note": "1.75L is not a magnum (1.5L); now 'large format'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15422090576247",
+  "title": "Belvedere 10 Magnum Vodka 175cl",
+  "old": "Belvedere 10 in magnum — 175cl",
+  "new": "Belvedere 10 in large format — 175cl",
+  "note": "1.75L is not a magnum (1.5L); now 'large format'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15422090576247",
+  "title": "Belvedere 10 Magnum Vodka 175cl",
+  "old": "<span>Magnum 175cl</span>",
+  "new": "<span>Large Format 175cl</span>",
+  "note": "1.75L is not a magnum (1.5L); now 'large format'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15422090576247",
+  "title": "Belvedere 10 Magnum Vodka 175cl",
+  "old": "<td>Magnum — 175cl (1.75L)</td>",
+  "new": "<td>Large format — 175cl (1.75L)</td>",
+  "note": "1.75L is not a magnum (1.5L); now 'large format'. Approved by the owner 2026-09-27."
  }
 ]
