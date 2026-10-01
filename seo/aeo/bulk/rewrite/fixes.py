@@ -6,6 +6,8 @@ here instead, and next.py applies it to every description it emits.
 
   copy-fixes.json   exact string replacements for one product
   ICON_RULES        serving-card emoji that don't match their label
+  link-map.json     internal hrefs that 301 or 404, mapped to their live target
+  EXOTIC_*          cross-sell cards for the drafted Exotic Fruits basket, removed
 """
 import json, os, re
 
@@ -58,5 +60,43 @@ def apply_copy(pid, html):
     return html
 
 
+_links = json.load(open(os.path.join(D, "link-map.json")))
+_HREF = re.compile(r'(href\s*=\s*)(["\'])([^"\']+)\2', re.I)
+_HOST = re.compile(r'^(https?://(?:www\.)?drinkshouse247\.co\.uk)', re.I)
+_LOC = re.compile(r'^(/(?:ar|ru|zh|fr|de|es|it))(?=/)')
+
+
+def _relink(m):
+    u, host = m.group(3), ""
+    hm = _HOST.match(u)
+    if hm:
+        host = hm.group(1)
+        u = u[len(host):]
+    if not u.startswith("/") or u.startswith("//"):
+        return m.group(0)
+    lm = _LOC.match(u)
+    loc = lm.group(1) if lm else ""
+    u = u[len(loc):]
+    sm = re.search(r"[?#]", u)
+    path, suf = (u[:sm.start()], u[sm.start():]) if sm else (u, "")
+    new = _links.get(path.rstrip("/") or "/")
+    if new is None:
+        return m.group(0)
+    if "?" in suf and not new.startswith("/collections/"):
+        suf = suf[suf.find("#"):] if "#" in suf else ""
+    return m.group(1) + m.group(2) + host + loc + new + suf + m.group(2)
+
+
+_EX = r'href=["\'][^"\']*exotic-fruits-delight-basket-premium-assortment[^"\']*["\']'
+EXOTIC_CARD = re.compile(r'<div class="dh-prod-card[^"]*">\s*<a class="dh-prod-link" ' + _EX +
+                         r'[^>]*>.*?</a>\s*(?:<span class="dh-prod-price">[^<]*</span>\s*)?</div>\s*', re.S)
+EXOTIC_LINK = re.compile(r'<a\b[^>]*' + _EX + r'[^>]*>.*?</a>\s*', re.S | re.I)
+
+
+def apply_links(html):
+    html = _HREF.sub(_relink, html)
+    return EXOTIC_LINK.sub("", EXOTIC_CARD.sub("", html))
+
+
 def apply(pid, html):
-    return _CARD.sub(_swap, apply_copy(pid, html))
+    return apply_links(_CARD.sub(_swap, apply_copy(pid, html)))
