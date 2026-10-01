@@ -78,3 +78,6 @@ The Shopify connector refuses `bulkOperationRunMutation` ("Bulk mutation operati
 
 ## Folded into the rewrite plan
 `plan.json.gz` `new` descriptions for the 79 not-yet-rewritten affected products now carry the same link fixes and have the 70 Exotic Fruits basket cards removed (they previously would have re-published them).
+
+## Applied 2026-10-01 — Exotic basket redirect
+Added redirect `/products/exotic-fruits-delight-basket-premium-assortment` → `/collections/gifts-hampers` (UrlRedirect 1735387218295). The product is DRAFT, so the 70 cross-sell cards now land on Gifts & Hampers instead of a 404 until the rewrite removes them.
