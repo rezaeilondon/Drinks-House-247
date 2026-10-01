@@ -1,122 +1,242 @@
 [
-  {
-    "id": "gid://shopify/Page/704717586807",
-    "title": "Send Champagne and Gifts to London from New York",
-    "handle": "send-champagne-gifts-to-london-from-new-york",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Champagne to London from New York | Drinks House 247",
-    "seo_description": "Sending a gift to London from New York? Champagne, whisky and hampers delivered in 30–45 minutes, 24/7, or across the UK. No customs. Add your message at checkout.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717619575",
-    "title": "Send Champagne and Gifts to London from Beverly Hills and Los Angeles",
-    "handle": "send-champagne-gifts-to-london-from-beverly-hills-los-angeles",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Champagne to London from Beverly Hills & LA | Drinks House 247",
-    "seo_description": "Send Cristal, Dom Pérignon, Krug or a caviar hamper to London from Beverly Hills or LA. Delivered 24/7 in 30–45 minutes across London. No customs, no shipping.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717652343",
-    "title": "Send Champagne and Gifts to London from Miami and Palm Beach",
-    "handle": "send-champagne-gifts-to-london-from-miami-palm-beach",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Champagne to London from Miami & Palm Beach | Drinks House 247",
-    "seo_description": "From Miami or Palm Beach to a London door in 30–45 minutes. Rosé champagne, prestige cuvées and hampers delivered 24/7 across London. Pay by US card.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717685111",
-    "title": "Send Wine, Champagne and Gifts to London from San Francisco",
-    "handle": "send-champagne-gifts-to-london-from-san-francisco",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Wine & Champagne to London from San Francisco | Drinks House 247",
-    "seo_description": "Send Napa Valley wine, champagne or Japanese whisky to London from San Francisco and Silicon Valley. Delivered 24/7 in 30–45 minutes. Ideal for London teams and clients.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717717879",
-    "title": "Send Champagne and Gifts to London from Toronto",
-    "handle": "send-champagne-gifts-to-london-from-toronto",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Champagne to London from Toronto | Drinks House 247",
-    "seo_description": "Sending a birthday or thank-you gift from Toronto to London? Champagne, Scotch and hampers delivered 24/7 in 30–45 minutes across London. No customs, pay by Canadian card.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717750647",
-    "title": "Send Champagne, Cognac and Gifts to London from Hong Kong",
-    "handle": "send-champagne-cognac-gifts-to-london-from-hong-kong",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Champagne & Cognac to London from Hong Kong | Drinks House 247",
-    "seo_description": "From Hong Kong to a London door: cognac, prestige champagne and caviar delivered 24/7 in 30–45 minutes. Time your order with our Hong Kong to London guide.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717783415",
-    "title": "Send Whisky, Champagne and Gifts to London from Tokyo",
-    "handle": "send-whisky-champagne-gifts-to-london-from-tokyo",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Whisky & Champagne to London from Tokyo | Drinks House 247",
-    "seo_description": "Send Japanese whisky, Scotch or champagne to London from Tokyo. Delivered 24/7 in 30–45 minutes across London, with no customs. Order in your evening, it arrives in their day.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717816183",
-    "title": "Send Champagne and Gifts to London from Sydney",
-    "handle": "send-champagne-gifts-to-london-from-sydney",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Champagne to London from Sydney | Drinks House 247",
-    "seo_description": "Sending a gift from Sydney to London? Champagne, hampers and flowers delivered 24/7 in 30–45 minutes across London. Order in your evening, it arrives in their morning.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717848951",
-    "title": "Send Luxury Gifts to London from Abu Dhabi",
-    "handle": "send-luxury-gifts-to-london-from-abu-dhabi",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Luxury Gifts to London from Abu Dhabi | Drinks House 247",
-    "seo_description": "Send caviar, chocolates, alcohol-free hampers or champagne to London from Abu Dhabi. Delivered 24/7 in 30–45 minutes across London. Pay by card, add your message.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717881719",
-    "title": "Send Luxury Gifts to London from Doha",
-    "handle": "send-luxury-gifts-to-london-from-doha",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Luxury Gifts to London from Doha | Drinks House 247",
-    "seo_description": "From Doha to a London door in 30–45 minutes, 24/7. Alcohol-free hampers, caviar, chocolates, flowers and champagne. Ideal for family, friends and business partners in London.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717914487",
-    "title": "Send Champagne and Gifts to London from Paris",
-    "handle": "send-champagne-gifts-to-london-from-paris",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Champagne & Gifts to London from Paris | Drinks House 247",
-    "seo_description": "Sending a gift from Paris to London? Prestige champagne, Scotch, fine wine and caviar delivered 24/7 in 30–45 minutes across London, with no shipping across the Channel.",
-    "published_on": "2026-10-01"
-  },
-  {
-    "id": "gid://shopify/Page/704717947255",
-    "title": "Send Prestige Champagne and Gifts to London from Monaco",
-    "handle": "send-prestige-champagne-gifts-to-london-from-monaco",
-    "published": true,
-    "template_suffix": "page",
-    "seo_title": "Send Prestige Champagne to London from Monaco | Drinks House 247",
-    "seo_description": "From Monaco to London in 30–45 minutes: Cristal, Krug, Dom Pérignon, rare whisky and Beluga caviar hampers, delivered 24/7 to homes, hotels and offices across London.",
-    "published_on": "2026-10-01"
-  }
+ {
+  "id": "gid://shopify/Page/704717586807",
+  "title": "Send Champagne and Gifts to London from New York",
+  "handle": "send-champagne-gifts-to-london-from-new-york",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from New York | Drinks House 247",
+  "seo_description": "Sending a gift to London from New York? Champagne, whisky and hampers delivered in 30–45 minutes, 24/7, or across the UK. No customs. Add your message at checkout.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717619575",
+  "title": "Send Champagne and Gifts to London from Beverly Hills and Los Angeles",
+  "handle": "send-champagne-gifts-to-london-from-beverly-hills-los-angeles",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from Beverly Hills & LA | Drinks House 247",
+  "seo_description": "Send Cristal, Dom Pérignon, Krug or a caviar hamper to London from Beverly Hills or LA. Delivered 24/7 in 30–45 minutes across London. No customs, no shipping.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717652343",
+  "title": "Send Champagne and Gifts to London from Miami and Palm Beach",
+  "handle": "send-champagne-gifts-to-london-from-miami-palm-beach",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from Miami & Palm Beach | Drinks House 247",
+  "seo_description": "From Miami or Palm Beach to a London door in 30–45 minutes. Rosé champagne, prestige cuvées and hampers delivered 24/7 across London. Pay by US card.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717685111",
+  "title": "Send Wine, Champagne and Gifts to London from San Francisco",
+  "handle": "send-champagne-gifts-to-london-from-san-francisco",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Wine & Champagne to London from San Francisco | Drinks House 247",
+  "seo_description": "Send Napa Valley wine, champagne or Japanese whisky to London from San Francisco and Silicon Valley. Delivered 24/7 in 30–45 minutes. Ideal for London teams and clients.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717717879",
+  "title": "Send Champagne and Gifts to London from Toronto",
+  "handle": "send-champagne-gifts-to-london-from-toronto",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from Toronto | Drinks House 247",
+  "seo_description": "Sending a birthday or thank-you gift from Toronto to London? Champagne, Scotch and hampers delivered 24/7 in 30–45 minutes across London. No customs, pay by Canadian card.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717750647",
+  "title": "Send Champagne, Cognac and Gifts to London from Hong Kong",
+  "handle": "send-champagne-cognac-gifts-to-london-from-hong-kong",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne & Cognac to London from Hong Kong | Drinks House 247",
+  "seo_description": "From Hong Kong to a London door: cognac, prestige champagne and caviar delivered 24/7 in 30–45 minutes. Time your order with our Hong Kong to London guide.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717783415",
+  "title": "Send Whisky, Champagne and Gifts to London from Tokyo",
+  "handle": "send-whisky-champagne-gifts-to-london-from-tokyo",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Whisky & Champagne to London from Tokyo | Drinks House 247",
+  "seo_description": "Send Japanese whisky, Scotch or champagne to London from Tokyo. Delivered 24/7 in 30–45 minutes across London, with no customs. Order in your evening, it arrives in their day.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717816183",
+  "title": "Send Champagne and Gifts to London from Sydney",
+  "handle": "send-champagne-gifts-to-london-from-sydney",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from Sydney | Drinks House 247",
+  "seo_description": "Sending a gift from Sydney to London? Champagne, hampers and flowers delivered 24/7 in 30–45 minutes across London. Order in your evening, it arrives in their morning.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717848951",
+  "title": "Send Luxury Gifts to London from Abu Dhabi",
+  "handle": "send-luxury-gifts-to-london-from-abu-dhabi",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Luxury Gifts to London from Abu Dhabi | Drinks House 247",
+  "seo_description": "Send caviar, chocolates, alcohol-free hampers or champagne to London from Abu Dhabi. Delivered 24/7 in 30–45 minutes across London. Pay by card, add your message.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717881719",
+  "title": "Send Luxury Gifts to London from Doha",
+  "handle": "send-luxury-gifts-to-london-from-doha",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Luxury Gifts to London from Doha | Drinks House 247",
+  "seo_description": "From Doha to a London door in 30–45 minutes, 24/7. Alcohol-free hampers, caviar, chocolates, flowers and champagne. Ideal for family, friends and business partners in London.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717914487",
+  "title": "Send Champagne and Gifts to London from Paris",
+  "handle": "send-champagne-gifts-to-london-from-paris",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne & Gifts to London from Paris | Drinks House 247",
+  "seo_description": "Sending a gift from Paris to London? Prestige champagne, Scotch, fine wine and caviar delivered 24/7 in 30–45 minutes across London, with no shipping across the Channel.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704717947255",
+  "title": "Send Prestige Champagne and Gifts to London from Monaco",
+  "handle": "send-prestige-champagne-gifts-to-london-from-monaco",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Prestige Champagne to London from Monaco | Drinks House 247",
+  "seo_description": "From Monaco to London in 30–45 minutes: Cristal, Krug, Dom Pérignon, rare whisky and Beluga caviar hampers, delivered 24/7 to homes, hotels and offices across London.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726172023",
+  "title": "Send Champagne and Gifts to London from the Hamptons",
+  "handle": "send-champagne-gifts-to-london-from-the-hamptons",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from the Hamptons | Drinks House 247",
+  "seo_description": "Send rosé, magnums and prestige champagne to London from the Hamptons. Delivered 24/7 in 30–45 minutes across London. No customs, pay by US card.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726204791",
+  "title": "Send Champagne and Gifts to London from Greenwich, Connecticut",
+  "handle": "send-champagne-gifts-to-london-from-greenwich-connecticut",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from Greenwich, CT | Drinks House 247",
+  "seo_description": "Send champagne, fine Bordeaux or Scotch to London clients and colleagues from Greenwich, Connecticut. Delivered 24/7 in 30–45 minutes. No customs.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726237559",
+  "title": "Send Champagne, Whisky and Gifts to London from Chicago",
+  "handle": "send-champagne-whisky-gifts-to-london-from-chicago",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne & Whisky to London from Chicago | Drinks House 247",
+  "seo_description": "Send champagne, bourbon or single malt Scotch to London from Chicago. Delivered 24/7 in 30–45 minutes across London. No customs, pay by US card.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726270327",
+  "title": "Send Champagne, Whisky and Gifts to London from Dallas and Houston",
+  "handle": "send-champagne-whisky-gifts-to-london-from-dallas-houston",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from Dallas & Houston | Drinks House 247",
+  "seo_description": "Send Armand de Brignac, Clase Azul, Napa Cabernet or bourbon to London from Dallas or Houston. Delivered 24/7 in 30–45 minutes across London. No customs.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726303095",
+  "title": "Send Luxury Gifts to London from Riyadh",
+  "handle": "send-luxury-gifts-to-london-from-riyadh",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Luxury Gifts to London from Riyadh | Drinks House 247",
+  "seo_description": "Send alcohol-free hampers, caviar, chocolates and flowers to London from Riyadh. Delivered 24/7 in 30–45 minutes across London. Pay by card, add your message.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726335863",
+  "title": "Send Luxury Gifts to London from Kuwait City",
+  "handle": "send-luxury-gifts-to-london-from-kuwait-city",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Luxury Gifts to London from Kuwait City | Drinks House 247",
+  "seo_description": "From Kuwait City to a London door in 30–45 minutes, 24/7. Alcohol-free hampers, caviar, chocolates and flowers for family, students and business partners in London.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726368631",
+  "title": "Send Champagne, Cognac and Gifts to London from Shanghai",
+  "handle": "send-champagne-cognac-gifts-to-london-from-shanghai",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne & Cognac to London from Shanghai | Drinks House 247",
+  "seo_description": "Send cognac, Moutai, prestige champagne or Bordeaux to London from Shanghai. Delivered 24/7 in 30–45 minutes across London, with no customs. Order in your evening.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726401399",
+  "title": "Send Whisky, Champagne and Gifts to London from Mumbai",
+  "handle": "send-whisky-champagne-gifts-to-london-from-mumbai",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Whisky & Champagne to London from Mumbai | Drinks House 247",
+  "seo_description": "Send Scotch whisky, champagne or a hamper for Diwali to London from Mumbai. Delivered 24/7 in 30–45 minutes across London, with no customs. Pay by card in GBP.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726434167",
+  "title": "Send Prestige Champagne and Gifts to London from Geneva and Zurich",
+  "handle": "send-prestige-champagne-gifts-to-london-from-geneva-zurich",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from Geneva & Zurich | Drinks House 247",
+  "seo_description": "Send Krug, Burgundy, rare whisky or caviar hampers to London from Geneva or Zurich. Delivered 24/7 in 30–45 minutes across London. No customs, no shipping.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726466935",
+  "title": "Send Champagne, Wine and Gifts to London from Milan",
+  "handle": "send-champagne-wine-gifts-to-london-from-milan",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne & Wine to London from Milan | Drinks House 247",
+  "seo_description": "Send champagne, Sassicaia, Tignanello or fine Italian wine to London from Milan. Delivered 24/7 in 30–45 minutes across London, with no shipping and no customs.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726499703",
+  "title": "Send Champagne and Gifts to London from Melbourne",
+  "handle": "send-champagne-gifts-to-london-from-melbourne",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Champagne to London from Melbourne | Drinks House 247",
+  "seo_description": "Sending a gift from Melbourne to London? Champagne, Penfolds, Scotch and hampers delivered 24/7 in 30–45 minutes across London. Order in your evening.",
+  "published_on": "2026-10-01"
+ },
+ {
+  "id": "gid://shopify/Page/704726532471",
+  "title": "Send Gifts to London from Abroad",
+  "handle": "send-gifts-to-london-from-abroad",
+  "published": true,
+  "template_suffix": "page",
+  "seo_title": "Send Gifts to London from Abroad | Drinks House 247",
+  "seo_description": "Sending a gift to London from overseas? Champagne, whisky, hampers and alcohol-free gifts delivered 24/7 in 30–45 minutes. Guides for 23 cities worldwide.",
+  "published_on": "2026-10-01"
+ }
 ]
