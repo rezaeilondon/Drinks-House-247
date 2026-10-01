@@ -74,10 +74,43 @@ For each page, decide: keep it and delete the redirect, or unpublish it so the r
 All 14 collection descriptions updated (19 links) and verified against live: links match exactly; three non-breaking spaces in brut-champagne and blanc-de-blancs-champagne became plain spaces (no visible change).
 
 ## Blocked — bulk updates
-The Shopify connector refuses `bulkOperationRunMutation` ("Bulk mutation operations are blocked"). Products (82), pages (136) and articles (50) remain to apply one by one.
+The Shopify connector refuses `bulkOperationRunMutation` ("Bulk mutation operations are blocked"). Pages and articles have since been applied one by one (see below); the 82 products remain, and they ride the product rewrite.
 
 ## Folded into the rewrite plan
 `plan.json.gz` `new` descriptions for the 79 not-yet-rewritten affected products now carry the same link fixes and have the 70 Exotic Fruits basket cards removed (they previously would have re-published them).
 
 ## Applied 2026-10-01 — Exotic basket redirect
 Added redirect `/products/exotic-fruits-delight-basket-premium-assortment` → `/collections/gifts-hampers` (UrlRedirect 1735387218295). The product is DRAFT, so the 70 cross-sell cards now land on Gifts & Hampers instead of a 404 until the rewrite removes them.
+
+## Applied 2026-10-01 — pages and articles (Priorities 2–4)
+All 136 pages and 50 articles were updated one at a time with `pageUpdate` / `articleUpdate`. Only `href` values changed. Each saved body was compared with the expected body: 186 of 186 match.
+- 28 bodies carry JSON-LD with literal `\uXXXX` escapes (for example `Moët`). Shopify stores them as the actual character (`Moët`). The JSON is equivalent and nothing visible changed.
+- The html-sitemap page (104 KB) carries two fixes: `/pages/challenge-21` → `/pages/challenge-25`, and `/blogs/posts/beautiful-wine-rack-ideas-for-your-home` → `/blogs/sponsored/…`. The second was a 404, because the article lives in the Sponsored blog.
+
+### Homepage-bound targets corrected before applying (7 links)
+The map sent two dead URLs to the homepage. Each was retargeted to the closest real destination, and the CSV rows now show the target that was actually applied:
+- `/collections/beers/products/kronenbourg-x4` (5 links: best-beer-delivery-london ×3, beer-delivered-near-me, alcohol-delivery-kingston-upon-thames) → `/products/kronenbourg-x4`, the active product.
+- `/delivery-information` (2 links: alcohol-gift-sets-the-ultimate-guide…, eco-friendly-sustainable-alcohol-brands-uk… article) → `/policies/shipping-policy`.
+
+### Content issues seen while applying (not changed)
+Copy was left as it was; only links changed. These need an owner decision:
+- **Broken text:**
+  - eco-friendly-sustainable-alcohol-brands article: prices are corrupted, with "£" stored as "�A3" (e.g. `�A359.99`).
+  - prosecco-gifts guide: temperature reads "between 665(266)".
+  - alcohol-gift-sets guide: two research quotes are garbled.
+- **Wrong facts or numbers:**
+  - vodka-soda-vs-cola article: per-shot calorie figures contradict each other (vodka 64 vs 97; rum 64–70).
+  - dom-perignon-champagne page: says the wine is aged in "Benedictine Abbey" cellars.
+- **Wrong link targets:**
+  - Many "Vintage 2012" anchors land on the Vintage 2015 product.
+  - Several anchors point at a different product than the text names (Moët Grand Vintage 2013 → 2015; Ruinart Rosé → Ruinart Blanc de Blancs; Pol Roger Réserve → Pol Roger Vintage).
+- **Services claimed that are probably not offered:**
+  - Engraving, custom labels, subscriptions and bulk discounts.
+  - "Cash" as a payment method in LocalBusiness JSON-LD.
+  - Click-and-collect, and a showroom to "view selections in person".
+- **Competitor promotion:**
+  - 9-best-flowers-and-champagne article: recommends eight competitors, with outbound links and their prices.
+  - luxury-alcohol-gift-hampers article: links to luxuryspirits.com and corporategiftshampers.co.uk.
+- **Leftover markup:**
+  - AIPRM/ChatGPT wrapper divs, empty headings, hashtags, and a "RankPill" footer.
+  - Images hosted on external storage (storage.googleapis.com, supabase.co).
