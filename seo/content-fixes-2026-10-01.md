@@ -22,7 +22,7 @@ The store policies were not touched, except for one flagged change that has to b
 | Strongbow "Dark Fruit" link to `strongbow-original-cider` | That product handle is titled Strongbow Dark Fruit Cider | No change needed (false alarm) |
 | Ruinart Rosé link to `ruinart-blanc-de-blancs-champagne-1` | That handle is titled Ruinart Rosé Champagne | No change needed (false alarm) |
 
-## Pages and articles fixed (31 so far)
+## Pages and articles fixed (52 so far)
 
 | Type | Handle | Main fixes |
 |---|---|---|
@@ -57,6 +57,16 @@ The store policies were not touched, except for one flagged change that has to b
 | page | whisky-tasting-guide-for-beginners-… | Pasted HTML document unwrapped. Speyside claim, CTA links, email |
 | page | wine-in-gift-boxes-the-perfect-present-for-any-occasion | Three duplicated sections and empty `<h1>` removed. "Happy customers", chocolates and next-working-day wording fixed, cash |
 | page | wine-home-delivered-same-day-wine-delivery-across-london | Northern Ireland, Saturday delivery and first-order discount claims removed. Empty link, missing spaces, cash |
+| page | delivery-anniversary-gifts-a-unique-way-to-celebrate | Fresh-fruit baskets, gift towers, baked goods and cheese claims removed (truffles linked instead). Empty heading, empty Instagram embed, keyword-stuffed spans and duplicate CTA removed |
+| page | gifting-champagne-the-ultimate-guide-for-special-occasions | Brut Nature / Extra Brut described as fruitier (reversed); cash |
+| page | red-wine-delivery | False partnership claim with 11 London restaurants and the outbound restaurant links removed. Pinot Grigio and Sauvignon Blanc described as reds. "Within 30 minutes", "order until midnight", "over 1,000 red wines", hashtags |
+| page | send-a-gift-of-champagne | Bulk pricing and VAT invoicing claims removed; Challenge 25 wording (Pol Roger is stocked, so it stays) |
+| page | champagne-cases-an-effervescent-journey-of-taste | Blanc de Blancs links pointed at the Blanc de Noirs collection |
+| page | experience-the-joy-of-giving-with-champagne-gift-next-day-delivery | "Over 100 brands", mini spirits in gift sets, "on time, every time" |
+| page | champagne-gift-basket-ideas | Temperature-controlled packaging and engraved-flute claims; "Veuve Clicquot" named as a prestige cuvée (now La Grande Dame) |
+| page | wine-gifts | "489 wines" (now "more than 400"), Prestige Pearl price £390 → £380, FAQ price maths, "tracked" UK delivery |
+| page | alcohol-delivery-as-a-gift | Macallan 12 anchor pointed at the whisky collection; "order before midnight" cut-off removed |
+| page | late-night-wine-delivery-near-me | Checked; no change needed |
 
 ## Needs action in Shopify admin
 
