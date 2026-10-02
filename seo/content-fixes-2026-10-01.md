@@ -57,6 +57,16 @@ The store policies were not touched, except for one flagged change that has to b
 | page | whisky-tasting-guide-for-beginners-… | Pasted HTML document unwrapped. Speyside claim, CTA links, email |
 | page | wine-in-gift-boxes-the-perfect-present-for-any-occasion | Three duplicated sections and empty `<h1>` removed. "Happy customers", chocolates and next-working-day wording fixed, cash |
 | page | wine-home-delivered-same-day-wine-delivery-across-london | Northern Ireland, Saturday delivery and first-order discount claims removed. Empty link, missing spaces, cash |
+| page | veuve-clicquot-on-special-occasions | Vintage 2012 → 2015, Vintage 2008 removed |
+| page | send-a-bottle-of-champagne-as-a-gift | Vintage 2012 → 2015, Vintage 2008 removed |
+| page | perfect-champagne-gift | Rich section showed the Rich Rosé image; vintage labels |
+| page | food-pairing-veuve-clicquot | Rich section showed the Rich Rosé image; vintage labels |
+| page | surprise-someone-with-veuve-clicquot | Glassware, champagne-bucket and personalisation claims; vintage labels |
+| page | veuve-clicquot-champagne-gift-guide | Made-up delivery tiers replaced with the real rates. Glassware and personalisation claims, Rich image |
+| page | veuve-clicquot-champagnes | Rich image, Vintage 2012 → 2015, Vintage 2008 removed |
+| page | vintage-champagne-an-emotionally-engaging-journey-through-time | 2008 now links Krug 2008; 2012 now links La Grande Dame 2012 |
+| page | christmas-alcohol-gift-guide | Links to draft products removed |
+| page | champagne-for-engagement-gift-a-toast-to-celebrate-love | Draft-product links, vintage labels |
 | page | delivery-anniversary-gifts-a-unique-way-to-celebrate | Fresh-fruit baskets, gift towers, baked goods and cheese claims removed (truffles linked instead). Empty heading, empty Instagram embed, keyword-stuffed spans and duplicate CTA removed |
 | page | gifting-champagne-the-ultimate-guide-for-special-occasions | Brut Nature / Extra Brut described as fruitier (reversed); cash |
 | page | red-wine-delivery | False partnership claim with 11 London restaurants and the outbound restaurant links removed. Pinot Grigio and Sauvignon Blanc described as reds. "Within 30 minutes", "order until midnight", "over 1,000 red wines", hashtags |
