@@ -56,13 +56,13 @@
       "primary_keyword": "id for alcohol delivery uk",
       "secondary_keywords": [
         "age verification alcohol delivery",
-        "challenge 21 delivery"
+        "challenge 25 delivery"
       ],
       "internal_links": [
-        "/pages/challenge-21",
+        "/pages/challenge-25",
         "/pages/alcohol-delivery"
       ],
-      "answer_hint": "Yes — the person receiving the order must be 18 or over and may be asked for ID. Explain Challenge 21, which ID is accepted, and what happens if nobody can produce it.",
+      "answer_hint": "Yes — the person receiving the order must be 18 or over and may be asked for ID. Explain Challenge 25, which ID is accepted, and what happens if nobody can produce it.",
       "status": "skipped-duplicate",
       "published_at": null,
       "article_handle": null,
@@ -121,7 +121,7 @@
       "internal_links": [
         "/pages/alcohol-delivery",
         "/pages/contact-us",
-        "/pages/challenge-21"
+        "/pages/challenge-25"
       ],
       "answer_hint": "Alcohol cannot be left unattended or with a neighbour without an 18+ check. Explain the driver's process, contact attempts, and how redelivery is arranged.",
       "status": "pending",

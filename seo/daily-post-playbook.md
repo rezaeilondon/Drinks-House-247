@@ -16,7 +16,8 @@ starts from a **fresh session with no memory**, so everything it needs is writte
 | London delivery | 24/7/365, typically **30–45 minutes**, inside the M25 |
 | UK delivery | Next day, UK mainland |
 | Base | Battersea, London |
-| Age policy | **Challenge 21** — recipient must be 18+, ID may be requested |
+| Age policy | **Challenge 25** — recipient must be 18+; photo ID required if they look under 25. Policy page: `/pages/challenge-25` |
+| Ordering & payment | **Online orders only** (no phone orders). Paid online at checkout — card or PayPal. **No cash on delivery.** The phone line is for questions and order help only |
 | Phone | 0203 4883266 |
 | Email | sales@drinkshouse247.co.uk |
 | Currency | GBP |
@@ -62,7 +63,9 @@ Google AI Overviews, Copilot) as well as rank in Google. That requires a specifi
    each answered in 1–3 sentences. Must match the JSON-LD exactly (see §3).
 7. **Closing CTA** — one short paragraph with a link to the most relevant collection.
 8. **Responsible-drinking line** where the topic touches quantity, parties or late-night
-   ordering: note the Challenge 21 policy and that deliveries are to over-18s only.
+   ordering: note the Challenge 25 policy and that deliveries are to over-18s only.
+   Never write "Challenge 21", never offer cash on delivery, and never invite readers to
+   order by phone.
 
 ### Length
 900–1,400 words. Long enough to be substantive, short enough to stay dense. Do not pad.
