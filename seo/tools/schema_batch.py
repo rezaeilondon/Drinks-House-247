@@ -3,7 +3,8 @@
 Smart SEO already outputs a live Product JSON-LD on every product page, so the
 hand-written Product block embedded in some descriptions is a duplicate with a
 hard-coded price and stock status. This script removes that block (and fixes
-any leftover "Challenge 21" wording) for the next N products that still have it.
+any leftover "Challenge 21" wording, and corrects the old
+1-2 / 3-5 day UK delivery card to next-day) for the next N products that still have it.
 
 Input: a Shopify bulk-export JSONL of products {id, handle, status, descriptionHtml}.
 Output: OUT/NNN.txt files - line 1 is the productUpdate mutation, line 2 the
@@ -17,6 +18,9 @@ import re
 import sys
 
 BLOCK = re.compile(r'\n*<script type="application/ld\+json">.*?</script>\n?', re.S)
+# Owner confirmed UK delivery is next day (2026-10-08), not 1-2 / 3-5 days.
+OLD_UK = "Express in 1\u20132 business days, standard in 3\u20135. Rates shown at checkout."
+NEW_UK = "Next-day delivery across the UK mainland. Rates shown at checkout."
 ORDER = {"ACTIVE": 0, "DRAFT": 1, "ARCHIVED": 2}
 MUTATION = ('mutation($b0: String!) { b0: productUpdate(product: {id: "%s", '
             'descriptionHtml: $b0}) { product { id } userErrors { field message } } }')
@@ -33,6 +37,7 @@ def main(src, out, count=29):
     for i, r in enumerate(todo[:count], 1):
         html = r["descriptionHtml"]
         new = BLOCK.sub("\n", html, count=1).replace("Challenge 21", "Challenge 25")
+        new = new.replace(OLD_UK, NEW_UK)
         assert "ld+json" not in new and len(html) - len(new) < 3000, r["handle"]
         with open(os.path.join(out, "%03d.txt" % i), "w") as f:
             f.write(MUTATION % r["id"] + "\n" + json.dumps({"b0": new}, ensure_ascii=True) + "\n")
