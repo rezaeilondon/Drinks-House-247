@@ -15,6 +15,7 @@ starts from a **fresh session with no memory**, so everything it needs is writte
 | Blog | handle `posts`, ID `gid://shopify/Blog/27034058814` |
 | London delivery | 24/7/365, typically **30–45 minutes**, inside the M25 |
 | UK delivery | Next day, UK mainland |
+| Business addresses | Same-day delivery when ordered by 4pm (separate from the 30–45 min London service) |
 | Base | Battersea, London |
 | Age policy | **Challenge 25** — recipient must be 18+; photo ID required if they look under 25. Policy page: `/pages/challenge-25` |
 | Ordering & payment | **Online orders only** (no phone orders). Paid online at checkout — card or PayPal. **No cash on delivery.** The phone line is for questions and order help only |
