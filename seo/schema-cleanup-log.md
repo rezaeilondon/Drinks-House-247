@@ -34,3 +34,37 @@ Removing the duplicate hand-written Product JSON-LD from product descriptions (S
 - chambord-black-raspberry-liqueur-70cl
 
 29 of 285 done. UK delivery card also updated to "Next-day delivery across the UK mainland" where present.
+
+## 2026-10-09
+
+- champagne-telmont-reserve-brut-nv-75cl
+- chandon-brut-argentina
+- chandon-rose-argentina
+- chateau-cos-destournel-st-estephe-gcc-2021
+- chateau-de-laubade-xo-bas-armagnac-70cl
+- chateau-grand-puy-lacoste-2021
+- chateau-grand-puy-lacoste-pauillac-ccg-2018
+- chateau-grand-puy-lacoste-pauillac-ccg-2019
+- chateau-labegorce-margaux-2022
+- chateau-lafite-rothschild-premier-gcc-2020
+- chateau-latour-grand-cru-classe-2016
+- chateau-latour-les-forts-de-latour-2000
+- chateau-margaux-2001
+- chateau-marquis-dalesme-margaux-gcc-2019
+- chateau-palmer-margaux-2022
+- cherry-heering-liqueur-70cl
+- chivas-regal-12-year-mizunara-whisky
+- christian-drouin-xo-calvados-pays-dauge-70cl
+- cipriani-bellini-75cl
+- coca-cola-diet-coke-24x-150ml
+- coca-cola-diet-coke-24x-330ml-icon-glass-bottles
+- coca-cola-zero-24x-150ml-cans
+- cocchi-barolo-chinato-50cl
+- cocchi-vermouth-di-torino-75cl
+- croe-imperial-beluga-caviar
+- croe-royal-oscietra-caviar
+- cut-caviar-royal-baeri
+- cut-caviar-royal-beluga
+- deutz-classic-brut-nv-champagne
+
+58 of 285 done.
