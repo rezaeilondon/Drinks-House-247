@@ -68,3 +68,37 @@ Removing the duplicate hand-written Product JSON-LD from product descriptions (S
 - deutz-classic-brut-nv-champagne
 
 58 of 285 done.
+
+## 2026-10-09 (second batch, on request)
+
+- dom-perignon-champagne-75cl
+- dom-perignon-lenny-kravitz-limited-edition-vintage-2008-gift-box-75cl
+- dom-perignon-vintage-2008-75cl
+- dom-perignon-vintage-2017-champagne-in-gift-box-75cl
+- domaine-evremond-classic-cuvee-brut-edition-1-nv-75cl
+- don-julio-primavera
+- don-londres-reposado-tequila-70cl
+- drambuie-honeyed-scotch-whisky-liqueur-70cl
+- eminente-reserva-7-year-old-cuban-rum-70cl
+- fairy-dream-wedding-cake
+- fernet-branca-70cl
+- fever-tree-elderflower-tonic-water-24x-200ml
+- fever-tree-mediterranean-tonic-water-24x-200ml
+- fever-tree-naturally-light-tonic-water-24x-200ml
+- fever-tree-naturally-light-tonic-water-8x500ml
+- fever-tree-tonic-water-24x-200ml
+- fever-tree-tonic-water-8x-500ml
+- french-bloom-extra-brut-non-alcoholic-sparkling-wine-75cl
+- french-bloom-la-cuvee-alcohol-free-75cl
+- french-bloom-le-blanc-alcohol-free-75cl
+- french-bloom-le-rose-alcohol-free-75cl
+- g-miclo-poire-william-eau-de-vie-70cl
+- galliano-lautentico-50cl
+- glenfiddich-23-year-grand-cru-single-malt-scotch-whisky
+- glenlivet-founders-15-year-old-french-oak-single-malt-whisky-70cl
+- gonzalez-byass-alfonso-oloroso-seco-sherry-75cl
+- gonzalez-byass-apostoles-palo-cortado-vors-30-year-old-sherry-37-5cl
+- grand-marnier-cuvee-du-centenaire-70cl
+- grappa-sarpa-di-poli-70cl
+
+87 of 285 done. All 29 verified byte-identical against a fresh export.
