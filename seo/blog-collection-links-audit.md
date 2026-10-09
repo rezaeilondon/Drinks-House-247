@@ -34,5 +34,18 @@ Scope: all 293 articles (291 `posts`, 2 `sponsored`), checked against all live c
 
 Excluded as false matches: patron-tequila → st-patricks-day-cocktails; louis-roederer → what-is-cristalino-tequila.
 
-## Not yet done
-No article edits have been made. Applying the fixes above is about 20 article updates.
+## Applied 2026-10-09
+16 articles updated, all verified byte-identical against a fresh export. No other article changed; veuve-clicquot-champagne-facts untouched.
+
+- Moët gift ideas: both KeiCo competitor links (headings 3 and 6) now point to /collections/moet-chandon-champagne.
+- Personalised champagne box: /collections/organic-champagne → /collections/certified-organic-wines.
+- Airbnb article: added one line linking champagne, liquor and alcohol-gift-sets.
+- Existing words linked (no new copy) in: negroni (vermouth-aperitifs), non-alcoholic-options (non-alcoholic-gifts), rioja guide (wines-from-spain), malbec guide (malbec-wine), is-champagne-vintage (non-vintage-wine + vintage-wine), brut-vs-extra-brut (extra-brut-champagne), christmas gift guide (whisky-under-100), 4 vintage articles (vintage-wine), champagne-and-caviar (caviar-gifts-hampers, wines-that-pair-with-caviar, gifts-over-1000, caviar-delivery-london), luxury caviar gifts (caviar-gifts-hampers, wines-that-pair-with-caviar, caviar-delivery-london).
+
+Correction to the table above: the black-tea and wine-rack links are not broken store links. They point to external sites (rareteacompany.com; winecellarhq.com, a paid link in the sponsored blog), so they were left alone.
+
+Skipped: petrus-wine-launch. The body is 25KB of pasted page CSS; worth a rewrite rather than a one-link patch.
+
+Still open (content, not links):
+- Moët gift ideas still recommends Moonpig (4 links) and KeiCo by name.
+- Outdated delivery wording: champagne-and-caviar ("30-90 minutes", "before 2 PM", "£30 minimum"), rare-vintage-champagne ("3-6 hours", "before 2 PM"), luxury caviar gifts ("2 PM" cut-off, several places).
