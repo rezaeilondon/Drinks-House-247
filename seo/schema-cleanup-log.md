@@ -148,3 +148,7 @@ ld+json and swaps Challenge 21 → 25, so the import also completes this schema 
 - 1,186 single-variant products: CSV for Shopify admin import (bulk API mutation is blocked for this connector).
 - 35 multi-variant products: kept out of the CSV (a description-only import can disturb variants); pre-built mutations ready.
 - `schema_batch.py` now also applies the delivery fix, so the daily routine no longer reintroduces old wording.
+
+## 2026-10-10 — doubled "Drinks House 247" in page titles
+
+The theme adds " – {shop.name}" after a page's SEO title. The store name has a trailing space ("Drinks House 247 "), so its duplicate check failed, and titles that already ended "| Drinks House 247" showed the name twice. Removed the brand suffix from the `global.title_tag` of 385 pages via metafieldsSet; 0 errors. The theme now adds the name once. Old and new values: `seo/page-title-dedupe-2026-10-10.tsv`.
