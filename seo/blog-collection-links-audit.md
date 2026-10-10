@@ -55,5 +55,23 @@ Brought into line with: 30-45 minutes in London (24 hours), next-day UK-wide, sa
 - rare-vintage-champagne: "3-6 hours" same-day → 4pm business same-day; both "before 2 PM" removed.
 - luxury caviar gifts: all 2 PM cut-offs removed (4 places, incl. FAQ); "cut-off times" → "delivery times".
 
-Still carrying old wording ("before 2pm", "3-6 hours" or "30-90 minutes"), not yet changed:
-wine-delivery-near-me-your-2026-guide-to-local-service, champagne-magnum-large-formats-london-delivery, gin-delivery-in-london-fast-30-45-minute-delivery, wine-gift-next-day-delivery-uk-order-today-arrive-tomorrow, same-day-champagne-gift-delivery-order-before-2pm (the 2pm is in its URL handle too), premium-wine-champagne-delivery-london-same-day-next-day-service, luxury-champagne-gifts-london-same-day-delivery-of-premium-champagne-gift-sets, festive-drinks-delivery-london-christmas-champagne-mulled-wine-new-years-eve-alcohol-gifts.
+## Delivery wording fixed in 10 more articles (2026-10-10)
+Same rules as above. Removed every "before 2 PM" cut-off, "up to 6 hours" / "3 hours" same-day, and 30-60 / 30-90 / 30-120 minute ranges; replaced with 30-45 minutes in London, next-day UK-wide and 4pm business same-day.
+- champagne-magnum-large-formats-london-delivery
+- gin-delivery-in-london-fast-30-45-minute-delivery
+- wine-gift-next-day-delivery-uk-order-today-arrive-tomorrow (also removed the invented 10 PM / 8 PM / 4 PM cut-off list)
+- same-day-champagne-gift-delivery-order-before-2pm (article title, SEO title and meta description also updated; URL handle left unchanged)
+- premium-wine-champagne-delivery-london-same-day-next-day-service
+- luxury-champagne-gifts-london-same-day-delivery-of-premium-champagne-gift-sets
+- festive-drinks-delivery-london-christmas-champagne-mulled-wine-new-years-eve-alcohol-gifts
+- sparkling-wine-champagne-guide-fast-london-delivery ("6-hour" same day; found on re-scan)
+- top-low-calorie-cocktails-for-guilt-free-sipping ("30-120 minutes")
+- same-day-alcohol-delivery-vs-traditional-shopping-which-is-better ("30-120 minutes" x2)
+
+All 10 verified byte-identical against a fresh export; no other article changed. Blog-wide re-scan: no "before 2pm", "3-6 hours", "30-90"/"30-120 minutes" or "6 hours" store claims left.
+
+Left as is:
+- same-day-alcohol-delivery-vs-traditional article states a £4-£10 delivery fee; confirm.
+- wine-delivery-near-me-your-2026-guide-to-local-service: its "3-6 hours" table describes delivery services in general, not this store.
+- premium-wine-champagne article still states a £30 minimum order (twice); confirm whether that is true.
+- wine-gift-next-day article has a "Delivery Options vs. Price" table with "£X" placeholder prices.
