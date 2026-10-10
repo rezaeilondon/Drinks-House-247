@@ -136,3 +136,15 @@ Removing the duplicate hand-written Product JSON-LD from product descriptions (S
 - licor-43-cuarenta-y-tres-70cl
 
 116 of 285 done. All 29 verified byte-identical against a fresh export.
+
+## 2026-10-10 — delivery wording on product pages
+
+Old wording ("Same-day up to 6 hrs", "Next-day before 2pm", "1–2 day", "Express 1–2 business days")
+found on 1,222 product descriptions. `seo/tools/delivery_fix.py` rewrites it to: London 30–45 minutes 24/7,
+next-day UK-wide, same day for business addresses ordering by 4pm. The same pass strips embedded
+ld+json and swaps Challenge 21 → 25, so the import also completes this schema cleanup.
+
+- les-forts-de-latour-2019 pushed live via API (example).
+- 1,186 single-variant products: CSV for Shopify admin import (bulk API mutation is blocked for this connector).
+- 35 multi-variant products: kept out of the CSV (a description-only import can disturb variants); pre-built mutations ready.
+- `schema_batch.py` now also applies the delivery fix, so the daily routine no longer reintroduces old wording.

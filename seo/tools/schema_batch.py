@@ -17,6 +17,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from delivery_fix import fix as delivery_fix  # noqa: E402
+
 BLOCK = re.compile(r'\n*<script type="application/ld\+json">.*?</script>\n?', re.S)
 # Owner confirmed UK delivery is next day (2026-10-08), not 1-2 / 3-5 days.
 OLD_UK = "Express in 1\u20132 business days, standard in 3\u20135. Rates shown at checkout."
@@ -37,7 +40,7 @@ def main(src, out, count=29):
     for i, r in enumerate(todo[:count], 1):
         html = r["descriptionHtml"]
         new = BLOCK.sub("\n", html, count=1).replace("Challenge 21", "Challenge 25")
-        new = new.replace(OLD_UK, NEW_UK)
+        new = delivery_fix(new.replace(OLD_UK, NEW_UK))
         assert "ld+json" not in new and len(html) - len(new) < 3000, r["handle"]
         with open(os.path.join(out, "%03d.txt" % i), "w") as f:
             f.write(MUTATION % r["id"] + "\n" + json.dumps({"b0": new}, ensure_ascii=True) + "\n")
