@@ -102,3 +102,37 @@ Removing the duplicate hand-written Product JSON-LD from product descriptions (S
 - grappa-sarpa-di-poli-70cl
 
 87 of 285 done. All 29 verified byte-identical against a fresh export.
+
+## 2026-10-10
+
+- green-chartreuse-liqueur-70cl
+- grey-goose-altius-ultra-premium-vodka-70cl
+- grosset-polish-hill-riesling-2024-75cl
+- gusbourne-blanc-de-blancs-2019-gift-box-75cl
+- hakushu-12-year-japanese-whisky-70cl
+- hakushu-distillers-reserve-japanese-whisky
+- hampden-estate-1753-pure-single-jamaican-rum-70cl
+- haymans-sloe-gin-70cl
+- henri-bardouin-pastis-de-provence-70cl
+- herzog-prince-vineyard-chenin-blanc-2023-kosher-75cl
+- herzog-special-reserve-pinot-noir-2021-kosher-75cl
+- hibiki-harmony-japanese-whisky-70cl
+- iichiko-saiten-barley-shochu-70cl
+- indri-diwali-collectors-edition-indian-single-malt-whisky-70cl
+- italicus-rosolio-di-bergamotto-70cl
+- jack-daniels-old-no-7-tennessee-whiskey-guitar-gift-pack-70cl
+- jade-1901-absinthe-superieure-70cl
+- jameson-4-5l-triple-distilled-irish-whiskey
+- jameson-irish-whiskey-1l
+- kah-blanco-tequila-70cl
+- kavalan-concertmaster-port-cask-finish-taiwanese-single-malt-70cl
+- ki-no-bi-kyoto-dry-gin-70cl
+- krug-grande-cuvee-170th-edition-champagne
+- kweichow-moutai-flying-fairy-baijiu-50cl
+- laurent-perrier-cuvee-gift-pack
+- laurent-perrier-la-cuvee
+- leblon-cachaca-70cl
+- les-forts-de-latour-2019
+- licor-43-cuarenta-y-tres-70cl
+
+116 of 285 done. All 29 verified byte-identical against a fresh export.
