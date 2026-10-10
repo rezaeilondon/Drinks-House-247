@@ -48,4 +48,12 @@ Skipped: petrus-wine-launch. The body is 25KB of pasted page CSS; worth a rewrit
 
 Still open (content, not links):
 - Moët gift ideas still recommends Moonpig (4 links) and KeiCo by name.
-- Outdated delivery wording: champagne-and-caviar ("30-90 minutes", "before 2 PM", "£30 minimum"), rare-vintage-champagne ("3-6 hours", "before 2 PM"), luxury caviar gifts ("2 PM" cut-off, several places).
+
+## Delivery wording fixed 2026-10-10
+Brought into line with: 30-45 minutes in London (24 hours), next-day UK-wide, same day for business addresses that order by 4pm. Verified byte-identical against a fresh export; no other article changed.
+- champagne-and-caviar: "30-90 minutes" → 30 to 45 minutes; "before 2 PM" removed; "£30 minimum" bullet replaced with the 4pm business same-day line.
+- rare-vintage-champagne: "3-6 hours" same-day → 4pm business same-day; both "before 2 PM" removed.
+- luxury caviar gifts: all 2 PM cut-offs removed (4 places, incl. FAQ); "cut-off times" → "delivery times".
+
+Still carrying old wording ("before 2pm", "3-6 hours" or "30-90 minutes"), not yet changed:
+wine-delivery-near-me-your-2026-guide-to-local-service, champagne-magnum-large-formats-london-delivery, gin-delivery-in-london-fast-30-45-minute-delivery, wine-gift-next-day-delivery-uk-order-today-arrive-tomorrow, same-day-champagne-gift-delivery-order-before-2pm (the 2pm is in its URL handle too), premium-wine-champagne-delivery-london-same-day-next-day-service, luxury-champagne-gifts-london-same-day-delivery-of-premium-champagne-gift-sets, festive-drinks-delivery-london-christmas-champagne-mulled-wine-new-years-eve-alcohol-gifts.
