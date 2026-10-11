@@ -152,3 +152,37 @@ ld+json and swaps Challenge 21 → 25, so the import also completes this schema 
 ## 2026-10-10 — doubled "Drinks House 247" in page titles
 
 The theme adds " – {shop.name}" after a page's SEO title. The store name has a trailing space ("Drinks House 247 "), so its duplicate check failed, and titles that already ended "| Drinks House 247" showed the name twice. Removed the brand suffix from the `global.title_tag` of 385 pages via metafieldsSet; 0 errors. The theme now adds the name once. Old and new values: `seo/page-title-dedupe-2026-10-10.tsv`.
+
+## 2026-10-11
+
+- lillet-blanc-75cl
+- linie-aquavit-70cl
+- luxardo-maraschino-originale-50cl
+- marchesi-antinori-tignanello-2021
+- matsui-umeshu-japanese-plum-liqueur-with-whisky-70cl
+- meletti-sambuca-70cl
+- metaxa-12-stars-70cl
+- michters-us-1-kentucky-straight-bourbon-70cl
+- midori-melon-liqueur-70cl
+- moet-chandon-champagne-imperial-brut-magnum-1-5l
+- mr-black-cold-brew-coffee-liqueur-70cl
+- ncnean-organic-single-malt-scotch-whisky-70cl
+- nyetimber-1086-rose-2010-gift-box-75cl
+- onlyroses-infinite-rose-heart-long-lasting-red-roses
+- pallini-limoncello-70cl
+- passoa-passion-fruit-liqueur-70cl
+- pentire-adrift-non-alcoholic-botanical-spirit-70cl
+- pernod-absinthe-70cl
+- perrier-jouet-blanc-de-blancs-champagne
+- perrier-jouet-grand-brut-champagne
+- pewsey-vale-eden-valley-riesling-2024-75cl
+- pichon-lalande-2021
+- pimms-no-1-cup-70cl
+- piper-heidsieck-vintage-2014
+- prunier-baeri-paris-caviar
+- prunier-baeri-st-james-caviar
+- prunier-baeri-tradition-caviar
+- prunier-caviar-oscietra-heritage
+- prunier-caviar-oscietra-noir
+
+145 of 285 done. All 29 pushed with empty userErrors.
