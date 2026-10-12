@@ -84,9 +84,9 @@
         "/pages/send-gift-uk"
       ],
       "answer_hint": "Yes. Enter the recipient's address at checkout and add a gift note. Cover the 18+ requirement for whoever opens the door, gift notes, and same-day London vs next-day UK.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-16",
+      "article_handle": "send-alcohol-gift-to-someone-elses-address"
     },
     {
       "id": "log05",
@@ -124,9 +124,9 @@
         "/pages/challenge-25"
       ],
       "answer_hint": "Alcohol cannot be left unattended or with a neighbour without an 18+ check. Explain the driver's process, contact attempts, and how redelivery is arranged.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-29",
+      "article_handle": "nobody-home-for-alcohol-delivery"
     },
     {
       "id": "log07",
@@ -301,9 +301,9 @@
         "/pages/contact-us"
       ],
       "answer_hint": "Orders are paid online at checkout — Apple Pay, Google Pay, PayPal and card. Explain why drivers do not handle cash and how gift orders are paid by the sender.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-24",
+      "article_handle": "how-do-you-pay-for-alcohol-delivery-london"
     },
     {
       "id": "qty01",
@@ -381,9 +381,9 @@
         "/pages/alcohol-delivery"
       ],
       "answer_hint": "Give a planning table splitting guests across wine, beer, spirits and soft drinks, with a rule of thumb of two drinks in the first hour and one per hour after.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-23",
+      "article_handle": "how-much-alcohol-for-a-party-of-100"
     },
     {
       "id": "qty05",
@@ -440,9 +440,9 @@
         "/pages/alcohol-delivery"
       ],
       "answer_hint": "Plan roughly three mixers per spirit drinker and 1kg of ice per person. Give a gin-to-tonic ratio table and a shopping checklist.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-18",
+      "article_handle": "how-many-mixers-per-person-party"
     },
     {
       "id": "qty08",
@@ -501,7 +501,7 @@
         "/collections/alcohol-gift-sets"
       ],
       "answer_hint": "Give a timeline: 6-8 weeks for large weddings, 2 weeks for corporate, same-day still possible in London. Note peak-period cut-offs.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
       "article_handle": null
     },
@@ -640,9 +640,9 @@
         "/pages/vodka-delivery-london"
       ],
       "answer_hint": "Compare rye vs wheat base, distillation, texture and mixability. Be specific about which suits martinis and which suits mixing.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-17",
+      "article_handle": "belvedere-vs-grey-goose"
     },
     {
       "id": "brd08",
@@ -718,9 +718,9 @@
         "/pages/tequila-delivery-london"
       ],
       "answer_hint": "Explain the permitted 1% of additives (glycerin, caramel, oak extract, syrup), why producers use them, and how to identify genuinely additive-free bottles.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-22",
+      "article_handle": "additive-free-tequila-explained"
     },
     {
       "id": "brd12",
@@ -816,9 +816,9 @@
         "/collections/champagne-gifts"
       ],
       "answer_hint": "Explain the Cattier origins, hand-applied pewter labels, and the blend. Be even-handed on the price-to-liquid ratio versus its occasion value.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-30",
+      "article_handle": "armand-de-brignac-ace-of-spades-explained"
     },
     {
       "id": "brd17",
@@ -836,9 +836,9 @@
         "/pages/send-whiskey-gift-uk-premium-fast-delivery-drinks-house-247"
       ],
       "answer_hint": "Cover mash bill basics, what makes a bottle giftable, and recommendations across price bands.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-27",
+      "article_handle": "best-bourbon-to-give-as-a-gift-uk"
     },
     {
       "id": "cha01",
@@ -875,9 +875,9 @@
         "/collections/champagne-flute-gift-sets"
       ],
       "answer_hint": "With a proper sparkling-wine stopper, 3-5 days in the fridge. Debunk the teaspoon-in-the-neck myth and explain why cold slows CO2 loss.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-15",
+      "article_handle": "how-long-does-champagne-last-once-opened"
     },
     {
       "id": "cha03",
@@ -934,9 +934,9 @@
         "/collections/champagne"
       ],
       "answer_hint": "Break the price into land, ageing time, reserve wines, packaging and brand. Be honest that above a point you buy rarity and occasion, not linear quality.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-25",
+      "article_handle": "is-expensive-champagne-better"
     },
     {
       "id": "cha06",
@@ -1014,9 +1014,9 @@
         "/collections/champagne-standard-bottle-75cl"
       ],
       "answer_hint": "Non-vintage is built to drink on release; vintage and prestige cuvées reward cellaring. Explain autolytic development toward brioche and nuts, and the storage conditions required.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-28",
+      "article_handle": "does-champagne-improve-with-age"
     },
     {
       "id": "cha10",
@@ -1053,9 +1053,9 @@
         "/collections/champagne"
       ],
       "answer_hint": "Short term upright is fine; long term on its side keeps the cork moist. Cover temperature stability, light and vibration.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-21",
+      "article_handle": "store-champagne-upright-or-on-its-side"
     },
     {
       "id": "win01",
@@ -1132,7 +1132,7 @@
         "/collections/champagne"
       ],
       "answer_hint": "The vintage is the harvest year, and it matters most in marginal climates. Explain when vintage variation is significant and when it is largely irrelevant.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
       "article_handle": null
     },
@@ -1172,7 +1172,7 @@
         "/pages/wine-delivery-london"
       ],
       "answer_hint": "Define each term precisely, note which are certified and which are unregulated, and be even-handed about taste claims.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
       "article_handle": null
     },
@@ -1212,9 +1212,9 @@
         "/collections/champagne-gifts"
       ],
       "answer_hint": "Cover reading the relationship, safe choices (recognisable champagne, quality single malt), what to avoid, and presentation. Mention corporate gifting etiquette.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-19",
+      "article_handle": "what-alcohol-to-give-your-boss"
     },
     {
       "id": "gft03",
@@ -1232,9 +1232,9 @@
         "/collections/clase-azul-tequila"
       ],
       "answer_hint": "Argue for rarity and experience over price: limited releases, unusual categories, and pairings like champagne and caviar.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-26",
+      "article_handle": "drinks-gifts-for-the-person-who-has-everything"
     },
     {
       "id": "gft04",
@@ -1272,7 +1272,7 @@
         "/collections/champagne-gifts"
       ],
       "answer_hint": "Cover birth-year vintages, age-statement whiskies matched to the milestone, and when personalisation lands well.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
       "article_handle": null
     },
@@ -1312,7 +1312,7 @@
         "/collections/champagne"
       ],
       "answer_hint": "Be honest that dark chocolate fights brut champagne; demi-sec, rosé and blanc de noirs work better. Give a pairing table.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
       "article_handle": null
     },
@@ -1452,7 +1452,7 @@
         "/collections/alcohol-gift-sets"
       ],
       "answer_hint": "Argue for four shapes covering everything, with a table of glass to drink. Reference the existing flute vs coupe debate.",
-      "status": "pending",
+      "status": "skipped-duplicate",
       "published_at": null,
       "article_handle": null
     },
@@ -1491,9 +1491,9 @@
         "/pages/vodka-delivery-london"
       ],
       "answer_hint": "Unopened indefinitely; opened, expect 1-2 years before noticeable change, faster as the bottle empties. Explain oxidation and headspace.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-20",
+      "article_handle": "how-long-do-opened-spirits-last"
     },
     {
       "id": "bar04",
@@ -1511,9 +1511,9 @@
         "/collections/alcohol-gift-sets"
       ],
       "answer_hint": "Give exact specs for six classics covering the main templates (sour, spirit-forward, highball), with the technique that matters for each.",
-      "status": "pending",
-      "published_at": null,
-      "article_handle": null
+      "status": "scheduled",
+      "published_at": "2026-10-31",
+      "article_handle": "six-cocktails-worth-learning-properly"
     },
     {
       "id": "bar05",

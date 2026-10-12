@@ -33,3 +33,20 @@ Articles are queued via Shopify's `publishDate`; Shopify publishes each on its d
 | 2026-10-12 | What Is Cristalino Tequila? The Filtered Añejo Explained | What is a cristalino tequila? | https://drinkshouse247.co.uk/blogs/posts/what-is-cristalino-tequila |
 | 2026-10-13 | How Many Units Are in a Bottle of Wine? UK Guide | How many units are in a bottle of wine? | https://drinkshouse247.co.uk/blogs/posts/how-many-units-in-a-bottle-of-wine |
 | 2026-10-14 | Why Is Krug So Expensive, and Is It Worth It? | Why is Krug champagne so expensive? | https://drinkshouse247.co.uk/blogs/posts/why-is-krug-so-expensive |
+| 2026-10-15 | How Long Does Champagne Last Once Opened? | How long does champagne last once opened? | https://drinkshouse247.co.uk/blogs/posts/how-long-does-champagne-last-once-opened |
+| 2026-10-16 | Can You Send Alcohol as a Gift to Someone Else's Address in the UK? | Can you send alcohol as a gift to someone else's address? | https://drinkshouse247.co.uk/blogs/posts/send-alcohol-gift-to-someone-elses-address |
+| 2026-10-17 | Belvedere vs Grey Goose: Which Premium Vodka Is Worth It? | Belvedere vs Grey Goose — which vodka is better? | https://drinkshouse247.co.uk/blogs/posts/belvedere-vs-grey-goose |
+| 2026-10-18 | How Many Mixers Do You Need Per Person at a Party? | How much ice and mixers per person for a party? | https://drinkshouse247.co.uk/blogs/posts/how-many-mixers-per-person-party |
+| 2026-10-19 | What Alcohol Should You Give Your Boss? | What alcohol makes a good gift for a boss? | https://drinkshouse247.co.uk/blogs/posts/what-alcohol-to-give-your-boss |
+| 2026-10-20 | How Long Do Opened Spirits Last? | How long do opened spirits last? | https://drinkshouse247.co.uk/blogs/posts/how-long-do-opened-spirits-last |
+| 2026-10-21 | Should Champagne Be Stored Upright or on Its Side? | Should you store champagne upright or on its side? | https://drinkshouse247.co.uk/blogs/posts/store-champagne-upright-or-on-its-side |
+| 2026-10-22 | Additive-Free Tequila: What It Means and Which Brands Qualify | What is additive-free tequila? | https://drinkshouse247.co.uk/blogs/posts/additive-free-tequila-explained |
+| 2026-10-23 | How Much Alcohol Do You Need for a Party of 100? | How much alcohol do I need for a party of 100? | https://drinkshouse247.co.uk/blogs/posts/how-much-alcohol-for-a-party-of-100 |
+| 2026-10-24 | How Do You Pay for Alcohol Delivery in London? | Do alcohol delivery drivers accept cash? | https://drinkshouse247.co.uk/blogs/posts/how-do-you-pay-for-alcohol-delivery-london |
+| 2026-10-25 | Is Expensive Champagne Actually Better? What You're Paying For | Is expensive champagne actually better? | https://drinkshouse247.co.uk/blogs/posts/is-expensive-champagne-better |
+| 2026-10-26 | Drinks Gifts for the Person Who Has Everything | What should you buy someone who has everything? | https://drinkshouse247.co.uk/blogs/posts/drinks-gifts-for-the-person-who-has-everything |
+| 2026-10-27 | The Best Bourbon to Give as a Gift in the UK | What is the best bourbon for a gift? | https://drinkshouse247.co.uk/blogs/posts/best-bourbon-to-give-as-a-gift-uk |
+| 2026-10-28 | Does Champagne Improve With Age? | Does champagne get better with age? | https://drinkshouse247.co.uk/blogs/posts/does-champagne-improve-with-age |
+| 2026-10-29 | What Happens If Nobody Is Home for an Alcohol Delivery? | What happens if nobody is home for an alcohol delivery? | https://drinkshouse247.co.uk/blogs/posts/nobody-home-for-alcohol-delivery |
+| 2026-10-30 | Armand de Brignac: What's Behind the Gold Bottle | What is Armand de Brignac and why the gold bottle? | https://drinkshouse247.co.uk/blogs/posts/armand-de-brignac-ace-of-spades-explained |
+| 2026-10-31 | Six Cocktails Worth Learning Properly | What are the six cocktails everyone should know? | https://drinkshouse247.co.uk/blogs/posts/six-cocktails-worth-learning-properly |
