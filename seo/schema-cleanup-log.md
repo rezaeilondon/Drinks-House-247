@@ -254,3 +254,37 @@ The theme adds " – {shop.name}" after a page's SEO title. The store name has a
 - dom-ruinart-ros-2009-champagne
 
 203 of 285 done. All 29 pushed with empty userErrors.
+
+## 2026-10-14
+
+- domaine-stephane-aladame-cremant-de-bourgogne-extra-brut-2019
+- einstok-white-wheat-beer-24x-330ml
+- exotic-fruits-delight-basket-premium-assortment
+- fortaleza-anejo-tequila
+- freixenet-prosecco-75cl-belgian-chocolate-handbag-gift
+- g-h-martel-brut-prestige
+- g4-extra-anejo-tequila-70cl
+- ginkgo-biloba-7000mg-korean-panax-ginseng-600mg-tablets
+- glenfiddich-ipa-cask
+- grand-siecle-iteration-n-25-by-champagne-laurent-perrier
+- havana-club-15-year-gran-reserva-rum
+- havana-club-anejo-7-year-rum
+- havana-club-anejo-especial
+- heidsieck-co-monopole-brut-champagne
+- heidsieck-co-monopole-cuvee-imperatrice-champagne
+- heidsieck-co-monopole-rose-top-champagne
+- henriot-brut-2012-champagne
+- henriot-demi-sec-champagne-nv-75cl
+- j-j-prum-wehlener-sonnenuhr-riesling-kabinett-2023-75cl
+- jack-daniels-coca-cola-premix-330ml
+- jose-cuervo-reserva-de-la-familia-anejo-cristalino-75cl
+- ken-forrester-old-vine-reserve-chenin-blanc-2024-75cl
+- ken-forrester-the-fmc-chenin-blanc-2024-75cl
+- lanson-le-black-creation-257-brut-nv-champagne-75cl
+- lions-mane-reishi-mushroom-capsules
+- louis-bouillot-perle-noire-methode-traditionelle-blanc-de-noirs-brut
+- maca-root-with-ashwagandha-root-extract-6000mg-per-serving
+- milk-thistle-tablets
+- miraval-muse-de-miraval-rose
+
+232 of 285 done. All 29 pushed with empty userErrors.
