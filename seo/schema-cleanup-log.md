@@ -288,3 +288,37 @@ The theme adds " – {shop.name}" after a page's SEO title. The store name has a
 - miraval-muse-de-miraval-rose
 
 232 of 285 done. All 29 pushed with empty userErrors.
+
+## 2026-10-15
+
+- nac-n-acetyl-cysteine-600mg
+- nuits-saint-georges-1er-cru-terres-blanches
+- ocho-blanco-tequila-70cl
+- ocho-single-estate-widow-jane-barrel-select-anejo
+- orin-swift-machete-2021-75cl
+- patr-n-silver-tequila-70cl-2-mule-mugs
+- patron-silver-tequila-35cl
+- paul-louis-martin-grand-cru
+- philipponnat-blanc-de-noirs-extra-brut-champagne
+- philipponnat-royal-reserve-brut-champagne
+- philipponnat-royale-reserve-brut-rose
+- philipponnat-sublime-reserve-sec-champagne-2008
+- pierre-olivier-garcia-bourgogne-aligote-les-champs-tions
+- piper-heidsieck-vintage-2006
+- pommery-blanc-de-blanc-champagne
+- pommery-grand-cru-royal-millesime-champagne
+- prosecco-75cl-chocolate-handbag-gift
+- rathfinny-wine-estate-classic-cuvee-brut-2018
+- rioja-2013
+- royal-dragon-gold-leaf-superior-vodka
+- saint-emilion-grand-cru
+- saint-emilion-grand-cru-grand-cru-classe-2014
+- sea-moss-complex-tablets
+- seghesio-old-vines-zinfandel-2021-75cl
+- seghesio-sonoma-county-zinfandel-2022-75cl
+- shilajit-gummies-zinc-vitamin-b6-high-strength-3000mg
+- shilajit-tablets
+- sipsmith-gin-chocolate-truffles
+- star-of-bombay-gin
+
+261 of 285 done. All 29 pushed with empty userErrors.
