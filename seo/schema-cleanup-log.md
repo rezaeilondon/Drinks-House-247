@@ -322,3 +322,32 @@ The theme adds " – {shop.name}" after a page's SEO title. The store name has a
 - star-of-bombay-gin
 
 261 of 285 done. All 29 pushed with empty userErrors.
+
+## 2026-10-16
+
+- strawberries-and-cream-chocolate-truffles
+- the-agave-reserve-hamper
+- the-aperitivo-hour-hamper
+- the-cuvee-truffles-hamper
+- the-five-regions-of-scotland-whisky-tasting-gift-set-5-x-3cl
+- the-jerez-rioja-hamper
+- the-velvel-devil-merlot-2016
+- veuve-clicquot-2008
+- veuve-clicquot-demi-champagne
+- veuve-clicquot-rose-champagne
+- avua-amburana-cachaca-70cl
+- bourgneuf-2020
+- bourgneuf-half-2020
+- bourgogne-chardonnay-jean-jacques-girard-2022
+- certan-de-may-half-2020
+- chablis-montee-de-tonnerre-samuel-billaud-2023
+- chassagne-montracheta-bachelet-monnot-2021
+- domaine-des-sables-verts-domaine-des-sables-verts-glouglou-saumur-champigny-2021
+- domaine-des-sables-verts-glouglou-saumur-champigny-2022
+- jack-pack
+- leoville-las-cases-half-2019
+- mixed-fruit-cider
+- mixed-fruit-cider-x-4
+- strongbow-cider-x-4
+
+285 of 285 done. All 24 pushed with empty userErrors.
