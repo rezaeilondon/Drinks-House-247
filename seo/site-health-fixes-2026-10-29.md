@@ -139,3 +139,14 @@ Notes:
 - **hennessy-cognac**: the original intro mentions VSOP, but there is no VSOP product in the collection. The product titled just "Hennessy" is assumed to be VS.
 
 29 thin collections remain. Most have one to four products.
+
+## Collection guides, batch 6 (29 Oct)
+
+Added guides of 200–240 words to these collections: philipponnat-champagne, deutz-champagne, pommery-champagne, heidsieck-co-champagne, wines-from-israel, riesling, rhone-valley, zinfandel, practicing-organic-wines and flowers-delivery-in-london.
+
+Notes:
+- **rhone-valley** includes "Othello 2019". Othello is a Napa Valley red (from Dominus), not a Rhône wine, so check its collection tags.
+- **rhone-valley**: the original intro links to `/collections/grenache`. This link was not checked.
+- **flowers-delivery-in-london**: the guide does not mention a delivery time, because flower lead times may differ from drinks. It mentions Challenge 25 only for orders that include alcohol.
+
+19 thin collections remain, each with one or two products. The recommendation is to noindex them or add products, not to write guides.
