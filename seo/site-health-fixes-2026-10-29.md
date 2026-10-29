@@ -114,7 +114,7 @@ Notes:
 Added guides of 200–250 words to these collections: charles-heidsieck-champagne, piper-heidsieck-champagne, rare-champagne, kosher-wines, sparkling-rose-wine, pomerol, clase-azul-tequila, patron-tequila, johnnie-walker-whisky and belvedere-vodka.
 
 Notes:
-- **rare-champagne**: the original intro describes the "RARE" brand (Piper-Heidsieck's prestige label), but the collection holds Billecart-Salmon, Pierre Péters, Devaux and others, and no RARE bottles. The new guide treats it as "hard-to-find Champagne". Either add RARE Champagne products or rewrite the intro.
+- **rare-champagne** (corrected the same day): the collection does hold RARE Champagne (Millésime 2002, 2008 and 2013, and Rosé 2007, 2012 and 2014), plus Salon, Gosset and Billecart prestige cuvées. It has 60 products, not 15. The first check only looked at the first 16 products. The guide was rewritten to lead with RARE and its Piper-Heidsieck origins, and the Piper-Heidsieck guide now links to it.
 - **kosher-wines** also includes Cazcanes tequila and a Belvedere 6L. The guide asks customers to check each product page for its certification.
 
 49 thin collections remain.
