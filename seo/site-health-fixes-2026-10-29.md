@@ -150,3 +150,13 @@ Notes:
 - **flowers-delivery-in-london**: the guide does not mention a delivery time, because flower lead times may differ from drinks. It mentions Challenge 25 only for orders that include alcohol.
 
 19 thin collections remain, each with one or two products. The recommendation is to noindex them or add products, not to write guides.
+
+## Tiny collections noindexed (29 Oct)
+
+The 15 collections with only one or two products now have `seo.hidden = 1` (`number_integer`). Shopify adds a `noindex` tag to these pages and leaves them out of `sitemap.xml`. The pages still work for shoppers.
+
+albarino, alsace, barossa-valley, beaujolais, champagne-methuselah-6l, champagne-jeroboam-3l, gewurztraminer, lanson-champagne, rye-whisky, wines-from-germany, wines-from-hungary, certified-biodynamic-wines, sustainable-wines, fleur-de-miraval-champagne, sicily
+
+**To undo:** delete the `seo.hidden` metafield on the collection. In the admin, open the collection, go to Metafields and clear the field, or use `metafieldsDelete`. Undo this once a collection has about five products and a short guide.
+
+These collections have three products each and were left indexed: champagne-half-bottle-37-5cl, chenin-blanc, mercier-champagne, multi-vintage-wine.
