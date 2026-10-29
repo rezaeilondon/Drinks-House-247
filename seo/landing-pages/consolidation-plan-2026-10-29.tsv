@@ -7,13 +7,13 @@ Alcohol shop / near me	/pages/booze-delivery-near-me	1083	/pages/alcohol-shop-ne
 24-hour alcohol delivery	/pages/alcohol-24-hour-near-me	513	/pages/alcohol-delivery-24-hours-1	598
 Alcohol delivery London (homepage intent)	/pages/alcohol-delivery-service	513	/	0
 Alcohol delivery London (homepage intent)	/pages/drinks-deliveries-in-london-instantly-with-drinks-house-247	514	/	0
-Beer delivery	/pages/beer-delivered-near-me	551	/pages/beer-deliveries-near-me	1075
-Beer delivery	/pages/beer-delivery-service-near-me	549	/pages/beer-deliveries-near-me	1075
-Beer delivery	/pages/deliver-me-beer	482	/pages/beer-deliveries-near-me	1075
-Beer delivery	/pages/delivery-of-beer-near-me	461	/pages/beer-deliveries-near-me	1075
-Beer delivery	/pages/instant-beer-delivery	437	/pages/beer-deliveries-near-me	1075
-Beer delivery	/pages/online-beer-delivery-near-me	520	/pages/beer-deliveries-near-me	1075
-Beer delivery	/pages/best-beer-delivery-london	522	/pages/beer-deliveries-near-me	1075
+Beer delivery	/pages/beer-deliveries-near-me	1075	/pages/best-beer-delivery-london	522
+Beer delivery	/pages/beer-delivered-near-me	551	/pages/best-beer-delivery-london	522
+Beer delivery	/pages/beer-delivery-service-near-me	549	/pages/best-beer-delivery-london	522
+Beer delivery	/pages/deliver-me-beer	482	/pages/best-beer-delivery-london	522
+Beer delivery	/pages/delivery-of-beer-near-me	461	/pages/best-beer-delivery-london	522
+Beer delivery	/pages/instant-beer-delivery	437	/pages/best-beer-delivery-london	522
+Beer delivery	/pages/online-beer-delivery-near-me	520	/pages/best-beer-delivery-london	522
 Wine shop near me	/pages/wine-shop-near-me-liquor-store-in-london	564	/pages/wine-near-me	507
 Red wine delivery	/pages/red-wine-delivery-uk-premium-fast-delivery-drinks-house-247	754	/pages/red-wine-delivery	602
 White wine delivery	/pages/white-wine-delivery-services-uk-premium-fast-drinks-house-247	764	/pages/white-wine-delivery	561
@@ -73,23 +73,23 @@ Tequila gifts	/pages/tequila-birthday-gift-uk-luxury-tequila-gifts	305	/pages/ce
 Tequila gifts	/pages/send-tequila-as-a-birthday-gift-uk-fast-fun-delivery-drinks-house-247	317	/pages/celebrate-with-tequila-gifts-sent-to-london-uk	542
 Tequila gifts	/pages/tequila-thank-you-gift-uk	314	/pages/celebrate-with-tequila-gifts-sent-to-london-uk	542
 Cazcanes No.7	/pages/limited-cazcanes-no-7-tequila-cases-caviar-gift-set-drinks-house-247	438	/pages/limited-last-cases-cazcanes-no-7-tequila-blanco-reposado-anejo-drinks-house-247	401
-Wine gifts	/pages/wine-gifts	403	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/wine-gift-sets	375	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/wine-gift-box-the-perfect-present-for-wine-lover	455	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/wine-in-gift-boxes-the-perfect-present-for-any-occasion	428	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/wines-gifts-making-every-moment-memorable	408	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/wine-gifts-delivered-the-perfect-indulgence-for-every-wine-lover	386	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/the-gift-of-wine-a-timeless-expression-of-appreciation	314	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/deliver-wine-gift	309	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/online-wine-gifts-uk	307	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/buy-wine-gift-online-uk-premium-fast-delivery-drinks-house-247	301	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/luxury-wine-gifts-uk-fast-delivery-drinks-house	288	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/fine-wine-gift-delivery-uk-premium-red-white-wine-gifts-drinks-house-247	203	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/wine-gift-delivery-uk-drinks-house-247	582	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/the-art-of-gifting-wine-a-comprehensive-guide	550	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/sending-wine-as-a-gift-a-delightful-experience	429	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/bottle-of-wine-as-a-gift-the-perfect-gesture	358	/pages/unique-wine-gifts-for-every-special-occasion	2104
-Wine gifts	/pages/the-ultimate-guide-to-selecting-gifts-for-wine-lovers	421	/pages/unique-wine-gifts-for-every-special-occasion	2104
+Wine gifts	/pages/unique-wine-gifts-for-every-special-occasion	2104	/pages/wine-gifts	403
+Wine gifts	/pages/wine-gift-sets	375	/pages/wine-gifts	403
+Wine gifts	/pages/wine-gift-box-the-perfect-present-for-wine-lover	455	/pages/wine-gifts	403
+Wine gifts	/pages/wine-in-gift-boxes-the-perfect-present-for-any-occasion	428	/pages/wine-gifts	403
+Wine gifts	/pages/wines-gifts-making-every-moment-memorable	408	/pages/wine-gifts	403
+Wine gifts	/pages/wine-gifts-delivered-the-perfect-indulgence-for-every-wine-lover	386	/pages/wine-gifts	403
+Wine gifts	/pages/the-gift-of-wine-a-timeless-expression-of-appreciation	314	/pages/wine-gifts	403
+Wine gifts	/pages/deliver-wine-gift	309	/pages/wine-gifts	403
+Wine gifts	/pages/online-wine-gifts-uk	307	/pages/wine-gifts	403
+Wine gifts	/pages/buy-wine-gift-online-uk-premium-fast-delivery-drinks-house-247	301	/pages/wine-gifts	403
+Wine gifts	/pages/luxury-wine-gifts-uk-fast-delivery-drinks-house	288	/pages/wine-gifts	403
+Wine gifts	/pages/fine-wine-gift-delivery-uk-premium-red-white-wine-gifts-drinks-house-247	203	/pages/wine-gifts	403
+Wine gifts	/pages/wine-gift-delivery-uk-drinks-house-247	582	/pages/wine-gifts	403
+Wine gifts	/pages/the-art-of-gifting-wine-a-comprehensive-guide	550	/pages/wine-gifts	403
+Wine gifts	/pages/sending-wine-as-a-gift-a-delightful-experience	429	/pages/wine-gifts	403
+Wine gifts	/pages/bottle-of-wine-as-a-gift-the-perfect-gesture	358	/pages/wine-gifts	403
+Wine gifts	/pages/the-ultimate-guide-to-selecting-gifts-for-wine-lovers	421	/pages/wine-gifts	403
 Red wine gifts	/pages/red-wine-as-a-gift-a-timeless-classic	404	/pages/a-heartfelt-gift-red-wine	632
 Red wine gifts	/pages/send-red-wine-gift-uk	294	/pages/a-heartfelt-gift-red-wine	632
 White wine gifts	/pages/white-wine-gift-sets-a-guide-to-perfect-gifting	326	/pages/white-wine-gift-sets	539

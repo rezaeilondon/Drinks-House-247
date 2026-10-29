@@ -41,3 +41,58 @@ Shopify blocks API writes to the live theme, so these changes can only go live t
 
 The draft is a copy of the live theme as of 28 Oct, 23:5x UTC. If anyone edits the live
 theme before the draft is published, repeat those edits on the draft first.
+
+## 29 Oct: collection buying guides (live)
+
+A buying-guide section was added under the existing intro of 10 collections. Each
+section starts after the marker `<!--dh-guide-2026-10-->`, and the full text is in
+`seo/collections/collection-guides-2026-10-29.html`. Each collection went from under
+80 words to 260–410 words:
+
+- vintage-wine
+- wines-from-france
+- champagne-standard-bottle-75cl
+- non-vintage-wine
+- chablis
+- medoc
+- champagne-magnum-1-5l
+- caviar-chocolate-gifts
+- macallan-whisky
+- charbonnel-et-walker
+
+## 29 Oct: page consolidation, round 1 (live)
+
+34 pages were unpublished and 301-redirected to a keeper.
+
+### Keepers changed from the original plan
+
+Two groups now keep the URL that the main menu and footer already link to:
+
+- **Beer:** keeper is now `best-beer-delivery-london`.
+- **Wine gifts:** keeper is now `wine-gifts`.
+
+Both are newer, designed pages. They looked thin in the original plan only because
+most of their markup is product cards and styling.
+
+### Redirects
+
+- **Beer** (7 pages) → /pages/best-beer-delivery-london
+  - Removed a stale inactive redirect that sat on that keeper's own URL.
+  - Three earlier, inactive redirects that pointed beer pages to /collections/beers
+    now point to the keeper.
+- **Tequila gifts** (10 pages) → /pages/celebrate-with-tequila-gifts-sent-to-london-uk
+- **Wine gifts** (17 pages) → /pages/wine-gifts
+- **7 older redirects** that pointed at merged pages now go straight to the keepers.
+
+### Incident
+
+Four beer pages returned a 404 for about two minutes. The keeper's stale redirect had
+blocked their new redirects. This is now fixed.
+
+**Check before every round:** look for a redirect sitting on each keeper's own path.
+
+### Still to do
+
+- Remove the merged URLs from `pages/html-sitemap`. This will be done once, after the
+  last round.
+- Watch Search Console for 2–3 weeks before round 2.
