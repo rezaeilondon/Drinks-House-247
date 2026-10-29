@@ -108,3 +108,13 @@ Notes:
 - **Vegan and vegetarian guides** explain fining in general terms. They make no vegan claim about any individual bottle.
 - **most-popular**: the original intro still says "free standard delivery". Check that this matches current shipping rates.
 - 59 thin collections remain (mostly brand and region collections with fewer than 15 products).
+
+## Collection guides, batch 3 (29 Oct)
+
+Added guides of 200–250 words to these collections: charles-heidsieck-champagne, piper-heidsieck-champagne, rare-champagne, kosher-wines, sparkling-rose-wine, pomerol, clase-azul-tequila, patron-tequila, johnnie-walker-whisky and belvedere-vodka.
+
+Notes:
+- **rare-champagne**: the original intro describes the "RARE" brand (Piper-Heidsieck's prestige label), but the collection holds Billecart-Salmon, Pierre Péters, Devaux and others, and no RARE bottles. The new guide treats it as "hard-to-find Champagne". Either add RARE Champagne products or rewrite the intro.
+- **kosher-wines** also includes Cazcanes tequila and a Belvedere 6L. The guide asks customers to check each product page for its certification.
+
+49 thin collections remain.
