@@ -96,3 +96,15 @@ blocked their new redirects. This is now fixed.
 - Remove the merged URLs from `pages/html-sitemap`. This will be done once, after the
   last round.
 - Watch Search Console for 2–3 weeks before round 2.
+
+## Collection guides, batch 2 (29 Oct)
+
+Added buying guides (210–275 words each) to 10 more thin collections. As before, each guide is appended after the `<!--dh-guide-2026-10-->` marker, and the original text is unchanged. The full text is in `seo/collections/collection-guides-2026-10-29.html`.
+
+Collections: gifts-under-1000, most-popular, gifts-over-1000, vegetarian-wines, vegan-wines, award-winning-wine, caviar-delivery-london, wines-from-england, wines-from-spain, wines-from-japan.
+
+Notes:
+- **wines-from-japan** contains only sake (3 products). The new guide covers sake, but the original intro still talks about Koshu wine. Consider renaming the collection "Japanese Sake" or adding Koshu wines.
+- **Vegan and vegetarian guides** explain fining in general terms. They make no vegan claim about any individual bottle.
+- **most-popular**: the original intro still says "free standard delivery". Check that this matches current shipping rates.
+- 59 thin collections remain (mostly brand and region collections with fewer than 15 products).
