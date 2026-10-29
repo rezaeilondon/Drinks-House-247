@@ -129,3 +129,13 @@ Notes:
 - **wine-box-6-bottles**: the original intro is plain text without `<p>` tags. It renders, but it could be tidied.
 
 39 thin collections remain.
+
+## Collection guides, batch 5 (29 Oct)
+
+Added guides of 215–255 words to these collections: loire-valley, hibiki-whisky, hennessy-cognac, armand-de-brignac-champagne, yamazaki-whisky, wines-from-chile, sangiovese, nebbiolo, henriot-champagne and glenfiddich-whisky.
+
+Notes:
+- **loire-valley** includes Château de Pouilly-Fuissé, which is a Burgundy wine. Instead of hiding this, the guide adds a "Pouilly-Fumé or Pouilly-Fuissé?" section. Consider moving the product to Burgundy only.
+- **hennessy-cognac**: the original intro mentions VSOP, but there is no VSOP product in the collection. The product titled just "Hennessy" is assumed to be VS.
+
+29 thin collections remain. Most have one to four products.
