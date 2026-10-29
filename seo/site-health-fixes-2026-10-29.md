@@ -118,3 +118,14 @@ Notes:
 - **kosher-wines** also includes Cazcanes tequila and a Belvedere 6L. The guide asks customers to check each product page for its certification.
 
 49 thin collections remain.
+
+## Collection guides, batch 4 (29 Oct)
+
+Added guides of 205–265 words to these collections: don-julio-tequila, saint-emilion, wines-from-new-zealand, marlborough, vermouth-aperitifs, wines-from-argentina, wines-from-portugal, piemonte, perrier-jouet-champagne and wine-box-6-bottles.
+
+Notes:
+- **wines-from-new-zealand** includes "Southern Right Sauvignon Blanc 2020". Southern Right is a South African producer, so check the product's collection tags.
+- **wines-from-portugal**: the original intro mentions Douro reds and Vinho Verde, but the collection holds only Port, Madeira and one sparkling wine. The guide focuses on Port and Madeira.
+- **wine-box-6-bottles**: the original intro is plain text without `<p>` tags. It renders, but it could be tidied.
+
+39 thin collections remain.
