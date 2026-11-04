@@ -1,0 +1,29 @@
+{%- comment -%}
+  dh247: "Explore more" links from a product to its brand, style/region and category collections.
+  Built from product.collections, so new products are covered automatically.
+{%- endcomment -%}
+{%- assign dh_hs = product.collections | map: 'handle' -%}
+{%- assign dh_brands = 'dom-perignon-champagne,veuve-clicquot-champagne,moet-chandon-champagne,krug-champagne,ruinart-champagne,bollinger-champagne,laurent-perrier-champagne,louis-roederer-champagne,taittinger-champagne,pol-roger-champagne,charles-heidsieck-champagne,piper-heidsieck-champagne,perrier-jouet-champagne,armand-de-brignac-champagne,henriot-champagne,philipponnat-champagne,heidsieck-co-champagne,deutz-champagne,pommery-champagne,mercier-champagne,macallan-whisky,johnnie-walker-whisky,glenfiddich-whisky,yamazaki-whisky,hibiki-whisky,clase-azul-tequila,don-julio-tequila,patron-tequila,belvedere-vodka,hennessy-cognac' | split: ',' -%}
+{%- assign dh_subs = 'saint-emilion,pomerol,medoc,chablis,napa-valley,marlborough,loire-valley,provence,rioja,tuscany,piemonte,veneto,mendoza,languedoc-roussillon,burgundy,bordeaux,blanc-de-blancs-champagne,blanc-de-noirs-champagne,rose-champagne,extra-brut-champagne,demi-sec-champagne,champagne-magnum-1-5l,japanese-whisky,bourbon-whisky,irish-whisky,tennessee-whisky,single-malt-whisky,scotch-whisky,extra-anejo-tequila,anejo-tequila,reposado-tequila,blanco-tequila,vermouth-aperitifs,pinot-noir,sauvignon-blanc,shiraz,tempranillo,nebbiolo,sangiovese,merlot-wine-delivery,chardonnay,cabernet-sauvignon,brut-champagne' | split: ',' -%}
+{%- assign dh_types = 'red-wine,white-wine,rose-wine,sparkling-wine,port-fortified-wines' | split: ',' -%}
+{%- assign dh_parents = 'champagne,whisky,tequila,mezcal,vodka,gin,rum,cognac,beers,mixers,caviar-delivery-london,charbonnel-et-walker,flowers-delivery-in-london,wines,liquor' | split: ',' -%}
+{%- assign dh_labels = 'champagne:Champagne|wines:Wine|whisky:Whisky|tequila:Tequila|vodka:Vodka|gin:Gin|rum:Rum|cognac:Cognac|liquor:Spirits|beers:Beer|mixers:Soft Drinks & Mixers|caviar-delivery-london:Caviar|charbonnel-et-walker:Chocolate Gifts|flowers-delivery-in-london:Flowers|mezcal:Mezcal|red-wine:Red Wine|white-wine:White Wine|rose-wine:Rosé Wine|sparkling-wine:Sparkling Wine|port-fortified-wines:Port & Fortified Wine|rose-champagne:Rosé Champagne|blanc-de-blancs-champagne:Blanc de Blancs Champagne|blanc-de-noirs-champagne:Blanc de Noirs Champagne|extra-brut-champagne:Extra Brut Champagne|demi-sec-champagne:Demi-Sec Champagne|brut-champagne:Brut Champagne|champagne-magnum-1-5l:Champagne Magnums|single-malt-whisky:Single Malt Whisky|scotch-whisky:Blended Scotch Whisky|bourbon-whisky:Bourbon|japanese-whisky:Japanese Whisky|irish-whisky:Irish Whiskey|tennessee-whisky:Tennessee Whiskey|blanco-tequila:Blanco Tequila|reposado-tequila:Reposado Tequila|anejo-tequila:Añejo Tequila|extra-anejo-tequila:Extra Añejo Tequila|vermouth-aperitifs:Vermouth & Aperitifs|bordeaux:Bordeaux Wine|burgundy:Burgundy Wine|chablis:Chablis|rioja:Rioja|tuscany:Tuscan Wine|pomerol:Pomerol|provence:Provence Rosé|loire-valley:Loire Valley Wine|napa-valley:Napa Valley Wine|saint-emilion:Saint-Émilion|medoc:Médoc Wine|marlborough:Marlborough Wine|veneto:Veneto Wine|piemonte:Piedmont Wine|languedoc-roussillon:Languedoc Wine|mendoza:Mendoza Wine|chardonnay:Chardonnay|cabernet-sauvignon:Cabernet Sauvignon|pinot-noir:Pinot Noir|sauvignon-blanc:Sauvignon Blanc|merlot-wine-delivery:Merlot|shiraz:Shiraz|tempranillo:Tempranillo|nebbiolo:Nebbiolo|sangiovese:Sangiovese|macallan-whisky:Macallan|johnnie-walker-whisky:Johnnie Walker|glenfiddich-whisky:Glenfiddich|yamazaki-whisky:Yamazaki|hibiki-whisky:Hibiki|clase-azul-tequila:Clase Azul|don-julio-tequila:Don Julio|patron-tequila:Patrón|belvedere-vodka:Belvedere|hennessy-cognac:Hennessy|dom-perignon-champagne:Dom Pérignon' | split: '|' -%}
+{%- assign dh_pick = '' -%}
+{%- for h in dh_brands -%}{%- if dh_hs contains h and collections[h].all_products_count > 2 -%}{%- assign dh_pick = dh_pick | append: ',' | append: h -%}{%- break -%}{%- endif -%}{%- endfor -%}
+{%- for h in dh_subs -%}{%- if dh_hs contains h and collections[h].all_products_count > 3 -%}{%- assign dh_pick = dh_pick | append: ',' | append: h -%}{%- break -%}{%- endif -%}{%- endfor -%}
+{%- for h in dh_types -%}{%- if dh_hs contains h -%}{%- assign dh_pick = dh_pick | append: ',' | append: h -%}{%- break -%}{%- endif -%}{%- endfor -%}
+{%- for h in dh_parents -%}{%- if dh_hs contains h -%}{%- assign dh_pick = dh_pick | append: ',' | append: h -%}{%- break -%}{%- endif -%}{%- endfor -%}
+{%- assign dh_pick = dh_pick | remove_first: ',' | split: ',' | uniq -%}
+{%- if dh_pick.size > 0 -%}
+<div class="container"><div class="sixteen columns custom-container2"><nav class="dh-explore" aria-label="Explore more">
+  <span class="dh-explore__label">Explore more:</span>
+  {%- for h in dh_pick limit: 3 -%}
+    {%- assign dh_label = collections[h].title -%}
+    {%- assign dh_key = h | append: ':' -%}
+    {%- for pair in dh_labels -%}{%- if pair contains dh_key -%}{%- assign dh_first = pair | split: ':' | first -%}{%- if dh_first == h -%}{%- assign dh_label = pair | remove_first: dh_key -%}{%- break -%}{%- endif -%}{%- endif -%}{%- endfor -%}
+    {%- unless forloop.first %} · {% endunless -%}
+    <a href="{{ collections[h].url }}">{{ dh_label | escape }}</a>
+  {%- endfor -%}
+</nav></div></div>
+<style>.dh-explore{margin:24px 0 8px;font-size:15px;line-height:1.6}.dh-explore__label{font-weight:600;margin-right:4px}.dh-explore a{text-decoration:underline}</style>
+{%- endif -%}
