@@ -78,6 +78,7 @@ She turns the card over. On the back, handwritten: "Not bad. Now try my Sagittar
 ### End card (added in editing)
 - "The Gift Whisperer. Episode 2: The Sagittarius →"
 - "Follow for the next chapter"
+- "drinkshouse247.co.uk" (+ "code YT10 · link on our channel" on the YouTube copy only)
 - "18+ only. Please drink responsibly."
 
 ### Cost
@@ -85,6 +86,17 @@ She turns the card over. On the back, handwritten: "Not bad. Now try my Sagittar
 - Budget about 60 credits for one retake.
 
 ---
+
+## TRAFFIC & ATTRIBUTION RULES (added 4 Nov 2026, apply to every new Short)
+
+1. **Website on screen.** The last 2–3 seconds of every Short show "drinkshouse247.co.uk" in large gold (#E8C468) Montserrat on the navy (#0B1530) end card. Where there is a voiceover, the mascot also says "drinkshouse247 dot co dot uk".
+2. **YouTube-only code YT10.** Shopify code YT10 = £10 off orders of £75+, once per customer, combines with free shipping only (created 4 Nov 2026, tag "youtube").
+   - The code appears ONLY on the YouTube copy. Metricool sends one video and one caption to every network in a post, so a Short with YT10 burned in or in the caption would leak the code to Instagram, Facebook and X and break attribution.
+   - So each new Short is scheduled as TWO Metricool posts at the same time: (a) YouTube only, video with end card "drinkshouse247.co.uk · code YT10 · link on our channel", caption also mentions YT10; (b) X, Facebook, Instagram (+Pinterest), video with end card "drinkshouse247.co.uk" only, no code.
+   - Never put YT10 in a shared multi-network caption.
+3. **"Link on our channel".** The YouTube end card and YouTube caption end with "Link on our channel 👆". The owner adds the shop and gift-hampers pages as channel header links in YouTube Studio (Customisation → Basic info → Links).
+4. **Long-form gift guide.** One 3–5 minute gift guide video (16:9 or 9:16) with clickable links in the description; every Short's "Related video" in YouTube Studio points to it. Related-video links are set in YouTube Studio by the owner (Metricool's API can't set them).
+5. Ending of every caption stays: product/article link + gifts-hampers link + "18+ only. Please drink responsibly."
 
 ## PRODUCTION STATUS (updated 30 Oct 2026)
 
