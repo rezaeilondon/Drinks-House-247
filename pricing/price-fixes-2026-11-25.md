@@ -36,5 +36,29 @@ Page text: the Dom Pérignon 2013 case FAQ now reads £1,290 for six singles, £
 
 Flagged, not changed (need a supplier check): Bollinger La Côte aux Enfants 2013 £1,350, SGC St Émilion Alain Dutournier 2009 £1,650, Domaines Ott Étoile magnum £395, Champagne Charlie 2017 £695, Masseto 2018 £1,460, Haut-Brion 1998 £1,590, the Bond wines.
 
+## Round 3: +15% on the round 2 prices (owner: the corrected prices were below buying cost)
+
+| Product | Round 2 | Now |
+|---|---|---|
+| Charles Heidsieck Brut Millésime 2013 (duplicate listing) | £148 | £170 |
+| Sassicaia 2014 | £620 | £715 |
+| Lafite 2021 | £950 | £1,095 |
+| Lafite 2020 | £1,050 | £1,210 |
+| Mouton Rothschild 2000 | £2,400 | £2,760 |
+| Laurent-Perrier Cuvée Rosé (no box) | £75 | £86 |
+| DRC Corton 2010 | £1,450 | £1,670 |
+| Charles Heidsieck Rosé 2005 (duplicate listing) | £144 | £166 |
+| Gagnard Caillerets 2018 | £219 | £252 |
+| Léoville Las Cases 2018 half | £165 | £190 |
+| Dom Pérignon Luminous 2012 | £325 | £375 |
+| Palmer 2022 | £475 | £545 |
+| Grand-Puy-Lacoste 2018 | £120 | £138 |
+| Caymus 2003 | £225 | £259 |
+| Vrignaud Chablis 1er Cru Fourchaume | £79 | £91 |
+
+Rounding: nearest £1 under £300, nearest £5 above.
+
+Vrignaud Fourchaume: 2021 sold out. The listing is now "Domaine Vrignaud, Chablis 1er Cru `Fourchaume` 75cl" with a Vintage option, 2023 and 2025, both £91, 6 in stock each (placeholder split of the 12 on hand). The URL is unchanged to keep its ranking. The description, SEO title and meta now name the two vintages.
+
 Still open:
 - Stale prices in cross-sell cards on 21 pages: Prestige Pearl (£390, real £380, 12 pages), DP x Hirst Rosé 2010 (£480, real £490, 7 pages), Chocolate Block Duo & Truffles (£160, real £180, 2 pages), Dom Pérignon 2013 on the DP x Hirst 2018 page (£225, real £215). Bulk edits are blocked by the connector, so these need page-by-page saves.
