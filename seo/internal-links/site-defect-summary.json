@@ -1,0 +1,34 @@
+{
+ "scanned": {
+  "articles": 272,
+  "products": 1449,
+  "pages": 419,
+  "total": 2140
+ },
+ "defective": {
+  "articles": 212,
+  "products": 326,
+  "pages": 366,
+  "total": 904
+ },
+ "absolute_internal_links": {
+  "articles": 957,
+  "products": 1871,
+  "pages": 5489,
+  "total": 8317
+ },
+ "target_blank_or_new": {
+  "articles": 413,
+  "products": 792,
+  "pages": 152,
+  "total": 1357
+ },
+ "www_references": {
+  "articles": 87,
+  "products": 1764,
+  "pages": 4903,
+  "note": "articles figure is JSON-LD only; product/page figures count every www occurrence, most of which sit inside the absolute hrefs above and are fixed by the same edit"
+ },
+ "myshopify_com": 0,
+ "insecure_http_links": 0
+}

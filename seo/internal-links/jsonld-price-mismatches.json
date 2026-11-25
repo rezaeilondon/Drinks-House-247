@@ -1,0 +1,164 @@
+[
+ {
+  "handle": "the-malt-collectors-hamper",
+  "jsonld": "375.00",
+  "live": "290.00",
+  "delta": -85.0
+ },
+ {
+  "handle": "the-murakami-prestige-hamper",
+  "jsonld": "695.00",
+  "live": "620.00",
+  "delta": -75.0
+ },
+ {
+  "handle": "don-julio-1942",
+  "jsonld": "225.00",
+  "live": "165.00",
+  "delta": -60.0
+ },
+ {
+  "handle": "dom-perignon-vintage-2008-75cl",
+  "jsonld": "366.00",
+  "live": "395.00",
+  "delta": 29.0
+ },
+ {
+  "handle": "kweichow-moutai-flying-fairy-baijiu-50cl",
+  "jsonld": "525.00",
+  "live": "499.00",
+  "delta": -26.0
+ },
+ {
+  "handle": "the-provence-rose-case-6-x-75cl",
+  "jsonld": "199.00",
+  "live": "180.00",
+  "delta": -19.0
+ },
+ {
+  "handle": "chivas-regal-18-year-old-blended-scotch-whisky",
+  "jsonld": "98.00",
+  "live": "81.00",
+  "delta": -17.0
+ },
+ {
+  "handle": "whisky-double-black",
+  "jsonld": "66.00",
+  "live": "51.50",
+  "delta": -14.5
+ },
+ {
+  "handle": "the-great-british-hamper",
+  "jsonld": "145.00",
+  "live": "155.00",
+  "delta": 10.0
+ },
+ {
+  "handle": "whiskey-jack-daniels",
+  "jsonld": "42.00",
+  "live": "33.00",
+  "delta": -9.0
+ },
+ {
+  "handle": "whiskey-black-lable",
+  "jsonld": "44.00",
+  "live": "35.00",
+  "delta": -9.0
+ },
+ {
+  "handle": "hendricks-gin",
+  "jsonld": "49.50",
+  "live": "40.50",
+  "delta": -9.0
+ },
+ {
+  "handle": "chivas-regal-whisky",
+  "jsonld": "46.00",
+  "live": "37.95",
+  "delta": -8.05
+ },
+ {
+  "handle": "absolut",
+  "jsonld": "36.00",
+  "live": "28.00",
+  "delta": -8.0
+ },
+ {
+  "handle": "grappa-sarpa-di-poli-70cl",
+  "jsonld": "67.00",
+  "live": "74.00",
+  "delta": 7.0
+ },
+ {
+  "handle": "glenfiddich-12-year-old-single-malt-whisky",
+  "jsonld": "58.00",
+  "live": "51.30",
+  "delta": -6.7
+ },
+ {
+  "handle": "the-demi-sec-amp-chocolate-hamper",
+  "jsonld": "155.00",
+  "live": "160.00",
+  "delta": 5.0
+ },
+ {
+  "handle": "herzog-prince-vineyard-chenin-blanc-2023-kosher-75cl",
+  "jsonld": "60.00",
+  "live": "65.00",
+  "delta": 5.0
+ },
+ {
+  "handle": "pallini-limoncello-70cl",
+  "jsonld": "28.00",
+  "live": "33.00",
+  "delta": 5.0
+ },
+ {
+  "handle": "hennessy-brandy-cognac",
+  "jsonld": "58.00",
+  "live": "54.00",
+  "delta": -4.0
+ },
+ {
+  "handle": "redbreast-12-year-old-irish-single-pot-still-whiskey-70cl",
+  "jsonld": "78.00",
+  "live": "82.00",
+  "delta": 4.0
+ },
+ {
+  "handle": "carmel-signature-mediterranean-2-vats-2020-kosher-75cl",
+  "jsonld": "47.00",
+  "live": "50.00",
+  "delta": 3.0
+ },
+ {
+  "handle": "metaxa-12-stars-70cl",
+  "jsonld": "46.00",
+  "live": "49.00",
+  "delta": 3.0
+ },
+ {
+  "handle": "gonzalez-byass-alfonso-oloroso-seco-sherry-75cl",
+  "jsonld": "26.00",
+  "live": "28.00",
+  "delta": 2.0
+ },
+ {
+  "handle": "suze-gentiane-aperitif-70cl",
+  "jsonld": "26.00",
+  "live": "28.00",
+  "delta": 2.0
+ },
+ {
+  "handle": "corona-extra-beer-1",
+  "jsonld": "9.50",
+  "live": "7.95",
+  "delta": -1.55
+ },
+ {
+  "handle": "heineken-beer",
+  "jsonld": "9.50",
+  "live": "8.75",
+  "delta": -0.75
+ }
+]

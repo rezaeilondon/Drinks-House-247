@@ -1,0 +1,50 @@
+<!-- ============================================================
+     Statutory trading disclosure for drinkshouse247.co.uk
+     ------------------------------------------------------------
+     WHY THIS IS NEEDED
+     Companies Act 2006 s.82, together with the Company, Limited
+     Liability Partnership and Business (Names and Trading
+     Disclosures) Regulations 2015, requires a UK company to show
+     its registered name, registered number, place of registration
+     and registered office address on its website. A trading name
+     alone does not satisfy this.
+
+     WHERE TO PUT IT
+     Shopify admin -> Online Store -> Themes -> ... -> Edit code
+     -> sections/footer.liquid  (or snippets/footer-*.liquid on
+     some themes). Paste immediately before the closing </footer>
+     tag, after the existing copyright line.
+
+     STATUS: applied to the draft theme "SEO fix - remove duplicate
+     product schema (review 1st)" as snippets/dh247-legal.liquid,
+     wired into sections/footer.liquid. Writes to the LIVE theme are
+     blocked by the Shopify MCP safety policy, so publishing that
+     draft is a manual step in Shopify admin.
+
+     VAT NUMBER DELIBERATELY OMITTED (2026-09-18): GB 339765749 was
+     never verified, so it is NOT shown. s.82 does not require it, and
+     a number that fails a public gov.uk lookup casts doubt on the
+     whole disclosure. To restore it once confirmed at gov.uk ->
+     "Check a UK VAT number", append to the first paragraph:
+     VAT registration number <strong>GB 339765749</strong>.
+     ============================================================ -->
+
+<div class="dh247-legal" style="font-size:0.8rem;line-height:1.6;opacity:0.75;padding:1rem 0;">
+  <p>
+    Drinks House 247 is the trading name of <strong>Drinks House 247 Ltd</strong>,
+    registered in England and Wales, company number <strong>11286226</strong>.
+    Registered office: Unit 95a, Battersea Business Centre, 99&ndash;109 Lavender Hill,
+    London SW11 5QL.
+  </p>
+  <p>
+    Licensed for the sale by retail of alcohol for consumption off the premises under
+    premises licence <strong>2022/320845</strong>, issued by the London Borough of
+    Wandsworth. You must be 18 or over to buy alcohol.
+    <a href="/pages/challenge-25">Challenge 25 applies to every delivery.</a>
+  </p>
+  <p>
+    <a href="/pages/authenticity-and-sourcing">Authenticity and sourcing</a> &middot;
+    <a href="/pages/reviews">Reviews</a> &middot;
+    <a href="/pages/contact-us">Contact</a>
+  </p>
+</div>

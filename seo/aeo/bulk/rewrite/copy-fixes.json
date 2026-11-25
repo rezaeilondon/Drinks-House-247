@@ -1,0 +1,1714 @@
+[
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7360904331420",
+  "title": "Moet & Chandon Nectar Imperial Champagne 75cl",
+  "old": "Moet's Boldest, Most Unexpected Champagne",
+  "new": "Moët's Boldest, Most Unexpected Champagne",
+  "note": "Deliberate wording change applied live after the rewrite. plan.json.gz still holds the pre-fix text (verify.py compares prose before/after the rewrite, so it is left as-is); do not re-apply this product from plan.json.gz without this fix."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7900660400284",
+  "title": "Nuits St Georges Henri Gouges 2021",
+  "old": "Cote de Nuits",
+  "new": "Côte de Nuits",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7900708208796",
+  "title": "Monthelie Le Clou des Chenes Chateau de Monthelie Eric de Suremain 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7900738257052",
+  "title": "Meursault Narvaux Jadot 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7901376872604",
+  "title": "Meursault Michelot 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7901384933532",
+  "title": "Meursault Les Chevalieres Joseph Voillot 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7927432282268",
+  "title": "Beaune Les Epenots Louis Boillot 2012",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7951429664924",
+  "title": "Chambolle Musigny Hudelot Baillet 2021",
+  "old": "Cote de Nuits",
+  "new": "Côte de Nuits",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7951725592732",
+  "title": "Gevrey Chambertin Odoul Coquard 2021",
+  "old": "Cote de Nuits",
+  "new": "Côte de Nuits",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7951893954716",
+  "title": "Maranges La Fussiere Rouge Bachelet Monnot 2020",
+  "old": "Cote de Beaune",
+  "new": "Côte de Beaune",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-24",
+  "product": "gid://shopify/Product/7951898378396",
+  "title": "Marsannay Cuvee Marie Ragonneau Charles Audoin 2012",
+  "old": "Cote de Nuits",
+  "new": "Côte de Nuits",
+  "note": "Missing accent on the Burgundy sub-region name; approved by the owner 2026-09-24."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7840321732764",
+  "title": "Château Palmer 2005",
+  "old": "<span>Cabernet Sauvignon-led blend</span>",
+  "new": "<span>Merlot &amp; Cabernet Sauvignon blend</span>",
+  "note": "Palmer is Merlot-heavy; badge said Cabernet-led. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7840321732764",
+  "title": "Château Palmer 2005",
+  "old": "<td>Cabernet Sauvignon, Merlot, Petit Verdot</td>",
+  "new": "<td>Merlot, Cabernet Sauvignon, Petit Verdot</td>",
+  "note": "Grapes row reordered to match badge. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957152399516",
+  "title": "Billecart-Salmon Brut Nature",
+  "old": "made with minimal dosage",
+  "new": "made with no added dosage",
+  "note": "Story contradicted FAQ ('no added dosage'). Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7707805155484",
+  "title": "Nyetimber Tillington Single Vineyard 2014",
+  "old": "<span>Chardonnay</span><span>West Sussex, England</span>",
+  "new": "<span>Pinot Noir &amp; Chardonnay</span><span>West Sussex, England</span>",
+  "note": "Tillington is a Pinot Noir-led blend; page listed Chardonnay only. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7707805155484",
+  "title": "Nyetimber Tillington Single Vineyard 2014",
+  "old": "<td>Grape</td>\n<td>Chardonnay</td>",
+  "new": "<td>Grapes</td>\n<td>Pinot Noir, Chardonnay</td>",
+  "note": "As above, specs row. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15489399619959",
+  "title": "BrewDog Punk IPA 12 x 440ml",
+  "old": "Brewed in Fraserburgh, Scotland since 2007",
+  "new": "Brewed in Scotland since 2007",
+  "note": "BrewDog's brewery is no longer in Fraserburgh. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15489399619959",
+  "title": "BrewDog Punk IPA 12 x 440ml",
+  "old": "<td>BrewDog, Fraserburgh, Scotland</td>",
+  "new": "<td>BrewDog, Scotland</td>",
+  "note": "As above, specs row. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7716567187612",
+  "title": "Château Mouton Rothschild 2008",
+  "old": "prized for its exceptional ripeness and concentration",
+  "new": "prized for its freshness and concentration",
+  "note": "2008 was a cool, late-ripening vintage. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7953041850524",
+  "title": "Balfour Brut Rosé 2008",
+  "old": "this is Balfour's inaugural release",
+  "new": "this is an early Balfour release",
+  "note": "Earlier Balfour rosé vintages exist. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7969896857756",
+  "title": "Château d'Angludet 2021",
+  "old": "held by the Sichel family since 1875",
+  "new": "owned by the Sichel family since 1961",
+  "note": "The Sichel family acquired Angludet in 1961. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7863927636124",
+  "title": "Tignanello Magnum 2020",
+  "old": "<td>Sangiovese 85%, Cabernet Sauvignon, Cabernet Franc</td>",
+  "new": "<td>Sangiovese, Cabernet Sauvignon, Cabernet Franc</td>",
+  "note": "Blend percentage unverified for 2020 (typically ~80% Sangiovese); percentage removed. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "Japanese Single Malt · 18 Years · Sherry Casks",
+  "new": "Japanese Single Malt · 18 Years",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "a highly acclaimed, sherry-matured benchmark",
+  "new": "a highly acclaimed benchmark",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "has been matured primarily in sherry casks",
+  "new": "has been matured in a combination of casks, including sherry",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "<span>Sherry casks</span>",
+  "new": "<span>Sherry, American &amp; Mizunara oak</span>",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481181536631",
+  "title": "Yamazaki 18 Year Old",
+  "old": "<td>Primarily sherry</td>",
+  "new": "<td>Sherry, American &amp; Mizunara oak</td>",
+  "note": "Yamazaki 18 is matured in a mix of casks (American, Spanish/sherry and Mizunara oak), not primarily sherry. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7827900891292",
+  "title": "Chandon Garden Spritz 75cl",
+  "old": "<td>California, United States</td>",
+  "new": "<td>Mendoza, Argentina</td>",
+  "note": "Chandon Garden Spritz is made by Chandon in Mendoza, Argentina. Approved by the owner 2026-09-25 (wording fix on an already-live product; re-sent via fixups.json)."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "Extra Añejo Tequila · Clase Azul · 25th Aniversario",
+  "new": "Tequila · Clase Azul · 25th Aniversario",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "This extra añejo is aged in rare casks",
+  "new": "This tequila is aged in rare casks",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "<span>Extra Añejo · 25th Aniversario</span>",
+  "new": "<span>25th Aniversario</span>",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "a collector's extra añejo befitting",
+  "new": "a collector's tequila befitting",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971439415671",
+  "title": "Clase Azul 25th Aniversario Tequila 100cl",
+  "old": "<td>Extra Añejo Tequila</td>",
+  "new": "<td>Aged Tequila (limited edition)</td>",
+  "note": "Extra añejo category for the 25th Aniversario release could not be confirmed; wording made category-neutral. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7972048175260",
+  "title": "La Croix de Beaucaillou 2019",
+  "old": "<td>Aged in French oak barrels for 18 months</td>",
+  "new": "<td>Aged in French oak barrels</td>",
+  "note": "18-month oak ageing for the second wine could not be confirmed (12-14 months is more typical); duration removed. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15354901954935",
+  "title": "Dom Perignon Plenitude 2 P2 Vintage 2000 Gift Box 75cl",
+  "old": "Aged for over 15 years on the lees",
+  "new": "Aged for an extended period on the lees",
+  "note": "'Over 15 years' on the lees may overstate the P2 2000 by about a year; made non-numeric. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15354901954935",
+  "title": "Dom Perignon Plenitude 2 P2 Vintage 2000 Gift Box 75cl",
+  "old": "<span>15+ years on lees</span>",
+  "new": "<span>Extended lees ageing</span>",
+  "note": "'Over 15 years' on the lees may overstate the P2 2000 by about a year; made non-numeric. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15354901954935",
+  "title": "Dom Perignon Plenitude 2 P2 Vintage 2000 Gift Box 75cl",
+  "old": "<td>Over 15 years on the lees (late-disgorged)</td>",
+  "new": "<td>Extended ageing on the lees (late-disgorged)</td>",
+  "note": "'Over 15 years' on the lees may overstate the P2 2000 by about a year; made non-numeric. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15354901954935",
+  "title": "Dom Perignon Plenitude 2 P2 Vintage 2000 Gift Box 75cl",
+  "old": "aged over 15 years on the lees to reveal",
+  "new": "aged far longer on the lees to reveal",
+  "note": "'Over 15 years' on the lees may overstate the P2 2000 by about a year; made non-numeric. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "the pinnacle of luxury tequila, five years in sherry oak.",
+  "new": "the pinnacle of luxury tequila, five years in oak including sherry casks.",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "Aged for five years in sherry oak casks,",
+  "new": "Aged for five years in oak, including sherry casks,",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "<span>5 years sherry oak</span>",
+  "new": "<span>5 years in oak</span>",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "Five years in sherry oak build",
+  "new": "Five years in oak, including sherry casks, build",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "<td>5 years, sherry oak casks</td>",
+  "new": "<td>5 years, oak incl. sherry casks</td>",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "Sip neat to savour five years of sherry-oak maturation.",
+  "new": "Sip neat to savour five years of oak maturation.",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14971438793079",
+  "title": "Clase Azul Ultra Añejo Tequila 70cl",
+  "old": "Five years in sherry oak and an ornate",
+  "new": "Five years in oak, including sherry casks, and an ornate",
+  "note": "Clase Azul Ultra is aged five years in oak including sherry casks, not solely sherry oak. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "Indian Single Malt · Shiraz Cask Finish",
+  "new": "Indian Single Malt · Wine Cask Finish",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "single malt finished in Australian Shiraz wine casks.",
+  "new": "single malt finished in wine casks.",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "before being finished in Australian Shiraz wine casks,",
+  "new": "before being finished in wine casks,",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "The Shiraz influence adds",
+  "new": "The wine-cask influence adds",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "<span>Ex-bourbon + Shiraz finish</span>",
+  "new": "<span>Ex-bourbon + wine cask finish</span>",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "with the Shiraz cask lending fruit",
+  "new": "with the wine cask lending fruit",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "<td>Ex-bourbon, finished in Australian Shiraz wine casks</td>",
+  "new": "<td>Ex-bourbon, finished in wine casks</td>",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15481224429943",
+  "title": "Rampur Barrel Blush Single Malt Indian Whisky 70cl",
+  "old": "<summary>What does the Shiraz finish add?</summary>",
+  "new": "<summary>What does the wine cask finish add?</summary>",
+  "note": "Australian Shiraz cask finish could not be confirmed; wording made cask-neutral ('wine cask'). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "Champagne · Extra Dry · NV",
+  "new": "Champagne · Extra Brut · NV",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "Unusually approachable for an extra-dry style,",
+  "new": "Unusually approachable for a zero-dosage style,",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "<span>Extra Dry / Pure</span>",
+  "new": "<span>Extra Brut / Zero dosage</span>",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "<td>Champagne · Extra Dry (Pure)</td>",
+  "new": "<td>Champagne · Extra Brut, zero dosage (Pure)</td>",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15488725647735",
+  "title": "Pol Roger Pure NV 75cl",
+  "old": "Bone-dry — an extra-dry style with very little dosage,",
+  "new": "Bone-dry — an Extra Brut with zero dosage,",
+  "note": "Pol Roger Pure is a zero-dosage Extra Brut; 'Extra Dry' is a legally sweeter Champagne category than Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15495258210679",
+  "title": "Nikka Coffey Malt Japanese Malt Whisky 70cl",
+  "old": "Rich, complex and unlike anything produced outside Japan.",
+  "new": "Rich, complex and distinctive.",
+  "note": "Coffey-still malt is also made outside Japan; exclusivity claim removed. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14972692201847",
+  "title": "Don Julio Rosado Reposado Tequila 75cl",
+  "old": "finished in rosé-wine barrels for a vibrant",
+  "new": "finished in Ruby Port casks for a vibrant",
+  "note": "Don Julio Rosado is finished in Ruby Port casks, not rosé-wine barrels. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14972692201847",
+  "title": "Don Julio Rosado Reposado Tequila 75cl",
+  "old": "then finished in barrels that once held rosé wine.",
+  "new": "then finished in casks that once held Ruby Port.",
+  "note": "Don Julio Rosado is finished in Ruby Port casks, not rosé-wine barrels. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14972692201847",
+  "title": "Don Julio Rosado Reposado Tequila 75cl",
+  "old": "<span>Rosé-cask finish</span>",
+  "new": "<span>Ruby Port cask finish</span>",
+  "note": "Don Julio Rosado is finished in Ruby Port casks, not rosé-wine barrels. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14972692201847",
+  "title": "Don Julio Rosado Reposado Tequila 75cl",
+  "old": "The rosé-wine finish sets Don Julio Rosado apart",
+  "new": "The Ruby Port cask finish sets Don Julio Rosado apart",
+  "note": "Don Julio Rosado is finished in Ruby Port casks, not rosé-wine barrels. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14972692201847",
+  "title": "Don Julio Rosado Reposado Tequila 75cl",
+  "old": "8 months American oak, rosé-wine cask finish",
+  "new": "8 months American oak, Ruby Port cask finish",
+  "note": "Don Julio Rosado is finished in Ruby Port casks, not rosé-wine barrels. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/14972692201847",
+  "title": "Don Julio Rosado Reposado Tequila 75cl",
+  "old": "Its finish in rosé-wine barrels adds",
+  "new": "Its finish in Ruby Port casks adds",
+  "note": "Don Julio Rosado is finished in Ruby Port casks, not rosé-wine barrels. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7618324070556",
+  "title": "Deutz Brut rosé champagne 75cl",
+  "old": "an elegant grower-house rosé Champagne, ideal",
+  "new": "an elegant rosé Champagne from a historic Aÿ house, ideal",
+  "note": "Deutz is a historic Aÿ house, not a grower. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15356390900087",
+  "title": "AsomBroso Gran Reserva Extra Anejo tequila 75cl",
+  "old": "Master distiller Carlos Camarena upholds traditional methods to create this additive-free, sophisticated tequila.",
+  "new": "Traditional methods create this additive-free, sophisticated tequila.",
+  "note": "Carlos Camarena attribution unverified for AsomBroso; name removed. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7664881172636",
+  "title": "The Kurayoshi 12 Year Whisky 70cl",
+  "old": "<td>Type</td>\n<td>Japanese Whisky</td>",
+  "new": "<td>Type</td>\n<td>Whisky (bottled in Japan)</td>",
+  "note": "Kurayoshi reportedly contains imported whisky; avoid 'Japanese whisky' category claim. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7664881172636",
+  "title": "The Kurayoshi 12 Year Whisky 70cl",
+  "old": "it embodies the finesse of Japanese whisky.",
+  "new": "it showcases the finesse of Japanese blending.",
+  "note": "Kurayoshi reportedly contains imported whisky; avoid 'Japanese whisky' category claim. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "a sublime vintage cuvée honouring a founder of the house.",
+  "new": "a sublime vintage cuvée honouring Louis Salmon.",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "Cuvée Louis Salmon pays homage to a founding member.",
+  "new": "Cuvée Louis Salmon pays homage to Louis Salmon, brother of co-founder Elisabeth Salmon.",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "<span>Pinot Noir &amp; Chardonnay</span>",
+  "new": "<span>100% Chardonnay</span>",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "<td>Grapes</td>\n<td>Pinot Noir &amp; Chardonnay</td>",
+  "new": "<td>Grapes</td>\n<td>100% Chardonnay</td>",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957199290524",
+  "title": "Billecart Salmon Cuvee Louis Salmon 2009",
+  "old": "<p>A founding member of the house — this prestige cuvée is named in his honour.</p>",
+  "new": "<p>The brother of co-founder Elisabeth Salmon — this prestige cuvée is named in his honour.</p>",
+  "note": "Cuvée Louis Salmon is a 100% Chardonnay Blanc de Blancs; Louis Salmon was the brother of co-founder Elisabeth Salmon, not a founder. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7609172590748",
+  "title": "Charles Heidsieck Brut Reserve NV Champagne 75cl",
+  "old": "The signature cuvée of Charles Heidsieck — once the Champagne of Queen Victoria and King Edward VII — Brut Réserve is renowned",
+  "new": "The signature cuvée of Charles Heidsieck, Brut Réserve is renowned",
+  "note": "Unverified royal-favourite claim removed. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15479005544823",
+  "title": "Hibiki 30 Year Old 70cl",
+  "old": "to mark Suntory's 60th anniversary",
+  "new": "to mark Suntory's 90th anniversary",
+  "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15479005544823",
+  "title": "Hibiki 30 Year Old 70cl",
+  "old": "a masterful blend of carefully selected Yamazaki single malts and mild grain whiskies, each aged",
+  "new": "a masterful blend of carefully selected Yamazaki and Hakushu malts and Chita grain whiskies, each aged",
+  "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15479005544823",
+  "title": "Hibiki 30 Year Old 70cl",
+  "old": "<span>Yamazaki malt + grain</span>",
+  "new": "<span>Yamazaki &amp; Hakushu malt + Chita grain</span>",
+  "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15479005544823",
+  "title": "Hibiki 30 Year Old 70cl",
+  "old": "<td>Yamazaki single malt &amp; mild grain whiskies</td>",
+  "new": "<td>Yamazaki &amp; Hakushu malts, Chita grain</td>",
+  "note": "Hibiki launched 1989 for Suntory's 90th anniversary; blend uses Yamazaki and Hakushu malts with Chita grain. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7895072800924",
+  "title": "Devaux, Ultra D, Aged 5 Years",
+  "old": "From Devaux, founded in 1845, the Ultra D",
+  "new": "From Devaux, founded in 1846, the Ultra D",
+  "note": "Devaux founding year aligned to 1846 (house branding; matches Collector's Magnum page). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7897727074460",
+  "title": "Rare Champagne, Millésime 2002",
+  "old": "From Rare Champagne — the prestige house founded in 1825 by Charles Heidsieck — this 2002 vintage",
+  "new": "From Rare Champagne — the prestige cuvée that began life at Piper-Heidsieck and is now a house in its own right — this 2002 vintage",
+  "note": "Rare Champagne began as Piper-Heidsieck's prestige cuvée; not founded 1825 by Charles Heidsieck. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15427644916087",
+  "title": "The Glenlivet Founder's Reserve 70cl",
+  "old": "at Scotland's first legal distillery.",
+  "new": "at the first licensed distillery in the parish of Glenlivet.",
+  "note": "Glenlivet was the first licensed distillery in the parish of Glenlivet, not Scotland's first legal distillery. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "<div class=\"lux-eyebrow\">Prestige Champagne · Vintage 2013 · Single Vineyard</div>",
+  "new": "<div class=\"lux-eyebrow\">Coteaux Champenois · Still Red · 2013 · Single Vineyard</div>",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "a rare, Pinot Noir-driven vintage Champagne from a storied single vineyard.",
+  "new": "a rare still red Pinot Noir from a storied single vineyard in Aÿ.",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "The La Côte aux Enfants vineyard — named after Jacques Bollinger, who established it nearly a century ago — gives this refined, oak-aged 2013 its depth and pedigree.",
+  "new": "La Côte aux Enfants is a steep, south-facing Pinot Noir vineyard in Aÿ; in the best years its fruit becomes this still red Coteaux Champenois — no bubbles, just refined, oak-aged Pinot Noir of real depth and pedigree.",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "<span>Pinot Noir</span><span>Single Vineyard</span>",
+  "new": "<span>Still red · Pinot Noir</span><span>Single Vineyard, Aÿ</span>",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "Rare vintage Champagne, delivered across London",
+  "new": "Rare Champagne-region red, delivered across London",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "<h2>The Champagne</h2>",
+  "new": "<h2>The Wine</h2>",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "Full-bodied and elegant, with a creamy texture and fine bubbles. Ripe peach and apricot are layered with toasted almond, honey and red-fruit compote, lifted by delicate violet and earthy notes into a long finish.",
+  "new": "Elegant and fine-boned, with silky tannins and bright acidity. Red cherry and raspberry are layered with red-fruit compote and gentle oak spice, lifted by delicate violet and earthy notes into a long finish.",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "Red berries and citrus with toasted bread",
+  "new": "Red berries and cherry with violet and a hint of toasted oak",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "Ripe peach and apricot, red-fruit compote, toasted almond and honey",
+  "new": "Red cherry and raspberry, red-fruit compote and gentle spice",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "Long, with fruit, pastry, violet and earth",
+  "new": "Long, with red fruit, violet and earth",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "<td>Vintage Champagne</td>",
+  "new": "<td>Still red wine — Coteaux Champenois</td>",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "<td>Pinot Noir</td>",
+  "new": "<td>Pinot Noir (Aÿ Grand Cru)</td>",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "Chilled at 8–10°C in a white-wine glass to reveal its depth.",
+  "new": "Lightly cool at 14–16°C, in a Burgundy-style red-wine glass, to reveal its depth.",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "A vintage cuvée from Bollinger's storied La Côte aux Enfants single vineyard, released only in select years.",
+  "new": "A still red from Bollinger's storied La Côte aux Enfants single vineyard, made in tiny quantities and only in select years.",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7957335179420",
+  "title": "Bollinger La Cote Aux Enfants Champagne 2013",
+  "old": "Yes — a refined, characterful Champagne for the enthusiast.",
+  "new": "Yes — a refined, characterful rarity for the Champagne enthusiast.",
+  "note": "La Côte aux Enfants is Bollinger's still red Coteaux Champenois (Aÿ Pinot Noir), not a sparkling Champagne; vineyard not named after/established by Jacques Bollinger. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7606716530844",
+  "title": "Armand de Brignac Limited Edition Green Bottle Champagne 75cl",
+  "old": "<div class=\"lux-eyebrow\">Champagne · Brut · Limited Edition</div>",
+  "new": "<div class=\"lux-eyebrow\">Champagne · Demi-Sec</div>",
+  "note": "The green metallic Armand de Brignac bottle is the Demi-Sec, not a limited-edition Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7606716530844",
+  "title": "Armand de Brignac Limited Edition Green Bottle Champagne 75cl",
+  "old": "the Ace of Spades in a striking limited-edition green metallic bottle.",
+  "new": "the Ace of Spades Demi-Sec, in its striking green metallic bottle.",
+  "note": "The green metallic Armand de Brignac bottle is the Demi-Sec, not a limited-edition Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7606716530844",
+  "title": "Armand de Brignac Limited Edition Green Bottle Champagne 75cl",
+  "old": "This limited-edition green bottling shares the house's Brut style — a blend of Pinot Noir, Chardonnay and Pinot Meunier — rich, layered and unmistakably opulent.",
+  "new": "The green bottle is the house's Demi-Sec — a blend of Pinot Noir, Chardonnay and Pinot Meunier with a sweeter dosage — rich, layered and unmistakably opulent.",
+  "note": "The green metallic Armand de Brignac bottle is the Demi-Sec, not a limited-edition Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7606716530844",
+  "title": "Armand de Brignac Limited Edition Green Bottle Champagne 75cl",
+  "old": "<span>Brut · Limited Edition</span>",
+  "new": "<span>Demi-Sec</span>",
+  "note": "The green metallic Armand de Brignac bottle is the Demi-Sec, not a limited-edition Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7606716530844",
+  "title": "Armand de Brignac Limited Edition Green Bottle Champagne 75cl",
+  "old": "<td>Brut Champagne (Limited Edition)</td>",
+  "new": "<td>Demi-Sec Champagne</td>",
+  "note": "The green metallic Armand de Brignac bottle is the Demi-Sec, not a limited-edition Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7606716530844",
+  "title": "Armand de Brignac Limited Edition Green Bottle Champagne 75cl",
+  "old": "Light seafood such as oysters or grilled prawns, or creamy cheeses like brie or camembert.",
+  "new": "Fruit desserts, pastries and foie gras, or creamy cheeses like brie or camembert.",
+  "note": "The green metallic Armand de Brignac bottle is the Demi-Sec, not a limited-edition Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7606716530844",
+  "title": "Armand de Brignac Limited Edition Green Bottle Champagne 75cl",
+  "old": "the limited-edition green bottle makes a striking, luxurious gift.",
+  "new": "the green metallic bottle makes a striking, luxurious gift.",
+  "note": "The green metallic Armand de Brignac bottle is the Demi-Sec, not a limited-edition Brut. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7951794733212",
+  "title": "Dom Ruinart 2010",
+  "old": "<span>Chardonnay-led</span>",
+  "new": "<span>100% Chardonnay</span>",
+  "note": "Dom Ruinart (white) is a Blanc de Blancs, 100% Chardonnay. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7951794733212",
+  "title": "Dom Ruinart 2010",
+  "old": "<td>Chardonnay &amp; Pinot Noir</td>",
+  "new": "<td>100% Chardonnay (Blanc de Blancs)</td>",
+  "note": "Dom Ruinart (white) is a Blanc de Blancs, 100% Chardonnay. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/15420763079031",
+  "title": "Johnnie Walker Blue Label Ghost & Rare Port Dundas 70cl",
+  "old": "The fifth celebrated release in the award-winning Ghost &amp; Rare series",
+  "new": "A celebrated release in the award-winning Ghost &amp; Rare series",
+  "note": "Port Dundas was not the fifth Ghost & Rare release; drop the ordinal. Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-25",
+  "product": "gid://shopify/Product/7895268753564",
+  "title": "Devaux, `Coeur de Nature` Organic",
+  "old": "From Devaux, established in 1845 in the Côte des Bar,",
+  "new": "From Devaux, established in 1846 in the Côte des Bar,",
+  "note": "Devaux was founded in 1846 (consistent with the approved Ultra D fix). Approved by the owner 2026-09-25."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7897677234332",
+  "title": "Rare Champagne, Millésime 2013",
+  "old": "From Rare Champagne, founded in 1825 by Charles Heidsieck, this 2013 vintage",
+  "new": "From Rare Champagne — the prestige cuvée that began life at Piper-Heidsieck and is now a house in its own right — this 2013 vintage",
+  "note": "Rare Champagne began as Piper-Heidsieck's prestige cuvée; not founded 1825 by Charles Heidsieck (same fix as Rare 2002). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15421952622967",
+  "title": "Johnnie Walker Green Label Blended Malt Scotch Whisky, 70cl",
+  "old": "a malt-only blend celebrating the four core whisky regions of Scotland.",
+  "new": "a malt-only blend of four iconic single malts from Speyside, the Islands and Islay.",
+  "note": "Green Label's four malts come from Speyside, the Islands and Islay; none is Lowland. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15421952622967",
+  "title": "Johnnie Walker Green Label Blended Malt Scotch Whisky, 70cl",
+  "old": "celebrating the signature styles of Scotland's four core whisky regions: Speyside, Highlands, Lowlands and Islay.",
+  "new": "celebrating the signature styles of Speyside, the Islands and Islay.",
+  "note": "Green Label's four malts come from Speyside, the Islands and Islay; none is Lowland. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15421952622967",
+  "title": "Johnnie Walker Green Label Blended Malt Scotch Whisky, 70cl",
+  "old": "<span>Four regions</span>",
+  "new": "<span>Four malts</span>",
+  "note": "Green Label's four malts come from Speyside, the Islands and Islay; none is Lowland. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15280037658999",
+  "title": "Dom Pérignon Takashi Murakami Edition 2015 - 75cl",
+  "old": "this 2015 vintage — 55% Pinot Noir, 45% Chardonnay from Grand Cru vineyards — is encased",
+  "new": "this 2015 vintage — a blend of Pinot Noir and Chardonnay — is encased",
+  "note": "Blend percentages conflicted with the DP 2015 page (51/49, Grand Cru + Hautvillers Premier Cru); removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15280037658999",
+  "title": "Dom Pérignon Takashi Murakami Edition 2015 - 75cl",
+  "old": "<span>Grand Cru</span>",
+  "new": "<span>Pinot Noir &amp; Chardonnay</span>",
+  "note": "Blend percentages conflicted with the DP 2015 page (51/49, Grand Cru + Hautvillers Premier Cru); removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15280037658999",
+  "title": "Dom Pérignon Takashi Murakami Edition 2015 - 75cl",
+  "old": "<td>55% Pinot Noir, 45% Chardonnay (Grand Cru)</td>",
+  "new": "<td>Pinot Noir &amp; Chardonnay</td>",
+  "note": "Blend percentages conflicted with the DP 2015 page (51/49, Grand Cru + Hautvillers Premier Cru); removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/14982825935223",
+  "title": "Dom Pérignon Rosé 2009 – 75cl",
+  "old": "<b>Same-day</b> up to 3 hrs",
+  "new": "<b>Same-day</b> up to 6 hrs",
+  "note": "Same-day window aligned with every other page (6 hrs). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15478992929143",
+  "title": "Hibiki Blossom Harmony 70cl",
+  "old": "the ancient art of Yobitsugi — repairing pottery with gold — symbolising",
+  "new": "the ancient art of Yobitsugi — a form of kintsugi, repairing pottery with gold — symbolising",
+  "note": "Gold repair is kintsugi; yobitsugi is a form of it. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7897703153820",
+  "title": "Rare Champagne, Millésime 2008",
+  "old": "From Rare Champagne, founded in 1825 by Charles Heidsieck, this 2008 vintage",
+  "new": "From Rare Champagne — the prestige cuvée that began life at Piper-Heidsieck and is now a house in its own right — this 2008 vintage",
+  "note": "Rare Champagne began as Piper-Heidsieck's prestige cuvée; not founded 1825 by Charles Heidsieck (same fix as Rare 2002/2013). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7895166025884",
+  "title": "Devaux, Sténopé 2012",
+  "old": "the Devaux house, founded in 1845,",
+  "new": "the Devaux house, founded in 1846,",
+  "note": "Devaux was founded in 1846 (consistent with Ultra D and Coeur de Nature). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15356395520375",
+  "title": "AsomBroso 10 Year Old Especial de Rouge Extra Anejo Tequila 75cl",
+  "old": "An ultra-rare, limited-edition masterpiece from master distiller Carlos Camarena, crafted from",
+  "new": "An ultra-rare, limited-edition masterpiece from AsomBroso, crafted from",
+  "note": "Removed Carlos Camarena attribution (same fix as the other AsomBroso page). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15310030307703",
+  "title": "Case of 6 x Cazcanes No.7 Añejo Tequila 75cl",
+  "old": "<div class=\"lux-eyebrow\">Añejo Tequila · Highland Jalisco · Case of 6</div>",
+  "new": "<div class=\"lux-eyebrow\">Añejo Tequila · Valle, Jalisco · Case of 6</div>",
+  "note": "Cazcanes is from the Valle (lowland) region, consistent with the Cazcanes Blanco page. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15310030307703",
+  "title": "Case of 6 x Cazcanes No.7 Añejo Tequila 75cl",
+  "old": "From the highlands of Jalisco, this añejo",
+  "new": "From the Valle region of Jalisco, this añejo",
+  "note": "Cazcanes is from the Valle (lowland) region, consistent with the Cazcanes Blanco page. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15310030307703",
+  "title": "Case of 6 x Cazcanes No.7 Añejo Tequila 75cl",
+  "old": "<td>Highland Jalisco, Mexico</td>",
+  "new": "<td>Valle, Jalisco, Mexico</td>",
+  "note": "Cazcanes is from the Valle (lowland) region, consistent with the Cazcanes Blanco page. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/14982868762999",
+  "title": "Krug Grande Cuvée Edition 171 – 75cl",
+  "old": "over 130 wines from a dozen years.",
+  "new": "over 130 wines from more than a dozen years.",
+  "note": "Krug 171 year count softened (Krug cites 13 years). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/14982868762999",
+  "title": "Krug Grande Cuvée Edition 171 – 75cl",
+  "old": "over 130 wines from 12 different years",
+  "new": "over 130 wines from more than a dozen different years",
+  "note": "Krug 171 year count softened (Krug cites 13 years). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/14982868762999",
+  "title": "Krug Grande Cuvée Edition 171 – 75cl",
+  "old": "<td>130+ wines from 12 years (2000–2015)</td>",
+  "new": "<td>130+ wines from more than a dozen years (2000–2015)</td>",
+  "note": "Krug 171 year count softened (Krug cites 13 years). Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7897703153820",
+  "title": "Rare Champagne, Millésime 2008",
+  "old": "in its own right — this 2008 vintage — one of the decade's most acclaimed — blends",
+  "new": "in its own right. This 2008 vintage, one of the decade's most acclaimed, blends",
+  "note": "Tidied punctuation after the Rare fix. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7898031489180",
+  "title": "Rare Champagne, Rosé Millésime 2014",
+  "old": "From Rare Champagne, established in 1985, this rosé was harvested",
+  "new": "From Rare Champagne — the prestige cuvée that began life at Piper-Heidsieck and is now a house in its own right — this rosé was harvested",
+  "note": "Rare was not established in 1985; same Piper-Heidsieck wording as other Rare pages. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7954995511452",
+  "title": "Bollinger La Grande Annee Rose 2014",
+  "old": "renowned for powerful Pinot Noir-based Champagnes and rarely producing rosé. La Grande",
+  "new": "renowned for powerful Pinot Noir-based Champagnes. La Grande",
+  "note": "Bollinger makes a non-vintage Rosé every year; removed 'rarely makes rosé'. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7954995511452",
+  "title": "Bollinger La Grande Annee Rose 2014",
+  "old": "Bollinger rarely makes rosé — La Grande Année Rosé is crafted only in exceptional vintages.",
+  "new": "La Grande Année Rosé is crafted only in exceptional vintages.",
+  "note": "Bollinger makes a non-vintage Rosé every year; removed 'rarely makes rosé'. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15346267390327",
+  "title": "Ayala A/18 Le Blanc de Blancs Champagne Gift Box 75cl",
+  "old": "Grower-quality Champagne, delivered across London",
+  "new": "Fine Champagne, delivered across London",
+  "note": "Ayala is a house, not a grower; crus sentence listed four of six. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15346267390327",
+  "title": "Ayala A/18 Le Blanc de Blancs Champagne Gift Box 75cl",
+  "old": "a vintage grower-style cuvée in a smart gift box",
+  "new": "a vintage Blanc de Blancs in a smart gift box",
+  "note": "Ayala is a house, not a grower; crus sentence listed four of six. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15346267390327",
+  "title": "Ayala A/18 Le Blanc de Blancs Champagne Gift Box 75cl",
+  "old": "grown in six leading crus of the Côte des Blancs — Chouilly, Cramant, Oger, Le Mesnil-sur-Oger — and the Montagne de Reims.",
+  "new": "grown in six leading crus of the Côte des Blancs and Montagne de Reims, including Chouilly, Cramant, Oger and Le Mesnil-sur-Oger.",
+  "note": "Ayala is a house, not a grower; crus sentence listed four of six. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7603590430876",
+  "title": "Taittinger Les Folies de la Marquetterie Brut NV Champagne 75cl",
+  "old": "<td>Pinot Noir–led, with Chardonnay &amp; Pinot Meunier</td>",
+  "new": "<td>Pinot Noir–led, with Chardonnay</td>",
+  "note": "Les Folies de la Marquetterie is Pinot Noir and Chardonnay only; no Meunier. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "this non-vintage cuvée is a meticulous blend of 40% Pinot Noir, 40% Chardonnay and 20% Pinot Meunier. Bottled with no dosage, it lets the pure essence of the grapes shine — a perfect balance",
+  "new": "this non-vintage cuvée is a meticulous blend of Pinot Noir, Chardonnay and Pinot Meunier — a perfect balance",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "<span>40% Pinot Noir / 40% Chardonnay / 20% Pinot Meunier</span><span>No Dosage</span>",
+  "new": "<span>Pinot Noir, Chardonnay &amp; Pinot Meunier</span>",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "The absence of dosage keeps it pure and precise, unfolding",
+  "new": "It is pure and precise, unfolding",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "<td>40% Pinot Noir, 40% Chardonnay, 20% Pinot Meunier</td>",
+  "new": "<td>Pinot Noir, Chardonnay, Pinot Meunier</td>",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "<tr>\n<td>Dosage</td>\n<td>No dosage</td>\n</tr>\n",
+  "new": "",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/8052745765020",
+  "title": "Moet & Chandon Collection Impériale Création No. 1 Non Vintage",
+  "old": "<details><summary>What does “no dosage” mean?</summary><p>No sugar is added after disgorgement, letting the pure character of the grapes shine.</p></details>",
+  "new": "",
+  "note": "Unverified 40/40/20 blend and 'no dosage' claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15359025545591",
+  "title": "Dom Perignon Luminous Label Vintage 2013 - 75cl",
+  "old": "an elegant Brut with a label that glows in the dark.",
+  "new": "an elegant Brut with a label that lights up.",
+  "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15359025545591",
+  "title": "Dom Perignon Luminous Label Vintage 2013 - 75cl",
+  "old": "the special luminous label glows in the dark for a striking presentation.",
+  "new": "the special luminous label lights up for a striking presentation.",
+  "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15359025545591",
+  "title": "Dom Perignon Luminous Label Vintage 2013 - 75cl",
+  "old": "<td>Luminous (glow-in-the-dark) label</td>",
+  "new": "<td>Luminous (light-up) label</td>",
+  "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15359025545591",
+  "title": "Dom Perignon Luminous Label Vintage 2013 - 75cl",
+  "old": "<summary>Does the label really glow?</summary><p>Yes — the special luminous label glows in the dark, making a striking centrepiece.</p>",
+  "new": "<summary>Does the label really light up?</summary><p>Yes — the special luminous label lights up, making a striking centrepiece.</p>",
+  "note": "Dom Pérignon Luminous labels light up; they do not glow in the dark. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7604303757468",
+  "title": "Bollinger B13 Vintage Champagne 75cl",
+  "old": "Bollinger B13 — a Pinot-led 2013 vintage",
+  "new": "Bollinger B13 — a 2013 Blanc de Noirs",
+  "note": "Bollinger B13 is a Blanc de Noirs, 100% Pinot Noir; 60/40 blend removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7604303757468",
+  "title": "Bollinger B13 Vintage Champagne 75cl",
+  "old": "Predominantly Pinot Noir with Chardonnay, aged",
+  "new": "Made entirely from Pinot Noir, aged",
+  "note": "Bollinger B13 is a Blanc de Noirs, 100% Pinot Noir; 60/40 blend removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7604303757468",
+  "title": "Bollinger B13 Vintage Champagne 75cl",
+  "old": "<span>60% Pinot Noir · 40% Chardonnay</span>",
+  "new": "<span>100% Pinot Noir · Blanc de Noirs</span>",
+  "note": "Bollinger B13 is a Blanc de Noirs, 100% Pinot Noir; 60/40 blend removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7604303757468",
+  "title": "Bollinger B13 Vintage Champagne 75cl",
+  "old": "<td>60% Pinot Noir, 40% Chardonnay</td>",
+  "new": "<td>100% Pinot Noir (Blanc de Noirs)</td>",
+  "note": "Bollinger B13 is a Blanc de Noirs, 100% Pinot Noir; 60/40 blend removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15328556679543",
+  "title": "Penderyn Madeira Finish-Single Malt Welsh Whisky 70cl",
+  "old": "<td>Penderyn (est. 2004)</td>",
+  "new": "<td>Penderyn (est. 2000)</td>",
+  "note": "Penderyn distillery opened in 2000; 2004 was the first release. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7616838828188",
+  "title": "Moët & Chandon Ice Impérial NV Rosé champagne 75cl",
+  "old": "A first of its kind from Moët &amp; Chandon, Ice",
+  "new": "From Moët &amp; Chandon, Ice",
+  "note": "Ice Impérial (white) came first; rosé is not 'a first of its kind'. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7953340399772",
+  "title": "Bollinger Vieilles Vignes Francaises 2012",
+  "old": "rooted in the prestigious crus of Aÿ, Verzy and Tours-sur-Marne.",
+  "new": "rooted in the Grand Cru village of Aÿ.",
+  "note": "VVF comes from ungrafted plots in Aÿ only; Verzy and Tours-sur-Marne removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7953340399772",
+  "title": "Bollinger Vieilles Vignes Francaises 2012",
+  "old": "<span>Aÿ, Verzy, Tours-sur-Marne</span>",
+  "new": "<span>Aÿ Grand Cru</span>",
+  "note": "VVF comes from ungrafted plots in Aÿ only; Verzy and Tours-sur-Marne removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7953340399772",
+  "title": "Bollinger Vieilles Vignes Francaises 2012",
+  "old": "<td>Aÿ, Verzy &amp; Tours-sur-Marne</td>",
+  "new": "<td>Aÿ</td>",
+  "note": "VVF comes from ungrafted plots in Aÿ only; Verzy and Tours-sur-Marne removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7618317942940",
+  "title": "Pommery Brut Apanage champagne 75cl",
+  "old": "Founded in 1836 by Madame Louise Pommery, the house is celebrated for",
+  "new": "Shaped by Madame Louise Pommery from 1858, the house is celebrated for",
+  "note": "Pommery dates to 1836; Madame Pommery took over in 1858. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15440133652855",
+  "title": "Midleton Very Rare Vintage Release 70cl",
+  "old": "celebrates four decades of excellence, at natural cask strength.",
+  "new": "celebrates four decades of excellence.",
+  "note": "Midleton Very Rare is not cask strength; cask-strength claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15440133652855",
+  "title": "Midleton Very Rare Vintage Release 70cl",
+  "old": "<span>Cask strength</span>",
+  "new": "",
+  "note": "Midleton Very Rare is not cask strength; cask-strength claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15440133652855",
+  "title": "Midleton Very Rare Vintage Release 70cl",
+  "old": "<tr>\n<td>Strength</td>\n<td>Natural cask strength</td>\n</tr>\n",
+  "new": "",
+  "note": "Midleton Very Rare is not cask strength; cask-strength claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/15422114103671",
+  "title": "Patrón® El Cielo Tequila 70cl",
+  "old": "Patrón El Cielo — the world’s first four-times distilled luxury blanco,",
+  "new": "Patrón El Cielo — Patrón’s first four-times distilled blanco,",
+  "note": "'World's first' claim unverified; now Patrón's first. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7903125504156",
+  "title": "Champagne Pierre Péters, `Réserve Oubliée` Blancs de Blancs",
+  "old": " and aged a minimum of fifteen years on the lees, showcasing",
+  "new": ", showcasing",
+  "note": "Réserve Oubliée is a perpetual-reserve blend; unverified 15-years-on-lees claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7903125504156",
+  "title": "Champagne Pierre Péters, `Réserve Oubliée` Blancs de Blancs",
+  "old": "<span>15+ years on lees</span>",
+  "new": "<span>Perpetual reserve</span>",
+  "note": "Réserve Oubliée is a perpetual-reserve blend; unverified 15-years-on-lees claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7903125504156",
+  "title": "Champagne Pierre Péters, `Réserve Oubliée` Blancs de Blancs",
+  "old": "<td>Minimum 15 years on the lees</td>",
+  "new": "<td>Perpetual reserve</td>",
+  "note": "Réserve Oubliée is a perpetual-reserve blend; unverified 15-years-on-lees claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7903125504156",
+  "title": "Champagne Pierre Péters, `Réserve Oubliée` Blancs de Blancs",
+  "old": "<summary>Why such long ageing?</summary><p>Over fifteen years on the lees builds exceptional toasty, honeyed complexity",
+  "new": "<summary>What is a perpetual reserve?</summary><p>A reserve of older wines refreshed with each new harvest, which builds toasty, honeyed complexity",
+  "note": "Réserve Oubliée is a perpetual-reserve blend; unverified 15-years-on-lees claims removed. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7692757729436",
+  "title": "Charbonnel et Walker 007 Dry Martini Truffles",
+  "old": "infused with gin and vermouth.",
+  "new": "infused with gin and Marc de Champagne.",
+  "note": "Listed alcohols are gin 5% and Marc de Champagne 2%; unlisted vermouth claims replaced. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7692757729436",
+  "title": "Charbonnel et Walker 007 Dry Martini Truffles",
+  "old": "<span>Gin &amp; vermouth</span>",
+  "new": "<span>Gin &amp; Marc de Champagne</span>",
+  "note": "Listed alcohols are gin 5% and Marc de Champagne 2%; unlisted vermouth claims replaced. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7692757729436",
+  "title": "Charbonnel et Walker 007 Dry Martini Truffles",
+  "old": "<span>Vermouth</span>",
+  "new": "",
+  "note": "Listed alcohols are gin 5% and Marc de Champagne 2%; unlisted vermouth claims replaced. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-26",
+  "product": "gid://shopify/Product/7692757729436",
+  "title": "Charbonnel et Walker 007 Dry Martini Truffles",
+  "old": "<td>Gin &amp; vermouth infused chocolate truffles</td>",
+  "new": "<td>Gin &amp; Marc de Champagne infused chocolate truffles</td>",
+  "note": "Listed alcohols are gin 5% and Marc de Champagne 2%; unlisted vermouth claims replaced. Approved by the owner 2026-09-26."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "a velvety dark-chocolate shell around",
+  "new": "a velvety chocolate shell around",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "<span>Royal Warrant chocolatier</span>",
+  "new": "",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "enrobed in dark chocolate and dusted",
+  "new": "enrobed in chocolate and dusted",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "<span>Dark chocolate</span><span>Champagne</span><span>Silky ganache</span>",
+  "new": "<span>Chocolate</span><span>Champagne</span><span>Silky ganache</span>",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7692732039324",
+  "title": "Charbonnel et Walker Pink Marc de Champagne Chocolate Truffles 135g",
+  "old": "<td>Champagne-infused dark chocolate truffles</td>",
+  "new": "<td>Champagne-infused chocolate truffles</td>",
+  "note": "Chocolate type unconfirmed (Dark Marc page implies pink is not dark); neutral 'chocolate' used. Royal Warrant badge removed as currency unverified. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8007757955228",
+  "title": "Louis XIII Tribute to City of Lights Cognac",
+  "old": "the cognac was first unveiled at the Paris World Fair in 1900",
+  "new": "the cognac was showcased at the Paris World Fair in 1900",
+  "note": "'First unveiled' in 1900 conflicts with 1874 creation; softened to 'showcased'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8007757955228",
+  "title": "Louis XIII Tribute to City of Lights Cognac",
+  "old": "LOUIS XIII’s first unveiling at the Paris World Fair in 1900.",
+  "new": "LOUIS XIII’s showcase at the Paris World Fair in 1900.",
+  "note": "'First unveiled' in 1900 conflicts with 1874 creation; softened to 'showcased'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15489417642359",
+  "title": "Freixenet Cordon Negro Cava 6 x 75cl",
+  "old": "<span>Parellada</span>",
+  "new": "<span>Macabeo · Xarel·lo · Parellada</span>",
+  "note": "Cordon Negro is a Macabeo, Xarel·lo and Parellada blend, not Parellada alone. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15489417642359",
+  "title": "Freixenet Cordon Negro Cava 6 x 75cl",
+  "old": "The Parellada grape gives it its character:",
+  "new": "The blend of Macabeo, Xarel·lo and Parellada gives it its character:",
+  "note": "Cordon Negro is a Macabeo, Xarel·lo and Parellada blend, not Parellada alone. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15489417642359",
+  "title": "Freixenet Cordon Negro Cava 6 x 75cl",
+  "old": "<td>Grape</td>\n<td>Parellada</td>",
+  "new": "<td>Grapes</td>\n<td>Macabeo, Xarel·lo, Parellada</td>",
+  "note": "Cordon Negro is a Macabeo, Xarel·lo and Parellada blend, not Parellada alone. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493801509239",
+  "title": "Beluga Gold Line Vodka 150cl",
+  "old": "mastery — and it is a limited edition rather than a standing line.",
+  "new": "mastery.",
+  "note": "Gold Line is a permanent Beluga expression; 'limited edition' claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493801509239",
+  "title": "Beluga Gold Line Vodka 150cl",
+  "old": "<td>Gold Line, limited edition</td>",
+  "new": "<td>Gold Line</td>",
+  "note": "Gold Line is a permanent Beluga expression; 'limited edition' claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7986060001436",
+  "title": "La Garde Half 2019",
+  "old": "The 2019 is Merlot-led (52%) with Cabernet Sauvignon (48%) and a hint of Petit Verdot, aged in oak barrels.",
+  "new": "The 2019 is Merlot-led, with Cabernet Sauvignon and a hint of Petit Verdot, aged in oak barrels.",
+  "note": "Blend percentages summed past 100% with Petit Verdot; percentages removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7986060001436",
+  "title": "La Garde Half 2019",
+  "old": "<td>Merlot (52%), Cabernet Sauvignon (48%), Petit Verdot</td>",
+  "new": "<td>Merlot, Cabernet Sauvignon, Petit Verdot</td>",
+  "note": "Blend percentages summed past 100% with Petit Verdot; percentages removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15370059317623",
+  "title": "Amie X Organic Rosé 75cl",
+  "old": ", and was crowned Good Housekeeping’s best rosé — a WSET-accredited panel named it the winner among 33 rosés, calling it “dangerously drinkable”.",
+  "new": ".",
+  "note": "Unverified Good Housekeeping award claim removed; press mentions kept. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7987678970012",
+  "title": "Haut Roc Blanquant 2014",
+  "old": "now at ten years’ maturity.",
+  "new": "now more than a decade on.",
+  "note": "2014 vintage is now over a decade old, not ten years. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7987721339036",
+  "title": "Poesia 2014",
+  "old": "A decade on, it shows",
+  "new": "More than a decade on, it shows",
+  "note": "2014 vintage is now over a decade old. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7987691126940",
+  "title": "Les Oiseaux de Chantegrive Le Panache 2018",
+  "old": "The blend features Sauvignon Blanc (45%) for vibrant acidity and grassy lift, with a touch of Sauvignon Gris (5%) bringing",
+  "new": "The blend features Sauvignon Blanc for vibrant acidity and grassy lift, with a touch of Sauvignon Gris bringing",
+  "note": "Percentages left half the blend unnamed; percentages removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7987691126940",
+  "title": "Les Oiseaux de Chantegrive Le Panache 2018",
+  "old": "<td>Sauvignon Blanc (45%), Sauvignon Gris (5%), with estate blend</td>",
+  "new": "<td>Sauvignon Blanc, with a touch of Sauvignon Gris</td>",
+  "note": "Percentages left half the blend unnamed; percentages removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15491375563127",
+  "title": "Procera Blue Dot Gin",
+  "old": "a juniper found only in the highlands of Kenya and Ethiopia.",
+  "new": "a juniper native to the highlands of East Africa.",
+  "note": "Juniperus procera's range is wider than Kenya and Ethiopia; 'only' claims softened to East African highlands. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15491375563127",
+  "title": "Procera Blue Dot Gin",
+  "old": "a rare juniper species that grows only in the highlands of Kenya and Ethiopia, and the botanical",
+  "new": "an African juniper species native to the East African highlands, and the botanical",
+  "note": "Juniperus procera's range is wider than Kenya and Ethiopia; 'only' claims softened to East African highlands. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15491375563127",
+  "title": "Procera Blue Dot Gin",
+  "old": "<td>Highlands of Kenya and Ethiopia only</td>",
+  "new": "<td>Native to the East African highlands</td>",
+  "note": "Juniperus procera's range is wider than Kenya and Ethiopia; 'only' claims softened to East African highlands. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15491375563127",
+  "title": "Procera Blue Dot Gin",
+  "old": "An African juniper species growing only in the highlands of Kenya and Ethiopia.",
+  "new": "An African juniper species native to the East African highlands.",
+  "note": "Juniperus procera's range is wider than Kenya and Ethiopia; 'only' claims softened to East African highlands. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8203009851548",
+  "title": "Seña 18 Magnum (1.5L)",
+  "old": "and it has spent two decades earning its place",
+  "new": "and it has spent three decades earning its place",
+  "note": "First Seña vintage was 1995, so over three decades, not two. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493799281015",
+  "title": "Beluga Noble Vodka 70cl",
+  "old": "Beluga Noble arrived in 2009 and changed what people expected",
+  "new": "Beluga Noble changed what people expected",
+  "note": "Beluga launch year unverified (brand dates from 2002, not 2009); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493799281015",
+  "title": "Beluga Noble Vodka 70cl",
+  "old": "<span>Barley Malt Spirit</span><span>Since 2009</span>",
+  "new": "<span>Barley Malt Spirit</span>",
+  "note": "Beluga launch year unverified (brand dates from 2002, not 2009); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15493799281015",
+  "title": "Beluga Noble Vodka 70cl",
+  "old": "<tr>\n<td>Introduced</td>\n<td>2009</td>\n</tr>\n",
+  "new": "",
+  "note": "Beluga launch year unverified (brand dates from 2002, not 2009); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15496118305143",
+  "title": "Seventy One Gin Signature Martini Gift Set - Culture, Craft & Beauty",
+  "old": "created by fashion photographer Mert Alas with master distiller Steve Wilson, and its",
+  "new": "created by fashion photographer Mert Alas, and its",
+  "note": "Co-creator name unverified; kept Mert Alas only. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15496118305143",
+  "title": "Seventy One Gin Signature Martini Gift Set - Culture, Craft & Beauty",
+  "old": "<td>Mert Alas with master distiller Steve Wilson</td>",
+  "new": "<td>Mert Alas</td>",
+  "note": "Co-creator name unverified; kept Mert Alas only. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/7985292017820",
+  "title": "Certan de May Half 2019",
+  "old": "a historic estate with roots in the eighteenth century, on a plateau",
+  "new": "a historic estate with centuries of history, on a plateau",
+  "note": "Estate history likely predates the 18th century; softened. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401270706551",
+  "title": "Cambridge Truffle Gin 70cl",
+  "old": "<span>Truffle Botanical</span><span>Copper Pot Still</span>",
+  "new": "<span>Truffle Botanical</span>",
+  "note": "Cambridge Distillery is known for vacuum distillation; copper pot still claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401270706551",
+  "title": "Cambridge Truffle Gin 70cl",
+  "old": "a small-batch artisanal gin from Cambridge, distilled in small copper pot stills, that takes",
+  "new": "a small-batch artisanal gin from Cambridge that takes",
+  "note": "Cambridge Distillery is known for vacuum distillation; copper pot still claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401270706551",
+  "title": "Cambridge Truffle Gin 70cl",
+  "old": "<td>Small copper pot stills, small batch</td>",
+  "new": "<td>Small batch</td>",
+  "note": "Cambridge Distillery is known for vacuum distillation; copper pot still claims removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8016714334364",
+  "title": "Penfolds Grange 2018 Magnum",
+  "old": "<td>Shiraz</td>",
+  "new": "<td>Shiraz-dominant blend</td>",
+  "note": "Table said Shiraz while text said Shiraz-dominant blend; table aligned. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8054750707868",
+  "title": "Bond St. Eden Cabernet Sauvignon 2018",
+  "old": "The 2018 is pure Cabernet Sauvignon, aged",
+  "new": "The 2018 is Cabernet Sauvignon-led, aged",
+  "note": "Bond wines are typically Cabernet-led blends; 'pure' softened. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8206271676572",
+  "title": "Vinedo Chadwick 2015 (75cl)",
+  "old": "Founded in 1994 by the Chadwick family, Viñedo Chadwick sits",
+  "new": "Created by the Chadwick family, Viñedo Chadwick sits",
+  "note": "Founding year 1994 doubtful (planted 1992, first vintage 1999); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/8206271676572",
+  "title": "Vinedo Chadwick 2015 (75cl)",
+  "old": "<tr>\n<td>Estate Founded</td>\n<td>1994</td>\n</tr>\n",
+  "new": "",
+  "note": "Founding year 1994 doubtful (planted 1992, first vintage 1999); year removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": "twelve botanicals, copper pot still, classic dry juniper.",
+  "new": "twelve botanicals, classic dry juniper.",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": "<span>12 Botanicals</span><span>Copper Pot Still</span>",
+  "new": "<span>12 Botanicals</span>",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": " Distillation is in traditional copper pot stills with precise vapour infusion, which keeps the delicate aromatics intact. At 42% ABV",
+  "new": " At 42% ABV",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": "<td>Small batch, copper pot still with vapour infusion</td>",
+  "new": "<td>Small batch</td>",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15401394110839",
+  "title": "Cambridge Dry Gin 70cl",
+  "old": "<details><summary>What does vapour infusion do?</summary><p>The botanicals sit above the spirit rather than in it, so the alcohol vapour passes through them. It gives a cleaner, more delicate extraction than boiling them directly.</p></details>\n",
+  "new": "",
+  "note": "Same copper pot / vapour infusion claim removed as on Truffle Gin (Cambridge Distillery known for vacuum distillation). Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15419823653239",
+  "title": "Chateau Palmer Margaux 2021",
+  "old": "Château Palmer’s 55 hectares sit on sandy-gravelly soils",
+  "new": "Château Palmer’s vineyards sit on sandy-gravelly soils",
+  "note": "Palmer vineyard area likely ~66ha, not 55; figure removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15419823653239",
+  "title": "Chateau Palmer Margaux 2021",
+  "old": "<td>55 hectares, sandy-gravelly soils; some vines over 70 years old</td>",
+  "new": "<td>Sandy-gravelly soils; some vines over 70 years old</td>",
+  "note": "Palmer vineyard area likely ~66ha, not 55; figure removed. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15422090576247",
+  "title": "Belvedere 10 Magnum Vodka 175cl",
+  "old": "Poland · Magnum · Single-Estate Rye",
+  "new": "Poland · Large Format · Single-Estate Rye",
+  "note": "1.75L is not a magnum (1.5L); now 'large format'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15422090576247",
+  "title": "Belvedere 10 Magnum Vodka 175cl",
+  "old": "Belvedere 10 in magnum — 175cl",
+  "new": "Belvedere 10 in large format — 175cl",
+  "note": "1.75L is not a magnum (1.5L); now 'large format'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15422090576247",
+  "title": "Belvedere 10 Magnum Vodka 175cl",
+  "old": "<span>Magnum 175cl</span>",
+  "new": "<span>Large Format 175cl</span>",
+  "note": "1.75L is not a magnum (1.5L); now 'large format'. Approved by the owner 2026-09-27."
+ },
+ {
+  "date": "2026-09-27",
+  "product": "gid://shopify/Product/15422090576247",
+  "title": "Belvedere 10 Magnum Vodka 175cl",
+  "old": "<td>Magnum — 175cl (1.75L)</td>",
+  "new": "<td>Large format — 175cl (1.75L)</td>",
+  "note": "1.75L is not a magnum (1.5L); now 'large format'. Approved by the owner 2026-09-27."
+ }
+]

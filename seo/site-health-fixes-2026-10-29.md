@@ -1,0 +1,162 @@
+# Site health fixes — 23–29 Oct 2026
+
+## Live now (store data)
+
+- **Challenge 21 → Challenge 25** on 5 product descriptions and 4 FAQ metafields
+  (`dh247.desc_sec1`):
+  - dom-perignon-champagne-2013
+  - dom-perignon-x-damien-hirst-vintage-2018-champagne-75cl
+  - dom-perignon-x-damien-hirst-rose-2010-champagne-75cl
+  - the-hirst-prestige-hamper
+  - the-kaleidoscope-rose-hamper
+- **7 two-hop redirect chains now go straight to their destination:**
+  - champagne-delivered-uk → /collections/champagne
+  - champagne-delivery-in-uk → /collections/champagne
+  - champagne-delivery-uk-bringing-elegance-to-your-doorstep → /collections/champagne
+  - online-champagne-delivery-1 → /collections/champagne
+  - champagne-gift-next-day-delivery-effortless-celebrations → /collections/champagne-gifts
+  - wine-home-delivered-same-day-wine-delivery-across-the-uk → /collections/wines
+  - /same-day-alcohol-delivery-london → /
+- **7 empty collections hidden from search and the sitemap** (`seo.hidden = 1`):
+  doux-champagne, practicing-biodynamic-wines, carbon-neutral-wines,
+  sparkling-red-wine, viognier, torrontes, sardinia.
+
+## Draft theme: "SEO fixes 28 Oct (draft from live)"
+
+Theme id 194077327735. **Preview it, then publish it from Online Store → Themes.**
+Shopify blocks API writes to the live theme, so these changes can only go live this way.
+
+- **Homepage heading:** the hidden H1 is gone. The visible about-section headline is now
+  the page's single H1 and keeps its previous look.
+- **Hero slide (the main homepage image):**
+  - It loads immediately at high priority, as one responsive picture.
+  - Before, it was lazy-loaded and then swapped for the full-size original.
+  - The stale preload of slide 2 (banner01, from 2022) has been removed.
+- **Text wrapping:** `body.page p { word-break: break-all }` no longer splits words
+  mid-word on content pages.
+- **Homepage delivery block:**
+  - "Order below or Call" is now "Order online below".
+  - "Free Delivery Available" is removed.
+- **Footer:** the QeRetail credit link now has `rel="nofollow noopener"`.
+
+The draft is a copy of the live theme as of 28 Oct, 23:5x UTC. If anyone edits the live
+theme before the draft is published, repeat those edits on the draft first.
+
+## 29 Oct: collection buying guides (live)
+
+A buying-guide section was added under the existing intro of 10 collections. Each
+section starts after the marker `<!--dh-guide-2026-10-->`, and the full text is in
+`seo/collections/collection-guides-2026-10-29.html`. Each collection went from under
+80 words to 260–410 words:
+
+- vintage-wine
+- wines-from-france
+- champagne-standard-bottle-75cl
+- non-vintage-wine
+- chablis
+- medoc
+- champagne-magnum-1-5l
+- caviar-chocolate-gifts
+- macallan-whisky
+- charbonnel-et-walker
+
+## 29 Oct: page consolidation, round 1 (live)
+
+34 pages were unpublished and 301-redirected to a keeper.
+
+### Keepers changed from the original plan
+
+Two groups now keep the URL that the main menu and footer already link to:
+
+- **Beer:** keeper is now `best-beer-delivery-london`.
+- **Wine gifts:** keeper is now `wine-gifts`.
+
+Both are newer, designed pages. They looked thin in the original plan only because
+most of their markup is product cards and styling.
+
+### Redirects
+
+- **Beer** (7 pages) → /pages/best-beer-delivery-london
+  - Removed a stale inactive redirect that sat on that keeper's own URL.
+  - Three earlier, inactive redirects that pointed beer pages to /collections/beers
+    now point to the keeper.
+- **Tequila gifts** (10 pages) → /pages/celebrate-with-tequila-gifts-sent-to-london-uk
+- **Wine gifts** (17 pages) → /pages/wine-gifts
+- **7 older redirects** that pointed at merged pages now go straight to the keepers.
+
+### Incident
+
+Four beer pages returned a 404 for about two minutes. The keeper's stale redirect had
+blocked their new redirects. This is now fixed.
+
+**Check before every round:** look for a redirect sitting on each keeper's own path.
+
+### Still to do
+
+- Remove the merged URLs from `pages/html-sitemap`. This will be done once, after the
+  last round.
+- Watch Search Console for 2–3 weeks before round 2.
+
+## Collection guides, batch 2 (29 Oct)
+
+Added buying guides (210–275 words each) to 10 more thin collections. As before, each guide is appended after the `<!--dh-guide-2026-10-->` marker, and the original text is unchanged. The full text is in `seo/collections/collection-guides-2026-10-29.html`.
+
+Collections: gifts-under-1000, most-popular, gifts-over-1000, vegetarian-wines, vegan-wines, award-winning-wine, caviar-delivery-london, wines-from-england, wines-from-spain, wines-from-japan.
+
+Notes:
+- **wines-from-japan** contains only sake (3 products). The new guide covers sake, but the original intro still talks about Koshu wine. Consider renaming the collection "Japanese Sake" or adding Koshu wines.
+- **Vegan and vegetarian guides** explain fining in general terms. They make no vegan claim about any individual bottle.
+- **most-popular**: the original intro still says "free standard delivery". Check that this matches current shipping rates.
+- 59 thin collections remain (mostly brand and region collections with fewer than 15 products).
+
+## Collection guides, batch 3 (29 Oct)
+
+Added guides of 200–250 words to these collections: charles-heidsieck-champagne, piper-heidsieck-champagne, rare-champagne, kosher-wines, sparkling-rose-wine, pomerol, clase-azul-tequila, patron-tequila, johnnie-walker-whisky and belvedere-vodka.
+
+Notes:
+- **rare-champagne** (corrected the same day): the collection does hold RARE Champagne (Millésime 2002, 2008 and 2013, and Rosé 2007, 2012 and 2014), plus Salon, Gosset and Billecart prestige cuvées. It has 60 products, not 15. The first check only looked at the first 16 products. The guide was rewritten to lead with RARE and its Piper-Heidsieck origins, and the Piper-Heidsieck guide now links to it.
+- **kosher-wines** also includes Cazcanes tequila and a Belvedere 6L. The guide asks customers to check each product page for its certification.
+
+49 thin collections remain.
+
+## Collection guides, batch 4 (29 Oct)
+
+Added guides of 205–265 words to these collections: don-julio-tequila, saint-emilion, wines-from-new-zealand, marlborough, vermouth-aperitifs, wines-from-argentina, wines-from-portugal, piemonte, perrier-jouet-champagne and wine-box-6-bottles.
+
+Notes:
+- **wines-from-new-zealand** includes "Southern Right Sauvignon Blanc 2020". Southern Right is a South African producer, so check the product's collection tags.
+- **wines-from-portugal**: the original intro mentions Douro reds and Vinho Verde, but the collection holds only Port, Madeira and one sparkling wine. The guide focuses on Port and Madeira.
+- **wine-box-6-bottles**: the original intro is plain text without `<p>` tags. It renders, but it could be tidied.
+
+39 thin collections remain.
+
+## Collection guides, batch 5 (29 Oct)
+
+Added guides of 215–255 words to these collections: loire-valley, hibiki-whisky, hennessy-cognac, armand-de-brignac-champagne, yamazaki-whisky, wines-from-chile, sangiovese, nebbiolo, henriot-champagne and glenfiddich-whisky.
+
+Notes:
+- **loire-valley** includes Château de Pouilly-Fuissé, which is a Burgundy wine. Instead of hiding this, the guide adds a "Pouilly-Fumé or Pouilly-Fuissé?" section. Consider moving the product to Burgundy only.
+- **hennessy-cognac**: the original intro mentions VSOP, but there is no VSOP product in the collection. The product titled just "Hennessy" is assumed to be VS.
+
+29 thin collections remain. Most have one to four products.
+
+## Collection guides, batch 6 (29 Oct)
+
+Added guides of 200–240 words to these collections: philipponnat-champagne, deutz-champagne, pommery-champagne, heidsieck-co-champagne, wines-from-israel, riesling, rhone-valley, zinfandel, practicing-organic-wines and flowers-delivery-in-london.
+
+Notes:
+- **rhone-valley** includes "Othello 2019". Othello is a Napa Valley red (from Dominus), not a Rhône wine, so check its collection tags.
+- **rhone-valley**: the original intro links to `/collections/grenache`. This link was not checked.
+- **flowers-delivery-in-london**: the guide does not mention a delivery time, because flower lead times may differ from drinks. It mentions Challenge 25 only for orders that include alcohol.
+
+19 thin collections remain, each with one or two products. The recommendation is to noindex them or add products, not to write guides.
+
+## Tiny collections noindexed (29 Oct)
+
+The 15 collections with only one or two products now have `seo.hidden = 1` (`number_integer`). Shopify adds a `noindex` tag to these pages and leaves them out of `sitemap.xml`. The pages still work for shoppers.
+
+albarino, alsace, barossa-valley, beaujolais, champagne-methuselah-6l, champagne-jeroboam-3l, gewurztraminer, lanson-champagne, rye-whisky, wines-from-germany, wines-from-hungary, certified-biodynamic-wines, sustainable-wines, fleur-de-miraval-champagne, sicily
+
+**To undo:** delete the `seo.hidden` metafield on the collection. In the admin, open the collection, go to Metafields and clear the field, or use `metafieldsDelete`. Undo this once a collection has about five products and a short guide.
+
+These collections have three products each and were left indexed: champagne-half-bottle-37-5cl, chenin-blanc, mercier-champagne, multi-vintage-wine.

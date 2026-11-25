@@ -1,0 +1,592 @@
+{
+  "_meta": {
+    "source": "Shopify ShopifyQL sessions by landing page, last 90 days",
+    "pulled": "2026-09-14",
+    "note": "Locale prefixes /ar /ru /zh aggregated into the base resource."
+  },
+  "pages": [
+    {
+      "path": "/",
+      "sessions": 1702,
+      "kind": "system",
+      "locales": [
+        "en",
+        "zh"
+      ]
+    },
+    {
+      "path": "/blogs/posts/top-10-alcoholic-drinks-with-the-least-calories",
+      "sessions": 1454,
+      "kind": "article",
+      "locales": [
+        "ar",
+        "en",
+        "zh"
+      ]
+    },
+    {
+      "path": "/blogs/posts/top-12-easy-drinking-games",
+      "sessions": 650,
+      "kind": "article",
+      "locales": [
+        "en",
+        "zh"
+      ]
+    },
+    {
+      "path": "/blogs/posts/send-flowers-and-champagne-the-ultimate-gift-guide-2026",
+      "sessions": 647,
+      "kind": "article",
+      "locales": [
+        "ru"
+      ]
+    },
+    {
+      "path": "/blogs/posts/know-the-difference-between-vodka-and-gin",
+      "sessions": 527,
+      "kind": "article",
+      "locales": [
+        "ar",
+        "en",
+        "zh"
+      ]
+    },
+    {
+      "path": "/blogs/posts/flower-champagne-delivery-guide-the-ultimate-2026-experience",
+      "sessions": 428,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/cart",
+      "sessions": 409,
+      "kind": "system",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/wine-everything-you-need-to-know",
+      "sessions": 406,
+      "kind": "article",
+      "locales": [
+        "ar"
+      ]
+    },
+    {
+      "path": "/collections/red-wine",
+      "sessions": 349,
+      "kind": "collection",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/products/corona-extra-beer-1",
+      "sessions": 294,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/collections/alcohol-gift-sets",
+      "sessions": 278,
+      "kind": "collection",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/can-black-tea-cure-your-hangover",
+      "sessions": 276,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/pages/24-7-alcohol-delivery-your-round-the-clock-beverage-partner",
+      "sessions": 262,
+      "kind": "page",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/grey-goose",
+      "sessions": 260,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/chivas-regal-25-year-whisky",
+      "sessions": 235,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/9-most-asked-questions-tequila",
+      "sessions": 228,
+      "kind": "article",
+      "locales": [
+        "ar",
+        "zh"
+      ]
+    },
+    {
+      "path": "/products/absolut-1-litre",
+      "sessions": 227,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/alcohol-for-party-a-complete-guide-to-selection-serving",
+      "sessions": 218,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/pages/your-search-for-alcohol-shop-near-me-ends-here",
+      "sessions": 207,
+      "kind": "page",
+      "locales": [
+        "ar"
+      ]
+    },
+    {
+      "path": "/blogs/posts/the-perfect-introduction-to-bombay-sapphire-dry-gin",
+      "sessions": 202,
+      "kind": "article",
+      "locales": [
+        "ar"
+      ]
+    },
+    {
+      "path": "/products/jameson-irish-whiskey-1l",
+      "sessions": 201,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/whisky-double-black",
+      "sessions": 195,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/whiskey-jack-daniels",
+      "sessions": 191,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/heineken-beer",
+      "sessions": 184,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/chivas-regal-18-year-old-blended-scotch-whisky",
+      "sessions": 183,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/whiskey-black-lable",
+      "sessions": 179,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/jagermeister",
+      "sessions": 165,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/collections/champagne",
+      "sessions": 161,
+      "kind": "collection",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/champagne-everything-you-need-to-know",
+      "sessions": 161,
+      "kind": "article",
+      "locales": [
+        "ar",
+        "zh"
+      ]
+    },
+    {
+      "path": "/products/absolut",
+      "sessions": 158,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/collections/all",
+      "sessions": 150,
+      "kind": "collection",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/how-to-drink-responsibly",
+      "sessions": 150,
+      "kind": "article",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/easy-cocktail-recipes",
+      "sessions": 145,
+      "kind": "article",
+      "locales": [
+        "ar",
+        "zh"
+      ]
+    },
+    {
+      "path": "/products/belvedere-vodka-night-saber",
+      "sessions": 133,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/collections/wines",
+      "sessions": 132,
+      "kind": "collection",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/wine-preference-personality",
+      "sessions": 130,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/best-alcohol-gifts-for-men",
+      "sessions": 130,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/baileys-drink-recipes",
+      "sessions": 125,
+      "kind": "article",
+      "locales": [
+        "en",
+        "zh"
+      ]
+    },
+    {
+      "path": "/collections/liquor",
+      "sessions": 121,
+      "kind": "collection",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/products/smirnoff",
+      "sessions": 118,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/hendricks-gin",
+      "sessions": 106,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/products/chivas-regal-whisky",
+      "sessions": 102,
+      "kind": "product",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/products/johnnie-walker-gold-label-reserve-whisky",
+      "sessions": 96,
+      "kind": "product",
+      "locales": [
+        "ar"
+      ]
+    },
+    {
+      "path": "/products/chivas-regal-4-5l-blended-scotch-whisky",
+      "sessions": 93,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/what-is-whiskey-made-from",
+      "sessions": 90,
+      "kind": "article",
+      "locales": [
+        "ar",
+        "zh"
+      ]
+    },
+    {
+      "path": "/products/whiskey-blue-lable-0-70cl",
+      "sessions": 89,
+      "kind": "product",
+      "locales": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/negroni",
+      "sessions": 85,
+      "kind": "article",
+      "locales": [
+        "ar",
+        "zh"
+      ]
+    },
+    {
+      "path": "/blogs/posts/best-champagne-for-birthdays",
+      "sessions": 77,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/products/bombay-sapphire-dry-gin",
+      "sessions": 74,
+      "kind": "product",
+      "locales": [
+        "ar"
+      ]
+    },
+    {
+      "path": "/products/chivas-regal-13-year-extra-whisky",
+      "sessions": 67,
+      "kind": "product",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/should-you-avoid-taking-lime-with-every-tequila-shot-here-s-why",
+      "sessions": 67,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/products/4-x-stella-artois",
+      "sessions": 66,
+      "kind": "product",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/pages/tasting-notes-for-don-julio",
+      "sessions": 63,
+      "kind": "page",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/best-wines-for-dinner-parties",
+      "sessions": 62,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/pages/food-pairings-don-julio",
+      "sessions": 59,
+      "kind": "page",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/everything-you-need-to-know-about-beer",
+      "sessions": 59,
+      "kind": "article",
+      "locales": [
+        "ar"
+      ]
+    },
+    {
+      "path": "/password",
+      "sessions": 59,
+      "kind": "system",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/pages/send-alcohol-gifts-to-uk-from-usa-fast-reliable-drinks-house-247",
+      "sessions": 49,
+      "kind": "page",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/how-to-taste-wine",
+      "sessions": 48,
+      "kind": "article",
+      "locales": [
+        "ar"
+      ]
+    },
+    {
+      "path": "/blogs/posts/delivery-service-that-delivers-alcohol-complete-guide",
+      "sessions": 46,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/how-to-pick-a-good-wine-for-dinner",
+      "sessions": 43,
+      "kind": "article",
+      "locales": [
+        "ar"
+      ]
+    },
+    {
+      "path": "/products/louis-xiii-rare-cask-42-1-cognac",
+      "sessions": 41,
+      "kind": "product",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/products/baron-maxime-brut-gold-reserve",
+      "sessions": 41,
+      "kind": "product",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/search",
+      "sessions": 41,
+      "kind": "system",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/pages/food-pairings-with-every-champagne",
+      "sessions": 40,
+      "kind": "page",
+      "locales": [
+        "zh"
+      ]
+    },
+    {
+      "path": "/collections/whisky",
+      "sessions": 40,
+      "kind": "collection",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/products/belverde",
+      "sessions": 39,
+      "kind": "product",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/blogs/posts/top-vodka-brands-with-lowest-calorie-count",
+      "sessions": 36,
+      "kind": "article",
+      "locales": [
+        "en"
+      ]
+    },
+    {
+      "path": "/collections/best-sellers",
+      "sessions": 35,
+      "kind": "collection",
+      "locales": [
+        "en"
+      ]
+    }
+  ]
+}

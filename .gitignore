@@ -1,0 +1,6 @@
+ALL-remaining-products.csv
+seo/aeo/catalog/cat/
+
+# Claude Code personal settings
+.claude/settings.local.json
+__pycache__/

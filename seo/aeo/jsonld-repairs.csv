@@ -1,0 +1,725 @@
+ID,Handle,Command,Body HTML
+558060077212,10-classic-cocktails-for-world-cocktail-day,UPDATE,"<p><span style=""font-weight: 400;"">While we don’t think you need an excuse to have a cocktail in hand, it’s World Cocktail Day on 13th May, which means there’s all the more reason to make some of your favourite cocktails!</span></p>
+<p><span style=""font-weight: 400;"">Have a rummage through your alcohol cupboard and dust off your cocktail shaker because we have some recipes you’ll definitely want to be sipping on come 13th May.</span></p>
+<h2><span style=""font-weight: 400;"">Our 10 Cocktail Staple Picks </span></h2>
+<p><span style=""font-weight: 400;"">This World Cocktail Day we have a classic line-up of staple cocktails to tantalise your taste buds. </span></p>
+<p><span style=""font-weight: 400;"">We share each cocktail’s ingredients and how to make them, so you can impress your family and friends with a cocktail masterclass!</span></p>
+<p><span style=""font-weight: 400;"">Vodka…check! Rum…check! Whiskey…check! There’s a cocktail for all tastes.</span></p>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"",
+  ""@type"": ""Recipe"",
+  ""name"": ""Piña Colada"",
+  ""image"": ""https://images.unsplash.com/photo-1503478526294-c1fec15765dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80"",
+  ""description"": ""Where would a classic cocktail list be without a Piña Colada? This refreshing pineapple cocktail is so easy to drink and has you wanting more.\n\nMix yourself up a Piña Colada and let the tropical taste transport your senses to a beach somewhere warm and sunny."",
+  ""keywords"": ""pina colada cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """",
+  ""totalTime"": """",
+  ""recipeCuisine"": ""Cocktail"",
+  ""recipeYield"": ""1"",
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""60ml white rum"",
+    ""60ml coconut cream"",
+    ""120ml pineapple"",
+    ""Ice"",
+    ""Pineapple wedge for garnish (optional)""
+  ],
+  ""recipeInstructions"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Shake"",
+      ""text"": ""Add all the ingredients to a blender or cocktail shaker and blend/shake until smooth"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-pinacolada-step1""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Add Garnish & Serve"",
+      ""text"": ""Garnish with the pineapple wedge and serve"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-pinacolada-step2""
+    }
+  ]
+}
+</script>
+<h3><span style=""font-weight: 400;"">Piña Colada</span></h3>
+<p><span style=""font-weight: 400;"">Where would a classic cocktail list be without a Piña Colada? This refreshing pineapple cocktail is so easy to drink and has you wanting more.</span></p>
+<p><span style=""font-weight: 400;"">Mix yourself up a Piña Colada and let the tropical taste transport your senses to a beach somewhere warm and sunny.</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/garett-mizunaka-vgAQgegHL_0-unsplash_1_480x480.jpg?v=1652262287"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;"">60ml <a href=""https://www.drinkshouse247.co.uk/collections/rum/products/bacardi"">white rum</a>
+</li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">60ml coconut cream</span></li>
+<li style=""font-weight: 400;"">120ml <a href=""https://www.drinkshouse247.co.uk/collections/mixers/products/pineapple-juice"">pineapple juice</a>
+</li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Pineapple wedge for garnish (optional)</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Poco grande glass - a big-bowled tall glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Add all the ingredients to a blender or cocktail shaker and blend/shake until smooth</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Garnish with the pineapple wedge and serve</span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"",
+  ""@type"": ""Recipe"",
+  ""name"": ""Mojito"",
+  ""image"": ""https://images.unsplash.com/photo-1509448613959-44d527dd5d86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2035&q=80"",
+  ""description"": ""An iconic minty cocktail that dates back to 16th Century Cuba and was notably one of Ernest Hemingway’s cocktails of choice.\nAn incredibly versatile and refreshing cocktail, perfect for a hot day, that can be altered with different flavours and syrups."",
+  ""keywords"": ""mojito cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """",
+  ""totalTime"": """",
+  ""recipeCuisine"": ""Cocktail"",
+  ""recipeYield"": ""1"",
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""60ml white rum"",
+    ""1 lime, juiced"",
+    ""1tsp granulated sugar"",
+    ""A handful of mint leaves"",
+    ""Soda water, to top up"",
+    ""Ice""
+  ],
+  ""recipeInstructions"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Juice the Lime"",
+      ""text"": ""Juice the lime into a small jug"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-mojito-step1""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Add Sugar & Mint"",
+      ""text"": ""Add the sugar and the mint leaves into the jug in batches, crushing the mint leaves as you go (the end of a rolling pin is good to do this). Make sure to save some mint leaves for garnish"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-mojito-step2""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Pour Into the Jug"",
+      ""text"": ""Pour the ingredients from the jug into a tall glass and add the ice"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-mojito-step3""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Add the Rum"",
+      ""text"": ""Pour in the rum and stir"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-mojito-step4""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Top Up With Soda Water & Serve"",
+      ""text"": ""Top up the rest of the glass with soda water and serve"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-mojito-step5""
+    }
+  ]
+}
+</script>
+<h3><span style=""font-weight: 400;"">Mojito</span></h3>
+<p><span style=""font-weight: 400;"">An iconic minty cocktail that dates back to 16th Century Cuba and was notably one of Ernest Hemingway’s cocktails of choice.</span></p>
+<p><span style=""font-weight: 400;"">An incredibly versatile and refreshing cocktail, perfect for a hot day, that can be altered with different flavours and </span><a href=""https://www.discountcream.co.uk/flavoured-syrups--sauces-8-c.asp""><span style=""font-weight: 400;"">syrups</span></a><span style=""font-weight: 400;"">.</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/alex-block-eicoRD590x4-unsplash_a6cad316-18ab-4f17-a14d-f4b44b78151d_480x480.jpg?v=1652262255"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">60ml <a href=""https://www.drinkshouse247.co.uk/collections/rum/products/bacardi"">white rum</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">1 lime, juiced</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">1tsp granulated sugar</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">A handful of mint leaves</span></li>
+<li style=""font-weight: 400;"">
+<a href=""https://www.drinkshouse247.co.uk/collections/mixers/products/soda-water"">Soda water</a> to top up</li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Highball or Collins glass - a tall glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Juice the lime into a small jug</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Add the sugar and the mint leaves into the jug in batches, crushing the mint leaves as you go (the end of a rolling pin is good to do this). Make sure to save some mint leaves for garnish</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Pour the ingredients from the jug into a tall glass and add the ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Pour in the rum and stir</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Top up the rest of the glass with soda water and serve</span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"",
+  ""@type"": ""Recipe"",
+  ""name"": ""Manhattan"",
+  ""image"": ""https://images.unsplash.com/photo-1542847890-8c4210389b23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80"",
+  ""description"": ""This rich and boozy cocktail is a great tipple for World Cocktail Day for all the whiskey lovers. \nThe spicy rye whiskey and sweet vermouth combined make for a timeless cocktail that can be enjoyed again and again."",
+  ""keywords"": ""manhattan cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """",
+  ""totalTime"": """",
+  ""recipeCuisine"": ""Cocktail"",
+  ""recipeYield"": ""1"",
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""75ml rye whiskey"",
+    ""15ml sweet vermouth"",
+    ""15ml dry vermouth"",
+    ""2 dashes of Angostura bitters"",
+    ""A cocktail cherry for garnish"",
+    ""Ice""
+  ],
+  ""recipeInstructions"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Combine"",
+      ""text"": ""Combine the whiskey, vermouth, and bitters into a mixing glass, add ice and stir thoroughly"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-manhattan-step1""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Strain"",
+      ""text"": ""Strain into a cocktail glass"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-manhattan-step2""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Garnish & Serve"",
+      ""text"": ""Add the cocktail cherry for garnish"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-manhattan-step3""
+    }
+  ]
+}
+</script>
+<h3><span style=""font-weight: 400;"">Manhattan</span></h3>
+<p><span style=""font-weight: 400;"">This rich and boozy cocktail is a great tipple for World Cocktail Day for all the <a href=""/pages/whiskey-lovers-gifts"">whiskey lovers</a>. </span></p>
+<p><span style=""font-weight: 400;"">The spicy rye whiskey and sweet vermouth combined make for a timeless cocktail that can be enjoyed again and again.</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/johann-trasch-bcXKAI-0Zx0-unsplash_1_480x480.jpg?v=1652263711"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">75ml <a href=""https://www.drinkshouse247.co.uk/collections/whisky"">whiskey</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">15ml sweet vermouth</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">15ml dry vermouth</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">2 dashes of Angostura bitters</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">A cocktail cherry for garnish</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Martini glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Combine the whiskey, vermouth, and bitters into a mixing glass, add ice and stir thoroughly</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Strain into a cocktail glass</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Add the cocktail cherry for garnish and serve </span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"",
+  ""@type"": ""Recipe"",
+  ""name"": ""Margarita"",
+  ""image"": ""https://images.pexels.com/photos/2260281/pexels-photo-2260281.jpeg?cs=srgb&dl=pexels-deejay-sanks-sa-2260281.jpg&fm=jpg"",
+  ""description"": ""A simple cocktail made up of fresh lime juice, triple sec and good quality tequila that can be made quickly and easily to make your cocktail making hassle-free. \nIf you have guests over you can mix up Margaritas in no time with this recipe and jump straight back into the party."",
+  ""keywords"": ""margarita cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """",
+  ""totalTime"": """",
+  ""recipeCuisine"": ""Cocktail"",
+  ""recipeYield"": ""1"",
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""60ml Blanco tequila"",
+    ""30ml Cointreau"",
+    ""22ml fresh lime juice"",
+    ""½ tablespoon of salt for the glass rim"",
+    ""1 lime wedge and a lime wheel for garnish"",
+    ""Ice""
+  ],
+  ""recipeInstructions"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Prep the Glass"",
+      ""text"": ""Run the lime wedge over the rim of the glass, dip the rim in salt then set aside"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-margarita-step1""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Shake"",
+      ""text"": ""In a cocktail shaker, combine the tequila, Cointreau and lime juice. Fill with ice and shake thoroughly until chilled throughout"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-margarita-step2""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Garnish & Serve"",
+      ""text"": ""Garnish with the lime wheel and serve"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-margarita-step3""
+    }
+  ]
+}
+</script>
+<h3><span style=""font-weight: 400;"">Margarita</span></h3>
+<p><span style=""font-weight: 400;"">A simple cocktail made up of fresh lime juice, triple sec and good quality tequila that can be made quickly and easily to make your cocktail making hassle-free. </span></p>
+<p><span style=""font-weight: 400;"">If you have guests over you can mix up Margaritas in no time with this recipe and jump straight back into the party.</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/pexels-deejay-sanks-sa-2260281_1_480x480.jpg?v=1652262341"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">60ml Blanco <a href=""https://www.drinkshouse247.co.uk/products/jose-cuervo-silver-tequila"">tequila</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">30ml Cointreau</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">22ml fresh lime juice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">½ tablespoon of salt for the glass rim</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">1 lime wedge and a lime wheel for garnish</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Margarita glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Run the lime wedge over the rim of the glass, dip the rim in salt then set aside</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">In a cocktail shaker, combine the tequila, Cointreau and lime juice. Fill with ice and shake thoroughly until chilled throughout</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Fill a margarita glass with ice and strain the cocktail into the glass</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Garnish with the lime wheel and serve</span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"",
+  ""@type"": ""Recipe"",
+  ""name"": ""Strawberry Daiquiri"",
+  ""image"": ""https://images.pexels.com/photos/8375239/pexels-photo-8375239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"",
+  ""description"": ""An icy concoction of strawberry heaven, a strawberry daiquiri is a certified winner on the cocktail scene.\nWhen making cocktails for family and friends, a strawberry daiquiri is always a crowd-pleaser."",
+  ""keywords"": ""strawberry daiquiri cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """",
+  ""totalTime"": """",
+  ""recipeCuisine"": ""Cocktail"",
+  ""recipeYield"": ""1"",
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""50ml rum"",
+    ""250g hulled strawberries"",
+    ""Juice of ¼ lime"",
+    ""1tbsp syrup"",
+    ""100g ice"",
+    ""1 halved strawberry for garnish""
+  ],
+  ""recipeInstructions"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Blend"",
+      ""text"": ""Blend the strawberries and push the blended purée through a sieve to remove the seeds"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-strawberrydaiquiri-step1""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Add Ingredients"",
+      ""text"": ""Put the sieved purée back into the blender and add the ice, rum, sugar syrup and lime juice"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-strawberrydaiquiri-step2""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Pour"",
+      ""text"": ""Blend the mixture and then pour into a cocktail glass"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-strawberrydaiquiri-step3""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Garnish & Serve"",
+      ""text"": ""Add the strawberry garnish and serve"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-strawberrydaiquiri-step4""
+    }
+  ]
+}
+</script>
+<h3><span style=""font-weight: 400;"">Strawberry Daiquiri</span></h3>
+<p><span style=""font-weight: 400;"">An icy concoction of strawberry heaven, a strawberry daiquiri is a certified winner on the cocktail scene.</span></p>
+<p><span style=""font-weight: 400;"">When making cocktails for family and friends, a strawberry daiquiri is always a crowd pleaser. </span></p>
+<p><span style=""font-weight: 400;"">If you don’t fancy strawberry, the daiquiri is a versatile cocktail that can be made with different fruits - give raspberry a try!</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/pexels-denys-gromov-8375239_1_480x480.jpg?v=1652263724"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;"">50ml <a href=""https://www.drinkshouse247.co.uk/products/havana-club-anejo-especial"">rum</a>
+</li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">250g hulled strawberries</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Juice of ¼ lime</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">1tbsp <a href=""https://www.discountcream.co.uk/cocktail-syrups-236-c.asp"">syrup</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">100g ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">1 halved strawberry for garnish</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Margarita or Martini glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Blend the strawberries and push the blended purée through a sieve to remove the seeds</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Put the sieved purée back into the blender and add the ice, rum, sugar syrup and lime juice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Blend the mixture and then pour into a cocktail glass</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Add the strawberry garnish and serve</span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"",
+  ""@type"": ""Recipe"",
+  ""name"": ""Cosmopolitan"",
+  ""image"": ""https://unsplash.com/photos/p6U1ga3Aqq8"",
+  ""description"": ""A sweet Cosmopolitan is a perfect cocktail to make for one or to prepare in advance for a crowd. \nA Cosmopolitan is a hard hitter among vodka cocktails, quick and easy to make."",
+  ""keywords"": ""cosmopolitan cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """",
+  ""totalTime"": """",
+  ""recipeCuisine"": ""Cocktail"",
+  ""recipeYield"": ""1"",
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""60ml vodka"",
+    ""15ml triple sec"",
+    ""75ml cranberry juice"",
+    ""1bsp fresh lime juice"",
+    ""Ice""
+  ],
+  ""recipeInstructions"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Shake"",
+      ""text"": ""Fill a cocktail shaker with ice and add the vodka, triple sec, cranberry juice and lime juice and shake vigorously until well chilled"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-cosmopolitan-step1""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Strain & Serve"",
+      ""text"": ""Strain into a cocktail glass and serve"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-cosmopolitan-step2""
+    }
+  ]
+}
+</script>
+<h3><span style=""font-weight: 400;"">Cosmopolitan</span></h3>
+<p><span style=""font-weight: 400;"">A sweet Cosmopolitan is a perfect cocktail to make for one or to prepare in advance for a crowd. </span></p>
+<p><span style=""font-weight: 400;"">A Cosmopolitan is a hard hitter among vodka cocktails, quick and easy to make.</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/laure-noverraz-p6U1ga3Aqq8-unsplash_480x480.jpg?v=1652262230"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;"">60ml <a href=""https://www.drinkshouse247.co.uk/products/smirnof"">vodka</a>
+</li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">15ml triple sec</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">75ml <a href=""https://www.drinkshouse247.co.uk/products/cranberry-juice"">cranberry juice</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">1bsp fresh lime juice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Martini glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Fill a cocktail shaker with ice and add the vodka, triple sec, cranberry juice and lime juice and shake vigorously until well chilled</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Strain into a cocktail glass and serve</span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"", 
+  ""@type"": ""Recipe"", 
+  ""name"": ""Espresso Martini"",
+  ""image"": ""https://images.unsplash.com/photo-1631879178126-b7e14fb0bef2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"",
+  ""description"": ""If you’re looking for a pick-me-up, an Espresso Martini is perfect for giving you a little boost. One for the coffee lovers, it’s an acquired taste that gives you a kick."",
+  ""keywords"": ""espresso martini cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """", 
+  ""totalTime"": """", 
+  ""recipeCuisine"": ""Cocktail"", 
+  ""recipeYield"": ""1"", 
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""60ml vodka"",
+    ""15ml coffee liqueur (usually Kahlúa)"",
+    ""30ml freshly brewed espresso"",
+    ""15ml syrup"",
+    ""Ice"",
+    ""2 or 3 coffee beans for garnish""
+  ],
+  ""recipeInstructions"": [{
+    ""@type"": ""HowToStep"",
+    ""name"": ""Shake"",
+    ""text"": ""Add the vodka, coffee liqueur, espresso and syrup to a cocktail shaker filled with ice and shake until chilled throughout"",
+    ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-espressomartini-step1""
+  },{
+    ""@type"": ""HowToStep"",
+    ""name"": ""Strain"",
+    ""text"": ""Strain into a cocktail glass"",
+    ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-espressomartini-step2""
+  },{
+    ""@type"": ""HowToStep"",
+    ""name"": ""Garnish & Serve"",
+    ""text"": ""Garnish with the coffee beans and serve"",
+    ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-espressomartini-step3""
+  }]  
+}
+</script>
+<h3><span style=""font-weight: 400;"">Espresso Martini</span></h3>
+<p><span style=""font-weight: 400;"">If you’re looking for a pick-me-up, an Espresso Martini is perfect for giving you a little boost. One for the coffee lovers, it’s an acquired taste that gives you a kick.</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/jon-parry-Hvi-Sqs0F2k-unsplash_480x480.jpg?v=1652262222"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;"">60ml <a href=""https://www.drinkshouse247.co.uk/products/absolut"">vodka</a>
+</li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">15ml coffee liqueur (usually Kahlúa)</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">30ml freshly brewed espresso</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">15ml syrup</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">2 or 3 coffee beans for garnish</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Martini glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Add the vodka, coffee liqueur, espresso and syrup to a cocktail shaker filled with ice and shake until chilled throughout</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Strain into a cocktail glass</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Garnish with the coffee beans and serve</span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"",
+  ""@type"": ""Recipe"",
+  ""name"": ""Tequila Sunrise"",
+  ""image"": ""https://images.pexels.com/photos/8679426/pexels-photo-8679426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"",
+  ""description"": ""A  fruity and refreshing cocktail, a Tequila Sunrise is easy to make, and its sunrise effect is a real eye-catcher and leaves everyone impressed. \n\nThere’s no mixing involved in this cocktail, so you can bench your cocktail shaker for this one."",
+  ""keywords"": ""tequila sunrise cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """",
+  ""totalTime"": """",
+  ""recipeCuisine"": ""Cocktail"",
+  ""recipeYield"": ""1"",
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""50ml tequila"",
+    ""60ml grenadine"",
+    ""100ml orange juice"",
+    ""Ice"",
+    ""An orange wheel for garnish""
+  ],
+  ""recipeInstructions"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Fill the Glass"",
+      ""text"": ""Fill a tall glass with ice and add the tequila and orange juice"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-tequilasunrise-step1""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Add the Grenadine"",
+      ""text"": ""Pour the grenadine into the glass. The grenadine will sink to the bottom, do not stir it."",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-tequilasunrise-step2""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Garnish & Serve"",
+      ""text"": ""Garnish with an orange wheel"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-tequilasunrise-step3""
+    }
+  ]
+}
+</script>
+<h3><span style=""font-weight: 400;"">Tequila Sunrise</span></h3>
+<p><span style=""font-weight: 400;"">A  fruity and refreshing cocktail, a Tequila Sunrise is easy to make, and its sunrise effect is a real eye-catcher and leaves everyone impressed. </span></p>
+<p><span style=""font-weight: 400;"">There’s no mixing involved in this cocktail, so you can bench your cocktail shaker for this one.</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/pexels-timur-weber-8679426_1_480x480.jpg?v=1652263717"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients</span></h4>
+<ul>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">50ml <a href=""https://www.drinkshouse247.co.uk/products/jose-cuervo-tequila"">tequila</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">60ml grenadine</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">100ml <a href=""https://www.drinkshouse247.co.uk/products/orange-juice"">orange juice</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">An orange wheel for garnish</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Highball or Collins glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Fill a tall glass with ice and add the tequila and orange juice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Pour the grenadine into the glass. The grenadine will sink to the bottom, do not stir it.</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Garnish with an orange wheel</span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"",
+  ""@type"": ""Recipe"",
+  ""name"": ""Negroni"",
+  ""image"": ""https://images.unsplash.com/photo-1551751299-1b51cab2694c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"",
+  ""description"": ""James Bond’s cocktail of choice whenever he didn’t fancy a Martini. \n\nThe Negroni is a simple yet sophisticated cocktail. A cocktail for those that enjoy a bitter taste."",
+  ""keywords"": ""negroni  cocktail"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """",
+  ""totalTime"": """",
+  ""recipeCuisine"": ""Cocktail"",
+  ""recipeYield"": ""1"",
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""30ml gin"",
+    ""30ml sweet vermouth"",
+    ""30ml Campari"",
+    ""Ice"",
+    ""An orange slice for garnish""
+  ],
+  ""recipeInstructions"": [
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Add the Ingredients"",
+      ""text"": ""Pour the gin, vermouth, and Campari into a mixing glass with ice. Stir until the outside of the glass feels cold"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-negroni-step1""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Strain"",
+      ""text"": ""Strain into a tumbler glass and add fresh ice"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-negroni-step2""
+    },
+    {
+      ""@type"": ""HowToStep"",
+      ""name"": ""Garnish & Serve"",
+      ""text"": ""Garnish with the orange slice and serve"",
+      ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-negroni-step3""
+    }
+  ]
+}
+</script>
+<h3><span style=""font-weight: 400;"">Negroni</span></h3>
+<p><span style=""font-weight: 400;"">James Bond’s cocktail of choice whenever he didn’t fancy a Martini. </span></p>
+<p><span style=""font-weight: 400;"">The Negroni is a simple yet sophisticated cocktail. A cocktail for those that enjoy a bitter taste.</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/nuff-_JKy0LtToQc-unsplash_480x480.jpg?v=1652262213"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">30ml <a href=""https://www.drinkshouse247.co.uk/products/gordons-dry-gin"">gin</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">30ml sweet vermouth</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">30ml Campari</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Orange slice for garnish</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">A rocks glass - a small tumbler glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Pour the gin, vermouth, and Campari into a mixing glass with ice. Stir until the outside of the glass feels cold</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Strain into a tumbler glass and add fresh ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Garnish with the orange slice and serve</span></li>
+</ol>
+<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org/"", 
+  ""@type"": ""Recipe"", 
+  ""name"": ""Long Island Iced Tea"",
+  ""image"": ""https://images.pexels.com/photos/792613/pexels-photo-792613.jpeg?cs=srgb&dl=pexels-barbara-webb-792613.jpg&fm=jpg"",
+  ""description"": ""Not one for the faint-hearted, the Long Island iced tea is a megamix of all the most loved spirits. A classic cocktail with equal parts of vodka, gin, tequila, rum and triple sec - a certified good time!"",
+  ""keywords"": ""long island iced tea"",
+  ""author"": {
+    ""@type"": ""Person"",
+    ""name"": ""Drinks House 247""
+  },
+  ""prepTime"": """",
+  ""cookTime"": """", 
+  ""totalTime"": """", 
+  ""recipeCuisine"": ""Cocktail"", 
+  ""recipeYield"": ""1"", 
+  ""nutrition"": {
+    ""@type"": ""NutritionInformation"",
+    ""calories"": """"
+  },
+  ""recipeIngredient"": [
+    ""25ml vodka"",
+    ""25ml white rum"",
+    ""25ml silver tequila"",
+    ""25ml gin"",
+    ""25ml triple sec"",
+    ""25ml lemon juice"",
+    ""Cola to top up with"",
+    ""Ice"",
+    ""Lemon wedge for garnish""
+  ],
+  ""recipeInstructions"": [{
+    ""@type"": ""HowToStep"",
+    ""name"": ""Add the Ingredients"",
+    ""text"": ""Add the vodka, rum, tequila, gin, triple sec and lemon juice to a tall glass filled with ice"",
+    ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-longislandicedtea-step1""
+  },{
+    ""@type"": ""HowToStep"",
+    ""name"": ""Top with Cola"",
+    ""text"": ""Top with cola and stir gently"",
+    ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-longislandicedtea-step2""
+  },{
+    ""@type"": ""HowToStep"",
+    ""name"": ""Garnish & Serve"",
+    ""text"": ""Garnish with the lemon wedge and serve"",
+    ""url"": ""https://www.drinkshouse247.co.uk/blogs/posts/classic-cocktails-for-world-cocktail-day-longislandicedtea-step3""
+  }]  
+}
+</script>
+<h3><span style=""font-weight: 400;"">Long Island Iced Tea</span></h3>
+<p><span style=""font-weight: 400;"">Not one for the faint-hearted, the Long Island iced tea is a megamix of all the most loved spirits. A classic cocktail with equal parts of vodka, gin, tequila, rum and triple sec - a certified good time!</span></p>
+<p><span style=""font-weight: 400;""><img src=""https://cdn.shopify.com/s/files/1/1624/5203/files/pexels-barbara-webb-792613_348b84f0-b3bd-47f5-b7eb-4026f6a4d52b_480x480.jpg?v=1652262350"" alt=""""></span></p>
+<h4><span style=""font-weight: 400;"">Ingredients (Serves 1)</span></h4>
+<ul>
+<li style=""font-weight: 400;"">25ml <a href=""https://www.drinkshouse247.co.uk/products/absolut"">vodka</a>
+</li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">25ml <a href=""https://www.drinkshouse247.co.uk/products/bacardi"">white rum</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">25ml <a href=""https://www.drinkshouse247.co.uk/collections/liquor/products/jose-cuervo-silver-tequila"">silver tequila</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">25ml <a href=""/collections/gin"">gin</a></span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">25ml triple sec</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">25ml lemon juice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;""><a href=""https://www.drinkshouse247.co.uk/products/coke-1-5-l"">Cola</a> to top up with</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Lemon wedge for garnish</span></li>
+</ul>
+<p><b>Recommended Glassware: </b><span style=""font-weight: 400;"">Highball or Collins glass.</span></p>
+<h4><span style=""font-weight: 400;"">Method</span></h4>
+<ol>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Add the vodka, rum, tequila, gin, triple sec and lemon juice to a tall glass filled with ice</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Top with cola and stir gently</span></li>
+<li style=""font-weight: 400;""><span style=""font-weight: 400;"">Garnish with the lemon wedge and serve</span></li>
+</ol>
+<h2><span style=""font-weight: 400;"">Low on Ingredients?</span></h2>
+<p><span style=""font-weight: 400;"">Wanting a cocktail this World Cocktail Day, but your alcohol cupboard is looking a little empty? Drinks House 247 have you covered with <a href=""https://www.drinkshouse247.co.uk/collections/liquor"">spirits</a> and <a href=""https://www.drinkshouse247.co.uk/collections/mixers"">mixers</a> delivered 24/7 in London within 30-45 minutes. </span></p>
+<p><span style=""font-weight: 400;"">If you're considering a bite to eat with your cocktails check out our guide on <a href=""https://www.drinkshouse247.co.uk/blogs/posts/how-to-pair-cocktails-and-food-together"">How to Pair Cocktails and Food Together</a> to get the best balance in flavour between your cocktails and your food.</span></p>
+<p> </p>"

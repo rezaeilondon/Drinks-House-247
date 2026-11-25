@@ -1,0 +1,27 @@
+cluster,handle,words,inbound_internal_links,recommendation
+wine next-day / same-day delivery,next-day-wine-delivery,364,17,keep
+wine next-day / same-day delivery,buy-wine-next-day-delivery,503,3,consolidate into next-day-wine-delivery
+wine next-day / same-day delivery,online-wine-delivery-near-me-wine-delivered-in-london,433,3,consolidate into next-day-wine-delivery
+wine next-day / same-day delivery,london-wine-delivery-same-day,1000,1,consolidate into next-day-wine-delivery
+wine next-day / same-day delivery,wine-near-me,509,1,consolidate into next-day-wine-delivery
+wine next-day / same-day delivery,wine-london-delivery,439,1,consolidate into next-day-wine-delivery
+send a champagne gift,send-a-gift-of-champagne,664,19,keep
+send a champagne gift,send-a-gift-of-champagne-with-drinks-house-247,675,1,consolidate into send-a-gift-of-champagne
+send a champagne gift,uk-champagne-delivery,634,1,consolidate into send-a-gift-of-champagne
+same-day champagne delivery,champagne-shop-near-me,611,3,keep
+same-day champagne delivery,effortless-same-day-champagne-delivery-in-london-and-next-day-across-the-uk,578,3,consolidate into champagne-shop-near-me
+same-day champagne delivery,champagne-delivery-to-me-same-day,500,3,consolidate into champagne-shop-near-me
+same-day champagne delivery,experience-next-day-champagne-delivery-like-never-before,529,2,consolidate into champagne-shop-near-me
+same-day champagne delivery,same-day-champagne-delivery-london,454,2,consolidate into champagne-shop-near-me
+beer delivery near me,online-beer-delivery-near-me,544,3,keep
+beer delivery near me,delivery-of-beer-near-me,461,1,consolidate into online-beer-delivery-near-me
+24-hour alcohol near me,alcohol-24-hour-near-me,522,3,keep
+24-hour alcohol near me,shop-near-me,427,1,consolidate into alcohol-24-hour-near-me
+alcohol as a gift,alcohol-delivery-as-a-gift,554,2,keep
+alcohol as a gift,alcohol-gift-delivery-in-london-uk-perfect-for-celebrations,594,1,consolidate into alcohol-delivery-as-a-gift
+champagne gift next-day,champagne-gift-delivery-same-day-london-next-day-uk-drinks-house-247,539,1,keep
+champagne gift next-day,champagne-gift-next-day-delivery,299,1,consolidate into champagne-gift-delivery-same-day-london-next-day-uk-drinks-house-247
+send tequila as a gift,tequila-birthday-gift-uk-luxury-tequila-gifts,306,3,keep
+send tequila as a gift,send-tequila-as-a-gift-uk-premium-fast-delivery-drinks-house-247,311,2,consolidate into tequila-birthday-gift-uk-luxury-tequila-gifts
+send tequila as a gift,send-tequila-as-a-birthday-gift-uk-fast-fun-delivery-drinks-house-247,318,1,consolidate into tequila-birthday-gift-uk-luxury-tequila-gifts
+send tequila as a gift,send-tequila-gift-uk-premium-fast-delivery-drinks-house-247,303,1,consolidate into tequila-birthday-gift-uk-luxury-tequila-gifts
