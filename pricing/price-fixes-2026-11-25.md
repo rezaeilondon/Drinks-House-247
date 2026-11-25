@@ -62,5 +62,7 @@ Vrignaud Fourchaume: 2021 sold out. The listing is now "Domaine Vrignaud, Chabli
 
 Vrignaud case of 6 added: second option "Size" (Single Bottle / Case of 6 · Save 10%). Case £491.40, compare at £546 (6 × £91), for 2023 and 2025, 1 case in stock each.
 
+DRC Corton Grand Cru 2010: owner override, set to £4,700 (market is above £4,000; the £1,670 from rounds 2–3 was too low).
+
 Still open:
 - Stale prices in cross-sell cards on 21 pages: Prestige Pearl (£390, real £380, 12 pages), DP x Hirst Rosé 2010 (£480, real £490, 7 pages), Chocolate Block Duo & Truffles (£160, real £180, 2 pages), Dom Pérignon 2013 on the DP x Hirst 2018 page (£225, real £215). Bulk edits are blocked by the connector, so these need page-by-page saves.
