@@ -60,5 +60,7 @@ Rounding: nearest £1 under £300, nearest £5 above.
 
 Vrignaud Fourchaume: 2021 sold out. The listing is now "Domaine Vrignaud, Chablis 1er Cru `Fourchaume` 75cl" with a Vintage option, 2023 and 2025, both £91, 6 in stock each (placeholder split of the 12 on hand). The URL is unchanged to keep its ranking. The description, SEO title and meta now name the two vintages.
 
+Vrignaud case of 6 added: second option "Size" (Single Bottle / Case of 6 · Save 10%). Case £491.40, compare at £546 (6 × £91), for 2023 and 2025, 1 case in stock each.
+
 Still open:
 - Stale prices in cross-sell cards on 21 pages: Prestige Pearl (£390, real £380, 12 pages), DP x Hirst Rosé 2010 (£480, real £490, 7 pages), Chocolate Block Duo & Truffles (£160, real £180, 2 pages), Dom Pérignon 2013 on the DP x Hirst 2018 page (£225, real £215). Bulk edits are blocked by the connector, so these need page-by-page saves.
