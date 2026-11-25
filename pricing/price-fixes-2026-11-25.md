@@ -64,5 +64,7 @@ Vrignaud case of 6 added: second option "Size" (Single Bottle / Case of 6 · Sav
 
 DRC Corton Grand Cru 2010: owner override, set to £4,700 (market is above £4,000; the £1,670 from rounds 2–3 was too low).
 
+Caymus Cabernet Sauvignon 2003: owner override, set to £325. Owner confirmed the other round 3 prices (Mouton 2000, Sassicaia 2014, Palmer 2022, DP Luminous 2012) stand.
+
 Still open:
 - Stale prices in cross-sell cards on 21 pages: Prestige Pearl (£390, real £380, 12 pages), DP x Hirst Rosé 2010 (£480, real £490, 7 pages), Chocolate Block Duo & Truffles (£160, real £180, 2 pages), Dom Pérignon 2013 on the DP x Hirst 2018 page (£225, real £215). Bulk edits are blocked by the connector, so these need page-by-page saves.
